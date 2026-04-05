@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { trackEvent } from '../../hooks/useAnalytics'
-import { addContact } from '../../lib/brevo'
+import { addContact, RateLimitError } from '../../lib/brevo'
 import Turnstile from './Turnstile'
 
 export default function ContactForm() {
@@ -9,7 +9,7 @@ export default function ContactForm() {
   const [practice, setPractice] = useState('')
   const [message, setMessage] = useState('')
   const [captchaToken, setCaptchaToken] = useState<string | null>(null)
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error' | 'rate-limited'>('idle')
 
   const onVerify = useCallback((token: string) => setCaptchaToken(token), [])
   const onExpire = useCallback(() => setCaptchaToken(null), [])
@@ -30,8 +30,8 @@ export default function ContactForm() {
       }, captchaToken)
       setStatus('success')
       trackEvent('contact_form_submit')
-    } catch {
-      setStatus('error')
+    } catch (err) {
+      setStatus(err instanceof RateLimitError ? 'rate-limited' : 'error')
     }
   }
 
@@ -106,8 +106,12 @@ export default function ContactForm() {
         />
       </div>
       <Turnstile onVerify={onVerify} onExpire={onExpire} />
-      {status === 'error' && (
-        <p className="text-tertiary text-sm" role="alert">Something went wrong. Please try again.</p>
+      {(status === 'error' || status === 'rate-limited') && (
+        <p className="text-tertiary text-sm" role="alert">
+          {status === 'rate-limited'
+            ? 'Please wait a moment before trying again.'
+            : 'Something went wrong. Please try again.'}
+        </p>
       )}
       <button
         type="submit"

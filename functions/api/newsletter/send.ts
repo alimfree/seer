@@ -51,8 +51,8 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   })
 
   if (!createRes.ok) {
-    const error = await createRes.json().catch(() => ({}))
-    return Response.json({ error: `Failed to create campaign: ${JSON.stringify(error)}` }, { status: createRes.status })
+    console.error('Brevo campaign creation failed:', await createRes.text().catch(() => ''))
+    return Response.json({ error: 'Failed to create campaign' }, { status: 500 })
   }
 
   const campaign = await createRes.json() as { id: number }
@@ -68,8 +68,8 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   })
 
   if (!sendRes.ok) {
-    const error = await sendRes.json().catch(() => ({}))
-    return Response.json({ error: `Failed to send campaign: ${JSON.stringify(error)}` }, { status: sendRes.status })
+    console.error('Brevo campaign send failed:', await sendRes.text().catch(() => ''))
+    return Response.json({ error: 'Failed to send campaign' }, { status: 500 })
   }
 
   return Response.json({ success: true, campaignId: campaign.id })

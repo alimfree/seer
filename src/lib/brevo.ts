@@ -10,17 +10,34 @@ interface ContactAttributes {
   Source?: string
 }
 
+export class RateLimitError extends Error {
+  constructor() {
+    super('Too many requests. Please wait a moment and try again.')
+    this.name = 'RateLimitError'
+  }
+}
+
+const ENDPOINT_MAP: Record<ListName, string> = {
+  calculator: '/api/brevo/calculator',
+  newsletter: '/api/brevo/newsletter',
+  contact: '/api/brevo/contact',
+}
+
 export async function addContact(
   email: string,
   list: ListName,
   attributes?: ContactAttributes,
   captchaToken?: string
 ): Promise<void> {
-  const res = await fetch('/api/brevo/contact', {
+  const res = await fetch(ENDPOINT_MAP[list], {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, list, attributes, captchaToken }),
+    body: JSON.stringify({ email, attributes, captchaToken }),
   })
+
+  if (res.status === 429) {
+    throw new RateLimitError()
+  }
 
   if (!res.ok) {
     const error = await res.json().catch(() => ({}))

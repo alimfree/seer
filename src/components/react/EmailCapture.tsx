@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { trackEvent } from '../../hooks/useAnalytics'
-import { addContact } from '../../lib/brevo'
+import { addContact, RateLimitError } from '../../lib/brevo'
 
 interface EmailCaptureProps {
   minimal?: boolean
@@ -8,7 +8,7 @@ interface EmailCaptureProps {
 
 export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
   const [email, setEmail] = useState('')
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error' | 'rate-limited'>('idle')
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -19,8 +19,8 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
       await addContact(email, 'newsletter', { Source: 'blog' })
       setStatus('success')
       trackEvent('blog_subscribe')
-    } catch {
-      setStatus('error')
+    } catch (err) {
+      setStatus(err instanceof RateLimitError ? 'rate-limited' : 'error')
     }
   }
 
@@ -34,26 +34,37 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
     )
   }
 
+  const errorMessage = status === 'rate-limited'
+    ? 'Please wait a moment before trying again.'
+    : status === 'error'
+      ? 'Something went wrong. Please try again.'
+      : null
+
   if (minimal) {
     return (
-      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
-        <input
-          type="email"
-          required
-          placeholder="you@practice.com"
-          aria-label="Email address"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          className="flex-1 bg-surface-container-low border-none rounded-sm px-6 py-4 text-on-surface placeholder:text-on-surface-variant/50 focus:ring-1 focus:ring-primary"
-        />
-        <button
-          type="submit"
-          disabled={status === 'loading'}
-          className="btn-secondary px-8 py-4 text-on-secondary font-medium rounded-sm whitespace-nowrap disabled:opacity-50"
-        >
-          {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
-        </button>
-      </form>
+      <div>
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
+          <input
+            type="email"
+            required
+            placeholder="you@practice.com"
+            aria-label="Email address"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="flex-1 bg-surface-container-low border-none rounded-sm px-6 py-4 text-on-surface placeholder:text-on-surface-variant/50 focus:ring-1 focus:ring-primary"
+          />
+          <button
+            type="submit"
+            disabled={status === 'loading'}
+            className="btn-secondary px-8 py-4 text-on-secondary font-medium rounded-sm whitespace-nowrap disabled:opacity-50"
+          >
+            {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
+          </button>
+        </form>
+        {errorMessage && (
+          <p className="text-tertiary text-sm mt-3" role="alert">{errorMessage}</p>
+        )}
+      </div>
     )
   }
 
@@ -83,8 +94,8 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
           {status === 'loading' ? 'Subscribing...' : 'Subscribe'}
         </button>
       </form>
-      {status === 'error' && (
-        <p className="text-tertiary text-sm mt-3" role="alert">Something went wrong. Please try again.</p>
+      {errorMessage && (
+        <p className="text-tertiary text-sm mt-3" role="alert">{errorMessage}</p>
       )}
     </div>
   )

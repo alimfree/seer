@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { trackEvent } from '../../hooks/useAnalytics'
-import { addContact } from '../../lib/brevo'
+import { addContact, RateLimitError } from '../../lib/brevo'
 import Turnstile from './Turnstile'
 
 export default function Calculator() {
@@ -29,9 +29,13 @@ export default function Calculator() {
       }, captchaToken)
       setStatus('success')
       trackEvent('calculator_submit', { patients: Number(patients) })
-    } catch {
+    } catch (err) {
       setStatus('error')
-      setErrorMsg('Something went wrong. Please try again or email us directly.')
+      setErrorMsg(
+        err instanceof RateLimitError
+          ? 'Please wait a moment before trying again.'
+          : 'Something went wrong. Please try again or email us directly.'
+      )
     }
   }
 

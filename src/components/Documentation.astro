@@ -1,0 +1,51 @@
+---
+const features = [
+  'CMS-1500 compatible documentation ready for submission',
+  'Exact clinician review minutes logged automatically',
+  'Detailed call logs and patient interaction records',
+  'Transmission day tracking and device supply verification',
+  'Direct audit reference for every single line item',
+]
+---
+
+<section class="py-24 sm:py-32 bg-surface-container fade-in-section">
+  <div class="max-w-7xl mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+    <div class="relative">
+      <div class="bg-surface-container-lowest p-3 sm:p-4 rounded-sm shadow-ambient">
+        <img
+          src="/superbill-preview.webp"
+          alt="Zayd Health RPM superbill showing patient demographics, ICD-10 diagnoses, transmission data, management time log, and billable codes"
+          width="800"
+          height="1100"
+          class="w-full h-auto rounded-sm"
+          loading="lazy"
+        />
+      </div>
+      <div class="absolute -bottom-8 -right-8 bg-tertiary p-6 sm:p-8 rounded-sm max-w-xs hidden lg:block shadow-ambient">
+        <p class="text-on-tertiary font-medium text-lg mb-2">Timestamped to the second.</p>
+        <p class="text-on-tertiary/80 text-sm leading-relaxed">
+          When a payer asks for documentation, you have it. Detailed, precise, and indisputable.
+        </p>
+      </div>
+    </div>
+    <div>
+      <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-6 leading-tight">
+        Audit-ready documentation, every month.
+      </h2>
+      <ul class="space-y-5">
+        {features.map((feature) => (
+          <li class="flex items-start gap-4">
+            <span class="material-symbols-outlined text-tertiary mt-0.5" aria-hidden="true">check_circle</span>
+            <span class="text-base sm:text-lg text-on-surface-variant">{feature}</span>
+          </li>
+        ))}
+      </ul>
+      <div class="lg:hidden mt-8 bg-tertiary p-6 rounded-sm">
+        <p class="text-on-tertiary font-medium text-lg mb-2">Timestamped to the second.</p>
+        <p class="text-on-tertiary/80 text-sm leading-relaxed">
+          When a payer asks for documentation, you have it. Detailed, precise, and indisputable.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

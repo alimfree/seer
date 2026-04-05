@@ -1,0 +1,73 @@
+---
+import { CATEGORY_LABELS, type Category } from '../../lib/blog'
+
+interface Props {
+  title: string
+  description: string
+  date: string
+  category: Category
+  image?: string
+  url: string
+  slug: string
+}
+
+const { title, description, date, category, image, url, slug } = Astro.props
+
+function formatDate(dateStr: string): string {
+  return new Date(dateStr).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })
+}
+---
+
+<article class="group">
+  <div class="bg-surface-container-lowest rounded-sm overflow-hidden shadow-sm transition-all duration-300 hover:shadow-ambient">
+    {image && (
+      <a href={url} class="block">
+        <div class="aspect-video overflow-hidden">
+          <img
+            src={image}
+            alt={title}
+            width="600"
+            height="338"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </a>
+    )}
+    <div class="p-6 sm:p-8">
+      <a
+        href={`/resources/${category}`}
+        class="text-xs tracking-widest uppercase font-semibold text-on-primary-container mb-3 inline-block py-1 hover:text-tertiary transition-colors"
+      >
+        {CATEGORY_LABELS[category]}
+      </a>
+      <a href={url}>
+        <h3 class="font-headline text-xl sm:text-2xl font-normal leading-snug text-primary mb-4 group-hover:text-tertiary transition-colors duration-300 line-clamp-3">
+          {title}
+        </h3>
+      </a>
+      <p class="text-sm text-on-surface-variant leading-relaxed mb-6 line-clamp-3">
+        {description}
+      </p>
+      <div class="flex items-center justify-between pt-4 border-t border-surface-container-low">
+        <time class="text-xs text-on-surface-variant" datetime={date}>
+          {formatDate(date)}
+        </time>
+        <a
+          href={url}
+          class="text-xs font-semibold text-primary flex items-center gap-1 group/link hover:text-tertiary transition-colors"
+        >
+          Read Report
+          <span class="material-symbols-outlined text-sm group-hover/link:translate-x-1 transition-transform" aria-hidden="true">
+            arrow_forward
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</article>

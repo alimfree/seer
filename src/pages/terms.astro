@@ -1,0 +1,315 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const sections = [
+  { id: 'agreement', title: 'Agreement to Terms' },
+  { id: 'description', title: 'Description of Service' },
+  { id: 'not-medical-advice', title: 'Not Medical Advice' },
+  { id: 'eligibility', title: 'Eligibility' },
+  { id: 'accounts', title: 'Accounts and Access' },
+  { id: 'responsibilities', title: 'Clinic Responsibilities' },
+  { id: 'fees', title: 'Fees and Payment' },
+  { id: 'data-ownership', title: 'Data Ownership' },
+  { id: 'hipaa', title: 'HIPAA' },
+  { id: 'third-party', title: 'Third-Party Services' },
+  { id: 'acceptable-use', title: 'Acceptable Use' },
+  { id: 'warranties', title: 'Disclaimer of Warranties' },
+  { id: 'liability', title: 'Limitation of Liability' },
+  { id: 'indemnification', title: 'Indemnification' },
+  { id: 'termination', title: 'Termination' },
+  { id: 'governing-law', title: 'Governing Law' },
+  { id: 'changes', title: 'Changes to Terms' },
+  { id: 'severability', title: 'Severability' },
+  { id: 'contact', title: 'Contact' },
+]
+---
+
+<BaseLayout
+  title="Terms of Service | Zayd Health"
+  description="Zayd Health terms of service — the agreement governing your use of our platform."
+  canonical="https://www.zaydhealth.com/terms"
+>
+  <Fragment slot="head">
+    <meta name="robots" content="noindex" />
+  </Fragment>
+
+  <main id="main-content">
+    <div class="pt-32 sm:pt-44 pb-24 sm:pb-32 px-6 sm:px-8">
+      <div class="max-w-7xl mx-auto">
+        <article class="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_14rem] lg:gap-16">
+          <header class="flex flex-col gap-4 lg:col-span-2">
+            <h1 class="font-headline text-4xl sm:text-5xl font-light tracking-tight text-on-background">
+              Terms of Service
+            </h1>
+            <p class="text-sm text-on-surface-variant">Last updated: April 3, 2026</p>
+          </header>
+
+          <div class="lg:col-start-1 lg:row-start-2 space-y-10 text-on-surface-variant leading-relaxed [&_h2]:font-headline [&_h2]:text-2xl [&_h2]:text-on-background [&_h2]:mb-4 [&_strong]:text-on-background [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2">
+
+            <section id="agreement">
+              <h2>1. Agreement to Terms</h2>
+              <p>
+                These Terms of Service ("Terms") constitute a legally binding agreement between
+                you and Zayd LLC ("Zayd," "we," "us," or "our"), governing your use of the Zayd
+                Health platform and related services (the "Service"). By accessing or using the
+                Service, you agree to be bound by these Terms. If you are accepting on behalf of
+                an organization, you represent that you have authority to bind that entity.
+              </p>
+            </section>
+
+            <section id="description">
+              <h2>2. Description of Service</h2>
+              <p>
+                Zayd Health is a healthcare billing compliance platform. The Service provides tools
+                for clinical documentation, compliance tracking, and billing report generation.
+                Specific features and capabilities are described within the platform and may change
+                over time.
+              </p>
+            </section>
+
+            <section id="not-medical-advice">
+              <h2>3. Not Medical Advice</h2>
+              <p>
+                <strong>
+                  The Service is a billing compliance and documentation tool. It is not a medical
+                  device, does not provide medical advice, and is not intended to diagnose, treat,
+                  cure, or prevent any disease or condition.
+                </strong>{' '}
+                All clinical decisions must be made by licensed healthcare providers exercising
+                independent professional judgment. Zayd LLC assumes no responsibility for clinical
+                decisions made using data displayed within the platform.
+              </p>
+            </section>
+
+            <section id="eligibility">
+              <h2>4. Eligibility</h2>
+              <p>
+                The Service is intended for use by licensed healthcare practices operating in the
+                United States. By subscribing, you represent that you are a licensed healthcare
+                provider or authorized representative of a licensed practice.
+              </p>
+            </section>
+
+            <section id="accounts">
+              <h2>5. Accounts and Access</h2>
+              <p>
+                Clinic administrators are responsible for creating and managing user accounts,
+                assigning appropriate roles, and ensuring only authorized personnel access the
+                Service. You are responsible for maintaining the confidentiality of all account
+                credentials. Patient accounts are created by authorized clinic staff only.
+              </p>
+            </section>
+
+            <section id="responsibilities">
+              <h2>6. Clinic Responsibilities</h2>
+              <p class="mb-4">By using the Service, you acknowledge and agree that:</p>
+              <ul>
+                <li>
+                  <strong>Insurance verification:</strong> You are responsible for verifying that
+                  applicable billing codes are covered under each patient's insurance plan before
+                  enrollment.
+                </li>
+                <li>
+                  <strong>Accurate data entry:</strong> You are responsible for the accuracy of all
+                  data entered into the platform. Billing documentation is generated from data you
+                  provide.
+                </li>
+                <li>
+                  <strong>Clinical oversight:</strong> All services documented through the platform
+                  must be provided under the supervision of a qualified healthcare practitioner as
+                  required by applicable regulations.
+                </li>
+                <li>
+                  <strong>Patient consent:</strong> You are responsible for obtaining all required
+                  patient authorizations for monitoring services and third-party data sharing.
+                </li>
+                <li>
+                  <strong>Claim submission:</strong> You or your billing staff are responsible for
+                  submitting claims to payers. The Service generates billing documentation but does
+                  not submit claims on your behalf.
+                </li>
+                <li>
+                  <strong>Regulatory compliance:</strong> You remain responsible for your practice's
+                  compliance with HIPAA, CMS guidelines, and all applicable federal, state, and
+                  local regulations.
+                </li>
+              </ul>
+            </section>
+
+            <section id="fees">
+              <h2>7. Fees and Payment</h2>
+              <p>
+                Fees for the Service are described in your subscription agreement or as displayed
+                during sign-up. Fees are billed monthly based on active usage and are processed
+                through our payment provider. Fees are non-refundable except as required by law or
+                at our sole discretion. We may adjust pricing with thirty (30) days' written notice.
+              </p>
+            </section>
+
+            <section id="data-ownership">
+              <h2>8. Data Ownership and Licensing</h2>
+              <p class="mb-4">
+                <strong>Your data:</strong> Patient health information entered into the platform is
+                owned by the clinic and their patients. Upon termination, clinics may request export
+                of their data.
+              </p>
+              <p class="mb-4">
+                <strong>De-identified data:</strong> Zayd LLC retains the right to aggregate and
+                de-identify data collected through the platform. De-identified data — which cannot
+                be traced to any individual — is owned by Zayd LLC and may be used for research,
+                analytics, and commercial purposes. This right survives termination.
+              </p>
+              <p>
+                <strong>Platform:</strong> All software, interfaces, documentation, and intellectual
+                property comprising the Service are owned by Zayd LLC. Your subscription grants a
+                limited, non-exclusive, non-transferable license to use the Service for its
+                intended purpose.
+              </p>
+            </section>
+
+            <section id="hipaa">
+              <h2>9. HIPAA</h2>
+              <p>
+                Zayd LLC operates as a Business Associate under HIPAA. We will execute a Business
+                Associate Agreement (BAA) with each clinic client prior to processing PHI. In the
+                event of a conflict between these Terms and the BAA regarding PHI, the BAA controls.
+              </p>
+            </section>
+
+            <section id="third-party">
+              <h2>10. Third-Party Services</h2>
+              <p>
+                The Service integrates with third-party services for data processing, payments,
+                hosting, and communications. Your use of these integrations is subject to the
+                respective third party's terms and policies. Zayd LLC is not responsible for the
+                availability or practices of third-party services. Certain integrations may
+                require patient-level authorization, which clinics are responsible for facilitating.
+              </p>
+            </section>
+
+            <section id="acceptable-use">
+              <h2>11. Acceptable Use</h2>
+              <p class="mb-4">You agree not to:</p>
+              <ul>
+                <li>Use the Service for any unlawful purpose</li>
+                <li>Submit false, misleading, or fabricated data</li>
+                <li>Attempt to gain unauthorized access to any part of the Service or connected systems</li>
+                <li>Reverse engineer, decompile, or disassemble any portion of the Service</li>
+                <li>Use the Service to commit healthcare fraud of any kind</li>
+                <li>Share account credentials with unauthorized individuals</li>
+                <li>Interfere with the integrity or performance of the Service</li>
+              </ul>
+            </section>
+
+            <section id="warranties">
+              <h2>12. Disclaimer of Warranties</h2>
+              <p>
+                <strong>
+                  THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE." ZAYD LLC DISCLAIMS ALL
+                  WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+                  FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+                </strong>{' '}
+                We do not warrant that the Service will be uninterrupted, error-free, or that
+                billing documentation generated will result in successful claims.
+              </p>
+            </section>
+
+            <section id="liability">
+              <h2>13. Limitation of Liability</h2>
+              <p class="mb-4">
+                <strong>
+                  TO THE MAXIMUM EXTENT PERMITTED BY LAW, ZAYD LLC SHALL NOT BE LIABLE FOR ANY
+                  INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING
+                  LOSS OF REVENUE, LOST PROFITS, CLAIM DENIALS, OR BUSINESS INTERRUPTION.
+                </strong>
+              </p>
+              <p>
+                <strong>
+                  OUR TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED THE AMOUNTS PAID BY YOU TO ZAYD
+                  LLC IN THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+                </strong>
+              </p>
+            </section>
+
+            <section id="indemnification">
+              <h2>14. Indemnification</h2>
+              <p>
+                You agree to indemnify and hold harmless Zayd LLC from any claims, damages, or
+                expenses arising from: (a) your use of the Service, (b) your violation of these
+                Terms, (c) inaccurate data you enter, (d) claims submitted using documentation
+                generated by the Service, or (e) your violation of any applicable law or regulation.
+              </p>
+            </section>
+
+            <section id="termination">
+              <h2>15. Termination</h2>
+              <p class="mb-4">Either party may terminate the subscription at any time. Upon termination:</p>
+              <ul>
+                <li>Access will be revoked at the end of the current billing period</li>
+                <li>You may request data export within thirty (30) days</li>
+                <li>Audit logs and billing records will be retained as required by applicable regulations</li>
+                <li>De-identified data rights survive termination</li>
+                <li>Limitation of liability, indemnification, and intellectual property provisions survive termination</li>
+              </ul>
+            </section>
+
+            <section id="governing-law">
+              <h2>16. Governing Law</h2>
+              <p>
+                These Terms are governed by the laws of the State of Delaware. Zayd LLC is a
+                Delaware limited liability company. Any disputes shall be resolved in the state or
+                federal courts located in Texas. Before initiating legal proceedings, the parties
+                agree to attempt informal resolution for at least thirty (30) days.
+              </p>
+            </section>
+
+            <section id="changes">
+              <h2>17. Changes to Terms</h2>
+              <p>
+                We may update these Terms from time to time. Material changes will be communicated
+                to active subscribers at least thirty (30) days before they take effect. Continued
+                use after the effective date constitutes acceptance.
+              </p>
+            </section>
+
+            <section id="severability">
+              <h2>18. Severability</h2>
+              <p>
+                If any provision is held invalid or unenforceable, the remaining provisions
+                continue in full force. The invalid provision shall be modified to the minimum
+                extent necessary to make it enforceable.
+              </p>
+            </section>
+
+            <section id="contact">
+              <h2>19. Contact</h2>
+              <p>
+                For questions about these Terms, contact Zayd LLC at <a href="mailto:legal@zaydhealth.com" class="text-tertiary underline underline-offset-4">legal@zaydhealth.com</a>.
+              </p>
+            </section>
+          </div>
+
+          <aside class="lg:col-start-2 lg:row-start-2 hidden lg:block" aria-label="Table of contents">
+            <div class="sticky top-28">
+              <p class="text-xs font-body font-bold text-secondary uppercase tracking-widest mb-6">On this page</p>
+              <ul class="space-y-3">
+                {sections.map((s) => (
+                  <li>
+                    <a href={`#${s.id}`} class="text-sm text-on-surface-variant hover:text-tertiary transition-colors duration-200 block">
+                      {s.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <div class="mt-8 pt-6 border-t border-outline-variant/30">
+                <a href="#" class="text-sm text-on-surface-variant hover:text-tertiary transition-colors duration-200 inline-flex items-center gap-1">
+                  ↑ Back to top
+                </a>
+              </div>
+            </div>
+          </aside>
+        </article>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

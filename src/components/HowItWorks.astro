@@ -1,0 +1,45 @@
+---
+const steps = [
+  {
+    icon: 'patient_list',
+    title: '1. Enroll',
+    description: 'Enroll your diabetic patients in under three minutes. We handle device coordination and the technical setup.',
+  },
+  {
+    icon: 'clinical_notes',
+    title: '2. Monitor',
+    description: 'Our platform tracks every second of clinician review time and every day of data transmission automatically.',
+  },
+  {
+    icon: 'receipt_long',
+    title: '3. Bill',
+    description: "Receive an audit-ready superbill for every eligible patient. Your biller clicks \"Submit\" and keeps the revenue.",
+  },
+]
+---
+
+<section class="py-24 sm:py-32 px-6 sm:px-8 fade-in-section" id="how-it-works">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 sm:mb-16">
+      <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background">
+        Three steps. No workflow change.
+      </h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 sm:gap-12">
+      {steps.map((step, i) => (
+        <div class="text-center">
+          <div class="w-16 h-16 btn-primary text-on-primary rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="material-symbols-outlined text-3xl" aria-hidden="true">{step.icon}</span>
+          </div>
+          <h3 class="font-headline text-2xl mb-4">{step.title}</h3>
+          <p class="text-on-surface-variant leading-relaxed">{step.description}</p>
+          {i < steps.length - 1 && (
+            <div class="hidden md:block mt-8">
+              <span class="material-symbols-outlined text-outline-variant text-2xl" aria-hidden="true">arrow_forward</span>
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

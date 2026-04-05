@@ -1,0 +1,189 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const sections = [
+  { id: 'introduction', title: 'Introduction' },
+  { id: 'information-we-collect', title: 'Information We Collect' },
+  { id: 'how-we-use-information', title: 'How We Use Information' },
+  { id: 'hipaa', title: 'HIPAA and PHI' },
+  { id: 'third-party-providers', title: 'Third-Party Providers' },
+  { id: 'data-ownership', title: 'Data Ownership' },
+  { id: 'data-retention', title: 'Data Retention' },
+  { id: 'your-rights', title: 'Your Rights' },
+  { id: 'state-privacy-laws', title: 'State Privacy Laws' },
+  { id: 'changes', title: 'Changes to This Policy' },
+  { id: 'contact', title: 'Contact' },
+]
+---
+
+<BaseLayout
+  title="Privacy Policy | Zayd Health"
+  description="Zayd Health privacy policy — how we collect, use, and protect your data."
+  canonical="https://www.zaydhealth.com/privacy"
+>
+  <Fragment slot="head">
+    <meta name="robots" content="noindex" />
+  </Fragment>
+
+  <main id="main-content">
+    <div class="pt-32 sm:pt-44 pb-24 sm:pb-32 px-6 sm:px-8">
+      <div class="max-w-7xl mx-auto">
+        <article class="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_14rem] lg:gap-16">
+          <header class="flex flex-col gap-4 lg:col-span-2">
+            <h1 class="font-headline text-4xl sm:text-5xl font-light tracking-tight text-on-background">
+              Privacy Policy
+            </h1>
+            <p class="text-sm text-on-surface-variant">Last updated: April 3, 2026</p>
+          </header>
+
+          <div class="lg:col-start-1 lg:row-start-2 space-y-10 text-on-surface-variant leading-relaxed [&_h2]:font-headline [&_h2]:text-2xl [&_h2]:text-on-background [&_h2]:mb-4 [&_strong]:text-on-background [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2">
+
+            <section id="introduction">
+              <h2>Introduction</h2>
+              <p>
+                Zayd LLC ("Zayd," "we," "us," or "our") operates the Zayd Health platform. This
+                Privacy Policy describes how we collect, use, disclose, and protect information
+                when you use our platform or visit our website. Zayd LLC is organized under the
+                laws of the State of Delaware, USA. Our platform is intended for use within the
+                United States.
+              </p>
+            </section>
+
+            <section id="information-we-collect">
+              <h2>Information We Collect</h2>
+              <p class="mb-4">
+                When healthcare practices use our platform, we process information on their behalf,
+                including staff credentials, patient demographics, insurance information, clinical
+                data from connected medical devices, documentation records, and billing-related data.
+                The specific data collected depends on the features used and the information entered
+                by authorized clinic staff.
+              </p>
+              <p>
+                When you visit our website, we may collect information you voluntarily provide
+                through forms, as well as standard analytics data such as page views and device
+                type. Analytics are used on our marketing website only and never within the
+                authenticated platform.
+              </p>
+            </section>
+
+            <section id="how-we-use-information">
+              <h2>How We Use Information</h2>
+              <ul>
+                <li>To operate, maintain, and improve the platform</li>
+                <li>To generate billing compliance documentation on behalf of clinics</li>
+                <li>To maintain audit trails as required for regulatory compliance</li>
+                <li>To send transactional communications (onboarding, notifications, reminders)</li>
+                <li>To process payments</li>
+                <li>To aggregate and de-identify data for research, analytics, and population health purposes — de-identified data cannot be traced to any individual</li>
+              </ul>
+            </section>
+
+            <section id="hipaa">
+              <h2>HIPAA and Protected Health Information</h2>
+              <p class="mb-4">
+                Zayd LLC operates as a Business Associate under HIPAA. We execute Business
+                Associate Agreements (BAAs) with clinic clients and maintain BAAs with our
+                infrastructure providers that process, store, or transmit protected health
+                information (PHI).
+              </p>
+              <p>Our safeguards include:</p>
+              <ul>
+                <li>Encryption of data in transit and at rest</li>
+                <li>Separation of patient identifiers from clinical data</li>
+                <li>Role-based access controls scoped to each organization</li>
+                <li>Append-only audit logging for all data access and modifications</li>
+              </ul>
+            </section>
+
+            <section id="third-party-providers">
+              <h2>Third-Party Service Providers</h2>
+              <p>
+                We use third-party providers for infrastructure hosting, data storage, payment
+                processing, email delivery, device data integration, and marketing analytics. Each
+                provider receives only the data necessary for their function. Providers that handle
+                PHI operate under Business Associate Agreements. Marketing analytics providers
+                do not receive PHI. Specific providers are identified in your service agreement.
+              </p>
+            </section>
+
+            <section id="data-ownership">
+              <h2>Data Ownership</h2>
+              <p>
+                Patient health data entered into the platform is owned by the treating clinic and
+                their patients. Zayd LLC retains the right to aggregate and de-identify data for
+                research, analytics, and commercial purposes. De-identified data, which cannot be
+                traced to any individual, is owned by Zayd LLC.
+              </p>
+            </section>
+
+            <section id="data-retention">
+              <h2>Data Retention</h2>
+              <p>
+                We retain platform data in accordance with applicable medical record retention
+                requirements and our obligations under HIPAA. Marketing website submissions are
+                retained for a reasonable period or until you request deletion. Specific retention
+                periods may be described in your service agreement.
+              </p>
+            </section>
+
+            <section id="your-rights">
+              <h2>Your Rights</h2>
+              <ul>
+                <li>Clinic administrators may request export or deletion of their organization's data</li>
+                <li>Patients may request access to their data through their treating clinic, consistent with HIPAA patient access rights</li>
+                <li>Website visitors may request deletion of form submissions by contacting us</li>
+              </ul>
+            </section>
+
+            <section id="state-privacy-laws">
+              <h2>State Privacy Laws</h2>
+              <p>
+                In addition to HIPAA, we comply with applicable state medical privacy laws in the
+                jurisdictions where our clinic clients operate. Clinic clients are responsible for
+                compliance with their own state-specific regulations regarding patient consent
+                and notification.
+              </p>
+            </section>
+
+            <section id="changes">
+              <h2>Changes to This Policy</h2>
+              <p>
+                We may update this policy from time to time. Material changes will be communicated
+                to active subscribers via email. The date at the top of this page reflects the most
+                recent revision.
+              </p>
+            </section>
+
+            <section id="contact">
+              <h2>Contact</h2>
+              <p>
+                For questions about this privacy policy or to exercise your data rights, contact
+                Zayd LLC at <a href="mailto:legal@zaydhealth.com" class="text-tertiary underline underline-offset-4">legal@zaydhealth.com</a>.
+              </p>
+            </section>
+          </div>
+
+          <aside class="lg:col-start-2 lg:row-start-2 hidden lg:block" aria-label="Table of contents">
+            <div class="sticky top-28">
+              <p class="text-xs font-body font-bold text-secondary uppercase tracking-widest mb-6">On this page</p>
+              <ul class="space-y-3">
+                {sections.map((s) => (
+                  <li>
+                    <a href={`#${s.id}`} class="text-sm text-on-surface-variant hover:text-tertiary transition-colors duration-200 block">
+                      {s.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <div class="mt-8 pt-6 border-t border-outline-variant/30">
+                <a href="#" class="text-sm text-on-surface-variant hover:text-tertiary transition-colors duration-200 inline-flex items-center gap-1">
+                  ↑ Back to top
+                </a>
+              </div>
+            </div>
+          </aside>
+        </article>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

@@ -1,0 +1,334 @@
+@import "tailwindcss";
+
+/* Self-hosted fonts */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 200 400;
+  font-display: swap;
+  src: url('/fonts/newsreader-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/newsreader-italic-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 300 400;
+  font-display: swap;
+  src: url('/fonts/fraunces-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@theme {
+  --color-primary: #000b13;
+  --color-primary-container: #002434;
+  --color-on-primary: #ffffff;
+  --color-secondary: #1A1A2E;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #4B3111;
+  --color-on-tertiary: #ffffff;
+  --color-surface: #f8f9ff;
+  --color-surface-container: #e9eefa;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e3e8f4;
+  --color-surface-container-highest: #dde2ee;
+  --color-surface-bright: #f8f9ff;
+  --color-on-background: #161c24;
+  --color-on-surface: #161c24;
+  --color-on-surface-variant: #42474c;
+  --color-outline: #5a5f63;
+  --color-outline-variant: #c2c7cc;
+
+  --font-headline: 'Newsreader', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-logo: 'Fraunces', serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #accbe0;
+  color: #001e2c;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-tertiary);
+  outline-offset: 2px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+}
+
+/* ---- Animations: Clinical Atelier ---- */
+
+/* Fade-in on scroll — applied via IntersectionObserver */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  will-change: opacity, transform;
+}
+.fade-in-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button hover: subtle gradient shift per design system */
+.btn-primary {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-container));
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+nav .btn-primary::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.3) 40%, transparent 70%);
+  background-size: 30% 100%;
+  background-repeat: no-repeat;
+  animation: light-sweep 3s ease-in-out infinite;
+  z-index: 1;
+}
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--color-tertiary);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: -1;
+  border-radius: inherit;
+}
+.btn-primary:hover::after {
+  opacity: 1;
+}
+
+@keyframes light-sweep {
+  0% { background-position: -30% 0; }
+  100% { background-position: 130% 0; }
+}
+.btn-primary:focus-visible {
+  outline: 2px solid var(--color-tertiary);
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  transition: background-color 0.2s ease;
+}
+.btn-secondary:hover {
+  background-color: var(--color-primary-container);
+}
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--color-tertiary);
+  outline-offset: 2px;
+}
+
+/* Card hover: tonal shift per design system — surface-container-lowest → surface-bright + ambient shadow */
+.card-interactive {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.card-interactive:hover {
+  background-color: var(--color-surface-bright);
+  box-shadow: 0px 12px 32px rgba(22, 28, 36, 0.04);
+}
+
+/* FAQ accordion icon rotation */
+.faq-icon {
+  transition: transform 0.25s ease;
+}
+.faq-icon.open {
+  transform: rotate(180deg);
+}
+
+/* Ghost border per design system */
+.ghost-border {
+  border: 1px solid rgba(194, 199, 204, 0.15);
+}
+
+/* Ambient shadow per design system spec */
+.shadow-ambient {
+  box-shadow: 0px 12px 32px rgba(22, 28, 36, 0.04);
+}
+
+/* Scroll offset for fixed navbar — applies to all anchor targets */
+[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* ---- Blog prose typography ---- */
+.prose-blog {
+  color: var(--color-on-surface-variant);
+  line-height: 1.8;
+  font-size: 1.0625rem;
+}
+.prose-blog > *:first-child { margin-top: 0; }
+
+.prose-blog h2 {
+  font-family: var(--font-headline);
+  font-size: 1.75rem;
+  font-weight: 300;
+  color: var(--color-on-background);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+.prose-blog h3 {
+  font-family: var(--font-headline);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-on-background);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose-blog p {
+  margin-bottom: 1.25rem;
+}
+.prose-blog strong {
+  color: var(--color-on-background);
+  font-weight: 600;
+}
+.prose-blog a {
+  color: var(--color-tertiary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+.prose-blog a:hover {
+  color: var(--color-on-background);
+}
+
+/* Lists */
+.prose-blog ul,
+.prose-blog ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.prose-blog ul { list-style: disc; }
+.prose-blog ol { list-style: decimal; }
+.prose-blog li {
+  margin-bottom: 0.5rem;
+}
+.prose-blog li::marker {
+  color: var(--color-outline);
+}
+
+/* Code */
+.prose-blog code {
+  font-size: 0.9em;
+  background-color: var(--color-surface-container);
+  color: var(--color-on-background);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+.prose-blog pre {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  padding: 1.25rem 1.5rem;
+  border-radius: 0.75rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+.prose-blog pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* Blockquote / callout */
+.prose-blog .blog-callout {
+  border-left: 3px solid var(--color-tertiary);
+  background-color: var(--color-surface-container-lowest);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-style: normal;
+}
+.prose-blog .blog-callout p {
+  margin-bottom: 0;
+  color: var(--color-on-surface);
+}
+
+/* Tables */
+.prose-blog table {
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.prose-blog thead {
+  background-color: var(--color-surface-container);
+}
+.prose-blog th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  color: var(--color-on-background);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.prose-blog td {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid var(--color-outline-variant);
+}
+.prose-blog tr:last-child td {
+  border-bottom: none;
+}
+
+/* Images */
+.prose-blog img {
+  margin: 1.5rem 0;
+}
+
+/* Horizontal rule */
+.prose-blog hr {
+  border: none;
+  border-top: 1px solid var(--color-outline-variant);
+  margin: 2.5rem 0;
+}
+
+/* Line clamp utility */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

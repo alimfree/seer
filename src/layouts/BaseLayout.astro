@@ -1,0 +1,126 @@
+---
+import '../styles/global.css'
+import Navbar from '../components/react/Navbar'
+import FloatingCTA from '../components/react/FloatingCTA'
+import Footer from '../components/Footer.astro'
+
+interface Props {
+  title: string
+  description: string
+  canonical?: string
+  ogType?: string
+  ogImage?: string
+  ogTitle?: string
+  ogDescription?: string
+  jsonLd?: object | object[]
+  noFooter?: boolean
+}
+
+const {
+  title,
+  description,
+  canonical = Astro.url.href,
+  ogType = 'website',
+  ogImage = 'https://www.zaydhealth.com/og-image.png',
+  ogTitle = title,
+  ogDescription = description,
+  jsonLd,
+  noFooter = false,
+} = Astro.props
+
+const site = 'https://www.zaydhealth.com'
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Zayd Health" />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="Zayd Health" />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Zayd Health — RPM Billing Compliance Platform" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content={canonical} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={ogTitle} />
+    <meta name="twitter:description" content={ogDescription} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content="Zayd Health — RPM Billing Compliance Platform" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#000b13" />
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5MC98YF668"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5MC98YF668');
+    </script>
+
+    <!-- Cloudflare Turnstile (captcha) -->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+    <!-- Fonts: self-hosted (Inter, Newsreader, Fraunces) + Material Symbols from CDN -->
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+
+    <!-- JSON-LD Structured Data -->
+    {jsonLd && (
+      Array.isArray(jsonLd)
+        ? jsonLd.map((ld) => (
+            <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+          ))
+        : <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    )}
+
+    <slot name="head" />
+  </head>
+  <body>
+    <Navbar client:load currentPath={Astro.url.pathname} />
+    <FloatingCTA client:idle />
+    <slot />
+    {!noFooter && <Footer />}
+
+    <!-- Fade-in observer for static .astro sections -->
+    <script is:inline>
+      (function() {
+        var observer = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+        document.querySelectorAll('.fade-in-section').forEach(function(el) {
+          observer.observe(el);
+        });
+      })();
+    </script>
+  </body>
+</html>

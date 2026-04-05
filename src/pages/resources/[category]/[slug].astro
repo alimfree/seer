@@ -1,0 +1,200 @@
+---
+import type { GetStaticPaths } from 'astro'
+import { getCollection, render } from 'astro:content'
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import BlogProductCTA from '../../../components/blog/BlogProductCTA.astro'
+import BlogCard from '../../../components/blog/BlogCard.astro'
+import TableOfContents from '../../../components/react/TableOfContents'
+import EmailCapture from '../../../components/react/EmailCapture'
+import { resolveCategory, getPostUrl, calculateReadingTime, extractHeadings, CATEGORY_LABELS, type Category } from '../../../lib/blog'
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = (await getCollection('blog'))
+    .filter((post) => post.data.status === 'published')
+
+  return posts.map((post) => {
+    const category = resolveCategory(post.data.tags)
+    return {
+      params: { category, slug: post.id },
+      props: { post },
+    }
+  })
+}
+
+const { post } = Astro.props
+const { category } = Astro.params as { category: Category; slug: string }
+const { Content } = await render(post)
+
+const headings = extractHeadings(post.body || '')
+const readingTime = calculateReadingTime(post.body || '')
+const postUrl = `https://www.zaydhealth.com${getPostUrl(category, post.id)}`
+const imageUrl = post.data.image ? `https://www.zaydhealth.com${post.data.image}` : 'https://www.zaydhealth.com/og-image.png'
+
+function formatDate(dateStr: string): string {
+  return new Date(dateStr).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
+}
+
+// Related posts (same tags, exclude current)
+const allPosts = (await getCollection('blog'))
+  .filter((p) => p.data.status === 'published')
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+
+const related = allPosts
+  .filter((p) => p.id !== post.id && p.data.tags.some((t: string) => post.data.tags.includes(t)))
+  .slice(0, 3)
+
+const wordCount = (post.body || '').trim().split(/\s+/).length
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  image: imageUrl,
+  datePublished: post.data.date,
+  dateModified: post.data.lastModified || post.data.date,
+  wordCount,
+  author: {
+    '@type': 'Person',
+    name: post.data.author,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Zayd Health',
+    url: 'https://www.zaydhealth.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.zaydhealth.com/favicon.svg',
+    },
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': postUrl,
+  },
+  keywords: post.data.tags.join(', '),
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.zaydhealth.com' },
+    { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.zaydhealth.com/resources' },
+    { '@type': 'ListItem', position: 3, name: CATEGORY_LABELS[category], item: `https://www.zaydhealth.com/resources/${category}` },
+    { '@type': 'ListItem', position: 4, name: post.data.title, item: postUrl },
+  ],
+}
+---
+
+<BaseLayout
+  title={`${post.data.title} | Zayd Health`}
+  description={post.data.description}
+  canonical={postUrl}
+  ogType="article"
+  ogImage={imageUrl}
+  ogTitle={post.data.title}
+  ogDescription={post.data.description}
+  jsonLd={[articleSchema, breadcrumbSchema]}
+>
+  <Fragment slot="head">
+    <meta property="article:published_time" content={post.data.date} />
+    <meta property="article:modified_time" content={post.data.lastModified || post.data.date} />
+    <meta property="article:author" content={post.data.author} />
+    {post.data.tags.map((tag: string) => (
+      <meta property="article:tag" content={tag} />
+    ))}
+    <meta name="author" content={post.data.author} />
+    <meta name="keywords" content={post.data.tags.join(', ')} />
+  </Fragment>
+
+  <main id="main-content">
+    <div class="pt-32 sm:pt-44 pb-24 sm:pb-32 px-6 sm:px-8">
+      <div class="max-w-7xl mx-auto">
+        <article class="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_14rem] lg:gap-16">
+          <!-- Breadcrumb + Header -->
+          <header class="lg:col-span-2">
+            <nav class="flex items-center gap-2 text-sm text-on-surface-variant mb-8" aria-label="Breadcrumb">
+              <a href="/resources" class="hover:text-tertiary transition-colors">Resources</a>
+              <span>›</span>
+              <a href={`/resources/${category}`} class="hover:text-tertiary transition-colors">{CATEGORY_LABELS[category]}</a>
+              <span>›</span>
+              <span class="truncate">{post.data.title}</span>
+            </nav>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              <a
+                href={`/resources/${category}`}
+                class="text-xs font-body font-medium uppercase tracking-wider text-tertiary bg-surface-container px-3 py-1 rounded-full hover:bg-surface-container-high transition-colors"
+              >
+                {CATEGORY_LABELS[category]}
+              </a>
+            </div>
+
+            <h1 class="font-headline text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-on-background mb-6">
+              {post.data.title}
+            </h1>
+
+            <div class="flex items-center gap-4 text-sm text-on-surface-variant mb-8">
+              <span class="font-medium text-on-background">{post.data.author}</span>
+              <span>·</span>
+              <time datetime={post.data.date}>{formatDate(post.data.date)}</time>
+              <span>·</span>
+              <span>{readingTime} min read</span>
+            </div>
+
+            {post.data.image && (
+              <img
+                src={post.data.image}
+                alt={post.data.title}
+                width="1200"
+                height="675"
+                class="w-full rounded-2xl shadow-ambient mb-4"
+                decoding="async"
+              />
+            )}
+          </header>
+
+          <!-- Article content -->
+          <div class="col-start-1 min-w-0 prose-blog">
+            <Content />
+            <BlogProductCTA />
+            <div class="mt-16">
+              <EmailCapture client:visible />
+            </div>
+          </div>
+
+          <!-- Sticky TOC sidebar -->
+          <TableOfContents client:idle headings={headings} />
+        </article>
+
+        {related.length > 0 && (
+          <section class="mt-24 pt-16 border-t border-outline-variant/30">
+            <h2 class="font-headline text-2xl sm:text-3xl font-light text-on-background mb-10">
+              Related posts
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {related.map((p) => {
+                const relCat = resolveCategory(p.data.tags)
+                return (
+                  <BlogCard
+                    title={p.data.title}
+                    description={p.data.description}
+                    date={p.data.date}
+                    category={relCat}
+                    image={p.data.image}
+                    url={getPostUrl(relCat, p.id)}
+                    slug={p.id}
+                  />
+                )
+              })}
+            </div>
+          </section>
+        )}
+      </div>
+    </div>
+  </main>
+</BaseLayout>

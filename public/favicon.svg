@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000b13"/>
+      <stop offset="100%" stop-color="#002434"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="15%" r="50%">
+      <stop offset="0%" stop-color="#0A3A4F" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="rounded">
+      <rect width="64" height="64" rx="12"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="64" height="64" fill="url(#bg)"/>
+    <rect width="64" height="64" fill="url(#glow)"/>
+  </g>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400&amp;display=swap');
+  </style>
+  <text x="50%" y="50" font-family="'Fraunces', Georgia, serif" font-size="48" font-weight="400" fill="#ffffff" text-anchor="middle">Z</text>
+</svg>

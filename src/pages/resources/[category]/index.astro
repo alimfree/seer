@@ -1,0 +1,99 @@
+---
+import type { GetStaticPaths } from 'astro'
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../../layouts/BaseLayout.astro'
+import BlogCard from '../../../components/blog/BlogCard.astro'
+import FeaturedCard from '../../../components/blog/FeaturedCard.astro'
+import Pagination from '../../../components/blog/Pagination.astro'
+import BlogSearch from '../../../components/react/BlogSearch'
+import EmailCapture from '../../../components/react/EmailCapture'
+import { resolveCategory, getPostUrl, calculateReadingTime, buildSearchIndex, CATEGORIES, CATEGORY_LABELS, type Category } from '../../../lib/blog'
+
+const POSTS_PER_PAGE_FIRST = 4
+const POSTS_PER_PAGE = 6
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  return CATEGORIES.map((category) => ({ params: { category } }))
+}
+
+const { category } = Astro.params as { category: Category }
+
+const allPublished = (await getCollection('blog'))
+  .filter((post) => post.data.status === 'published')
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+
+const allPosts = allPublished.filter((p) => resolveCategory(p.data.tags) === category)
+
+const posts = allPosts.slice(0, POSTS_PER_PAGE_FIRST)
+const featuredPost = posts.length > 0 ? posts[0] : null
+const gridPosts = posts.slice(1)
+
+const remaining = Math.max(0, allPosts.length - POSTS_PER_PAGE_FIRST)
+const totalPages = Math.max(1, 1 + Math.ceil(remaining / POSTS_PER_PAGE))
+const basePath = `/resources/${category}`
+
+const searchablePosts = buildSearchIndex(allPublished)
+---
+
+<BaseLayout
+  title={`${CATEGORY_LABELS[category]} — Zayd Health Resources`}
+  description={`Practical ${CATEGORY_LABELS[category].toLowerCase()} for RPM billing and compliance.`}
+  canonical={`https://www.zaydhealth.com${basePath}`}
+>
+  <main id="main-content">
+    <div class="pt-32 sm:pt-44 px-6 sm:px-8 bg-surface">
+      <div class="max-w-7xl mx-auto">
+        <header class={featuredPost ? 'mb-12' : 'pb-16'}>
+          <h1 class="font-headline text-4xl sm:text-5xl font-light tracking-tight text-on-background mb-4">{CATEGORY_LABELS[category]}</h1>
+          <p class="text-on-surface-variant text-lg max-w-2xl">Practical guides on RPM billing, compliance, and revenue strategies for your practice.</p>
+        </header>
+        {featuredPost && (
+          <FeaturedCard title={featuredPost.data.title} description={featuredPost.data.description} author={featuredPost.data.author} readingTime={calculateReadingTime(featuredPost.body || '')} category={category} image={featuredPost.data.image} url={getPostUrl(category, featuredPost.id)} />
+        )}
+      </div>
+    </div>
+
+    <section class="py-24 sm:py-32 bg-surface-container-low">
+      <div class="max-w-7xl mx-auto px-6 sm:px-8">
+        <div class="flex flex-col gap-6 mb-12 sm:mb-16">
+          <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+            <div>
+              <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background">Recent Dispatches</h2>
+              <p class="font-body text-on-surface-variant mt-2">Practical guides on RPM billing, compliance, and practice operations.</p>
+            </div>
+            <BlogSearch client:load posts={searchablePosts} />
+          </div>
+          <div class="flex flex-wrap gap-1">
+            <a href="/resources" class="px-4 py-2 text-sm font-medium transition-colors text-on-surface-variant hover:text-on-surface">All</a>
+            {CATEGORIES.map((cat) => (
+              <a href={`/resources/${cat}`} class={`px-4 py-2 text-sm font-medium transition-colors ${category === cat ? 'border-b-2 border-primary text-primary' : 'text-on-surface-variant hover:text-on-surface'}`}>{CATEGORY_LABELS[cat]}</a>
+            ))}
+          </div>
+        </div>
+
+        {gridPosts.length > 0 ? (
+          <>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10">
+              {gridPosts.map((post) => (
+                <BlogCard title={post.data.title} description={post.data.description} date={post.data.date} category={category} image={post.data.image} url={getPostUrl(category, post.id)} slug={post.id} />
+              ))}
+            </div>
+            {totalPages > 1 && (
+              <Pagination currentPage={1} totalPages={totalPages} basePath={`${basePath}/page`} />
+            )}
+          </>
+        ) : (
+          <p class="text-on-surface-variant text-center py-16">No posts found in {CATEGORY_LABELS[category]}.</p>
+        )}
+      </div>
+    </section>
+
+    <section class="py-24 sm:py-32 bg-surface">
+      <div class="max-w-4xl mx-auto px-6 sm:px-8 text-center">
+        <h2 class="font-headline text-4xl sm:text-5xl font-light text-on-background mb-6">The Monthly Synthesis</h2>
+        <p class="font-body text-on-surface-variant text-lg mb-12">One email per month. RPM billing changes, compliance pitfalls, and the revenue strategies that actually work for your practice.</p>
+        <div class="max-w-lg mx-auto"><EmailCapture client:visible minimal /></div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

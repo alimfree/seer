@@ -1,0 +1,74 @@
+---
+import { CATEGORY_LABELS, type Category } from '../../lib/blog'
+
+interface Props {
+  title: string
+  description: string
+  author: string
+  readingTime: number
+  category: Category
+  image?: string
+  url: string
+}
+
+const { title, description, author, readingTime, category, image, url } = Astro.props
+const initials = author.split(' ').map((n: string) => n[0]).join('')
+---
+
+<section class="pb-24 sm:pb-32">
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+    <div class="lg:col-span-7">
+      <a
+        href={`/resources/${category}`}
+        class="inline-block py-1 px-3 mb-6 rounded-full bg-surface-container-low text-on-primary-container text-xs font-semibold tracking-widest uppercase"
+      >
+        {CATEGORY_LABELS[category]}
+      </a>
+      <a href={url}>
+        <h2 class="font-headline text-4xl sm:text-5xl md:text-6xl font-light leading-tight tracking-tight text-primary hover:text-tertiary transition-colors duration-300 mb-8">
+          {title}
+        </h2>
+      </a>
+      <p class="font-body text-on-surface-variant text-lg md:text-xl leading-relaxed max-w-xl mb-10">
+        {description}
+      </p>
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant text-sm font-medium">
+            {initials}
+          </div>
+          <div>
+            <p class="text-sm font-semibold text-on-surface">{author}</p>
+            <p class="text-xs text-on-surface-variant">{readingTime} min read</p>
+          </div>
+        </div>
+        <a
+          href={url}
+          class="group/link text-sm font-semibold text-primary flex items-center gap-1 hover:text-tertiary transition-colors"
+        >
+          Read Report
+          <span class="material-symbols-outlined text-base group-hover/link:translate-x-1 transition-transform" aria-hidden="true">
+            arrow_forward
+          </span>
+        </a>
+      </div>
+    </div>
+    <div class="lg:col-span-5 relative">
+      {image && (
+        <a href={url} class="block">
+          <div class="aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5] rounded-sm overflow-hidden shadow-ambient">
+            <img
+              src={image}
+              alt={title}
+              class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              width="600"
+              height="750"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </a>
+      )}
+    </div>
+  </div>
+</section>

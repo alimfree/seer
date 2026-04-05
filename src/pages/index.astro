@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import Hero from '../components/Hero.astro'
+import HowItWorks from '../components/HowItWorks.astro'
+import Documentation from '../components/Documentation.astro'
+import BuiltFor from '../components/BuiltFor.astro'
+import Positioning from '../components/Positioning.astro'
+import Calculator from '../components/react/Calculator'
+import FAQ from '../components/react/FAQ'
+import ContactForm from '../components/react/ContactForm'
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: 'Zayd Health',
+  applicationCategory: 'HealthApplication',
+  description: 'RPM billing compliance platform for practices with diabetic patients. Automates transmission tracking, clinician time logging, and audit-ready superbill generation.',
+  operatingSystem: 'Web',
+  offers: {
+    '@type': 'Offer',
+    category: 'SaaS',
+  },
+  provider: {
+    '@type': 'Organization',
+    name: 'Zayd Health',
+    url: 'https://www.zaydhealth.com',
+  },
+}
+
+const faqStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How does this differ from traditional RPM software?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "We track clinician review time to the second — automatically, not self-reported. Our billing engine enforces clean claim rules before export, so your biller never submits a superbill that's missing documentation. Every claim links to a timestamped audit trail that wins appeals.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do I need to hire more staff?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Our platform is designed to slide into your existing workflow without additional headcount.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What happens during a payer audit?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Every superbill links to a timestamped audit log with exact session times and staff identity, providing the proof needed to win appeals.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is there a long-term contract?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Cancel anytime. Active patients only.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How secure is the patient health data?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'HIPAA compliant with encrypted data and PHI separation by design.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What types of patients qualify for RPM?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Any patient with a chronic condition and a qualifying monitoring device. We focus on diabetic patients because glucose monitoring is well-established and reimbursement rates are strong, but the platform supports any RPM-eligible population.',
+      },
+    },
+  ],
+}
+---
+
+<BaseLayout
+  title="RPM Billing Compliance for Your Practice | Zayd Health"
+  description="Automate RPM compliance for diabetic patients. Transmission tracking, clinician time logging, and audit-ready superbills. Your biller files the claim."
+  canonical="https://www.zaydhealth.com/"
+  ogTitle="RPM revenue your practice is already earning. We just help you capture it."
+  ogDescription="Automate RPM compliance for diabetic patients — transmission tracking, clinician time logging, and audit-ready superbills."
+  jsonLd={[structuredData, faqStructuredData]}
+>
+  <main id="main-content">
+    <Hero />
+    <HowItWorks />
+
+    <!-- Calculator Section -->
+    <section class="py-24 sm:py-32 bg-surface-container-low fade-in-section" id="revenue-calculator">
+      <div class="max-w-7xl mx-auto px-6 sm:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+          <div class="max-w-2xl">
+            <span class="font-body text-sm uppercase tracking-widest text-secondary/60 font-semibold mb-4 block">
+              Analysis
+            </span>
+            <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light leading-tight text-on-background mb-6">
+              Discover the untapped revenue in your diabetic patient panel.
+            </h2>
+            <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
+              Your diabetic patient panel is an untapped revenue stream. Most practices leave RPM revenue on the table because the documentation burden feels too high. Zayd handles the hard part so you can bill with confidence.
+            </p>
+            <div class="flex items-center gap-4 py-4 border-t border-outline-variant/30">
+              <span class="material-symbols-outlined text-tertiary" aria-hidden="true">analytics</span>
+              <span class="text-on-surface-variant">Calculate based on current CMS reimbursement rates.</span>
+            </div>
+          </div>
+          <Calculator client:visible />
+        </div>
+      </div>
+    </section>
+
+    <Documentation />
+    <BuiltFor />
+    <Positioning />
+
+    <!-- FAQ Section -->
+    <section class="py-24 sm:py-32 bg-surface-container-low px-6 sm:px-8 fade-in-section" id="faq">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-12 sm:mb-16 text-center">
+          Questions
+        </h2>
+        <FAQ client:visible />
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-24 sm:py-32 px-6 sm:px-8 bg-surface-container-highest fade-in-section" id="contact">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+          <div>
+            <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-6 leading-tight">
+              See what RPM revenue looks like for your practice.
+            </h2>
+            <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
+              Schedule a 15-minute call or drop us a message. We'll walk you through the dashboard and calculate your revenue potential.
+            </p>
+            <a
+              href="https://calendly.com/ali-zaydhealth/discovery"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-3 px-8 py-4 bg-tertiary text-on-tertiary font-medium rounded-sm shadow-ambient hover:brightness-110 transition-all duration-300"
+            >
+              <span class="material-symbols-outlined text-xl" aria-hidden="true">calendar_month</span>
+              Book Directly on Calendly
+            </a>
+          </div>
+          <div class="bg-surface-container-lowest p-8 sm:p-10 rounded-sm shadow-ambient ghost-border">
+            <ContactForm client:visible />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

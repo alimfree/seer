@@ -1,0 +1,43 @@
+---
+const cards = [
+  {
+    title: '2–5 provider practices',
+    description: 'Sized perfectly for boutique and medium-sized groups who need efficiency most.',
+  },
+  {
+    title: 'Major commercial payers',
+    description: 'Built for the payers your patients are on. We flag coverage gaps before you enroll.',
+  },
+  {
+    title: 'Existing billers welcome',
+    description: "We don't replace your biller. We give them the documentation they've been waiting for.",
+  },
+  {
+    title: 'Connected CGM devices',
+    description: 'Seamless data ingestion from the continuous glucose monitors your patients already use.',
+  },
+]
+---
+
+<section class="py-24 sm:py-32 px-6 sm:px-8 fade-in-section">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-12 sm:mb-16">
+      <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-4">
+        For practices managing diabetic patients.
+      </h2>
+      <p class="text-on-surface-variant">
+        Designed to slide into your existing ecosystem without friction.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {cards.map((card) => (
+        <div class="p-8 sm:p-10 bg-surface-container-low rounded-sm card-interactive">
+          <h4 class="font-headline text-xl sm:text-2xl mb-4 text-tertiary">
+            {card.title}
+          </h4>
+          <p class="text-on-surface-variant leading-relaxed">{card.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

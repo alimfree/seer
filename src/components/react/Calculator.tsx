@@ -103,7 +103,7 @@ export default function Calculator() {
           </div>
           <Turnstile onVerify={onVerify} onExpire={onExpire} />
           {status === 'error' && (
-            <p className="text-red-600 text-sm" role="alert">{errorMsg}</p>
+            <p className="text-tertiary text-sm" role="alert">{errorMsg}</p>
           )}
           <button
             type="submit"

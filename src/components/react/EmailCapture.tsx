@@ -26,7 +26,7 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
 
   if (status === 'success') {
     return (
-      <div className="bg-surface-container-lowest rounded-2xl p-8 text-center ghost-border" role="status">
+      <div className="bg-surface-container-lowest rounded-sm p-8 text-center ghost-border" role="status">
         <span className="material-symbols-outlined text-4xl text-tertiary mb-3 block" aria-hidden="true">mark_email_read</span>
         <p className="font-headline text-xl text-on-background">You're on the list.</p>
         <p className="text-sm text-on-surface-variant mt-2">First issue lands next month — no spam, ever.</p>
@@ -84,7 +84,7 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
         </button>
       </form>
       {status === 'error' && (
-        <p className="text-error text-sm mt-3" role="alert">Something went wrong. Please try again.</p>
+        <p className="text-tertiary text-sm mt-3" role="alert">Something went wrong. Please try again.</p>
       )}
     </div>
   )

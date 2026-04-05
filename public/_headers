@@ -5,8 +5,29 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
+# Hashed assets (JS/CSS) — immutable, cache forever
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 
+# Self-hosted fonts — immutable, cache forever
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Blog images — cache 1 day, serve stale for 1 week
 /blog/*
-  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+# Static images — cache 1 week
+/*.webp
+  Cache-Control: public, max-age=604800
+/*.png
+  Cache-Control: public, max-age=604800
+/*.svg
+  Cache-Control: public, max-age=604800
+
+# HTML pages — always revalidate (Cloudflare edge will cache)
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate

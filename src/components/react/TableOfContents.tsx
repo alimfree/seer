@@ -31,11 +31,22 @@ export default function TableOfContents({ headings }: { headings: Heading[] }) {
     return () => observer.disconnect()
   }, [headings])
 
+  // Auto-scroll the TOC list to keep active item visible (without scrolling the page)
   useEffect(() => {
     if (!activeId || !listRef.current) return
-    const activeEl = listRef.current.querySelector(`[data-toc-id="${activeId}"]`)
-    if (activeEl) {
-      activeEl.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+    const activeEl = listRef.current.querySelector(`[data-toc-id="${activeId}"]`) as HTMLElement | null
+    if (!activeEl) return
+
+    const list = listRef.current
+    const elTop = activeEl.offsetTop
+    const elBottom = elTop + activeEl.offsetHeight
+    const listTop = list.scrollTop
+    const listBottom = listTop + list.clientHeight
+
+    if (elTop < listTop) {
+      list.scrollTo({ top: elTop - 8, behavior: 'smooth' })
+    } else if (elBottom > listBottom) {
+      list.scrollTo({ top: elBottom - list.clientHeight + 8, behavior: 'smooth' })
     }
   }, [activeId])
 

@@ -6,7 +6,7 @@ import BlogCard from '../../../components/blog/BlogCard.astro'
 import Pagination from '../../../components/blog/Pagination.astro'
 import BlogSearch from '../../../components/react/BlogSearch'
 import EmailCapture from '../../../components/react/EmailCapture'
-import { resolveCategory, getPostUrl, buildSearchIndex, CATEGORIES, CATEGORY_LABELS } from '../../../lib/blog'
+import { resolveCategory, getPostUrl, CATEGORIES, CATEGORY_LABELS } from '../../../lib/blog'
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const allPosts = (await getCollection('blog'))
@@ -34,7 +34,6 @@ const allPosts = (await getCollection('blog'))
 const start = POSTS_PER_PAGE_FIRST + (currentPage - 2) * POSTS_PER_PAGE
 const posts = allPosts.slice(start, start + POSTS_PER_PAGE)
 
-const searchablePosts = buildSearchIndex(allPosts)
 ---
 
 <BaseLayout
@@ -60,7 +59,7 @@ const searchablePosts = buildSearchIndex(allPosts)
               <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background">Recent Dispatches</h2>
               <p class="font-body text-on-surface-variant mt-2">Practical guides on RPM billing, compliance, and practice operations.</p>
             </div>
-            <BlogSearch client:load posts={searchablePosts} />
+            <BlogSearch client:idle />
           </div>
           <div class="flex flex-wrap gap-1">
             <a href="/resources" class="px-4 py-2 text-sm font-medium transition-colors border-b-2 border-primary text-primary">All</a>

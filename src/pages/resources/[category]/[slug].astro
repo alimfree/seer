@@ -114,7 +114,7 @@ const breadcrumbSchema = {
   <main id="main-content">
     <div class="pt-32 sm:pt-44 pb-24 sm:pb-32 px-6 sm:px-8">
       <div class="max-w-7xl mx-auto">
-        <article class="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_14rem] lg:gap-16">
+        <article data-pagefind-body class="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_14rem] lg:gap-16">
           <!-- Breadcrumb + Header -->
           <header class="lg:col-span-2">
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant mb-8" aria-label="Breadcrumb">
@@ -134,9 +134,11 @@ const breadcrumbSchema = {
               </a>
             </div>
 
-            <h1 class="font-headline text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-on-background mb-6">
+            <h1 data-pagefind-meta="title" class="font-headline text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-on-background mb-6">
               {post.data.title}
             </h1>
+            <meta data-pagefind-meta={`image:${post.data.image || '/og-image.png'}`} />
+            <meta data-pagefind-meta={`category:${CATEGORY_LABELS[category]}`} />
 
             <div class="flex items-center gap-4 text-sm text-on-surface-variant mb-8">
               <span class="font-medium text-on-background">{post.data.author}</span>
@@ -161,9 +163,11 @@ const breadcrumbSchema = {
           <!-- Article content -->
           <div class="col-start-1 min-w-0 prose-blog">
             <Content />
-            <BlogProductCTA />
-            <div class="mt-16">
-              <EmailCapture client:visible />
+            <div data-pagefind-ignore>
+              <BlogProductCTA />
+              <div class="mt-16">
+                <EmailCapture client:visible />
+              </div>
             </div>
           </div>
 
@@ -172,7 +176,7 @@ const breadcrumbSchema = {
         </article>
 
         {related.length > 0 && (
-          <section class="mt-24 pt-16 border-t border-outline-variant/30">
+          <section data-pagefind-ignore class="mt-24 pt-16 border-t border-outline-variant/30">
             <h2 class="font-headline text-2xl sm:text-3xl font-light text-on-background mb-10">
               Related posts
             </h2>

@@ -6,7 +6,7 @@ import FeaturedCard from '../../components/blog/FeaturedCard.astro'
 import Pagination from '../../components/blog/Pagination.astro'
 import BlogSearch from '../../components/react/BlogSearch'
 import EmailCapture from '../../components/react/EmailCapture'
-import { resolveCategory, getPostUrl, calculateReadingTime, buildSearchIndex, CATEGORIES, CATEGORY_LABELS } from '../../lib/blog'
+import { resolveCategory, getPostUrl, calculateReadingTime, CATEGORIES, CATEGORY_LABELS } from '../../lib/blog'
 
 const POSTS_PER_PAGE_FIRST = 4
 
@@ -17,8 +17,6 @@ const allPosts = (await getCollection('blog'))
 const posts = allPosts.slice(0, POSTS_PER_PAGE_FIRST)
 const featuredPost = posts.length > 0 ? posts[0] : null
 const gridPosts = posts.slice(1)
-
-const searchablePosts = buildSearchIndex(allPosts)
 
 const blogListSchema = {
   '@context': 'https://schema.org',
@@ -68,7 +66,7 @@ const totalPages = Math.max(1, 1 + Math.ceil(remaining / 6))
               <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background">Recent Dispatches</h2>
               <p class="font-body text-on-surface-variant mt-2">Practical guides on RPM billing, compliance, and practice operations.</p>
             </div>
-            <BlogSearch client:load posts={searchablePosts} />
+            <BlogSearch client:idle />
           </div>
           <div class="flex flex-wrap gap-1">
             <a href="/resources" class="px-4 py-2 text-sm font-medium transition-colors border-b-2 border-primary text-primary">All</a>

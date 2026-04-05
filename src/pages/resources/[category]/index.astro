@@ -7,7 +7,7 @@ import FeaturedCard from '../../../components/blog/FeaturedCard.astro'
 import Pagination from '../../../components/blog/Pagination.astro'
 import BlogSearch from '../../../components/react/BlogSearch'
 import EmailCapture from '../../../components/react/EmailCapture'
-import { resolveCategory, getPostUrl, calculateReadingTime, buildSearchIndex, CATEGORIES, CATEGORY_LABELS, type Category } from '../../../lib/blog'
+import { resolveCategory, getPostUrl, calculateReadingTime, CATEGORIES, CATEGORY_LABELS, type Category } from '../../../lib/blog'
 
 const POSTS_PER_PAGE_FIRST = 4
 const POSTS_PER_PAGE = 6
@@ -18,11 +18,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 const { category } = Astro.params as { category: Category }
 
-const allPublished = (await getCollection('blog'))
-  .filter((post) => post.data.status === 'published')
+const allPosts = (await getCollection('blog'))
+  .filter((post) => post.data.status === 'published' && resolveCategory(post.data.tags) === category)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
-
-const allPosts = allPublished.filter((p) => resolveCategory(p.data.tags) === category)
 
 const posts = allPosts.slice(0, POSTS_PER_PAGE_FIRST)
 const featuredPost = posts.length > 0 ? posts[0] : null
@@ -32,7 +30,6 @@ const remaining = Math.max(0, allPosts.length - POSTS_PER_PAGE_FIRST)
 const totalPages = Math.max(1, 1 + Math.ceil(remaining / POSTS_PER_PAGE))
 const basePath = `/resources/${category}`
 
-const searchablePosts = buildSearchIndex(allPublished)
 ---
 
 <BaseLayout
@@ -61,7 +58,7 @@ const searchablePosts = buildSearchIndex(allPublished)
               <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background">Recent Dispatches</h2>
               <p class="font-body text-on-surface-variant mt-2">Practical guides on RPM billing, compliance, and practice operations.</p>
             </div>
-            <BlogSearch client:load posts={searchablePosts} />
+            <BlogSearch client:idle />
           </div>
           <div class="flex flex-wrap gap-1">
             <a href="/resources" class="px-4 py-2 text-sm font-medium transition-colors text-on-surface-variant hover:text-on-surface">All</a>

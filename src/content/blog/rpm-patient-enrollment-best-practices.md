@@ -112,7 +112,7 @@ Every practice encounters the same set of objections. Preparing your staff for t
 
 | Objection | Response |
 |-----------|----------|
-| "I already check my blood sugar." | "That is great — this uses a similar process, but it sends the readings to us automatically so we can spot trends you might not notice on your own." |
+| "I already check my blood sugar." | "That is great. This uses a similar process, but it sends the readings to us automatically so we can spot trends you might not notice on your own." |
 | "I am not good with technology." | "The device is very simple. You just [describe one-step process]. And if you ever have trouble, you can call us and we will walk you through it." |
 | "How much does this cost?" | "There is no charge for the device. Your insurance covers the monitoring service, and your out-of-pocket cost is [specific copay amount or $0]." |
 | "I do not want to be bothered with calls." | "We only call when something in your readings needs attention. Most patients hear from us once or twice a month at most." |

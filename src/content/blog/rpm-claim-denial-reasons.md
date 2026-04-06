@@ -8,7 +8,7 @@ image: "/blog/claim-denial-reasons.webp"
 status: "draft"
 ---
 
-If you bill RPM for diabetic patients, you already know the revenue potential is real — $120 or more per patient per month across CPT codes 99453, 99454, 99457, and 99458. What you may not know is why so many of those claims come back denied, or how to prevent it from happening in the first place.
+If you bill RPM for diabetic patients, you already know the revenue potential is real: $120 or more per patient per month across CPT codes 99453, 99454, 99457, and 99458. What you may not know is why so many of those claims come back denied, or how to prevent it from happening in the first place.
 
 RPM claim denials are rarely random. They follow predictable patterns tied to specific documentation gaps, timing errors, and eligibility oversights. This post covers the most common RPM claim denial reasons we see at primary care practices, with the exact fix for each one.
 
@@ -21,7 +21,7 @@ RPM claim denials are rarely random. They follow predictable patterns tied to sp
 **How to fix it:**
 
 - Ensure consent is collected and documented before the first billable service date, not on the same day as the first reading.
-- Store the signed consent form as a discrete document in the patient's chart — not buried in a visit note.
+- Store the signed consent form as a discrete document in the patient's chart, not buried in a visit note.
 - If consent was verbal, document the date, time, who obtained it, and what was communicated. Some payers require a witness signature for verbal consent.
 - On resubmission, attach the consent documentation and include a cover letter referencing the original claim number.
 
@@ -35,7 +35,7 @@ RPM claim denials are rarely random. They follow predictable patterns tied to sp
 
 **How to fix it:**
 
-- Monitor reading counts daily or weekly — not at the end of the month when it is too late to intervene.
+- Monitor reading counts daily or weekly, not at the end of the month when it is too late to intervene.
 - Reach out to patients who fall below pace by day 10 with a phone call or text reminder.
 - Do not submit 99454 for months where the patient did not meet the 16-day threshold. Submitting anyway wastes clearinghouse fees and increases your denial rate, which can trigger payer audits.
 - Track device connectivity issues separately from patient non-compliance. A patient whose meter lost Bluetooth pairing on day 5 needs a different intervention than a patient who simply stopped checking.
@@ -49,7 +49,7 @@ RPM claim denials are rarely random. They follow predictable patterns tied to sp
 **How to fix it:**
 
 - Log each interaction with a start time, end time, staff member name, and a brief clinical summary.
-- Aggregate interactions across the month — multiple short calls can count toward the 20-minute threshold, but each one must be individually documented.
+- Aggregate interactions across the month; multiple short calls can count toward the 20-minute threshold, but each one must be individually documented.
 - Ensure at least a portion of the communication is truly interactive (phone call, live video, real-time chat), not just one-way messages.
 - Do not bill 99458 unless you can document a full 40 cumulative minutes for the month.
 
@@ -71,7 +71,7 @@ RPM claim denials are rarely random. They follow predictable patterns tied to sp
 
 **What happens:** RPM services must be ordered by the treating physician or qualified healthcare professional. Denials occur when the order is missing from the chart, was entered after services began, or does not specify the monitoring parameters (e.g., blood glucose, blood pressure).
 
-**Why it matters:** The order is the legal and clinical basis for the entire RPM episode. Without it, every downstream claim — 99453, 99454, 99457, 99458 — is vulnerable to denial or recoupment.
+**Why it matters:** The order is the legal and clinical basis for the entire RPM episode. Without it, every downstream claim (99453, 99454, 99457, 99458) is vulnerable to denial or recoupment.
 
 **How to fix it:**
 
@@ -121,7 +121,7 @@ RPM claim denials are rarely random. They follow predictable patterns tied to sp
 
 The pattern across all of these denial reasons is the same: by the time you see the denial on your remittance, the window to prevent it has already closed. Consent should have been collected at enrollment. Readings should have been tracked mid-month. Time should have been logged after each call.
 
-The practices that maintain low RPM denial rates are not doing anything complicated. They have checklists, they monitor compliance data in real time, and they catch problems before claim submission — not after.
+The practices that maintain low RPM denial rates are not doing anything complicated. They have checklists, they monitor compliance data in real time, and they catch problems before claim submission, not after.
 
 For practices that want to automate this entirely, [Zayd Health](https://www.zaydhealth.com) monitors reading counts, consent status, time logs, and order validity continuously, flagging compliance gaps before they become denied claims.
 

@@ -9,11 +9,11 @@ status: "draft"
 ---
 
 <!-- TODO: Fix imprecise clinical claims before republishing:
-- TIM-HF2 trial result — verify characterization is accurate
-- "Studies from JDST" reference — replace with specific citation or remove
+- TIM-HF2 trial result: verify characterization is accurate
+- "Studies from JDST" reference: replace with specific citation or remove
 - Verify all readmission reduction percentages against source studies -->
 
-Hospital readmissions within 30 days of discharge remain one of the most expensive and clinically significant problems in U.S. healthcare. CMS penalizes hospitals through the Hospital Readmissions Reduction Program, and the downstream effects ripple into primary care — practices absorb post-discharge patients who are often poorly stabilized and at high risk for deterioration.
+Hospital readmissions within 30 days of discharge remain one of the most expensive and clinically significant problems in U.S. healthcare. CMS penalizes hospitals through the Hospital Readmissions Reduction Program, and the downstream effects ripple into primary care; practices absorb post-discharge patients who are often poorly stabilized and at high risk for deterioration.
 
 Remote patient monitoring is one of the most evidence-supported interventions for reducing hospital readmissions. But the evidence is condition-specific, and implementation details matter enormously. A poorly designed post-discharge RPM program can consume resources without moving the readmission needle.
 
@@ -25,7 +25,7 @@ Before diving into RPM's role, it is worth understanding the scale and structure
 
 Approximately 3.8 million Medicare beneficiaries are readmitted within 30 days each year, costing the system roughly $26 billion annually. The CMS Hospital Readmissions Reduction Program penalizes hospitals with excess readmission rates for six target conditions: acute myocardial infarction, heart failure, pneumonia, COPD, coronary artery bypass graft surgery, and elective total hip or knee arthroplasty.
 
-But readmission risk is not evenly distributed. Patients with multiple chronic conditions — particularly diabetes combined with heart failure or COPD — account for a disproportionate share of 30-day readmissions.
+But readmission risk is not evenly distributed. Patients with multiple chronic conditions (particularly diabetes combined with heart failure or COPD) account for a disproportionate share of 30-day readmissions.
 
 | Condition | 30-Day Readmission Rate | Avg. Cost per Readmission | RPM Evidence Strength |
 |---|---|---|---|
@@ -50,9 +50,9 @@ Multiple systematic reviews confirm that RPM programs for heart failure reduce 3
 
 ### Diabetes
 
-For diabetic patients, the readmission reduction mechanism is different. Uncontrolled diabetes rarely causes readmission on its own — instead, it destabilizes other conditions. A patient with diabetes and heart failure whose glucose swings wildly post-discharge is at elevated risk for the cardiac decompensation that triggers readmission.
+For diabetic patients, the readmission reduction mechanism is different. Uncontrolled diabetes rarely causes readmission on its own; instead, it destabilizes other conditions. A patient with diabetes and heart failure whose glucose swings wildly post-discharge is at elevated risk for the cardiac decompensation that triggers readmission.
 
-RPM-based glucose monitoring in the post-discharge window allows practices to catch and correct medication issues — wrong insulin doses, missed oral agents, dietary chaos during recovery — before they cascade into a readmission event.
+RPM-based glucose monitoring in the post-discharge window allows practices to catch and correct medication issues (wrong insulin doses, missed oral agents, dietary chaos during recovery) before they cascade into a readmission event.
 
 Studies from the Journal of Diabetes Science and Technology have shown that CGM-based RPM in the 30-day post-discharge window reduces diabetes-related readmissions by 18-22% and all-cause readmissions in diabetic patients by 12-15%.
 
@@ -68,7 +68,7 @@ The difference between RPM programs that reduce readmissions and those that do n
 
 ### Phase 1: Pre-Discharge Setup (Days -2 to 0)
 
-The RPM enrollment process should begin before the patient leaves the hospital or immediately upon notification of discharge. Waiting until the first post-discharge office visit — which may be 7-14 days out — misses the highest-risk window.
+The RPM enrollment process should begin before the patient leaves the hospital or immediately upon notification of discharge. Waiting until the first post-discharge office visit (which may be 7-14 days out) misses the highest-risk window.
 
 **Pre-discharge checklist:**
 
@@ -164,7 +164,7 @@ The most effective readmission reduction programs do not treat the post-discharg
 
 For primary care practices managing diabetic patients, this means transitioning post-discharge RPM patients into ongoing glucose monitoring programs where readings inform medication titration, lifestyle counseling, and proactive A1C management.
 
-This is where operational infrastructure matters. Managing the transition from post-discharge to chronic RPM — including billing code changes, consent renewals, and device logistics — requires systems that track each patient's program status and compliance automatically. Platforms like [Zayd Health](https://www.zaydhealth.com) handle this complexity so that clinical teams can focus on the patient rather than the paperwork.
+This is where operational infrastructure matters. Managing the transition from post-discharge to chronic RPM (including billing code changes, consent renewals, and device logistics) requires systems that track each patient's program status and compliance automatically. Platforms like [Zayd Health](https://www.zaydhealth.com) handle this complexity so that clinical teams can focus on the patient rather than the paperwork.
 
 ## The Bottom Line
 

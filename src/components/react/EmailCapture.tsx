@@ -29,7 +29,7 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
       <div className="bg-surface-container-lowest rounded-sm p-8 text-center ghost-border" role="status">
         <span className="material-symbols-outlined text-4xl text-tertiary mb-3 block" aria-hidden="true">mark_email_read</span>
         <p className="font-headline text-xl text-on-background">You're on the list.</p>
-        <p className="text-sm text-on-surface-variant mt-2">First issue lands next month — no spam, ever.</p>
+        <p className="text-sm text-on-surface-variant mt-2">First issue lands next month. No spam, ever.</p>
       </div>
     )
   }
@@ -74,7 +74,7 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
         Don't miss the next one.
       </p>
       <p className="text-sm text-on-surface-variant mb-5">
-        One email when we publish. RPM billing changes, compliance strategies, and what's actually working — straight from the field.
+        One email when we publish. RPM billing changes, compliance strategies, and what's actually working in the field.
       </p>
       <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
         <input

@@ -8,7 +8,7 @@ image: "/blog/obesity-weight-management.webp"
 status: "published"
 ---
 
-Treatment options for diabetic patients with obesity have shifted dramatically. GLP-1 receptor agonists like semaglutide and tirzepatide are producing weight loss and glucose improvements that were previously only achievable through bariatric surgery. Bariatric surgery itself continues to evolve, with sleeve gastrectomy now the most common procedure. Both interventions can fundamentally alter a patient's glucose profile — sometimes rapidly enough to create dangerous hypoglycemia if diabetes medications are not adjusted in parallel.
+Treatment options for diabetic patients with obesity have shifted dramatically. GLP-1 receptor agonists like semaglutide and tirzepatide are producing weight loss and glucose improvements that were previously only achievable through bariatric surgery. Bariatric surgery itself continues to evolve, with sleeve gastrectomy now the most common procedure. Both interventions can fundamentally alter a patient's glucose profile, sometimes rapidly enough to create dangerous hypoglycemia if diabetes medications are not adjusted in parallel.
 
 For primary care teams, these patients require a different monitoring approach than standard diabetes management. The goal shifts from controlling hyperglycemia to managing a moving target where glucose may improve faster than the medication regimen can safely keep up.
 
@@ -115,7 +115,7 @@ The perioperative period (2 weeks before through 6 weeks after surgery) is the h
 **Months 1-3:**
 
 - Continue daily glucose checks as the diet advances from liquid to soft to regular foods
-- Glucose patterns will shift as caloric intake increases — readings that were normal on a liquid diet may rise as the patient transitions to solid food
+- Glucose patterns will shift as caloric intake increases; readings that were normal on a liquid diet may rise as the patient transitions to solid food
 - A1C at 3 months post-surgery to establish new baseline
 
 **Months 3-12:**
@@ -178,6 +178,6 @@ Bariatric surgery patients require coordination across multiple specialties. Pri
 2. **Increase monitoring frequency during transitions.** GLP-1 dose escalations, the pre-bariatric liquid diet, and the first 6 weeks post-surgery are high-risk windows that benefit from daily glucose checks.
 3. **Track weight alongside glucose.** Rapid weight loss is a leading indicator that insulin sensitivity is improving and medication doses need to come down.
 4. **Screen for reactive hypoglycemia in post-RYGB patients.** Ask about postprandial symptoms at every visit for the first 2 years after surgery.
-5. **Document the clinical reasoning.** When adjusting diabetes medications in response to weight loss interventions, note the connection explicitly — this is important for continuity of care and for any future provider managing the patient.
+5. **Document the clinical reasoning.** When adjusting diabetes medications in response to weight loss interventions, note the connection explicitly. This is important for continuity of care and for any future provider managing the patient.
 
 GLP-1 agonists and bariatric surgery can improve glucose faster than most medication regimens account for. Building structured check-ins around dose escalations, pre-operative diets, and the first six post-surgical weeks helps catch medication mismatches before they cause hypoglycemic events.

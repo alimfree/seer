@@ -18,7 +18,7 @@ Most primary care practices launching RPM for diabetic patients start with gluco
 
 ### Blood Glucose Monitors
 
-This is your primary device for a diabetes-focused RPM program. Connected glucometers work like traditional meters — the patient pricks their finger, applies blood to a test strip, and gets a reading. The difference is that the reading is automatically transmitted to your monitoring platform.
+This is your primary device for a diabetes-focused RPM program. Connected glucometers work like traditional meters: the patient pricks their finger, applies blood to a test strip, and gets a reading. The difference is that the reading is automatically transmitted to your monitoring platform.
 
 Key considerations:
 
@@ -32,13 +32,13 @@ Many diabetic patients have comorbid hypertension, making BP cuffs a natural sec
 
 Key considerations:
 
-- Cuff sizing matters — a one-size-fits-all approach leads to inaccurate readings
+- Cuff sizing matters: a one-size-fits-all approach leads to inaccurate readings
 - Patients need brief training on proper arm positioning and timing
 - BP readings are less frequent than glucose (typically once or twice daily vs. multiple times daily)
 
 ### Pulse Oximeters
 
-Less common in a pure diabetes program, but relevant for patients with comorbid COPD or heart failure. Pulse oximeters are the simplest device for patients to use — clip it on a finger and wait.
+Less common in a pure diabetes program, but relevant for patients with comorbid COPD or heart failure. Pulse oximeters are the simplest device for patients to use: clip it on a finger and wait.
 
 Key considerations:
 
@@ -74,7 +74,7 @@ Cellular devices have a built-in SIM card and transmit readings over the cellula
 
 - Higher per-device cost (typically $30-$80 more than Bluetooth equivalents)
 - Monthly cellular data fees (often bundled by the vendor, but worth confirming)
-- Device is tied to a specific cellular carrier — coverage gaps in rural areas can be an issue
+- Device is tied to a specific cellular carrier, and coverage gaps in rural areas can be an issue
 
 ### Bluetooth
 
@@ -98,7 +98,7 @@ Bluetooth devices pair with the patient's smartphone and transmit readings throu
 
 | Factor | Cellular | Bluetooth |
 |--------|----------|-----------|
-| Patient age 65+ | Strong choice | Risky — many lack smartphones |
+| Patient age 65+ | Strong choice | Risky (many lack smartphones) |
 | Patient has smartphone | Works fine | Works fine |
 | Rural practice | Check carrier coverage maps | Depends on home Wi-Fi for app sync |
 | IT support capacity | Minimal support needed | Plan for ongoing troubleshooting |
@@ -116,11 +116,11 @@ The RPM device market is crowded and confusing. Vendors range from established m
 These are non-negotiable. If a vendor cannot meet these, move on.
 
 - **FDA clearance** for all devices being offered
-- **EHR integration** with your specific system (not "we integrate with most EHRs" — confirm your exact EHR and version)
+- **EHR integration** with your specific system (not "we integrate with most EHRs"; confirm your exact EHR and version)
 - **Data format compatibility** with your RPM billing platform
 - **HIPAA-compliant data transmission and storage**
-- **Device replacement policy** — devices break and get lost; you need a clear process and cost for replacements
-- **Minimum contract term** — avoid multi-year lock-ins until you have validated the devices work for your population
+- **Device replacement policy**: devices break and get lost, and you need a clear process and cost for replacements
+- **Minimum contract term**: avoid multi-year lock-ins until you have validated the devices work for your population
 
 ### Important But Negotiable
 
@@ -136,7 +136,7 @@ These are non-negotiable. If a vendor cannot meet these, move on.
 - No clear path for switching away if the relationship does not work out
 - Device firmware updates require patient action (visiting a website, downloading a file)
 
-> **Tip:** Request a 30-day pilot with 10-15 devices before committing to a full purchase. Any vendor confident in their product will agree to this. Use the pilot to measure actual patient setup time, support call volume, and data reliability — not just whether the device technically works.
+> **Tip:** Request a 30-day pilot with 10-15 devices before committing to a full purchase. Any vendor confident in their product will agree to this. Use the pilot to measure actual patient setup time, support call volume, and data reliability, not just whether the device technically works.
 
 ## Integration Requirements: Getting Data Where It Needs to Go
 
@@ -163,7 +163,7 @@ Not all EHR integrations are equal. Clarify which level the vendor supports:
 | Manual export/import | Staff downloads a CSV from the vendor portal and uploads to EHR | High staff burden, error-prone |
 | API-based one-way | Readings flow automatically from vendor to EHR | Reduces manual work, but no write-back |
 | Bi-directional API | Readings flow to EHR; patient demographics and orders flow back | Lowest staff burden, best data accuracy |
-| Embedded widget | Vendor dashboard embedded within EHR interface | Staff never leaves EHR — ideal but rare |
+| Embedded widget | Vendor dashboard embedded within EHR interface | Staff never leaves EHR (ideal but rare) |
 
 For practices under 10 providers, API-based one-way integration is typically sufficient. Bi-directional integration is worth pursuing if your EHR and vendor both support it, but do not let it become a blocker for launching your program.
 
@@ -181,7 +181,7 @@ Device vendors often present pricing in ways that obscure the true total cost. H
 | Test strips (glucose) | $15-$50 per patient per month | Depends on testing frequency |
 | Replacement devices | $50-$120 per unit | Budget for 10-15% annual replacement rate |
 | Shipping to patients | $5-$15 per shipment | Relevant if you drop-ship rather than hand out in office |
-| Staff time for setup | ~15 min per patient | Your internal cost — often overlooked |
+| Staff time for setup | ~15 min per patient | Your internal cost (often overlooked) |
 
 ### Example: 50-Patient Glucose Monitoring Program (Annual)
 
@@ -209,12 +209,12 @@ Once you have selected your devices and vendor, you need an internal process for
 ### Minimum Process Requirements
 
 - A tracking spreadsheet or system that records device serial number, patient assignment, date issued, and status (active, returned, lost, broken)
-- A defined process for when a patient disenrolls — do you retrieve the device or write it off?
-- A reorder trigger — when your unassigned inventory drops below a certain number, who orders more?
-- A troubleshooting escalation path — patient calls about a device issue, who handles it first, second, and third?
+- A defined process for when a patient disenrolls: do you retrieve the device or write it off?
+- A reorder trigger: when your unassigned inventory drops below a certain number, who orders more?
+- A troubleshooting escalation path: patient calls about a device issue, who handles it first, second, and third?
 
 Practices that skip device management end up with devices unaccounted for, patients using devices assigned to other patients, and inventory shortfalls that delay new enrollments.
 
 For practices managing device logistics alongside billing compliance, transmission tracking, and clinical workflows, [Zayd Health](https://www.zaydhealth.com) connects device tracking to billing and clinical documentation in a single platform.
 
-Device selection is not a one-time decision — it is an ongoing operational responsibility. The vendor and device you choose in month one may not be the right fit in month twelve. Build your program with the flexibility to switch, and evaluate your device performance quarterly against the compliance and cost metrics that matter to your practice.
+Device selection is not a one-time decision; it is an ongoing operational responsibility. The vendor and device you choose in month one may not be the right fit in month twelve. Build your program with the flexibility to switch, and evaluate your device performance quarterly against the compliance and cost metrics that matter to your practice.

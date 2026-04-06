@@ -39,7 +39,7 @@ Use the table below as a scoring sheet during your vendor evaluation. Rate each 
 | 17 | Patient communication tools | Does the platform include secure messaging, automated reminders, or outreach scheduling? | Medium |
 | 18 | Data security and HIPAA compliance | Does the vendor have a current SOC 2 Type II report, BAA, and documented security policies? | Critical |
 | 19 | Contract flexibility | What are the minimum term, cancellation terms, and pricing adjustment provisions? | High |
-| 20 | Implementation and training support | What onboarding support is included — dedicated implementation manager, staff training, go-live support? | High |
+| 20 | Implementation and training support | What onboarding support is included: dedicated implementation manager, staff training, go-live support? | High |
 
 > **Tip:** Do not evaluate vendors in isolation. Run at least two vendors through this checklist side by side. Patterns that seem acceptable from one vendor become obvious weaknesses when compared directly against a competitor.
 
@@ -49,11 +49,11 @@ Not every weakness is a dealbreaker, but certain patterns indicate fundamental p
 
 ### Pricing Models That Erode Margins
 
-RPM vendors use different pricing models — flat per-patient fees, tiered subscriptions, and revenue share. Whatever model a vendor uses, calculate your net margin per patient after all vendor fees and staff costs. If the vendor's pricing consumes more than 30% of your per-patient reimbursement, pressure-test whether the program remains financially viable at your expected enrollment volume.
+RPM vendors use different pricing models: flat per-patient fees, tiered subscriptions, and revenue share. Whatever model a vendor uses, calculate your net margin per patient after all vendor fees and staff costs. If the vendor's pricing consumes more than 30% of your per-patient reimbursement, pressure-test whether the program remains financially viable at your expected enrollment volume.
 
 ### No Audit-Ready Documentation
 
-If a vendor cannot show you a sample audit report — including per-patient transmission logs, time documentation with timestamps, consent records, and device assignment history — their compliance claims are aspirational, not operational. CMS and commercial payer audits require this level of detail. "We track that in the system" is not the same as "here is the report."
+If a vendor cannot show you a sample audit report (including per-patient transmission logs, time documentation with timestamps, consent records, and device assignment history), their compliance claims are aspirational, not operational. CMS and commercial payer audits require this level of detail. "We track that in the system" is not the same as "here is the report."
 
 ### Locked-In Device Ecosystems Without Clinical Justification
 
@@ -69,7 +69,7 @@ Your patient data belongs to your practice. If the vendor contract includes rest
 
 ## Hidden Costs That Inflate Your Total Spend
 
-RPM vendor pricing often looks simple on the surface — a per-patient monthly fee or a device plus platform charge. But the total cost of ownership includes several line items that may not appear in the initial quote.
+RPM vendor pricing often looks simple on the surface: a per-patient monthly fee or a device plus platform charge. But the total cost of ownership includes several line items that may not appear in the initial quote.
 
 | Cost Category | What to Ask | Typical Range |
 |---|---|---|
@@ -77,7 +77,7 @@ RPM vendor pricing often looks simple on the surface — a per-patient monthly f
 | Test strips | Are strips included in the per-patient fee, or billed separately? Who manages the supply chain? | $20-$40/patient/month if not included |
 | Implementation fees | Is there a one-time setup fee? Does it include EHR integration, staff training, and workflow configuration? | $0-$10,000 depending on complexity |
 | EHR integration costs | Is integration included or an add-on? Are there per-interface fees for HL7 connections? | $0-$5,000 per interface |
-| Minimum volume commitments | Is there a minimum patient count to maintain pricing? What happens if enrollment is slower than projected? | Varies — some vendors require 25-50 minimum patients |
+| Minimum volume commitments | Is there a minimum patient count to maintain pricing? What happens if enrollment is slower than projected? | Varies; some vendors require 25-50 minimum patients |
 | Overage charges | Are there per-patient fees above a certain threshold? Per-alert charges? Per-report charges? | Rare but worth confirming |
 | Contract escalation clauses | Does pricing increase annually? By what percentage or index? | 3-8% annual increases are common |
 | Termination fees | What does early termination cost? Is there a wind-down period, or is it a lump sum penalty? | 2-6 months of fees is typical |
@@ -109,10 +109,10 @@ Vendor demos are choreographed. The rep controls what you see and when. These qu
 ### Support and Reliability
 
 - "What is your platform uptime over the last 12 months? Do you publish a status page?"
-- "When a device stops transmitting, how does your support team engage — does the practice handle all patient troubleshooting, or does your team assist?"
+- "When a device stops transmitting, how does your support team engage: does the practice handle all patient troubleshooting, or does your team assist?"
 - "How many dedicated support staff do you have per number of active client practices?"
 
-> **Tip:** Ask the vendor for three references from practices similar to yours in size, specialty, and EHR platform. When you call those references, ask one specific question: "What is the most frustrating thing about working with this vendor?" Every platform has weaknesses — you want to know if theirs are tolerable for your practice.
+> **Tip:** Ask the vendor for three references from practices similar to yours in size, specialty, and EHR platform. When you call those references, ask one specific question: "What is the most frustrating thing about working with this vendor?" Every platform has weaknesses, and you want to know if theirs are tolerable for your practice.
 
 ## Compliance Certifications to Verify
 
@@ -120,7 +120,7 @@ RPM vendors handle protected health information and process claims on your behal
 
 | Certification/Document | What It Confirms | How to Verify |
 |---|---|---|
-| SOC 2 Type II report | Security controls have been audited and tested over a period of time (not just a point-in-time assessment) | Request the full report, not just a summary letter. Check the report date — it should be less than 12 months old. |
+| SOC 2 Type II report | Security controls have been audited and tested over a period of time (not just a point-in-time assessment) | Request the full report, not just a summary letter. Check the report date; it should be less than 12 months old. |
 | HIPAA Business Associate Agreement (BAA) | The vendor acknowledges their obligations under HIPAA for handling your PHI | Review the BAA before signing the master agreement. It should be specific, not a generic template. |
 | HITRUST certification (optional but valuable) | Meets a comprehensive healthcare security framework that goes beyond SOC 2 | Verify on the HITRUST Alliance website |
 | FDA device clearances (510(k)) | Connected devices meet FDA safety and efficacy standards | Search the FDA 510(k) database for the specific device model numbers |
@@ -148,4 +148,4 @@ After scoring vendors on the 20-point checklist, checking for red flags, calcula
 
 The best RPM vendor for a primary care practice managing diabetic patients is one that understands the specific compliance requirements of RPM billing, automates the administrative burden, and integrates into your existing clinical workflow rather than replacing it. Platforms like [Zayd Health](https://www.zaydhealth.com) are built specifically for this use case, handling the compliance and billing automation that general-purpose RPM tools often treat as an afterthought.
 
-Choose the vendor that makes your program sustainable at scale, not just impressive in a demo. The real test of an RPM platform is not what it shows in a 45-minute presentation — it is what your staff experiences at 8:00 AM on a Monday morning with 100 patients to monitor.
+Choose the vendor that makes your program sustainable at scale, not just impressive in a demo. The real test of an RPM platform is not what it shows in a 45-minute presentation; it is what your staff experiences at 8:00 AM on a Monday morning with 100 patients to monitor.

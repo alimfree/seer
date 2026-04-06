@@ -48,7 +48,7 @@ CGM is not necessary for every diabetic patient in your RPM program. Consider pr
 
 ## Eligible CGM Devices for RPM Programs
 
-Not every CGM on the market is suitable for RPM. The key requirement is that the device must transmit data electronically to your practice in a way that satisfies CPT 99454 — specifically, the device must collect and transmit data for at least 16 days in a 30-day billing period.
+Not every CGM on the market is suitable for RPM. The key requirement is that the device must transmit data electronically to your practice in a way that satisfies CPT 99454. Specifically, the device must collect and transmit data for at least 16 days in a 30-day billing period.
 
 ### Device Comparison for RPM Use
 
@@ -115,7 +115,7 @@ An AGP report consolidates 14 days of CGM data into a single-page visual summary
 
 When reviewing CGM data for RPM, apply a triage framework:
 
-1. **Address safety first:** Any time below 54 mg/dL requires immediate clinical review. Look at timing — is it nocturnal? Post-exercise? Related to medication timing?
+1. **Address safety first:** Any time below 54 mg/dL requires immediate clinical review. Look at timing: is it nocturnal? Post-exercise? Related to medication timing?
 2. **Assess overall control:** Time in Range is the single most useful metric. A TIR below 50% in a Type 2 patient warrants a medication review.
 3. **Look at patterns, not individual readings:** A single spike to 250 mg/dL after a holiday meal is not clinically significant. A pattern of post-breakfast spikes above 200 every day for two weeks is.
 4. **Use the daily profiles:** The AGP overlay shows where glucose typically rises and falls. This identifies the specific times of day where interventions (medication timing, meal composition, activity) can have the most impact.
@@ -167,6 +167,6 @@ If you are building or scaling a diabetes-focused RPM program and want to automa
 
 - CGM provides dramatically more data than fingerstick meters but is not cost-effective for every patient
 - Dexcom G7 and FreeStyle Libre 3 currently offer the strongest RPM integration capabilities
-- The 16-day transmission rule still applies — passive data collection helps, but sensor gaps can break compliance
+- The 16-day transmission rule still applies; passive data collection helps, but sensor gaps can break compliance
 - Train your team on AGP reports and the five core CGM metrics (TIR, time below range, GMI, CV, time above range)
 - Document CGM reviews with specific metrics and clinical reasoning to support 99457/99458 billing

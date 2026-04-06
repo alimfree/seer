@@ -8,7 +8,7 @@ image: "/blog/telehealth-vs-rpm.webp"
 status: "draft"
 ---
 
-Telehealth and Remote Patient Monitoring are both forms of virtual care, but they are billed under entirely different frameworks. Practices that conflate the two — using telehealth place of service codes on RPM claims, or assuming RPM documentation standards apply to telehealth — end up with denied claims and compliance exposure. Understanding where these programs diverge is essential for any practice offering both services.
+Telehealth and Remote Patient Monitoring are both forms of virtual care, but they are billed under entirely different frameworks. Practices that conflate the two (using telehealth place of service codes on RPM claims, or assuming RPM documentation standards apply to telehealth) end up with denied claims and compliance exposure. Understanding where these programs diverge is essential for any practice offering both services.
 
 This guide breaks down the legal, operational, and billing distinctions between telehealth and RPM, including when you can bill both for the same patient and what has changed since the end of the Public Health Emergency.
 
@@ -55,13 +55,13 @@ When billing telehealth with POS 02 or 10, you also append modifier 95 (or modif
 | POS Code | Description | When to Use |
 |----------|-------------|-------------|
 | 11 | Office | RPM device setup (99453) performed in the office |
-| 12 | Home | RPM monitoring services (99454, 99457, 99458) — patient is at home |
+| 12 | Home | RPM monitoring services (99454, 99457, 99458), patient is at home |
 
 ### The Critical Rule
 
 **Never use POS 02 or POS 10 for RPM claims.** RPM is not telehealth. Using telehealth POS codes on RPM claims misrepresents the service and can trigger denials or audits.
 
-**Never use POS 12 for telehealth claims.** POS 12 is for services delivered to the patient at home that are not telehealth encounters — RPM monitoring, home health, etc.
+**Never use POS 12 for telehealth claims.** POS 12 is for services delivered to the patient at home that are not telehealth encounters: RPM monitoring, home health, etc.
 
 This may seem obvious, but in practice, we see this error frequently. Billing systems that auto-populate POS codes based on "virtual care" templates often assign the wrong code because the system does not distinguish between telehealth and RPM.
 
@@ -76,11 +76,11 @@ The technology requirements for telehealth and RPM are completely different, and
 | Real-time interaction capability | Required | Not required |
 | Automatic data transmission | Not required | Required |
 | Patient internet access | Required (for video) | Required (for data transmission) |
-| Audio-only option | Yes (limited codes) | N/A — RPM is data-based, not encounter-based |
+| Audio-only option | Yes (limited codes) | N/A; RPM is data-based, not encounter-based |
 
 ## Can You Bill Telehealth and RPM for the Same Patient?
 
-Yes, and this is where revenue optimization comes in. Telehealth and RPM are separate services with separate codes, and there is no CMS prohibition against billing both for the same patient — even on the same day.
+Yes, and this is where revenue optimization comes in. Telehealth and RPM are separate services with separate codes, and there is no CMS prohibition against billing both for the same patient, even on the same day.
 
 ### Same-Day Billing
 

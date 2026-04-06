@@ -138,7 +138,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 - Enroll 5-8 patients per week from your highest-likelihood list
 - Use this phase to identify workflow bottlenecks (where does the process slow down?)
 - Establish the daily review, midday outreach, and end-of-day documentation rhythm
-- Track time meticulously — you need to understand your actual per-patient time before scaling
+- Track time meticulously; you need to understand your actual per-patient time before scaling
 
 **Staffing:** Existing staff, no new hires needed
 
@@ -151,7 +151,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 - Reduce per-patient time through batch processing (review all readings in one block rather than individually throughout the day)
 - Implement automated reminders for patients who miss readings
 - Standardize documentation templates so logging interactive time takes under 60 seconds per patient
-- Begin tracking financial performance — are you billing every eligible interaction?
+- Begin tracking financial performance: are you billing every eligible interaction?
 
 **Staffing:** Existing staff, but the RPM lead should have RPM formally added to their job description with allocated hours
 
@@ -182,6 +182,6 @@ RPM burnout is real, and it usually hits the clinical staff member who owns the 
 
 **Invest in tools that reduce manual work:** Every minute your staff spends manually counting transmission days or scrolling through a dashboard is a minute they could spend on patient interaction. If your current tools require significant manual effort, it is time to evaluate alternatives.
 
-If you run a small practice and need help managing RPM — from daily monitoring to monthly billing — [Zayd Health](https://www.zaydhealth.com) is designed to cut the per-patient time so your team can grow the program without adding headcount.
+If you run a small practice and need help managing RPM (from daily monitoring to monthly billing), [Zayd Health](https://www.zaydhealth.com) is designed to cut the per-patient time so your team can grow the program without adding headcount.
 
-Start with 10 patients, refine your process, and scale deliberately. The practices that grow their RPM programs to 100 patients are not the ones that moved fastest — they are the ones that built sustainable workflows from day one.
+Start with 10 patients, refine your process, and scale deliberately. The practices that grow their RPM programs to 100 patients are not the ones that moved fastest; they are the ones that built sustainable workflows from day one.

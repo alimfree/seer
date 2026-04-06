@@ -1,5 +1,5 @@
 ---
-title: "RPM Billing: Medicare vs. Commercial Payers — What Primary Care Practices Need to Know"
+title: "RPM Billing: Medicare vs. Commercial Payers, What Primary Care Practices Need to Know"
 description: "Compare RPM billing Medicare vs commercial insurance including reimbursement rates, prior auth rules, and payer-specific policies from Aetna, UHC, BCBS, and Cigna."
 date: "2026-01-15"
 author: "Mohammed Ali"
@@ -29,7 +29,7 @@ These rates are adjusted by geographic locality through the Geographic Practice 
 
 ### Key Medicare Rules to Remember
 
-- **No geographic restriction:** the patient can be anywhere in the U.S. — at home, at work, or traveling.
+- **No geographic restriction:** the patient can be anywhere in the U.S. (at home, at work, or traveling).
 - **No originating site requirement:** unlike traditional telehealth, there is no requirement for the patient to be at a specific facility type.
 - **Established patients only:** the ordering physician must have an existing relationship with the patient (at least one in-person visit in the prior 12 months for new RPM orders).
 - **16-day transmission minimum:** CPT 99454 requires at least 16 days of physiologic data transmission within the calendar month.
@@ -76,7 +76,7 @@ Not every commercial plan covers RPM. Here is a breakdown by carrier of what to 
 - Covers RPM for chronic conditions including diabetes, hypertension, and heart failure on most plans.
 - Some plans restrict RPM to patients with two or more chronic conditions.
 - Requires the ordering provider to be in-network.
-- Does not always cover 99458 (the add-on code) — verify before billing.
+- Does not always cover 99458 (the add-on code), so verify before billing.
 
 **UnitedHealthcare**
 - Broad RPM coverage on most commercial plans since 2023.
@@ -103,13 +103,13 @@ For commercially insured patients, cost-sharing depends on the plan structure.
 
 | Plan Type | Typical Patient Cost | Impact on RPM Enrollment |
 |-----------|---------------------|--------------------------|
-| Medicare (Original) | ~$30–$35/month (20% coinsurance) | Moderate — most seniors accept this |
-| Medicare Advantage | $0–$25/month (varies by plan) | Low — many MA plans reduce or waive RPM copays |
-| Commercial PPO | $20–$60/month (copay or coinsurance) | Moderate to high — depends on deductible status |
-| Commercial HMO | $10–$40/month (copay) | Moderate — usually more predictable |
-| High-Deductible (HDHP) | Full cost until deductible met | High — patients may decline RPM until deductible is met |
+| Medicare (Original) | ~$30–$35/month (20% coinsurance) | Moderate; most seniors accept this |
+| Medicare Advantage | $0–$25/month (varies by plan) | Low; many MA plans reduce or waive RPM copays |
+| Commercial PPO | $20–$60/month (copay or coinsurance) | Moderate to high; depends on deductible status |
+| Commercial HMO | $10–$40/month (copay) | Moderate; usually more predictable |
+| High-Deductible (HDHP) | Full cost until deductible met | High; patients may decline RPM until deductible is met |
 
-> **Practice manager note:** For patients on high-deductible health plans, RPM charges count toward the deductible. This is actually a selling point early in the plan year — RPM helps them reach their deductible faster, which reduces out-of-pocket costs for other services later in the year. Frame the conversation accordingly.
+> **Practice manager note:** For patients on high-deductible health plans, RPM charges count toward the deductible. This is actually a selling point early in the plan year: RPM helps them reach their deductible faster, which reduces out-of-pocket costs for other services later in the year. Frame the conversation accordingly.
 
 ## Multi-Payer RPM Revenue Modeling
 

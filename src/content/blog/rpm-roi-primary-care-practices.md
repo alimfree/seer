@@ -131,7 +131,7 @@ But per-patient margin is not the whole picture. RPM programs have a startup cos
 
 ### Break-Even Timeline
 
-Using mid-range assumptions — 50 patients enrolled by month 3, growing to 80 by month 6, with a blended per-patient monthly margin of $35 — the program breaks even on startup costs in approximately 4-5 months from first patient enrollment.
+Using mid-range assumptions (50 patients enrolled by month 3, growing to 80 by month 6, with a blended per-patient monthly margin of $35), the program breaks even on startup costs in approximately 4-5 months from first patient enrollment.
 
 | Month | Enrolled Patients | Monthly Revenue | Monthly Cost | Monthly Net | Cumulative Net |
 |---|---|---|---|---|---|
@@ -146,7 +146,7 @@ Using mid-range assumptions — 50 patients enrolled by month 3, growing to 80 b
 
 **At month 12 with 120 enrolled patients, the program generates approximately $5,500 in net monthly revenue and has produced over $30,000 in cumulative profit after recouping all startup costs.**
 
-These numbers assume Medicare fee-for-service reimbursement only. Commercial payer RPM reimbursement — which is expanding but varies widely — can increase per-patient revenue by 10-30% for covered patients.
+These numbers assume Medicare fee-for-service reimbursement only. Commercial payer RPM reimbursement (which is expanding but varies widely) can increase per-patient revenue by 10-30% for covered patients.
 
 ## Non-Financial ROI
 
@@ -154,7 +154,7 @@ Revenue is the easiest ROI to measure, but RPM generates returns that do not sho
 
 ### Clinical Outcomes
 
-RPM programs focused on diabetic patients consistently show A1C reductions of 0.5-1.2 points within six months of enrollment. For a patient starting at 9.0%, bringing their A1C to 8.0% or below materially reduces their risk of diabetic complications — retinopathy, nephropathy, neuropathy — that generate downstream cost and clinical burden.
+RPM programs focused on diabetic patients consistently show A1C reductions of 0.5-1.2 points within six months of enrollment. For a patient starting at 9.0%, bringing their A1C to 8.0% or below materially reduces their risk of diabetic complications (retinopathy, nephropathy, neuropathy) that generate downstream cost and clinical burden.
 
 These outcome improvements also strengthen your practice's quality metrics under MIPS and other value-based programs.
 
@@ -168,7 +168,7 @@ In practice, RPM patients show 15-25% higher retention rates compared to non-RPM
 
 In markets where multiple primary care practices compete for patients and referrals, RPM capability is increasingly a differentiator. Endocrinologists and specialists prefer to refer to primary care practices that can demonstrate active chronic disease monitoring. Health system partners prioritize practices with RPM programs when building value-based care networks.
 
-> **Strategic consideration:** The practices that launch RPM programs earliest in their markets capture the highest-acuity, most-engaged patients first. These patients generate the best compliance rates and the strongest outcomes data — which in turn makes the program easier to expand and defend against competitors who launch later.
+> **Strategic consideration:** The practices that launch RPM programs earliest in their markets capture the highest-acuity, most-engaged patients first. These patients generate the best compliance rates and the strongest outcomes data, which in turn makes the program easier to expand and defend against competitors who launch later.
 
 ## The 12-Month ROI Timeline
 
@@ -176,7 +176,7 @@ Here is a realistic month-by-month view of what launching an RPM program looks l
 
 **Months 1-2: Foundation.** Train staff, configure software, enroll first 15-30 patients. Expect negative margins as the team builds competence. Focus on workflow refinement, not volume.
 
-**Months 3-4: Traction.** Reach 50-60 patients. Staff efficiency improves. First full billing cycle with meaningful revenue. Identify and fix compliance gaps — most commonly the 16-day transmission requirement and 99457 documentation.
+**Months 3-4: Traction.** Reach 50-60 patients. Staff efficiency improves. First full billing cycle with meaningful revenue. Identify and fix compliance gaps, most commonly the 16-day transmission requirement and 99457 documentation.
 
 **Months 5-6: Break-even.** Reach 70-80 patients. Monthly revenue consistently exceeds monthly costs. Startup investment is recouped. Begin tracking clinical outcomes data for quality reporting and marketing.
 
@@ -190,11 +190,11 @@ After working with practices at various stages of RPM maturity, a few patterns c
 
 **High-ROI programs automate compliance tracking.** Manually tracking which patients have met the 16-day transmission requirement and which clinical interactions qualify for 99457/99458 billing is error-prone and labor-intensive. Practices that rely on manual tracking leave an estimated 15-25% of billable revenue on the table due to missed claims and documentation gaps.
 
-**High-ROI programs focus enrollment on clinically appropriate patients.** Enrolling every diabetic patient regardless of engagement likelihood dilutes margins. The best programs use clear selection criteria — A1C thresholds, medication complexity, hospitalization history — to identify patients who will both benefit clinically and comply with transmission requirements.
+**High-ROI programs focus enrollment on clinically appropriate patients.** Enrolling every diabetic patient regardless of engagement likelihood dilutes margins. The best programs use clear selection criteria (A1C thresholds, medication complexity, hospitalization history) to identify patients who will both benefit clinically and comply with transmission requirements.
 
 **High-ROI programs invest in patient onboarding.** The leading predictor of long-term RPM compliance is the quality of the initial device setup and education encounter. Practices that spend 30-45 minutes on onboarding see 16-day compliance rates 20-30% higher than those that rush through setup in 10 minutes.
 
-These are exactly the operational challenges that [Zayd Health](https://www.zaydhealth.com) was built to solve — automating compliance tracking and billing workflows so practices capture the full revenue their RPM programs generate without adding administrative burden.
+These are exactly the operational challenges that [Zayd Health](https://www.zaydhealth.com) was built to solve, automating compliance tracking and billing workflows so practices capture the full revenue their RPM programs generate without adding administrative burden.
 
 ## The Bottom Line
 

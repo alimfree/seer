@@ -151,7 +151,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 - Reduce per-patient time through batch processing (review all readings in one block rather than individually throughout the day)
 - Implement automated reminders for patients who miss readings
 - Standardize documentation templates so logging interactive time takes under 60 seconds per patient
-- Begin tracking financial performance. are you billing every eligible interaction?
+- Begin tracking financial performance — are you billing every eligible interaction?
 
 **Staffing:** Existing staff, but the RPM lead should have RPM formally added to their job description with allocated hours
 

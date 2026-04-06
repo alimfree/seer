@@ -207,7 +207,7 @@ This summary saves time during the visit and ensures the conversation focuses on
 
 Between-visit management through RPM is only sustainable if the workload is manageable for your team. The practices that burn out on RPM are the ones that try to review every reading for every patient every day. The practices that succeed build tiered systems where technology handles the routine and humans handle the exceptions.
 
-If you are looking to automate the operational side of between-visit management. transmission tracking, billing compliance, and data gap alerts; so your clinical team can focus on the clinical work that actually improves outcomes, [Zayd Health](https://www.zaydhealth.com) is purpose-built for primary care practices running diabetes RPM programs.
+If you are looking to automate the operational side of between-visit management — transmission tracking, billing compliance, and data gap alerts — so your clinical team can focus on the clinical work that actually improves outcomes, [Zayd Health](https://www.zaydhealth.com) is built specifically for primary care practices running diabetes RPM programs.
 
 ## Key Takeaways
 

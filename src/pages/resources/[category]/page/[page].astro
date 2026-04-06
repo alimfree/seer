@@ -6,7 +6,7 @@ import BlogCard from '../../../../components/blog/BlogCard.astro'
 import Pagination from '../../../../components/blog/Pagination.astro'
 import BlogSearch from '../../../../components/react/BlogSearch'
 import EmailCapture from '../../../../components/react/EmailCapture'
-import { resolveCategory, getPostUrl, CATEGORIES, getVisibleCategories, CATEGORY_LABELS, CATEGORY_DESCRIPTIONS, type Category } from '../../../../lib/blog'
+import { resolveCategory, getPostUrl, CATEGORIES, CATEGORY_LABELS, type Category } from '../../../../lib/blog'
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const allPosts = (await getCollection('blog'))
@@ -31,11 +31,8 @@ const POSTS_PER_PAGE = 6
 const { category } = Astro.params as { category: Category }
 const { currentPage, totalPages } = Astro.props
 
-const allPublished = (await getCollection('blog')).filter((post) => post.data.status === 'published')
-const visibleCategories = getVisibleCategories(allPublished)
-
-const allPosts = allPublished
-  .filter((post) => resolveCategory(post.data.tags) === category)
+const allPosts = (await getCollection('blog'))
+  .filter((post) => post.data.status === 'published' && resolveCategory(post.data.tags) === category)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
 const start = POSTS_PER_PAGE_FIRST + (currentPage - 2) * POSTS_PER_PAGE
@@ -45,7 +42,7 @@ const basePath = `/resources/${category}`
 
 <BaseLayout
   title={`${CATEGORY_LABELS[category]} — Page ${currentPage} | Zayd Health`}
-  description={CATEGORY_DESCRIPTIONS[category]}
+  description={`Practical ${CATEGORY_LABELS[category].toLowerCase()} for RPM billing and compliance.`}
   canonical={`https://www.zaydhealth.com${basePath}/page/${currentPage}`}
 >
   <main id="main-content">
@@ -53,7 +50,7 @@ const basePath = `/resources/${category}`
       <div class="max-w-7xl mx-auto">
         <header class="pb-16">
           <h1 class="font-headline text-4xl sm:text-5xl font-light tracking-tight text-on-background mb-4">{CATEGORY_LABELS[category]}</h1>
-          <p class="text-on-surface-variant text-lg max-w-2xl">{CATEGORY_DESCRIPTIONS[category]}</p>
+          <p class="text-on-surface-variant text-lg max-w-2xl">Practical guides on RPM billing, compliance, and revenue strategies for your practice.</p>
         </header>
       </div>
     </div>
@@ -64,13 +61,13 @@ const basePath = `/resources/${category}`
           <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
             <div>
               <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background">Recent Dispatches</h2>
-              <p class="font-body text-on-surface-variant mt-2">{CATEGORY_DESCRIPTIONS[category]}</p>
+              <p class="font-body text-on-surface-variant mt-2">Practical guides on RPM billing, compliance, and practice operations.</p>
             </div>
             <BlogSearch client:idle />
           </div>
           <div class="flex flex-wrap gap-1">
             <a href="/resources" class="px-4 py-2 text-sm font-medium transition-colors text-on-surface-variant hover:text-on-surface">All</a>
-            {visibleCategories.map((cat) => (
+            {CATEGORIES.map((cat) => (
               <a href={`/resources/${cat}`} class={`px-4 py-2 text-sm font-medium transition-colors ${category === cat ? 'border-b-2 border-primary text-primary' : 'text-on-surface-variant hover:text-on-surface'}`}>{CATEGORY_LABELS[cat]}</a>
             ))}
           </div>

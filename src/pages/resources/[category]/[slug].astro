@@ -28,8 +28,7 @@ const { Content } = await render(post)
 const headings = extractHeadings(post.body || '')
 const readingTime = calculateReadingTime(post.body || '')
 const postUrl = `https://www.zaydhealth.com${getPostUrl(category, post.id)}`
-const ogImageUrl = `https://www.zaydhealth.com/og/${post.id}.png`
-const imageUrl = ogImageUrl
+const imageUrl = post.data.image ? `https://www.zaydhealth.com${post.data.image}` : 'https://www.zaydhealth.com/og-image.png'
 
 function formatDate(dateStr: string): string {
   return new Date(dateStr).toLocaleDateString('en-US', {

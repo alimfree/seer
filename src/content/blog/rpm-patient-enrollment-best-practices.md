@@ -154,9 +154,9 @@ After working with dozens of primary care practices, these are the patterns that
 
 **Relying on mailed letters or patient portal messages:** These have abysmal response rates for RPM enrollment. Phone calls and in-person conversations are the only channels that work at scale.
 
-**Skipping the provider warm handoff.** When an MA tries to enroll a patient without the provider's recommendation, conversion rates drop by roughly half.
+**Skipping the provider warm handoff:** When an MA tries to enroll a patient without the provider's recommendation, conversion rates drop by roughly half.
 
-**Not tracking enrollment by staff member.** Some MAs are natural enrollers. Others need coaching. You cannot provide targeted support if you do not know who is struggling.
+**Not tracking enrollment by staff member:** Some MAs are natural enrollers. Others need coaching. You cannot provide targeted support if you do not know who is struggling.
 
 **Enrolling patients who are clearly not going to comply.** A patient who has not checked their blood sugar in six months and misses half their appointments is not going to suddenly become an engaged RPM participant. Enroll patients who are likely to succeed, then expand your criteria once your team is experienced.
 

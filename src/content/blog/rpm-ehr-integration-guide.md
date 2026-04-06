@@ -66,7 +66,7 @@ Epic offers several integration pathways. The App Orchard (now renamed to the Ep
 
 For practices on Epic Community Connect or hosted Epic, integration options may be limited by your hosting organization's policies. Always confirm with your Epic administrator before assuming a marketplace app can be activated for your instance.
 
-**Key consideration:** Epic's integration review process is thorough but slow. If your RPM vendor is not already on the App Market, expect 6-12 months before a direct integration is available. In the interim, use CDA document injection via standard HL7 interfaces. most Epic installations accept inbound HL7 ORU messages with embedded PDF reports.
+**Key consideration:** Epic's integration review process is thorough but slow. If your RPM vendor is not already on the App Market, expect 6-12 months before a direct integration is available. In the interim, use CDA document injection via standard HL7 interfaces, as most Epic installations accept inbound HL7 ORU messages with embedded PDF reports.
 
 ### athenahealth
 

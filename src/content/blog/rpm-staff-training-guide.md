@@ -171,10 +171,10 @@ Initial training gets staff started. Ongoing education keeps them effective.
 
 Hold a monthly team meeting focused exclusively on RPM. Agenda:
 
-1. **Review program metrics**. enrollment count, compliance rate, revenue, disenrollment rate
-2. **Case discussion**. review one or two interesting patient cases where RPM data influenced clinical decisions
-3. **Process improvement**. what is working, what is not, and what should change
-4. **Documentation audit results**. review a sample of recent documentation for quality
+1. **Review program metrics:** enrollment count, compliance rate, revenue, disenrollment rate
+2. **Case discussion:** review one or two interesting patient cases where RPM data influenced clinical decisions
+3. **Process improvement:** what is working, what is not, and what should change
+4. **Documentation audit results:** review a sample of recent documentation for quality
 
 ### Quarterly Skills Refresh
 
@@ -184,6 +184,6 @@ Every quarter, run through a subset of the competency checklist with each staff 
 
 Any new MA, RN, or provider joining the practice should complete the full RPM training before participating in the program. Do not assume that experience at another practice translates to competency in your specific workflow. Every practice runs RPM slightly differently, and those differences matter for compliance and billing accuracy.
 
-For practices that want to reduce the documentation burden and operational complexity that comes with training and managing RPM staff, [Zayd Health](https://www.zaydhealth.com) provides workflow automation that enforces compliance standards so your team can focus on patient care rather than administrative overhead.
+For practices that want to reduce the documentation burden and operational complexity that comes with training and managing RPM staff, [Zayd Health](https://www.zaydhealth.com) provides workflow automation that enforces compliance standards and reduces the administrative load on your clinical team.
 
 Training is not a one-time event; it is an ongoing investment. The practices that maintain high RPM performance over time are the ones that treat staff education as a core operational function, not a box to check during onboarding. Build training into your monthly rhythm, and your program will be stronger for it.

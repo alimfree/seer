@@ -83,7 +83,7 @@ Starting in 2025, EHR vendors certified under ONC criteria must support FHIR-bas
 
 ### Why This Matters Operationally
 
-For practices, interoperability reduces the dual-documentation burden that has plagued RPM programs. When glucose readings flow automatically from the RPM platform into the EHR, the clinician's review and response are documented in context. alongside medication lists, lab results, and visit notes. This creates a more defensible audit trail and reduces the time staff spend manually reconciling data between systems.
+For practices, interoperability reduces the dual-documentation burden that has plagued RPM programs. When glucose readings flow automatically from the RPM platform into the EHR, the clinician's review and response are documented in context, alongside medication lists, lab results, and visit notes. This creates a more defensible audit trail and reduces the time staff spend manually reconciling data between systems.
 
 Practices evaluating RPM platforms in 2026 should prioritize vendors with certified FHIR integrations for their specific EHR. A platform that works well in isolation but requires manual data entry into the clinical record is a compliance liability and an operational drag.
 

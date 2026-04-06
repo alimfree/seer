@@ -168,11 +168,11 @@ Bariatric surgery patients require coordination across multiple specialties. Pri
 
 **What to share with endocrinology (if co-managing):**
 
-- Glucose trends showing the rate of improvement. this informs how aggressively to taper medications
+- Glucose trends showing the rate of improvement, which informs how aggressively to taper medications
 - Any hypoglycemic episodes, especially if occurring without symptoms
 - Weight loss trajectory, as this predicts future insulin sensitivity changes
 
-## Practical Steps for Your Practice
+## Adjusting Your Monitoring Workflow
 
 1. **Preemptively adjust medications when starting a GLP-1 agonist.** Do not wait for hypoglycemia to occur. Reduce sulfonylurea doses at initiation and plan insulin reductions as glucose improves.
 2. **Increase monitoring frequency during transitions.** GLP-1 dose escalations, the pre-bariatric liquid diet, and the first 6 weeks post-surgery are high-risk windows that benefit from daily glucose checks.

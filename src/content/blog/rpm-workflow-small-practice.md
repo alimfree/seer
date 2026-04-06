@@ -70,11 +70,11 @@ Daily tasks keep the program running. Weekly tasks keep it on track.
 
 | Task | Owner | Time Required | Day |
 |------|-------|--------------|-----|
-| Compliance review. identify patients below 16-day pace | Clinical staff | 20 minutes | Monday |
-| Provider reading review. batch review of non-urgent trends | Provider | 20 minutes | Tuesday or Wednesday |
-| Device inventory check. count unassigned devices, reorder if needed | Admin staff | 10 minutes | Wednesday |
-| New patient enrollment outreach. call eligible patients not yet enrolled | Clinical or admin staff | 30 minutes | Thursday |
-| Time log audit. verify interactive minutes are documented for each patient | Admin staff or practice manager | 15 minutes | Friday |
+| Compliance review: identify patients below 16-day pace | Clinical staff | 20 minutes | Monday |
+| Provider reading review: batch review of non-urgent trends | Provider | 20 minutes | Tuesday or Wednesday |
+| Device inventory check: count unassigned devices, reorder if needed | Admin staff | 10 minutes | Wednesday |
+| New patient enrollment outreach: call eligible patients not yet enrolled | Clinical or admin staff | 30 minutes | Thursday |
+| Time log audit: verify interactive minutes are documented for each patient | Admin staff or practice manager | 15 minutes | Friday |
 
 ### The Weekly Compliance Check
 

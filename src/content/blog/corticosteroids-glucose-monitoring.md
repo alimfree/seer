@@ -66,14 +66,14 @@ For diabetic patients starting a short steroid burst:
 
 - **Increase glucose monitoring frequency:** at minimum, add a late-afternoon or pre-dinner check in addition to fasting glucose
 - **Check glucose daily for the duration of the course** plus 48 hours after the last dose
-- **Set a threshold for intervention**; if glucose consistently exceeds 250 mg/dL, contact the patient to discuss temporary medication adjustment
+- **Set a threshold for intervention:** if glucose consistently exceeds 250 mg/dL, contact the patient to discuss temporary medication adjustment
 - **Warn the patient in advance:** "Your blood sugar will likely run higher than usual while you are on prednisone. This is expected. Check your glucose more often and call us if readings are consistently above 250."
 
 ### Chronic Steroid Use (Weeks to Months)
 
 For patients on maintenance steroids (rheumatologic conditions, transplant immunosuppression, adrenal insufficiency):
 
-- **Establish a new baseline**; the patient's glucose targets and diabetes regimen need to account for the ongoing steroid effect
+- **Establish a new baseline:** the patient's glucose targets and diabetes regimen need to account for the ongoing steroid effect
 - **Monitor A1C more frequently:** quarterly A1C checks rather than the standard semi-annual
 - **Anticipate dose changes:** when the steroid dose is tapered, diabetes medication adjustments are needed in the opposite direction to prevent hypoglycemia
 - **Document the steroid indication and dose** alongside every glucose review; this context is critical for interpreting readings and justifying monitoring intensity

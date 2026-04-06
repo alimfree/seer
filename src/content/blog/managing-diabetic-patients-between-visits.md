@@ -52,8 +52,8 @@ Not every out-of-range reading is clinically significant. Your team needs to dis
 |-------------|-----------------|----------------|---------|
 | Sustained systolic >150 | Average systolic >150 over 7 days | Medication non-adherence, dietary sodium, stress, worsening CKD | Medium — provider review within 72 hours |
 | Morning BP surge | Systolic >160 within 1 hour of waking on 5+ of 7 days | Uncontrolled nocturnal hypertension, sleep apnea | Medium — provider review |
-| New diastolic elevation >100 | Previously normal diastolic now consistently >100 | Secondary cause, medication change, renal deterioration | High. provider review within 48 hours |
-| Orthostatic pattern | Significant BP drop from morning to afternoon readings | Autonomic neuropathy, over-medication, dehydration | High. clinical review within 48 hours |
+| New diastolic elevation >100 | Previously normal diastolic now consistently >100 | Secondary cause, medication change, renal deterioration | High — provider review within 48 hours |
+| Orthostatic pattern | Significant BP drop from morning to afternoon readings | Autonomic neuropathy, over-medication, dehydration | High — clinical review within 48 hours |
 
 ### Weight Warning Signs (If Tracking)
 

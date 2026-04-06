@@ -43,8 +43,8 @@ Long-term dropoff is harder to prevent. Causes include hospitalization, change i
 
 | Dropout Period | Primary Causes | Preventability |
 |---------------|---------------|----------------|
-| Days 1-14 | Device issues, confusion, no follow-up | High. most are preventable with a check-in call |
-| Days 15-60 | No habit formed, low perceived value | Moderate. requires ongoing engagement |
+| Days 1-14 | Device issues, confusion, no follow-up | High — most are preventable with a check-in call |
+| Days 15-60 | No habit formed, low perceived value | Moderate; requires ongoing engagement |
 | Days 60+ | Life changes, fatigue, device failure | Lower; some attrition is natural |
 
 > **Tip:** If more than 20% of your patients stop transmitting in the first 14 days, the problem is almost certainly your onboarding process, not your patients. Fix the first-week experience before investing in long-term compliance strategies.
@@ -88,7 +88,7 @@ For patients over 70 with complex medication regimens, caregiver involvement is 
 
 Practices that formally engage caregivers for patients over 70 consistently see 15-25% higher monthly compliance rates compared to patients in the same age group without caregiver involvement. This is not a marginal improvement; it is often the difference between a billable and non-billable month.
 
-> **Tip:** Create a simple caregiver enrollment form. name, phone number, relationship to patient, preferred contact method, and consent from the patient. This takes two minutes during enrollment and pays dividends for the life of the patient's participation.
+> **Tip:** Create a simple caregiver enrollment form: name, phone number, relationship to patient, preferred contact method, and consent from the patient. This takes two minutes during enrollment and pays dividends for the life of the patient's participation.
 
 ## Incentive Structures That Move the Needle
 

@@ -34,7 +34,7 @@ export default function Navbar({ currentPath }: Props) {
       </a>
       <nav className="flex justify-between items-center max-w-7xl mx-auto px-6 sm:px-8 h-16 sm:h-20">
         <a href="/" className="block">
-          <img src="/logo.svg" alt="Zayd Health" className="h-6 sm:h-8 w-auto" />
+          <img src="/logo.svg" alt="Zayd Health" width="120" height="32" className="h-6 sm:h-8 w-auto" />
         </a>
         <div className="hidden md:flex items-center gap-10">
           <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/#how-it-works" onClick={(e) => scrollTo(e, 'how-it-works')}>

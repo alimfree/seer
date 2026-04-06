@@ -79,13 +79,18 @@ const site = 'https://www.zaydhealth.com'
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#000b13" />
 
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5MC98YF668"></script>
+    <!-- Google Analytics (GA4) — deferred until after page load -->
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-5MC98YF668');
+      window.addEventListener('load', function() {
+        var s = document.createElement('script');
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-5MC98YF668';
+        s.async = true;
+        document.head.appendChild(s);
+      });
     </script>
 
     <!-- Fonts: preload only the body font (Inter) — others load via @font-face as needed -->

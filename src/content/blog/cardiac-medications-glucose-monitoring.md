@@ -55,7 +55,7 @@ Thiazides impair insulin secretion through potassium depletion. Hypokalemia redu
 
 - **Gradual fasting glucose increases** over weeks to months, often attributed to diabetes progression when the thiazide is actually the driver.
 - **Hypokalemia:** check potassium when glucose worsens on a thiazide. Correcting potassium may partially reverse the glucose effect.
-- **Additive risk with beta-blockers**. patients on both a thiazide and a non-selective beta-blocker have compounding glucose disruption. This is a common combination in older hypertensive diabetics.
+- **Additive risk with beta-blockers:** patients on both a thiazide and a non-selective beta-blocker have compounding glucose disruption. This is a common combination in older hypertensive diabetics.
 
 ### Clinical Considerations
 
@@ -73,7 +73,7 @@ The statin-glucose relationship is well-established but frequently misunderstood
 
 **Lower-risk agents:** Pravastatin, pitavastatin, low-dose atorvastatin
 
-Statins impair insulin secretion and increase insulin resistance through mechanisms that are still being fully characterized. The effect is dose-dependent. high-intensity statin therapy carries a greater glucose impact than moderate-intensity.
+Statins impair insulin secretion and increase insulin resistance through mechanisms that are still being fully characterized. The effect is dose-dependent: high-intensity statin therapy carries a greater glucose impact than moderate-intensity.
 
 Across clinical trials, statins increase A1C by approximately 0.1-0.3% and increase the risk of new-onset diabetes by 9-12%. For patients who are already diabetic, this translates to modest worsening of glucose control rather than a new diagnosis.
 

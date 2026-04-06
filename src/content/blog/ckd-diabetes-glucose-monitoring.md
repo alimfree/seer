@@ -33,8 +33,8 @@ CKD patients are at significantly higher risk for hypoglycemia, and the conseque
 
 - **Reduced renal gluconeogenesis**; the kidney normally contributes 20-25% of endogenous glucose production via gluconeogenesis. As renal function declines, this contribution drops, making fasting hypoglycemia more likely.
 - **Impaired insulin clearance**; the kidney clears approximately 30-80% of circulating insulin. In CKD, insulin (both endogenous and exogenous) accumulates, leading to prolonged and unpredictable glucose-lowering effects.
-- **Reduced drug clearance**. sulfonylureas and their active metabolites are renally cleared. Standard doses in CKD patients can cause severe, prolonged hypoglycemia.
-- **Impaired counter-regulatory response**. CKD blunts the hormonal response to low blood sugar (glucagon, epinephrine), making recovery from hypoglycemic episodes slower.
+- **Reduced drug clearance:** Sulfonylureas and their active metabolites are renally cleared. Standard doses in CKD patients can cause severe, prolonged hypoglycemia.
+- **Impaired counter-regulatory response:** CKD blunts the hormonal response to low blood sugar (glucagon, epinephrine), making recovery from hypoglycemic episodes slower.
 
 ### Glucose Variability Increases
 
@@ -64,7 +64,7 @@ Several diabetes medications require dose adjustment or discontinuation as renal
 
 **Sulfonylureas:** Glipizide is preferred over glyburide in CKD because glipizide does not have renally-cleared active metabolites. Glyburide should be avoided entirely in CKD stage 3 and beyond due to prolonged hypoglycemia risk.
 
-**Insulin:** Dose requirements typically decrease as CKD progresses because insulin clearance is impaired. Patients stable on insulin for years may suddenly develop recurrent hypoglycemia as their eGFR declines. this is a sign that insulin doses need reduction, not that diabetes is improving.
+**Insulin:** Dose requirements typically decrease as CKD progresses because insulin clearance is impaired. Patients stable on insulin for years may suddenly develop recurrent hypoglycemia as their eGFR declines—this is a sign that insulin doses need reduction, not that diabetes is improving.
 
 **SGLT2 inhibitors:** Efficacy for glucose lowering decreases at eGFR < 45, but renal and cardiovascular protective benefits persist. Current guidelines support continuing SGLT2 inhibitors for cardiorenal protection down to eGFR 20, even though the glucose-lowering effect is minimal at that level.
 

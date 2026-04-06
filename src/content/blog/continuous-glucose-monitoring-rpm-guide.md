@@ -54,11 +54,11 @@ Not every CGM on the market is suitable for RPM. The key requirement is that the
 
 | Device | Sensor Duration | Data Access Method | RPM Integration | Real-Time Alerts |
 |--------|----------------|-------------------|-----------------|-----------------|
-| Dexcom G7 | 10 days | Cloud API (Clarity) | Strong. API access for platforms | Yes |
-| Dexcom Stelo | 15 days | App-based (OTC) | Limited. no provider portal | No |
-| FreeStyle Libre 3 | 14 days | Cloud (LibreView) | Strong. provider dashboard | Yes |
-| FreeStyle Libre 2 | 14 days | Cloud (LibreView) | Moderate. requires scan or app | Optional |
-| Medtronic Guardian 4 | 7 days | CareLink platform | Limited. primarily for pump users | Yes |
+| Dexcom G7 | 10 days | Cloud API (Clarity) | Strong: API access for platforms | Yes |
+| Dexcom Stelo | 15 days | App-based (OTC) | Limited: no provider portal | No |
+| FreeStyle Libre 3 | 14 days | Cloud (LibreView) | Strong: provider dashboard | Yes |
+| FreeStyle Libre 2 | 14 days | Cloud (LibreView) | Moderate: requires scan or app | Optional |
+| Medtronic Guardian 4 | 7 days | CareLink platform | Limited: primarily for pump users | Yes |
 
 For most primary care RPM programs, the Dexcom G7 and FreeStyle Libre 3 are the strongest options. Both offer cloud-based provider dashboards, API access for RPM platform integration, and continuous real-time data without requiring patient interaction after sensor insertion.
 

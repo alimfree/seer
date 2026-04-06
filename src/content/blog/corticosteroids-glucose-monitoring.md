@@ -18,7 +18,7 @@ Corticosteroids affect glucose through multiple mechanisms simultaneously, which
 
 - **Increased hepatic gluconeogenesis**; the liver produces more glucose, particularly in the afternoon and evening
 - **Reduced peripheral insulin sensitivity:** skeletal muscle and adipose tissue become less responsive to insulin
-- **Impaired pancreatic beta-cell compensation**, in patients with existing diabetes, the beta cells cannot increase insulin output enough to overcome the added resistance
+- **Impaired pancreatic beta-cell compensation:** in patients with existing diabetes, the beta cells cannot increase insulin output enough to overcome the added resistance
 - **Increased appetite and caloric intake**. steroids stimulate hunger, leading to larger meals that compound postprandial glucose spikes
 
 The glucose effect is dose-dependent, rapid (often within 4-8 hours of the first dose), and follows a characteristic pattern: afternoon and evening hyperglycemia that is significantly worse than morning fasting glucose.

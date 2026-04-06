@@ -94,10 +94,10 @@ For patients who clear the postpartum OGTT (normal glucose tolerance), the monit
 
 **Recommended long-term protocol:**
 
-1. **Annual A1C or fasting glucose**. indefinitely. This is a lifelong recommendation.
-2. **Pre-conception screening** before any subsequent pregnancy. A1C and fasting glucose to establish baseline before the metabolic stress of pregnancy.
-3. **Lifestyle counseling** at each annual visit; even modest weight loss (5-7% of body weight) reduces diabetes conversion risk by 58% in this population (DPP trial data).
-4. **Medication list review**; some medications prescribed postpartum (certain contraceptives, antidepressants) can affect glucose metabolism. Account for these when interpreting annual labs.
+1. **Annual A1C or fasting glucose:** indefinitely. This is a lifelong recommendation.
+2. **Pre-conception screening:** A1C and fasting glucose before any subsequent pregnancy to establish baseline before the metabolic stress of pregnancy.
+3. **Lifestyle counseling:** at each annual visit, even modest weight loss (5-7% of body weight) reduces diabetes conversion risk by 58% in this population (DPP trial data).
+4. **Medication list review:** some medications prescribed postpartum (certain contraceptives, antidepressants) can affect glucose metabolism. Account for these when interpreting annual labs.
 
 ## Coordinating with OB/GYN
 

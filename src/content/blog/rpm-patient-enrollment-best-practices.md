@@ -63,9 +63,9 @@ Your consent form needs to cover:
 
 You have two viable paths:
 
-**In-person consent (preferred for first enrollments):** The patient signs during a scheduled office visit. Your MA walks them through the form, demonstrates the device, and confirms they understand the process. This is the highest-conversion approach because you can address questions in real time.
+**In-person consent (preferred for first enrollments):** The patient signs during a scheduled office visit. Your MA walks them through the form, demonstrates the device, and confirms they understand the process. This has the highest conversion rate because you can address questions in real time.
 
-**Verbal/phone consent (for scaling):** CMS allows verbal consent documented in the medical record. A staff member calls the patient, reads through the key consent elements, and documents the date, time, and content of the call in the chart. This is faster but has a lower conversion rate because patients are more likely to say "let me think about it."
+**Verbal/phone consent (for scaling):** CMS allows verbal consent documented in the medical record. A staff member calls the patient, reads through the key consent elements, and documents the date, time, and content of the call in the chart. This is faster but converts at a lower rate because patients are more likely to say "let me think about it."
 
 ### Workflow Sequence
 

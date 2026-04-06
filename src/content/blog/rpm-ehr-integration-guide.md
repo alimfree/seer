@@ -154,6 +154,6 @@ For practices already running RPM at scale and struggling with provider adoption
 
 Platforms like [Zayd Health](https://www.zaydhealth.com) are designed to support multiple integration approaches simultaneously, allowing practices to start simple and deepen the integration over time without disrupting the clinical program or rebuilding workflows from scratch.
 
-## Key Takeaways
+## What Matters Most for EHR Integration
 
 EHR integration is important, but it is not a prerequisite for a successful RPM program. The practices that scale RPM most effectively are the ones that match their integration approach to their current stage of growth, plan data flows deliberately, and avoid the common pitfalls that turn a technology project into a clinical workflow problem. Start where you are, integrate what matters most, and build from there.

@@ -176,7 +176,7 @@ RPM burnout is real, and it usually hits the clinical staff member who owns the 
 
 **Set boundaries on RPM hours:** If your RPM lead is an MA who also rooms patients, block specific hours for RPM tasks. Do not expect them to squeeze RPM into spare moments between patients.
 
-**Rotate outreach calls when possible.** If you have two MAs, alternate weeks for patient outreach. Even a partial break helps.
+**Rotate outreach calls when possible:** If you have two MAs, alternate weeks for patient outreach. Even a partial break helps.
 
 **Celebrate the numbers.** Share monthly RPM revenue with the team. When staff see that their RPM work generates meaningful revenue for the practice, the tasks feel less like an afterthought.
 

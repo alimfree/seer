@@ -98,7 +98,7 @@ Incentives do not need to be expensive to be effective. The goal is to create a 
 
 **Recognition from the provider.** During office visits, have the provider pull up the patient's RPM data and comment on it: "I can see you have been checking your blood sugar every day — your numbers are looking much more stable." This is the most powerful incentive and costs nothing.
 
-**Monthly compliance acknowledgment.** A brief call or text at the end of a month where the patient hit 16+ transmission days: "Great job this month. we received readings on 24 out of 30 days. Keep it up."
+**Monthly compliance acknowledgment.** A brief call or text at the end of a month where the patient hit 16+ transmission days: "Great job this month — we received readings on 24 out of 30 days. Keep it up."
 
 **Clinical feedback.** Patients who see that their behavior leads to medication adjustments or clinical conversations are more likely to continue. If you review data but never act on it visibly, patients conclude that no one is paying attention.
 
@@ -106,7 +106,7 @@ Incentives do not need to be expensive to be effective. The goal is to create a 
 
 - Gift cards or financial incentives (creates an expectation that is hard to sustain and may raise compliance concerns with payers)
 - Gamification features in apps (Medicare-age patients generally do not engage with leaderboards or badges)
-- Penalty-based approaches ("if you do not send readings, we will remove you from the program". this creates anxiety, not motivation)
+- Penalty-based approaches ("if you do not send readings, we will remove you from the program" — this creates anxiety, not motivation)
 
 ## Measuring Compliance: The Metrics That Matter
 

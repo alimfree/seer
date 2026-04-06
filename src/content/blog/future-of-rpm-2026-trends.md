@@ -97,11 +97,11 @@ Venture funding into RPM-focused companies exceeded $2.8 billion in 2024, and th
 
 When vendors consolidate, practices face two risks: platform lock-in and feature deprioritization. A small RPM vendor that gets acquired by a large EHR company may shift its roadmap to serve the acquirer's strategic priorities rather than the needs of independent practices.
 
-The mitigation is to choose RPM partners whose core value proposition aligns with what your practice actually needs. compliance automation, billing accuracy, clinical workflow integration, rather than chasing the broadest feature set.
+The mitigation is to choose RPM partners whose core value proposition aligns with what your practice actually needs: compliance automation, billing accuracy, and clinical workflow integration. A long feature list matters less than whether the platform solves the problems you have today.
 
 ## The Shift From Volume to Value Is Accelerating RPM Adoption
 
-Value-based care arrangements are no longer limited to large health systems. CMS's Making Care Primary model, launching in 2025 across eight states, brings primary care practices into prospective payment arrangements that explicitly reward chronic disease management and care coordination. exactly the activities RPM supports.
+Value-based care arrangements are no longer limited to large health systems. CMS's Making Care Primary model, launching in 2025 across eight states, brings primary care practices into prospective payment arrangements that explicitly reward chronic disease management and care coordination, which is exactly what RPM supports.
 
 Under these models, RPM is not just a fee-for-service revenue stream. It becomes a cost-avoidance tool. Every diabetic patient whose A1C stays controlled through continuous monitoring is a patient who avoids the emergency department visit, the inpatient admission, and the specialist referral that erode margins under capitated payment.
 

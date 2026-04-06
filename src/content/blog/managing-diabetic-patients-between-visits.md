@@ -75,7 +75,7 @@ These are initial outreach actions that do not require a provider order:
 - Document the interaction and findings
 - Escalate to Tier 2 if the issue is clinical rather than technical or behavioral
 
-**Tier 2. Clinical Lead (RN, CDE, Clinical Pharmacist)**
+**Tier 2: Clinical Lead (RN, CDE, Clinical Pharmacist)**
 
 These actions require clinical judgment but may be performed under standing orders or collaborative practice agreements:
 

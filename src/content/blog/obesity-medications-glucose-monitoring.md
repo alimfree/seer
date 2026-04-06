@@ -178,6 +178,6 @@ Bariatric surgery patients require coordination across multiple specialties. Pri
 2. **Increase monitoring frequency during transitions.** GLP-1 dose escalations, the pre-bariatric liquid diet, and the first 6 weeks post-surgery are high-risk windows that benefit from daily glucose checks.
 3. **Track weight alongside glucose.** Rapid weight loss is a leading indicator that insulin sensitivity is improving and medication doses need to come down.
 4. **Screen for reactive hypoglycemia in post-RYGB patients.** Ask about postprandial symptoms at every visit for the first 2 years after surgery.
-5. **Document the clinical reasoning.** When adjusting diabetes medications in response to weight loss interventions, note the connection explicitly. this is important for continuity of care and for any future provider managing the patient.
+5. **Document the clinical reasoning.** When adjusting diabetes medications in response to weight loss interventions, note the connection explicitly — this is important for continuity of care and for any future provider managing the patient.
 
-Weight loss interventions are transforming diabetes outcomes, but they require active glucose management through the transition. The practices that monitor proactively during these periods will catch medication mismatches early and keep patients safe as their metabolic profile improves.
+GLP-1 agonists and bariatric surgery can improve glucose faster than most medication regimens account for. Building structured check-ins around dose escalations, pre-operative diets, and the first six post-surgical weeks helps catch medication mismatches before they cause hypoglycemic events.

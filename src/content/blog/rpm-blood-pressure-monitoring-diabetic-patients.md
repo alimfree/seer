@@ -182,7 +182,7 @@ For practices with large diabetic panels, manually reviewing individual BP readi
 
 This tiered approach lets a single clinical staff member manage 80–100 RPM patients efficiently, spending the most time where it matters most.
 
-If your practice is looking to automate the compliance tracking, transmission monitoring, and billing documentation that makes this tiered model work, [Zayd Health](https://www.zaydhealth.com) handles that infrastructure so your clinical team can focus on patient care.
+[Zayd Health](https://www.zaydhealth.com) automates the 16-day transmission tracking, tiered alert routing, and billing documentation for BP and glucose RPM programs, so your clinical staff spend their time on patient calls instead of spreadsheets.
 
 ## What to Remember
 

@@ -163,7 +163,7 @@ After training hundreds of staff members across primary care practices, these ar
 
 **Treating RPM as optional rather than part of the care plan.** If RPM is ordered, it should be referenced in the care plan and visit notes. Treating it as a separate, disconnected activity undermines both clinical integration and billing justification.
 
-## Ongoing Education: Keeping Skills Sharp
+## Ongoing Education: Preventing Skill Drift
 
 Initial training gets staff started. Ongoing education keeps them effective.
 

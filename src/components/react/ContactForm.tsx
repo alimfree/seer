@@ -22,9 +22,13 @@ export default function ContactForm() {
 
     try {
       const nameParts = name.trim().split(/\s+/)
+      const titles = ['dr.', 'dr', 'mr.', 'mr', 'mrs.', 'mrs', 'ms.', 'ms']
+      const hasTitle = titles.includes(nameParts[0].toLowerCase())
+      const titlePrefix = hasTitle ? nameParts[0] + ' ' : ''
+      const rest = hasTitle ? nameParts.slice(1) : nameParts
       await addContact(email, 'contact', {
-        Firstname: nameParts[0],
-        Lastname: nameParts.slice(1).join(' ') || undefined,
+        Firstname: titlePrefix + (rest[0] || ''),
+        Lastname: rest.slice(1).join(' ') || undefined,
         Practice: practice || undefined,
         Message: message || undefined,
       }, captchaToken)

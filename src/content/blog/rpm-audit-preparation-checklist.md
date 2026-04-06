@@ -133,7 +133,7 @@ These are the issues that most frequently lead to adverse audit findings for pri
 
 RPM audit preparation should not be a scramble. The practices that pass audits cleanly are the ones that treat documentation as part of the clinical workflow rather than an afterthought.
 
-If your team is managing RPM documentation manually — spreadsheets for time tracking, separate folders for consent forms, manual transmission log pulls — the risk of gaps grows with every patient you add to the program. Platforms like [Zayd Health](https://www.zaydhealth.com) automate the compliance layer of RPM billing, consolidating consent tracking, transmission monitoring, time logging, and audit-ready report generation into a single workflow so your staff can focus on patient care instead of paperwork.
+If your team is managing RPM documentation manually (spreadsheets for time tracking, separate folders for consent forms, manual transmission log pulls), the risk of gaps grows with every patient you add to the program. Platforms like [Zayd Health](https://www.zaydhealth.com) automate the compliance layer of RPM billing, consolidating consent tracking, transmission monitoring, time logging, and audit-ready report generation into a single workflow so your staff can focus on patient care instead of paperwork.
 
 ## Next Steps
 

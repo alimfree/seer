@@ -127,11 +127,11 @@ CMS expects the care plan to be a living document, reviewed and updated at least
 
 ## How to Decide Which Program to Prioritize
 
-If your practice has limited administrative bandwidth, start with RPM for your diabetic patients. The per-patient revenue is higher, the eligibility threshold is lower (one chronic condition instead of two), and the workflow is more structured — device data either comes in or it does not.
+If your practice has limited administrative bandwidth, start with RPM for your diabetic patients. The per-patient revenue is higher, the eligibility threshold is lower (one chronic condition instead of two), and the workflow is more structured: device data either comes in or it does not.
 
 Once your RPM workflows are stable, layer in CCM for patients who qualify. Most diabetic patients have at least one comorbidity (hypertension, obesity, CKD), which makes them eligible for CCM as well. The marginal effort to add CCM billing for a patient already enrolled in RPM is relatively small if your time-tracking systems are already in place.
 
-For practices managing a large diabetic population, platforms like [Zayd Health](https://www.zaydhealth.com) automate the compliance-heavy parts of RPM billing — tracking the 16-day transmission threshold, flagging documentation gaps, and ensuring claims meet payer requirements before submission. Removing that manual overhead is what makes stacking CCM and RPM operationally feasible at scale.
+For practices managing a large diabetic population, platforms like [Zayd Health](https://www.zaydhealth.com) automate the compliance-heavy parts of RPM billing: tracking the 16-day transmission threshold, flagging documentation gaps, and ensuring claims meet payer requirements before submission. Removing that manual overhead is what makes stacking CCM and RPM operationally feasible at scale.
 
 ## Key Takeaways
 

@@ -126,7 +126,7 @@ These are the issues that most frequently lead to adverse audit findings for pri
 - **Transmission days below 16 but 99454 was billed:** this is a straightforward overpayment finding.
 - **Time logs with no activity detail:** "RPM, 25 min" does not meet documentation standards for 99457.
 - **No distinction between 99457 and 99458 time:** if the log does not clearly show when 20 minutes was reached and when the additional 20-minute increment began, the 99458 claim is unsupported.
-- **RPM services billed during an inpatient stay** — RPM is not billable while the patient is admitted to a hospital or skilled nursing facility. Check admission/discharge records against your billing dates.
+- **RPM services billed during an inpatient stay:** RPM is not billable while the patient is admitted to a hospital or skilled nursing facility. Check admission/discharge records against your billing dates.
 - **No supervising physician order** — some payers require a physician order initiating RPM services. Verify your payer contracts.
 
 ## Building a Sustainable Compliance Workflow

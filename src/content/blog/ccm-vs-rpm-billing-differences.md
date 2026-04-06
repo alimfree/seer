@@ -73,8 +73,8 @@ The 16-day transmission threshold is the single most common reason RPM claims ar
 | **Device required** | No | Yes, FDA-cleared, electronically transmitting |
 | **Consent required** | Yes, documented before billing | Yes, documented before billing |
 | **Who performs the service** | Clinical staff under physician supervision | Clinical staff under physician supervision |
-| **Care plan required** | Yes — comprehensive, regularly updated | No formal care plan required (but clinical documentation of data review is required) |
-| **Initiating visit** | Required — must have had an AWV, IPPE, or face-to-face visit | Required — initiating order from treating physician |
+| **Care plan required** | Yes, comprehensive, regularly updated | No formal care plan required (but clinical documentation of data review is required) |
+| **Initiating visit** | Required: must have had an AWV, IPPE, or face-to-face visit | Required: initiating order from treating physician |
 | **Typical monthly revenue per patient** | $62–$64 | $105–$120 (99454 + 99457) |
 
 ## Billing CCM and RPM Together (Stacking)
@@ -100,9 +100,9 @@ For a diabetic patient who qualifies for both programs, stacking can look like t
 
 | Service | Code | Monthly Reimbursement |
 |---|---|---|
-| CCM — 20 min care coordination | 99490 | $62 |
-| RPM — Device supply + transmission | 99454 | $58 |
-| RPM — 20 min interactive review | 99457 | $52 |
+| CCM, 20 min care coordination | 99490 | $62 |
+| RPM, Device supply + transmission | 99454 | $58 |
+| RPM, 20 min interactive review | 99457 | $52 |
 | **Total per patient per month** | | **$172** |
 
 For practices with a sizable diabetic panel, stacking these programs for eligible patients can meaningfully increase per-patient reimbursement.

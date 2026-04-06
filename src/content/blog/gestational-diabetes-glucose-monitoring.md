@@ -1,7 +1,7 @@
 ---
 title: "Gestational Diabetes and Postpartum Glucose Monitoring: What Primary Care Needs to Know"
 description: "How primary care practices should monitor glucose in patients with gestational diabetes history — during pregnancy, postpartum, and long-term."
-date: "2026-03-18"
+date: "2026-03-25"
 author: "Mohammed Ali"
 tags: ["clinical", "rpm", "diabetes"]
 image: "/blog/gestational-diabetes-monitoring.webp"

@@ -1,7 +1,7 @@
 ---
 title: "Monitoring Glucose in Diabetic Patients with Chronic Kidney Disease"
 description: "CKD changes how glucose behaves and how A1C is interpreted. A guide for primary care teams monitoring diabetic patients with declining renal function."
-date: "2026-03-25"
+date: "2026-03-10"
 author: "Mohammed Ali"
 tags: ["clinical", "rpm", "diabetes"]
 image: "/blog/ckd-diabetes-kidney.webp"

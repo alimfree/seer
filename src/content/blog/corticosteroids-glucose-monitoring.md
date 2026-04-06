@@ -1,7 +1,7 @@
 ---
 title: "Corticosteroid-Induced Hyperglycemia: Monitoring Diabetic Patients on Steroids"
 description: "Steroids cause rapid glucose spikes in diabetic patients. A guide for primary care teams on monitoring, documentation, and managing steroid-induced hyperglycemia."
-date: "2026-03-22"
+date: "2026-02-25"
 author: "Mohammed Ali"
 tags: ["clinical", "rpm", "diabetes"]
 image: "/blog/corticosteroids-glucose-management.webp"

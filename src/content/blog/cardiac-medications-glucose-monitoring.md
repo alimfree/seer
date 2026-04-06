@@ -1,7 +1,7 @@
 ---
 title: "How Cardiac Medications Affect Glucose Control in Diabetic Patients"
 description: "Beta-blockers, thiazides, and statins can disrupt glucose in diabetic patients. A practical guide for primary care teams managing cardiovascular-metabolic overlap."
-date: "2026-03-20"
+date: "2026-02-15"
 author: "Mohammed Ali"
 tags: ["clinical", "rpm", "diabetes"]
 image: "/blog/cardiac-medications-glucose.webp"

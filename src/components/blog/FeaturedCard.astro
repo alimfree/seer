@@ -58,13 +58,13 @@ const mdImage = image?.replace('/blog/', '/blog/md/')
     <div class="lg:col-span-5 relative">
       {image && (
         <a href={url} class="block">
-          <div class="aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5] rounded-sm overflow-hidden shadow-ambient">
+          <div class="aspect-[4/5] sm:aspect-[4/3] lg:aspect-[4/5] rounded-sm shadow-ambient blog-image-wrap">
             <img
               src={image}
               srcset={smImage ? `${smImage} 400w, ${mdImage} 800w, ${image} 1200w` : undefined}
               sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, 1200px"
               alt={title}
-              class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              class="w-full h-full object-cover"
               width="600"
               height="750"
               loading="eager"

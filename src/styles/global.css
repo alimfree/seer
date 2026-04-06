@@ -186,6 +186,53 @@ nav .btn-primary::before {
   box-shadow: 0px 12px 32px rgba(22, 28, 36, 0.04);
 }
 
+/* Blog image treatment — tonal consistency per Clinical Atelier system */
+/* Desaturated with warm tint at rest, full color on hover */
+.blog-image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-image-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 36, 52, 0.12), rgba(75, 49, 17, 0.08));
+  pointer-events: none;
+  transition: opacity 700ms ease;
+}
+
+.blog-image-wrap img {
+  filter: saturate(0.3) contrast(1.05);
+  transition: filter 700ms ease, transform 700ms ease;
+}
+
+.blog-image-wrap:hover::after {
+  background: linear-gradient(135deg, rgba(0, 36, 52, 0.06), rgba(75, 49, 17, 0.04));
+}
+
+.blog-image-wrap:hover img {
+  filter: saturate(0.8) contrast(1.02);
+  transform: scale(1.03);
+}
+
+/* Hero image on post pages — subtle desaturation, no hover */
+.blog-hero-image {
+  filter: saturate(0.6) contrast(1.02);
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .blog-image-wrap::after,
+  .blog-image-wrap img {
+    transition: none;
+  }
+
+  .blog-image-wrap:hover img {
+    transform: none;
+  }
+}
+
 /* Scroll offset for fixed navbar — applies to all anchor targets */
 [id] {
   scroll-margin-top: 6rem;

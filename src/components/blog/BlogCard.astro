@@ -28,7 +28,7 @@ function formatDate(dateStr: string): string {
   <div class="bg-surface-container-lowest rounded-sm overflow-hidden shadow-sm transition-all duration-300 hover:shadow-ambient">
     {image && (
       <a href={url} class="block">
-        <div class="aspect-video overflow-hidden">
+        <div class="aspect-video blog-image-wrap">
           <img
             src={image}
             srcset={smImage ? `${smImage} 400w, ${mdImage} 800w` : undefined}
@@ -36,7 +36,7 @@ function formatDate(dateStr: string): string {
             alt={title}
             width="600"
             height="338"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            class="w-full h-full object-cover"
             loading="lazy"
             decoding="async"
           />

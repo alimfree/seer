@@ -166,6 +166,6 @@ If your disenrollment rate is below 5%, you are probably keeping non-compliant p
 
 Patient compliance is not a character trait; it is a function of your program design. Practices that treat compliance as the patient's responsibility will always struggle. Practices that treat it as an operational process — with defined triggers, escalation paths, and feedback loops — consistently maintain transmission rates above 80%.
 
-For practices that need to operationalize compliance tracking across their entire RPM population, [Zayd Health](https://www.zaydhealth.com) automates the monitoring layer so your clinical team can focus on the patients who need intervention rather than manually scanning dashboards for missed readings.
+If your team is spending hours each week chasing missed readings and updating spreadsheets, [Zayd Health](https://www.zaydhealth.com) can handle the compliance tracking automatically — flagging non-transmitting patients, triggering reminders, and surfacing your red/yellow/green lists without manual work.
 
 The goal is not 100% compliance — that is unrealistic. The goal is a system that catches non-compliance early, intervenes effectively, and disenrolls gracefully when a patient is not a fit. Build that system, and your RPM program will sustain itself.

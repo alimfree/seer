@@ -165,9 +165,9 @@ Patient engagement in RPM follows a predictable pattern:
 - Set clear expectations: "We will review your readings every week and call you if we see anything concerning"
 
 **Weeks 3–4: Habit Formation**
-- Acknowledge the patient's efforts: "I see you have been checking every morning. that is exactly what we need"
+- Acknowledge the patient's efforts: "I see you have been checking every morning — that is exactly what we need"
 - Share a simple insight from their data: "Your morning readings are averaging 145, which is close to our target of 130. Let us talk about one thing that might help close that gap."
-- This is the most critical window. patients who make it through week 4 with consistent compliance are 3x more likely to remain engaged at 6 months
+- This is the most critical window: patients who make it through week 4 with consistent compliance are 3x more likely to remain engaged at 6 months
 
 **Months 2–3: Demonstrate Value**
 - Connect RPM data to clinical action: "Based on what we saw in your readings, Dr. Smith adjusted your medication. Let us see how it works over the next two weeks."

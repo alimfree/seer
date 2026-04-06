@@ -182,6 +182,6 @@ RPM burnout is real, and it usually hits the clinical staff member who owns the 
 
 **Invest in tools that reduce manual work:** Every minute your staff spends manually counting transmission days or scrolling through a dashboard is a minute they could spend on patient interaction. If your current tools require significant manual effort, it is time to evaluate alternatives.
 
-For small practices navigating the operational complexity of RPM, from daily monitoring to monthly billing reconciliation. [Zayd Health](https://www.zaydhealth.com) is built to reduce the per-patient time burden so your team can scale without burning out.
+If you run a small practice and need help managing RPM — from daily monitoring to monthly billing — [Zayd Health](https://www.zaydhealth.com) is designed to cut the per-patient time so your team can grow the program without adding headcount.
 
-A well-designed RPM workflow for a small practice is not about doing more; it is about doing the right things in the right order with clear ownership. Start with 10 patients, refine your process, and scale deliberately. The practices that grow their RPM programs to 100 patients are not the ones that moved fastest. they are the ones that built sustainable workflows from day one.
+Start with 10 patients, refine your process, and scale deliberately. The practices that grow their RPM programs to 100 patients are not the ones that moved fastest — they are the ones that built sustainable workflows from day one.

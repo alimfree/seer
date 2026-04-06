@@ -130,8 +130,8 @@ At 100 patients, your technology needs to do more than display glucose readings.
 
 You do not need to build this yourself. Platforms like [Zayd Health](https://www.zaydhealth.com) are built to handle RPM billing compliance and operational automation for primary care practices, particularly those serving diabetic populations. The right platform eliminates most of the manual bottlenecks described above, so your clinical team spends time reviewing glucose trends and calling patients instead of tracking transmission days in Excel.
 
-## The Path Forward
+## Putting It Together: From 25 Patients to 100
 
-Scaling an RPM program to 100 patients is achievable for any primary care practice that approaches growth deliberately. The practices that succeed treat RPM as a clinical operation with defined roles, automated compliance checks, and clear performance benchmarks, not as a side project managed in spare time.
+Every practice that reaches 100 RPM patients hits the same bottlenecks along the way: transmission gaps going unnoticed, time documentation falling behind, and billing codes left uncaptured. The difference between programs that stall at 40 patients and those that reach 100 is whether they solve each bottleneck before pushing enrollment higher.
 
-Start by identifying which growth stage you are in today, address the bottlenecks specific to that stage, and resist the temptation to scale enrollment faster than your workflows can support. The revenue opportunity at 100 patients is real, but only if the program is built to sustain it.
+Identify which growth stage you are in today. If you are between 25 and 50 patients, your next step is automating transmission monitoring and time tracking. If you are approaching 75, audit your staffing ratio against the table above and decide whether you need a dedicated RPM coordinator. At every stage, measure against the benchmarks in this guide — they will tell you whether your program is ready for the next cohort of patients or whether the foundation needs work first.

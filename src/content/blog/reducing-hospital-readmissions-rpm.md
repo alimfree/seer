@@ -36,7 +36,7 @@ But readmission risk is not evenly distributed. Patients with multiple chronic c
 | Post-surgical (hip/knee) | 5-8% | $14,000-$18,000 | Limited |
 | Acute MI | 16-18% | $18,000-$22,000 | Moderate |
 
-For primary care practices, the most actionable populations are heart failure, COPD, and diabetes — conditions where the practice manages the patient longitudinally and can implement sustained monitoring protocols.
+For primary care practices, the most actionable populations are heart failure, COPD, and diabetes, conditions where the practice manages the patient longitudinally and can implement sustained monitoring protocols.
 
 ## What the Evidence Actually Shows
 
@@ -58,7 +58,7 @@ Studies from the Journal of Diabetes Science and Technology have shown that CGM-
 
 ### COPD
 
-COPD patients benefit from RPM programs that monitor pulse oximetry and symptom questionnaires. The evidence supports a 15-20% reduction in readmissions when RPM includes daily SpO2 monitoring with automated alerts for desaturation below patient-specific thresholds. The critical success factor is response time — COPD exacerbations escalate rapidly, and a 48-hour lag between alert and clinical response erases most of the benefit.
+COPD patients benefit from RPM programs that monitor pulse oximetry and symptom questionnaires. The evidence supports a 15-20% reduction in readmissions when RPM includes daily SpO2 monitoring with automated alerts for desaturation below patient-specific thresholds. The critical success factor is response time: COPD exacerbations escalate rapidly, and a 48-hour lag between alert and clinical response erases most of the benefit.
 
 > **Clinical note:** The conditions with the strongest readmission reduction evidence share a common pattern. RPM works when the monitored parameter (weight, glucose, SpO2) is a leading indicator of decompensation, and when the clinical team has a protocol to act on deviations before they become emergencies. Monitoring without a response protocol is surveillance, not care.
 
@@ -150,13 +150,13 @@ Even well-intentioned RPM programs can fail to reduce readmissions. These are th
 
 **Delayed enrollment.** If the patient does not start transmitting data until day 7 or 10 post-discharge, the program misses the highest-risk window. Every day of delay reduces the readmission prevention value.
 
-**Alerts without protocols.** Generating alerts is easy. Having a defined clinical response — who gets notified, within what timeframe, and what actions they are authorized to take — is what converts monitoring into intervention.
+**Alerts without protocols.** Generating alerts is easy. Having a defined clinical response (who gets notified, within what timeframe, and what actions they are authorized to take) is what converts monitoring into intervention.
 
 **Ignoring transmission gaps.** A patient who stops transmitting is often a patient in trouble. Non-transmission should trigger outreach, not just a note in the chart. Two consecutive missed transmission days should generate a phone call.
 
 **Under-staffing the clinical review.** RPM data review is a clinical activity that requires dedicated time. Practices that treat it as something clinicians do between appointments consistently fall behind on reviews, and delayed reviews negate the real-time value of monitoring.
 
-**Failing to document interactive communication.** The 99457 and 99458 codes require interactive communication with the patient or caregiver — not just data review. Practices that bill these codes based on passive chart review face audit exposure and are not delivering the clinical intervention that drives readmission reduction.
+**Failing to document interactive communication.** The 99457 and 99458 codes require interactive communication with the patient or caregiver, not just data review. Practices that bill these codes based on passive chart review face audit exposure and are not delivering the clinical intervention that drives readmission reduction.
 
 ## Connecting RPM to Long-Term Chronic Disease Management
 

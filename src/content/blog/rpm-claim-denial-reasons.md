@@ -132,6 +132,6 @@ Even with good processes, some denials are inevitable. When one arrives:
 1. **Read the remark codes.** The CARC (Claim Adjustment Reason Code) and RARC (Remittance Advice Remark Code) on the ERA tell you exactly why the claim was denied. Do not guess.
 2. **Determine if it is correctable.** Missing documentation can often be added and the claim resubmitted. Eligibility issues or duplicate claims may require a different approach.
 3. **Resubmit within the payer's timely filing window.** Most payers allow 90–180 days from the date of denial for corrected claims. Do not let correctable denials age out.
-4. **Track denial trends.** If the same denial reason recurs across multiple patients, the problem is systemic — fix the workflow, not just the individual claim.
+4. **Track denial trends.** If the same denial reason recurs across multiple patients, the problem is systemic. Fix the workflow, not just the individual claim.
 
 RPM billing is not inherently difficult, but it is unforgiving of documentation gaps. Every denial reason on this list is preventable with the right process in place.

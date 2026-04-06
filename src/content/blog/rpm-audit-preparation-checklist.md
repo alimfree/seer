@@ -8,7 +8,7 @@ image: "/blog/rpm-audit-preparation.webp"
 status: "draft"
 ---
 
-Getting a payer audit letter for your RPM program is not a matter of "if" — it is a matter of "when." As Remote Patient Monitoring adoption accelerates across primary care, commercial payers and Medicare Administrative Contractors (MACs) are increasing claim scrutiny. Practices that cannot produce clean, organized documentation within the audit response window risk repayment demands, extrapolated overpayment calculations, and future prepayment review status.
+Getting a payer audit letter for your RPM program is not a matter of "if"; it is a matter of "when." As Remote Patient Monitoring adoption accelerates across primary care, commercial payers and Medicare Administrative Contractors (MACs) are increasing claim scrutiny. Practices that cannot produce clean, organized documentation within the audit response window risk repayment demands, extrapolated overpayment calculations, and future prepayment review status.
 
 This checklist is written for practice managers and billing staff at primary care clinics running RPM programs for diabetic patients. It covers what auditors actually look for, how to organize your records before the letter arrives, and the specific steps to take once it does.
 
@@ -16,10 +16,10 @@ This checklist is written for practice managers and billing staff at primary car
 
 RPM billing is relatively new territory for many payers, and several characteristics make it a natural audit target:
 
-- **Recurring monthly claims** — CPT 99454, 99457, and 99458 generate monthly charges per patient, which means even a small patient panel creates a high claim volume over time.
-- **Time-based codes** — 99457 and 99458 require documented clinical staff time, which is one of the most frequently audited claim elements across all specialties.
-- **Transmission thresholds** — 99454 requires at least 16 days of device data transmission in a 30-day period. Auditors can request transmission logs to verify this.
-- **Consent and setup documentation** — 99453 is a one-time setup code that many practices bill without adequate supporting documentation.
+- **Recurring monthly claims:** CPT 99454, 99457, and 99458 generate monthly charges per patient, which means even a small patient panel creates a high claim volume over time.
+- **Time-based codes:** 99457 and 99458 require documented clinical staff time, which is one of the most frequently audited claim elements across all specialties.
+- **Transmission thresholds:** 99454 requires at least 16 days of device data transmission in a 30-day period. Auditors can request transmission logs to verify this.
+- **Consent and setup documentation:** 99453 is a one-time setup code that many practices bill without adequate supporting documentation.
 
 Understanding why your RPM claims are being reviewed helps you anticipate what the auditor will request.
 
@@ -67,8 +67,8 @@ A defensible time log entry includes:
 - **Date of service**
 - **Start and stop time** (not just total minutes)
 - **Staff name and credential** (RN, MA, LPN, etc.)
-- **Activity description** — "Reviewed blood glucose readings and contacted patient to discuss elevated fasting levels" is defensible. "RPM review" is not.
-- **Cumulative time for the billing period** — the log should make it obvious when the 20-minute and 40-minute thresholds are crossed.
+- **Activity description:** "Reviewed blood glucose readings and contacted patient to discuss elevated fasting levels" is defensible. "RPM review" is not.
+- **Cumulative time for the billing period:** the log should make it obvious when the 20-minute and 40-minute thresholds are crossed.
 
 ### Tie Everything to the Patient Chart
 
@@ -76,7 +76,7 @@ Auditors will cross-reference your billing records against the clinical chart. E
 
 - A note documenting the initial setup and education (99453)
 - Monthly monitoring notes summarizing what was reviewed and any clinical actions taken
-- Records of patient outreach — calls, secure messages, or telehealth contacts triggered by RPM data
+- Records of patient outreach: calls, secure messages, or telehealth contacts triggered by RPM data
 - Any care plan modifications made based on monitoring data
 
 If your RPM activities live only in a separate platform and never flow back into the EHR, you have a documentation gap that an auditor will find.
@@ -89,10 +89,10 @@ Despite best preparation, receiving the actual letter creates urgency. Follow th
 
 Audit requests vary. Some ask for records on specific patients and dates of service. Others request a sample of claims within a date range. Note the following:
 
-- **Response deadline** — typically 30 to 45 days; mark it on your calendar immediately.
-- **Specific claims or patients listed** — pull these charts first.
-- **Requested documentation format** — some payers want electronic submission through a portal; others accept faxed or mailed records.
-- **Contact information for the audit team** — if anything in the request is unclear, call and clarify before you start compiling records.
+- **Response deadline:** typically 30 to 45 days; mark it on your calendar immediately.
+- **Specific claims or patients listed:** pull these charts first.
+- **Requested documentation format:** some payers want electronic submission through a portal; others accept faxed or mailed records.
+- **Contact information for the audit team:** if anything in the request is unclear, call and clarify before you start compiling records.
 
 ### Step 2: Pull and Organize Records by Patient
 
@@ -105,14 +105,14 @@ For each patient or claim in the audit request, assemble a packet that includes:
 5. Corresponding clinical chart notes
 6. Any care plan updates or physician orders related to RPM
 
-Organize each packet with a cover sheet listing the patient identifier, dates of service, and CPT codes billed. Make the auditor's job easy — a well-organized response signals a well-run program.
+Organize each packet with a cover sheet listing the patient identifier, dates of service, and CPT codes billed. Make the auditor's job easy; a well-organized response signals a well-run program.
 
 ### Step 3: Identify and Address Gaps Honestly
 
 If you find claims that lack supporting documentation, you have two choices:
 
-- **Locate the missing documentation** — it may exist in a different system, a paper file, or a staff member's notes that were never entered into the chart.
-- **Acknowledge the gap** — if documentation genuinely does not exist, do not fabricate it. Voluntarily refunding unsupported claims during an audit is far less damaging than having the auditor flag them and triggering an expanded review.
+- **Locate the missing documentation:** it may exist in a different system, a paper file, or a staff member's notes that were never entered into the chart.
+- **Acknowledge the gap:** if documentation genuinely does not exist, do not fabricate it. Voluntarily refunding unsupported claims during an audit is far less damaging than having the auditor flag them and triggering an expanded review.
 
 ### Step 4: Submit and Track
 
@@ -122,10 +122,10 @@ Send the response before the deadline, retain a copy of everything you submitted
 
 These are the issues that most frequently lead to adverse audit findings for primary care RPM programs:
 
-- **Consent forms missing or undated** — the auditor cannot confirm the patient authorized the service.
-- **Transmission days below 16 but 99454 was billed** — this is a straightforward overpayment finding.
-- **Time logs with no activity detail** — "RPM — 25 min" does not meet documentation standards for 99457.
-- **No distinction between 99457 and 99458 time** — if the log does not clearly show when 20 minutes was reached and when the additional 20-minute increment began, the 99458 claim is unsupported.
+- **Consent forms missing or undated:** the auditor cannot confirm the patient authorized the service.
+- **Transmission days below 16 but 99454 was billed:** this is a straightforward overpayment finding.
+- **Time logs with no activity detail:** "RPM, 25 min" does not meet documentation standards for 99457.
+- **No distinction between 99457 and 99458 time:** if the log does not clearly show when 20 minutes was reached and when the additional 20-minute increment began, the 99458 claim is unsupported.
 - **RPM services billed during an inpatient stay** — RPM is not billable while the patient is admitted to a hospital or skilled nursing facility. Check admission/discharge records against your billing dates.
 - **No supervising physician order** — some payers require a physician order initiating RPM services. Verify your payer contracts.
 

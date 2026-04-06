@@ -129,7 +129,7 @@ The COVID-19 Public Health Emergency introduced sweeping telehealth flexibilitie
 
 ### How This Affects RPM
 
-The post-PHE changes primarily affect telehealth, not RPM. RPM was not part of the PHE flexibilities — it existed as a standalone billing category before the pandemic and continues unchanged. The geographic flexibility, POS codes, and documentation requirements for RPM remain the same as they were pre-pandemic.
+The post-PHE changes primarily affect telehealth, not RPM. RPM was not part of the PHE flexibilities; it existed as a standalone billing category before the pandemic and continues unchanged. The geographic flexibility, POS codes, and documentation requirements for RPM remain the same as they were pre-pandemic.
 
 This stability is one of RPM's operational advantages. While telehealth rules continue to evolve with each legislative cycle, RPM billing rules have been consistent since 2019.
 
@@ -151,4 +151,4 @@ If you call a patient to discuss an abnormal RPM reading and then transition the
 
 Running telehealth and RPM together creates meaningful revenue opportunities, but the billing boundaries must be clear. Platforms like [Zayd Health](https://www.zaydhealth.com) help practices maintain clean separation between RPM and other service categories, ensuring that time tracking, documentation, and claim submissions are properly allocated across programs.
 
-The practices that succeed with both programs treat them as complementary but operationally independent. Different codes, different documentation, different workflows — unified only by the shared goal of better outcomes for patients with chronic conditions.
+The practices that succeed with both programs treat them as complementary but operationally independent. Different codes, different documentation, different workflows, unified only by the shared goal of better outcomes for patients with chronic conditions.

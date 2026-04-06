@@ -40,20 +40,20 @@ Not every out-of-range reading is clinically significant. Your team needs to dis
 
 | Warning Sign | Pattern in Data | Possible Cause | Urgency |
 |-------------|-----------------|----------------|---------|
-| Rising fasting glucose trend | Fasting readings increasing by >10 mg/dL per week over 2+ weeks | Medication non-adherence, waning medication efficacy, weight gain, illness | Medium — review within 48 hours |
-| New post-meal spikes | Post-meal readings consistently >200 mg/dL when previously controlled | Dietary change, medication timing, stress | Medium — coaching call within 72 hours |
-| Recurrent hypoglycemia | 3+ readings <70 mg/dL in 7 days | Over-medication, missed meals, increased activity, alcohol use | High — same-day review |
-| Sudden loss of glucose control | 7-day average increases by >50 mg/dL compared to prior 2 weeks | Acute illness, new medication (steroids, etc.), major stressor | High — clinical contact within 24 hours |
-| Data gap | No readings transmitted for 3+ consecutive days | Device issue, patient disengagement, hospitalization | Medium — outreach within 48 hours |
+| Rising fasting glucose trend | Fasting readings increasing by >10 mg/dL per week over 2+ weeks | Medication non-adherence, waning medication efficacy, weight gain, illness | Medium: review within 48 hours |
+| New post-meal spikes | Post-meal readings consistently >200 mg/dL when previously controlled | Dietary change, medication timing, stress | Medium: coaching call within 72 hours |
+| Recurrent hypoglycemia | 3+ readings <70 mg/dL in 7 days | Over-medication, missed meals, increased activity, alcohol use | High: same-day review |
+| Sudden loss of glucose control | 7-day average increases by >50 mg/dL compared to prior 2 weeks | Acute illness, new medication (steroids, etc.), major stressor | High: clinical contact within 24 hours |
+| Data gap | No readings transmitted for 3+ consecutive days | Device issue, patient disengagement, hospitalization | Medium: outreach within 48 hours |
 
 ### Blood Pressure Warning Signs (for Dual-Monitoring Programs)
 
 | Warning Sign | Pattern in Data | Possible Cause | Urgency |
 |-------------|-----------------|----------------|---------|
-| Sustained systolic >150 | Average systolic >150 over 7 days | Medication non-adherence, dietary sodium, stress, worsening CKD | Medium — provider review within 72 hours |
-| Morning BP surge | Systolic >160 within 1 hour of waking on 5+ of 7 days | Uncontrolled nocturnal hypertension, sleep apnea | Medium — provider review |
-| New diastolic elevation >100 | Previously normal diastolic now consistently >100 | Secondary cause, medication change, renal deterioration | High — provider review within 48 hours |
-| Orthostatic pattern | Significant BP drop from morning to afternoon readings | Autonomic neuropathy, over-medication, dehydration | High — clinical review within 48 hours |
+| Sustained systolic >150 | Average systolic >150 over 7 days | Medication non-adherence, dietary sodium, stress, worsening CKD | Medium: provider review within 72 hours |
+| Morning BP surge | Systolic >160 within 1 hour of waking on 5+ of 7 days | Uncontrolled nocturnal hypertension, sleep apnea | Medium: provider review |
+| New diastolic elevation >100 | Previously normal diastolic now consistently >100 | Secondary cause, medication change, renal deterioration | High: provider review within 48 hours |
+| Orthostatic pattern | Significant BP drop from morning to afternoon readings | Autonomic neuropathy, over-medication, dehydration | High: clinical review within 48 hours |
 
 ### Weight Warning Signs (If Tracking)
 
@@ -161,11 +161,11 @@ Patient engagement in RPM follows a predictable pattern:
 
 **Weeks 1–2: Intensive Onboarding**
 - Call every new RPM patient on day 2 to confirm their device is working and their first readings have transmitted
-- Address any technical issues immediately — do not let a pairing problem fester for a week
+- Address any technical issues immediately; do not let a pairing problem fester for a week
 - Set clear expectations: "We will review your readings every week and call you if we see anything concerning"
 
 **Weeks 3–4: Habit Formation**
-- Acknowledge the patient's efforts: "I see you have been checking every morning — that is exactly what we need"
+- Acknowledge the patient's efforts: "I see you have been checking every morning, and that is exactly what we need"
 - Share a simple insight from their data: "Your morning readings are averaging 145, which is close to our target of 130. Let us talk about one thing that might help close that gap."
 - This is the most critical window: patients who make it through week 4 with consistent compliance are 3x more likely to remain engaged at 6 months
 
@@ -179,7 +179,7 @@ Patient engagement in RPM follows a predictable pattern:
 - Increase contact for patients with new clinical challenges
 - Periodically share progress: "Since you started RPM 6 months ago, your A1C has gone from 8.9 to 7.8. That is meaningful."
 
-> **Patient Engagement Insight:** The single strongest predictor of long-term RPM engagement is whether the patient believes someone is actually looking at their data. Patients who receive proactive outreach — even a brief call that says "Your readings look good this week" — stay engaged at dramatically higher rates than patients who only hear from the practice when something is wrong.
+> **Patient Engagement Insight:** The single strongest predictor of long-term RPM engagement is whether the patient believes someone is actually looking at their data. Patients who receive proactive outreach (even a brief call that says "Your readings look good this week") stay engaged at dramatically higher rates than patients who only hear from the practice when something is wrong.
 
 ## Connecting Between-Visit Management to Office Visits
 
@@ -207,12 +207,12 @@ This summary saves time during the visit and ensures the conversation focuses on
 
 Between-visit management through RPM is only sustainable if the workload is manageable for your team. The practices that burn out on RPM are the ones that try to review every reading for every patient every day. The practices that succeed build tiered systems where technology handles the routine and humans handle the exceptions.
 
-If you are looking to automate the operational side of between-visit management — transmission tracking, billing compliance, and data gap alerts — so your clinical team spends less time chasing transmission gaps and more time acting on the data, [Zayd Health](https://www.zaydhealth.com) is built specifically for primary care practices running diabetes RPM programs.
+If you are looking to automate the operational side of between-visit management (transmission tracking, billing compliance, and data gap alerts) so your clinical team spends less time chasing transmission gaps and more time acting on the data, [Zayd Health](https://www.zaydhealth.com) is built specifically for primary care practices running diabetes RPM programs.
 
 ## What Matters Most
 
 - The 90-day gap between office visits is where diabetic complications develop and adherence breaks down. RPM makes this invisible time visible
 - Define specific warning signs in daily data and map each one to an escalation tier with response time standards
 - Assign clear RPM roles across your care team; ambiguity causes both gaps and duplication
-- Patient engagement follows a predictable curve — invest heavily in weeks 1–4 and proactively reach out before patients disengage
+- Patient engagement follows a predictable curve; invest heavily in weeks 1–4 and proactively reach out before patients disengage
 - Use RPM data to transform office visits from reactive lab reviews into targeted, data-driven conversations

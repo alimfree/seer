@@ -8,7 +8,7 @@ image: "/blog/obesity-weight-management.webp"
 status: "published"
 ---
 
-The treatment landscape for diabetic patients with obesity has shifted dramatically. GLP-1 receptor agonists like semaglutide and tirzepatide are producing weight loss and glucose improvements that were previously only achievable through bariatric surgery. Bariatric surgery itself continues to evolve, with sleeve gastrectomy now the most common procedure. Both interventions can fundamentally alter a patient's glucose profile. sometimes rapidly enough to create dangerous hypoglycemia if diabetes medications are not adjusted in parallel.
+Treatment options for diabetic patients with obesity have shifted dramatically. GLP-1 receptor agonists like semaglutide and tirzepatide are producing weight loss and glucose improvements that were previously only achievable through bariatric surgery. Bariatric surgery itself continues to evolve, with sleeve gastrectomy now the most common procedure. Both interventions can fundamentally alter a patient's glucose profile — sometimes rapidly enough to create dangerous hypoglycemia if diabetes medications are not adjusted in parallel.
 
 For primary care teams, these patients require a different monitoring approach than standard diabetes management. The goal shifts from controlling hyperglycemia to managing a moving target where glucose may improve faster than the medication regimen can safely keep up.
 

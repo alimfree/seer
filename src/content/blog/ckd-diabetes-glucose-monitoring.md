@@ -72,9 +72,9 @@ Several diabetes medications require dose adjustment or discontinuation as renal
 
 ### Medications to Avoid
 
-- **Glyburide**. active metabolites accumulate in CKD, causing severe prolonged hypoglycemia
-- **High-dose metformin below eGFR 30**. lactic acidosis risk, though rare, is increased
-- **Acarbose**. limited data in advanced CKD; metabolites accumulate
+- **Glyburide:** Active metabolites accumulate in CKD, causing severe prolonged hypoglycemia
+- **High-dose metformin below eGFR 30:** Lactic acidosis risk, though rare, is increased
+- **Acarbose:** Limited data in advanced CKD; metabolites accumulate
 
 ## Glucose Targets in CKD
 
@@ -98,11 +98,11 @@ The appropriate glucose target for a diabetic patient with CKD is often less agg
 
 ### What to Monitor and When
 
-- **eGFR and creatinine**. at least every 3-6 months; more frequently if declining rapidly
-- **Urine albumin-to-creatinine ratio (UACR)**. annually to track nephropathy progression
-- **Glucose readings**. frequency depends on CKD stage and medication regimen. Patients on insulin with CKD stage 3b+ benefit from daily monitoring.
-- **A1C**. continue checking quarterly, but interpret in context of CKD stage. Compare trends rather than absolute values.
-- **Potassium**. CKD patients are prone to hyperkalemia, especially on ACE inhibitors/ARBs. Potassium fluctuations can affect cardiac risk and interact with insulin's potassium-shifting effect.
+- **eGFR and creatinine:** At least every 3-6 months; more frequently if declining rapidly
+- **Urine albumin-to-creatinine ratio (UACR):** Annually to track nephropathy progression
+- **Glucose readings:** Frequency depends on CKD stage and medication regimen. Patients on insulin with CKD stage 3b+ benefit from daily monitoring.
+- **A1C:** Continue checking quarterly, but interpret in context of CKD stage. Compare trends rather than absolute values.
+- **Potassium:** CKD patients are prone to hyperkalemia, especially on ACE inhibitors/ARBs. Potassium fluctuations can affect cardiac risk and interact with insulin's potassium-shifting effect.
 
 ### Documentation Considerations
 

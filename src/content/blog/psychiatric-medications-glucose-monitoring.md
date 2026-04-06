@@ -1,6 +1,6 @@
 ---
 title: "Why Psychiatric Medications Make Glucose Monitoring Critical"
-description: "SSRIs, antipsychotics, and mood stabilizers can disrupt glycemic control. Here's what primary care practices need to know about monitoring diabetic patients on these medications."
+description: "SSRIs, antipsychotics, and mood stabilizers can disrupt glycemic control. Learn what primary care practices need to know about monitoring diabetic patients on these medications."
 date: "2026-03-15"
 author: "Mohammed Ali"
 tags: ["clinical", "rpm", "diabetes"]

@@ -80,7 +80,7 @@ Across clinical trials, statins increase A1C by approximately 0.1-0.3% and incre
 ### What to Watch For
 
 - **A1C increases of 0.1-0.3%** after statin initiation or dose escalation.
-- **New-onset diabetes in pre-diabetic patients**. patients with A1C 5.7-6.4% may cross the diagnostic threshold after starting a high-potency statin.
+- **New-onset diabetes in pre-diabetic patients:** patients with A1C 5.7-6.4% may cross the diagnostic threshold after starting a high-potency statin.
 - The glucose effect is persistent; it does not resolve with continued use.
 
 ### Clinical Considerations
@@ -92,7 +92,7 @@ Across clinical trials, statins increase A1C by approximately 0.1-0.3% and incre
 
 ## ACE Inhibitors and ARBs: The Favorable Exception
 
-Not all cardiac medications worsen glucose. ACE inhibitors and ARBs; the most commonly prescribed antihypertensives for diabetic patients. have neutral to mildly beneficial effects on glucose metabolism.
+Not all cardiac medications worsen glucose. ACE inhibitors and ARBs (the most commonly prescribed antihypertensives for diabetic patients) have neutral to mildly beneficial effects on glucose metabolism.
 
 **ACE inhibitors** (lisinopril, enalapril, ramipril) may improve insulin sensitivity through bradykinin-mediated effects on glucose transport. Several trials have shown reduced incidence of new-onset diabetes in hypertensive patients treated with ACE inhibitors versus other antihypertensive classes.
 

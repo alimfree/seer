@@ -19,7 +19,7 @@ Corticosteroids affect glucose through multiple mechanisms simultaneously, which
 - **Increased hepatic gluconeogenesis**; the liver produces more glucose, particularly in the afternoon and evening
 - **Reduced peripheral insulin sensitivity:** skeletal muscle and adipose tissue become less responsive to insulin
 - **Impaired pancreatic beta-cell compensation:** in patients with existing diabetes, the beta cells cannot increase insulin output enough to overcome the added resistance
-- **Increased appetite and caloric intake**. steroids stimulate hunger, leading to larger meals that compound postprandial glucose spikes
+- **Increased appetite and caloric intake:** steroids stimulate hunger, leading to larger meals that compound postprandial glucose spikes
 
 The glucose effect is dose-dependent, rapid (often within 4-8 hours of the first dose), and follows a characteristic pattern: afternoon and evening hyperglycemia that is significantly worse than morning fasting glucose.
 
@@ -64,10 +64,10 @@ This pattern is important for monitoring because a fasting-only glucose check wi
 
 For diabetic patients starting a short steroid burst:
 
-- **Increase glucose monitoring frequency**. at minimum, add a late-afternoon or pre-dinner check in addition to fasting glucose
+- **Increase glucose monitoring frequency:** at minimum, add a late-afternoon or pre-dinner check in addition to fasting glucose
 - **Check glucose daily for the duration of the course** plus 48 hours after the last dose
 - **Set a threshold for intervention**; if glucose consistently exceeds 250 mg/dL, contact the patient to discuss temporary medication adjustment
-- **Warn the patient in advance**. "Your blood sugar will likely run higher than usual while you are on prednisone. This is expected. Check your glucose more often and call us if readings are consistently above 250."
+- **Warn the patient in advance:** "Your blood sugar will likely run higher than usual while you are on prednisone. This is expected. Check your glucose more often and call us if readings are consistently above 250."
 
 ### Chronic Steroid Use (Weeks to Months)
 

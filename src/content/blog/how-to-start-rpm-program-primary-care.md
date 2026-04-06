@@ -16,7 +16,7 @@ This guide walks you through exactly how to start an RPM program in primary care
 
 Before jumping into logistics, it is worth understanding why diabetes-focused RPM programs have the highest success rate for new implementations.
 
-Diabetic patients already engage in daily self-monitoring (blood glucose readings), which maps directly to the 16-day-per-month transmission requirement for CPT 99454. They are clinically high-risk, making payers more receptive to RPM claims. And the clinical feedback loop, where providers adjust medications based on trend data. is well-established in endocrinology and primary care alike.
+Diabetic patients already engage in daily self-monitoring (blood glucose readings), which maps directly to the 16-day-per-month transmission requirement for CPT 99454. They are clinically high-risk, making payers more receptive to RPM claims. And the clinical feedback loop, where providers adjust medications based on trend data, is well-established in endocrinology and primary care alike.
 
 Starting with diabetic patients gives your team a cohesive protocol to learn on before expanding to hypertension, CHF, or COPD populations.
 

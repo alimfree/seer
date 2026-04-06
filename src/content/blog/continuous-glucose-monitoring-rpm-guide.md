@@ -64,7 +64,7 @@ For most primary care RPM programs, the Dexcom G7 and FreeStyle Libre 3 are the 
 
 ### Insurance and Coverage Considerations
 
-CGM coverage varies significantly by payer. Medicare covers CGM for patients with diabetes who meet specific criteria. typically requiring insulin use or a documented history of problematic hypoglycemia. Commercial payers have their own criteria, and many still require prior authorization.
+CGM coverage varies significantly by payer. Medicare covers CGM for patients with diabetes who meet specific criteria, typically requiring insulin use or a documented history of problematic hypoglycemia. Commercial payers have their own criteria, and many still require prior authorization.
 
 The cost difference between prescribing a CGM and a standard glucose meter is meaningful. If your RPM program margins depend on device costs staying low, run the numbers for your specific patient population and payer mix before committing to CGM as a default device.
 
@@ -76,10 +76,10 @@ To bill CPT 99454 (device supply with daily data transmission), your patient's d
 
 But gaps happen. Common causes include:
 
-- **Sensor changes:** A 10-day sensor that expires on day 22 leaves a gap if the patient delays replacement by even 3 days
+- **Sensor changes:** a 10-day sensor that expires on day 22 leaves a gap if the patient delays replacement by even 3 days
 - **Phone issues:** Bluetooth disconnection, app crashes, or phone upgrades can interrupt data flow
-- **Sensor failures:** Occasional sensors fail early, creating unplanned gaps
-- **Patient travel:** International travel may disrupt cellular data or app connectivity
+- **Sensor failures:** occasional sensors fail early, creating unplanned gaps
+- **Patient travel:** international travel may disrupt cellular data or app connectivity
 
 ### Mitigating Transmission Gaps
 

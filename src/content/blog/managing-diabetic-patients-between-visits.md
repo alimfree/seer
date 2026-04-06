@@ -20,7 +20,7 @@ To understand why between-visit management matters, consider what happens in a t
 
 | Week | What the Patient Experiences | What the Practice Sees |
 |------|------------------------------|----------------------|
-| 1–2 | Takes new medication as prescribed, glucose improves | Nothing. no data until next visit |
+| 1–2 | Takes new medication as prescribed, glucose improves | Nothing — no data until next visit |
 | 3–4 | Experiences side effects, reduces medication dose on their own | Nothing |
 | 5–8 | Glucose climbs back up, patient adjusts diet sporadically | Nothing |
 | 9–10 | Feels discouraged, stops checking glucose at home | Nothing |

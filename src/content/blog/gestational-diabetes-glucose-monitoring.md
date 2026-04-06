@@ -118,9 +118,9 @@ Effective GDM management requires communication between primary care and obstetr
 
 ## Practical Steps for Your Practice
 
-1. **Run a panel report**. identify all female patients aged 18-45 with a history of GDM (Z86.32) or active GDM (O24.4xx).
-2. **Verify postpartum screening status**. for patients who delivered in the past 12 months, confirm whether the OGTT was completed.
-3. **Set annual screening reminders**. for all patients with GDM history, ensure A1C or fasting glucose is ordered at least annually.
-4. **Document the connection**. when monitoring a patient with GDM history, note the clinical rationale linking their pregnancy history to the current monitoring plan.
+1. **Run a panel report:** identify all female patients aged 18-45 with a history of GDM (Z86.32) or active GDM (O24.4xx).
+2. **Verify postpartum screening status:** for patients who delivered in the past 12 months, confirm whether the OGTT was completed.
+3. **Set annual screening reminders:** for all patients with GDM history, ensure A1C or fasting glucose is ordered at least annually.
+4. **Document the connection:** when monitoring a patient with GDM history, note the clinical rationale linking their pregnancy history to the current monitoring plan.
 
 GDM is one of the strongest predictors of future Type 2 diabetes. Primary care practices that build structured follow-up into their workflows for these patients will catch early conversions and intervene before complications develop.

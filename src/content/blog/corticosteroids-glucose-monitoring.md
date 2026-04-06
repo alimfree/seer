@@ -16,7 +16,7 @@ The clinical challenge is not recognizing that steroids affect glucose (every cl
 
 Corticosteroids affect glucose through multiple mechanisms simultaneously, which is why their impact is so pronounced:
 
-- **Increased hepatic gluconeogenesis**; the liver produces more glucose, particularly in the afternoon and evening
+- **Increased hepatic gluconeogenesis:** the liver produces more glucose, particularly in the afternoon and evening
 - **Reduced peripheral insulin sensitivity:** skeletal muscle and adipose tissue become less responsive to insulin
 - **Impaired pancreatic beta-cell compensation:** in patients with existing diabetes, the beta cells cannot increase insulin output enough to overcome the added resistance
 - **Increased appetite and caloric intake:** steroids stimulate hunger, leading to larger meals that compound postprandial glucose spikes

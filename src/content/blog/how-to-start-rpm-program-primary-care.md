@@ -170,10 +170,10 @@ Platforms like [Zayd Health](https://www.zaydhealth.com) are built specifically 
 
 **Not documenting clinical time in real time.** Reconstructing time logs at the end of the month is inaccurate and audit-risky. Use a timer or time-tracking tool during every patient interaction.
 
-## Getting Started This Month
+## Your First 30 Days
 
 You do not need a six-month implementation plan to start an RPM program. You need a patient list, a device vendor, a consent form, and a staff member who owns the workflow. The technical and billing complexity is real, but it is manageable when you start with a focused diabetic population and expand methodically.
 
-The practices that succeed with RPM are not the ones with the most sophisticated technology. They are the ones that build repeatable daily habits. checking readings, logging time, reaching out to non-adherent patients; hold themselves accountable to doing it consistently.
+The practices that succeed with RPM are not the ones with the most sophisticated technology. They are the ones that build repeatable daily habits: checking readings, logging time, reaching out to non-adherent patients, and holding themselves accountable to doing it consistently.
 
 Start with 25 patients. Get your first clean billing cycle under your belt. Then scale from a position of confidence.

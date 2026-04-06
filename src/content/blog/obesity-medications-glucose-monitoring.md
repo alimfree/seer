@@ -115,7 +115,7 @@ The perioperative period (2 weeks before through 6 weeks after surgery) is the h
 **Months 1-3:**
 
 - Continue daily glucose checks as the diet advances from liquid to soft to regular foods
-- Glucose patterns will shift as caloric intake increases. readings that were normal on a liquid diet may rise as the patient transitions to solid food
+- Glucose patterns will shift as caloric intake increases — readings that were normal on a liquid diet may rise as the patient transitions to solid food
 - A1C at 3 months post-surgery to establish new baseline
 
 **Months 3-12:**
@@ -136,7 +136,7 @@ This is an underrecognized complication that can develop months to years after R
 
 **Mechanism:** After RYGB, food passes directly from the small gastric pouch into the jejunum, triggering an exaggerated GLP-1 and insulin response. The result is a rapid glucose spike followed by a deep glucose drop 1-3 hours after eating.
 
-**Symptoms:** Shakiness, sweating, confusion, lightheadedness. typically 1-3 hours after meals, especially carbohydrate-heavy meals.
+**Symptoms:** Shakiness, sweating, confusion, and lightheadedness, typically 1-3 hours after meals, especially carbohydrate-heavy meals.
 
 **What to watch for:**
 
@@ -146,7 +146,7 @@ This is an underrecognized complication that can develop months to years after R
 
 **Management:**
 
-- Dietary modification. smaller meals, lower glycemic index carbohydrates, protein and fat paired with every meal
+- Dietary modification: smaller meals, lower glycemic index carbohydrates, protein and fat paired with every meal
 - In severe cases, acarbose (slows carbohydrate absorption) can blunt the glucose spike and subsequent crash
 - Continuous glucose monitoring can help identify the pattern when post-meal glucose checks alone do not capture the timing
 

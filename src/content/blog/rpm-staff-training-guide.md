@@ -104,12 +104,12 @@ Poor documentation is the fastest way to lose RPM revenue. Claims get denied, au
 
 ### What Must Be Documented for Every Patient Interaction
 
-Every RPM-related patient interaction, whether a phone call, a text exchange, or a reading review that leads to a clinical action. must include:
+Every RPM-related patient interaction, whether a phone call, a text exchange, or a reading review that leads to a clinical action, must include:
 
 1. **Date and time** of the interaction (start and end)
 2. **Duration** in minutes
 3. **Who initiated** the contact (practice or patient)
-4. **Clinical content** discussed (not just "called patient". what specific readings were reviewed, what symptoms were assessed, what education was provided)
+4. **Clinical content** discussed (not just "called patient"; what specific readings were reviewed, what symptoms were assessed, what education was provided)
 5. **Patient response** (what the patient reported, any concerns raised)
 6. **Action taken** (medication change recommended, provider notified, follow-up scheduled, no action needed)
 7. **Staff member name and credentials**

@@ -150,9 +150,9 @@ If you are below a 40% enrollment rate after the first month, the issue is almos
 
 After working with dozens of primary care practices, these are the patterns that consistently undermine enrollment efforts:
 
-**Waiting for the "perfect" workflow before starting.** You will refine your process after the first 10 enrollments. Do not spend three months building a workflow that you will change anyway.
+**Waiting for the "perfect" workflow before starting:** You will refine your process after the first 10 enrollments. Do not spend three months building a workflow that you will change anyway.
 
-**Relying on mailed letters or patient portal messages.** These have abysmal response rates for RPM enrollment. Phone calls and in-person conversations are the only channels that work at scale.
+**Relying on mailed letters or patient portal messages:** These have abysmal response rates for RPM enrollment. Phone calls and in-person conversations are the only channels that work at scale.
 
 **Skipping the provider warm handoff.** When an MA tries to enroll a patient without the provider's recommendation, conversion rates drop by roughly half.
 
@@ -162,7 +162,7 @@ After working with dozens of primary care practices, these are the patterns that
 
 ## Moving From Enrollment to Sustained Engagement
 
-Getting the consent signed and the device in the patient's hands is only the beginning. The first 14 days after enrollment are critical. that is when patients either build the habit of daily readings or quietly stop using the device.
+Getting the consent signed and the device in the patient's hands is only the beginning. The first 14 days after enrollment are critical because that is when patients either build the habit of daily readings or quietly stop using the device.
 
 Assign a staff member to call every newly enrolled patient three days after enrollment to check in: "How is the monitor working? Have you been able to take your readings?" This single touchpoint dramatically improves 30-day retention.
 

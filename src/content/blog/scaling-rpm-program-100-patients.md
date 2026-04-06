@@ -8,7 +8,7 @@ image: "/blog/scaling-rpm-program.webp"
 status: "published"
 ---
 
-Most primary care practices launch their RPM program with 10 to 20 diabetic patients. The early days feel manageable. a single nurse checks readings, makes phone calls, and logs time. Then enrollment grows. Somewhere between 25 and 50 patients, cracks start to appear: missed transmissions go unnoticed, monthly billing deadlines slip, and the staff member running the program starts spending more time on RPM than their original clinical duties.
+Most primary care practices launch their RPM program with 10 to 20 diabetic patients. The early days feel manageable: a single nurse checks readings, makes phone calls, and logs time. Then enrollment grows. Somewhere between 25 and 50 patients, cracks start to appear: missed transmissions go unnoticed, monthly billing deadlines slip, and the staff member running the program starts spending more time on RPM than their original clinical duties.
 
 Scaling an RPM program to 100 patients is not just a matter of enrolling more people. It requires deliberate decisions about staffing, technology, and workflows at each growth stage. This guide lays out the specific bottlenecks you will hit, when to hire versus optimize, and what a healthy program looks like at scale.
 

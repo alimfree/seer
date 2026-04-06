@@ -127,7 +127,7 @@ Document the following during the setup visit:
 - Device provided (manufacturer, model)
 - Cuff size selected and arm circumference measured
 - Patient education on proper measurement technique (positioning, rest period, timing)
-- Measurement schedule established (e.g., twice daily. morning and evening)
+- Measurement schedule established (e.g., twice daily, morning and evening)
 - Target range communicated to patient
 - Data transmission confirmed (first reading received in RPM platform)
 
@@ -191,4 +191,4 @@ If your practice is looking to automate the compliance tracking, transmission mo
 - Measure arm circumference and assign the correct cuff size at enrollment
 - Use a tiered review model to scale BP monitoring across your panel efficiently
 - Document BP and glucose correlations to demonstrate integrated clinical value
-- Require at least 3 elevated readings over 7 days before escalating. do not react to single readings
+- Require at least 3 elevated readings over 7 days before escalating; do not react to single readings

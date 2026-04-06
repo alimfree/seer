@@ -8,7 +8,7 @@ image: "/blog/rpm-workflow-small-practice.webp"
 status: "published"
 ---
 
-Small practices. one to five providers. run RPM programs differently than large health systems. You do not have a dedicated remote monitoring department. You do not have a full-time RPM coordinator. You have a handful of staff members who are already managing phones, scheduling, prior authorizations, and clinical workflows. Adding RPM to their plate only works if the workflow is designed for the reality of a small practice.
+Small practices (one to five providers) run RPM programs differently than large health systems. You do not have a dedicated remote monitoring department. You do not have a full-time RPM coordinator. You have a handful of staff members who are already managing phones, scheduling, prior authorizations, and clinical workflows. Adding RPM to their plate only works if the workflow is designed for the reality of a small practice.
 
 This guide breaks down a practical RPM workflow for small practices, covering who does what, daily and weekly task lists, time budgeting, and a realistic path from 10 patients to 100.
 
@@ -26,7 +26,7 @@ Most small practices operate RPM with three roles, none of which are full-time R
 | Clinical Staff (RN or MA) | Monitors daily readings, conducts patient outreach, logs interactive time, manages device issues | 45-90 minutes per day |
 | Administrative Staff (Front desk or practice manager) | Handles enrollment paperwork, tracks consent forms, manages device inventory, coordinates with billing | 20-40 minutes per day |
 
-The clinical staff member. typically an RN or experienced MA. is the operational backbone of the program. This person reviews readings, calls patients when values are out of range, and documents the time spent on interactive communication. If you can only designate one person to "own" RPM, it should be this role.
+The clinical staff member (typically an RN or experienced MA) is the operational backbone of the program. This person reviews readings, calls patients when values are out of range, and documents the time spent on interactive communication. If you can only designate one person to "own" RPM, it should be this role.
 
 ### Solo Provider Practices
 

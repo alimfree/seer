@@ -50,9 +50,9 @@ For practices that need RPM running quickly or whose EHR has limited integration
 | Setup cost | $5,000-$25,000+ | $2,000-$10,000 | Near zero |
 | Ongoing maintenance | Moderate (API versioning, credential management) | Low-moderate (message format updates) | High (staff time per patient) |
 | Data freshness | Real-time or near-real-time | Near-real-time (minutes) | Daily or weekly batches |
-| Provider experience | Seamless. data appears in existing workflow | Good. data appears as results or documents | Acceptable. data available but may require navigation |
+| Provider experience | Seamless: data appears in existing workflow | Good: data appears as results or documents | Acceptable: data available but may require navigation |
 | Scalability | Excellent | Good | Poor above 75-100 patients |
-| EHR vendor dependency | High. requires vendor cooperation | Moderate. uses standards | None |
+| EHR vendor dependency | High: requires vendor cooperation | Moderate: uses standards | None |
 
 > **Tip:** If your practice has fewer than 50 RPM patients, start with manual or semi-manual transfer. Use the first 3-6 months to prove program viability and generate revenue, then invest integration dollars once you have confirmed RPM is a long-term commitment. You can always upgrade the integration approach later without disrupting the clinical program.
 
@@ -62,7 +62,7 @@ Not all EHRs are created equal when it comes to RPM integration. Here is what to
 
 ### Epic
 
-Epic offers several integration pathways. The App Orchard (now renamed to the Epic App Market) is the primary mechanism for third-party applications. RPM vendors listed on the App Market have pre-built connectors that leverage Epic's FHIR APIs and can surface data in the patient chart, Storyboard, and In Basket.
+Epic offers several integration pathways. The App Orchard (now renamed to the Epic App Market) is the primary mechanism for third-party applications. RPM vendors listed on the App Market have pre-built connectors that use Epic's FHIR APIs and can surface data in the patient chart, Storyboard, and In Basket.
 
 For practices on Epic Community Connect or hosted Epic, integration options may be limited by your hosting organization's policies. Always confirm with your Epic administrator before assuming a marketplace app can be activated for your instance.
 

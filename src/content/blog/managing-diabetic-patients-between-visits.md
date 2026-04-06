@@ -44,14 +44,14 @@ Not every out-of-range reading is clinically significant. Your team needs to dis
 | New post-meal spikes | Post-meal readings consistently >200 mg/dL when previously controlled | Dietary change, medication timing, stress | Medium — coaching call within 72 hours |
 | Recurrent hypoglycemia | 3+ readings <70 mg/dL in 7 days | Over-medication, missed meals, increased activity, alcohol use | High — same-day review |
 | Sudden loss of glucose control | 7-day average increases by >50 mg/dL compared to prior 2 weeks | Acute illness, new medication (steroids, etc.), major stressor | High — clinical contact within 24 hours |
-| Data gap | No readings transmitted for 3+ consecutive days | Device issue, patient disengagement, hospitalization | Medium. outreach within 48 hours |
+| Data gap | No readings transmitted for 3+ consecutive days | Device issue, patient disengagement, hospitalization | Medium — outreach within 48 hours |
 
 ### Blood Pressure Warning Signs (for Dual-Monitoring Programs)
 
 | Warning Sign | Pattern in Data | Possible Cause | Urgency |
 |-------------|-----------------|----------------|---------|
-| Sustained systolic >150 | Average systolic >150 over 7 days | Medication non-adherence, dietary sodium, stress, worsening CKD | Medium. provider review within 72 hours |
-| Morning BP surge | Systolic >160 within 1 hour of waking on 5+ of 7 days | Uncontrolled nocturnal hypertension, sleep apnea | Medium. provider review |
+| Sustained systolic >150 | Average systolic >150 over 7 days | Medication non-adherence, dietary sodium, stress, worsening CKD | Medium — provider review within 72 hours |
+| Morning BP surge | Systolic >160 within 1 hour of waking on 5+ of 7 days | Uncontrolled nocturnal hypertension, sleep apnea | Medium — provider review |
 | New diastolic elevation >100 | Previously normal diastolic now consistently >100 | Secondary cause, medication change, renal deterioration | High. provider review within 48 hours |
 | Orthostatic pattern | Significant BP drop from morning to afternoon readings | Autonomic neuropathy, over-medication, dehydration | High. clinical review within 48 hours |
 

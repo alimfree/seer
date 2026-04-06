@@ -157,7 +157,7 @@ Unlike a Bluetooth glucose meter that a patient uses indefinitely, CGM sensors e
 
 ## When CGM Is Worth the Added Complexity
 
-CGM adds real clinical value to RPM programs, but it is not a universal solution. It adds clinical value for patients with complex glycemic profiles and removes the adherence barrier that undermines fingerstick-based RPM. It also adds cost and workflow complexity.
+CGM adds real clinical value to RPM programs, but it is not a universal solution. For patients with complex glycemic profiles, it removes the adherence barrier that undermines fingerstick-based RPM. It also adds cost and workflow complexity.
 
 The practices that succeed with CGM-based RPM are the ones that match the right device to the right patient, build systems to monitor data transmission, and train their clinical teams to interpret CGM reports efficiently.
 

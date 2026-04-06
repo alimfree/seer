@@ -73,11 +73,11 @@ Those two categories are converging. Continuous glucose monitors like the Dexcom
 | Wearable ECG/arrhythmia patches | High | Eligible for specific conditions | Declining ($100-200/month) |
 | Smart scales (CHF monitoring) | Moderate-High | Eligible for CHF populations | Stable ($40-80/unit) |
 
-For primary care practices focused on diabetic populations, the convergence of CGMs and RPM billing creates an opportunity to offer patients a better monitoring experience while generating more granular clinical data. The key constraint remains ensuring that the device and data pathway meet CMS requirements for a qualifying RPM device. specifically, that data is automatically transmitted to the practice without requiring patient-initiated uploads.
+For primary care practices focused on diabetic populations, the convergence of CGMs and RPM billing creates an opportunity to offer patients a better monitoring experience while generating more granular clinical data. The key constraint remains ensuring that the device and data pathway meet CMS requirements for a qualifying RPM device: data must be automatically transmitted to the practice without requiring patient-initiated uploads.
 
 ## Interoperability Mandates Are Forcing Data Integration
 
-The 21st Century Cures Act and subsequent ONC rules have been pushing healthcare toward open APIs and standardized data exchange for years. RPM is now squarely in scope.
+The 21st Century Cures Act and subsequent ONC rules have been pushing healthcare toward open APIs and standardized data exchange for years. RPM data is now covered by these requirements.
 
 Starting in 2025, EHR vendors certified under ONC criteria must support FHIR-based APIs for patient-generated health data, which includes RPM device readings. This means RPM platforms that previously existed as standalone dashboards are increasingly expected to feed data directly into the clinical record through standardized interfaces.
 

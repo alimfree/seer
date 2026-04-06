@@ -51,7 +51,7 @@ When a patient's glucose readings change after a psychiatric medication adjustme
 1. Patient is on olanzapine (high metabolic risk)
 2. Glucose readings trended upward over 10 days
 3. Clinical staff reviewed data and contacted patient (99457 time)
-4. Care plan adjusted. endocrinology referral initiated
+4. Care plan adjusted; endocrinology referral initiated
 
 This kind of documentation turns routine monitoring into a clear clinical story that justifies every code billed.
 
@@ -75,9 +75,9 @@ Sharing glucose monitoring data with psychiatrists (with appropriate consent) ca
 
 ## Practical Steps for Your Practice
 
-1. **Run the report**. identify which of your diabetic RPM patients are on psychiatric medications.
-2. **Stratify by risk**. prioritize monitoring for patients on olanzapine, clozapine, or valproate.
-3. **Update your monitoring protocols**. these patients may need tighter glucose targets or more frequent clinical review.
-4. **Document the clinical rationale**. connect medication risk to monitoring intensity in every note.
+1. **Run the report:** identify which of your diabetic RPM patients are on psychiatric medications.
+2. **Stratify by risk:** prioritize monitoring for patients on olanzapine, clozapine, or valproate.
+3. **Update your monitoring protocols:** these patients may need tighter glucose targets or more frequent clinical review.
+4. **Document the clinical rationale:** connect medication risk to monitoring intensity in every note.
 
 Psychiatric medications and glucose control are deeply connected. Practices that account for this in their monitoring protocols will deliver better outcomes for a vulnerable patient population.

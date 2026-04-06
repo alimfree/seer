@@ -1,12 +1,12 @@
 <section class="pt-32 sm:pt-44 pb-24 sm:pb-32 px-6 sm:px-8 fade-in-section visible">
   <div class="max-w-4xl mx-auto text-center">
-    <h1 class="font-headline text-4xl sm:text-5xl md:text-7xl font-light leading-tight tracking-tight text-on-background mb-6">
-      RPM revenue your practice is already earning. We just help you capture it.
+    <h1 class="font-headline text-4xl sm:text-5xl md:text-7xl font-light leading-tight tracking-tight text-on-background mb-6 hero-headline">
+      RPM revenue your practice is already earning.<br /><span class="text-tertiary">We help you capture it.</span>
     </h1>
-    <p class="font-body text-lg sm:text-xl text-on-surface-variant leading-relaxed max-w-3xl mx-auto mb-8">
+    <p class="font-body text-lg sm:text-xl text-on-surface-variant leading-relaxed max-w-3xl mx-auto mb-8 hero-subtitle">
       We handle the documentation that makes RPM claims billable — transmission tracking, time logging, and audit-ready superbills. Your team does the clinical work. Your biller submits the claim.
     </p>
-    <div class="flex flex-col items-center gap-4 mb-16 sm:mb-20">
+    <div class="flex flex-col items-center gap-4 mb-16 sm:mb-20 hero-cta">
       <a
         class="btn-primary px-8 py-4 text-on-primary font-medium rounded-sm shadow-ambient"
         href="https://calendly.com/ali-zaydhealth/discovery"
@@ -22,7 +22,7 @@
         Or scroll to see how it works
       </a>
     </div>
-    <div class="relative max-w-5xl mx-auto">
+    <div class="relative max-w-5xl mx-auto hero-image">
       <div class="rounded-sm overflow-hidden shadow-ambient">
         <img
           src="/dashboard-preview.webp"
@@ -37,3 +37,49 @@
     </div>
   </div>
 </section>
+
+<style>
+  /* Staggered fade-up for hero elements — h1 is always visible for LCP */
+  .hero-headline {
+    animation: hero-settle 0.8s ease-out both;
+  }
+
+  .hero-subtitle {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: hero-fade-up 0.6s ease-out 0.3s forwards;
+  }
+
+  .hero-cta {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: hero-fade-up 0.6s ease-out 0.5s forwards;
+  }
+
+  .hero-image {
+    opacity: 0;
+    transform: translateY(12px);
+    animation: hero-fade-up 0.7s ease-out 0.7s forwards;
+  }
+
+  /* Subtle settle — starts fully visible, just eases into final position */
+  @keyframes hero-settle {
+    from { transform: translateY(6px); opacity: 0.85; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  @keyframes hero-fade-up {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-headline,
+    .hero-subtitle,
+    .hero-cta,
+    .hero-image {
+      opacity: 1;
+      transform: none;
+      animation: none;
+    }
+  }
+</style>

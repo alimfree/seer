@@ -29,7 +29,7 @@ export default function FloatingCTA() {
 
   return (
     <nav
-      aria-hidden={!show}
+      {...(!show ? { inert: true } : {})}
       style={{
         position: 'fixed',
         top: '1rem',

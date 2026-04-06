@@ -56,7 +56,7 @@ export default function FAQ() {
               id={`faq-answer-${i}`}
               className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
               role="region"
-              aria-hidden={!isOpen}
+              {...(!isOpen ? { inert: true } : {})}
             >
               <div className="px-6 sm:px-8 pb-5 sm:pb-6 text-on-surface-variant">
                 {faq.answer}

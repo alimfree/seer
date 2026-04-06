@@ -1,7 +1,7 @@
 ---
 title: "The Future of Remote Patient Monitoring in 2026: 7 Trends Reshaping RPM"
 description: "Explore the future of remote patient monitoring in 2026, from AI-driven data analysis and payer expansion to new CMS policies reshaping RPM programs."
-date: "2025-08-20"
+date: "2025-12-15"
 author: "Mohammed Ali"
 tags: ["rpm", "industry", "trends"]
 image: "/blog/rpm-future-trends.webp"

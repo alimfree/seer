@@ -8,7 +8,7 @@ image: "/blog/staff-training.webp"
 status: "published"
 ---
 
-An RPM program is only as strong as the staff running it. You can select the right devices, enroll the right patients, and have perfect billing infrastructure — but if your medical assistants do not know how to document interactive time, if your nurses do not know when to escalate a reading, or if your providers do not understand their role in the workflow, the program will underperform or fail outright.
+An RPM program is only as strong as the staff running it. You can select the right devices, enroll the right patients, and have perfect billing infrastructure, but if your medical assistants do not know how to document interactive time, if your nurses do not know when to escalate a reading, or if your providers do not understand their role in the workflow, the program will underperform or fail outright.
 
 This RPM staff training guide covers what each role needs to know, how to assess competency, the documentation skills that are non-negotiable, and the mistakes that new staff make repeatedly until someone trains them not to.
 
@@ -38,7 +38,7 @@ The MA is typically the first point of contact for RPM-related tasks and handles
 
 ### Registered Nurse (RN) Responsibilities
 
-The RN serves as the clinical monitor — reviewing readings, making clinical judgments about when to escalate, and conducting the patient interactions that require clinical assessment.
+The RN serves as the clinical monitor. reviewing readings, making clinical judgments about when to escalate, and conducting the patient interactions that require clinical assessment.
 
 | Responsibility | Description | Frequency |
 |---------------|-------------|-----------|
@@ -67,13 +67,13 @@ The provider's RPM role is focused and should not be time-intensive if the RN an
 
 ## The Competency Checklist: What Staff Must Know Before Going Live
 
-Do not let staff begin performing RPM tasks until they can demonstrate competency in each area relevant to their role. This is not bureaucratic — it is risk management. Untrained staff generate documentation gaps, miss critical readings, and create billing compliance exposure.
+Do not let staff begin performing RPM tasks until they can demonstrate competency in each area relevant to their role. This is not bureaucratic; it is risk management. Untrained staff generate documentation gaps, miss critical readings, and create billing compliance exposure.
 
 ### MA Competency Checklist
 
 | Competency | Assessment Method | Pass Criteria |
 |-----------|-------------------|--------------|
-| Explain RPM to a patient in plain language | Role play with trainer | Covers what RPM is, how the device works, cost to patient, and how data is used — in under 3 minutes |
+| Explain RPM to a patient in plain language | Role play with trainer | Covers what RPM is, how the device works, cost to patient, and how data is used, in under 3 minutes |
 | Complete the consent process | Observed enrollment with a real or simulated patient | All required consent elements documented, patient questions answered accurately |
 | Set up and pair the monitoring device | Hands-on demonstration | Device powered on, synced, and first reading transmitted within 5 minutes |
 | Troubleshoot the three most common device issues | Scenario-based assessment | Correctly resolves: device not syncing, low battery, and missing test strips |
@@ -104,12 +104,12 @@ Poor documentation is the fastest way to lose RPM revenue. Claims get denied, au
 
 ### What Must Be Documented for Every Patient Interaction
 
-Every RPM-related patient interaction — whether a phone call, a text exchange, or a reading review that leads to a clinical action — must include:
+Every RPM-related patient interaction, whether a phone call, a text exchange, or a reading review that leads to a clinical action. must include:
 
 1. **Date and time** of the interaction (start and end)
 2. **Duration** in minutes
 3. **Who initiated** the contact (practice or patient)
-4. **Clinical content** discussed (not just "called patient" — what specific readings were reviewed, what symptoms were assessed, what education was provided)
+4. **Clinical content** discussed (not just "called patient". what specific readings were reviewed, what symptoms were assessed, what education was provided)
 5. **Patient response** (what the patient reported, any concerns raised)
 6. **Action taken** (medication change recommended, provider notified, follow-up scheduled, no action needed)
 7. **Staff member name and credentials**
@@ -128,7 +128,7 @@ This tells an auditor nothing. It does not establish what was reviewed, what cli
 
 ### Time Logging Accuracy
 
-Interactive time must be logged accurately — not estimated, not rounded up, and not batched at the end of the day from memory. Train staff to log time immediately after each interaction using a timer or clock.
+Interactive time must be logged accurately, not estimated, not rounded up, and not batched at the end of the day from memory. Train staff to log time immediately after each interaction using a timer or clock.
 
 Common time-logging errors that create billing risk:
 
@@ -171,14 +171,14 @@ Initial training gets staff started. Ongoing education keeps them effective.
 
 Hold a monthly team meeting focused exclusively on RPM. Agenda:
 
-1. **Review program metrics** — enrollment count, compliance rate, revenue, disenrollment rate
-2. **Case discussion** — review one or two interesting patient cases where RPM data influenced clinical decisions
-3. **Process improvement** — what is working, what is not, and what should change
-4. **Documentation audit results** — review a sample of recent documentation for quality
+1. **Review program metrics**. enrollment count, compliance rate, revenue, disenrollment rate
+2. **Case discussion**. review one or two interesting patient cases where RPM data influenced clinical decisions
+3. **Process improvement**. what is working, what is not, and what should change
+4. **Documentation audit results**. review a sample of recent documentation for quality
 
 ### Quarterly Skills Refresh
 
-Every quarter, run through a subset of the competency checklist with each staff member. Focus on the areas where mistakes have been observed. This is not punitive — it is a structured way to prevent skill drift.
+Every quarter, run through a subset of the competency checklist with each staff member. Focus on the areas where mistakes have been observed. This is not punitive; it is a structured way to prevent skill drift.
 
 ### When New Staff Join
 
@@ -186,4 +186,4 @@ Any new MA, RN, or provider joining the practice should complete the full RPM tr
 
 For practices that want to reduce the documentation burden and operational complexity that comes with training and managing RPM staff, [Zayd Health](https://www.zaydhealth.com) provides workflow automation that enforces compliance standards so your team can focus on patient care rather than administrative overhead.
 
-Training is not a one-time event — it is an ongoing investment. The practices that maintain high RPM performance over time are the ones that treat staff education as a core operational function, not a box to check during onboarding. Build training into your monthly rhythm, and your program will be stronger for it.
+Training is not a one-time event; it is an ongoing investment. The practices that maintain high RPM performance over time are the ones that treat staff education as a core operational function, not a box to check during onboarding. Build training into your monthly rhythm, and your program will be stronger for it.

@@ -8,7 +8,7 @@ image: "/blog/rpm-workflow-small-practice.webp"
 status: "published"
 ---
 
-Small practices — one to five providers — run RPM programs differently than large health systems. You do not have a dedicated remote monitoring department. You do not have a full-time RPM coordinator. You have a handful of staff members who are already managing phones, scheduling, prior authorizations, and clinical workflows. Adding RPM to their plate only works if the workflow is designed for the reality of a small practice.
+Small practices. one to five providers. run RPM programs differently than large health systems. You do not have a dedicated remote monitoring department. You do not have a full-time RPM coordinator. You have a handful of staff members who are already managing phones, scheduling, prior authorizations, and clinical workflows. Adding RPM to their plate only works if the workflow is designed for the reality of a small practice.
 
 This guide breaks down a practical RPM workflow for small practices, covering who does what, daily and weekly task lists, time budgeting, and a realistic path from 10 patients to 100.
 
@@ -26,7 +26,7 @@ Most small practices operate RPM with three roles, none of which are full-time R
 | Clinical Staff (RN or MA) | Monitors daily readings, conducts patient outreach, logs interactive time, manages device issues | 45-90 minutes per day |
 | Administrative Staff (Front desk or practice manager) | Handles enrollment paperwork, tracks consent forms, manages device inventory, coordinates with billing | 20-40 minutes per day |
 
-The clinical staff member — typically an RN or experienced MA — is the operational backbone of the program. This person reviews readings, calls patients when values are out of range, and documents the time spent on interactive communication. If you can only designate one person to "own" RPM, it should be this role.
+The clinical staff member. typically an RN or experienced MA. is the operational backbone of the program. This person reviews readings, calls patients when values are out of range, and documents the time spent on interactive communication. If you can only designate one person to "own" RPM, it should be this role.
 
 ### Solo Provider Practices
 
@@ -51,7 +51,7 @@ This is performed by the clinical staff member at the start of the day, before o
 
 ### Midday Outreach (20-40 Minutes)
 
-This block handles patient communication — the interactive time that supports billing for monitoring management services.
+This block handles patient communication; the interactive time that supports billing for monitoring management services.
 
 1. **Call patients with critical or trending-abnormal readings.** Document the call: what was discussed, any patient-reported symptoms, and any actions taken or recommended.
 2. **Call patients who have not transmitted in 48+ hours.** Troubleshoot device issues or remind them to take readings.
@@ -70,11 +70,11 @@ Daily tasks keep the program running. Weekly tasks keep it on track.
 
 | Task | Owner | Time Required | Day |
 |------|-------|--------------|-----|
-| Compliance review — identify patients below 16-day pace | Clinical staff | 20 minutes | Monday |
-| Provider reading review — batch review of non-urgent trends | Provider | 20 minutes | Tuesday or Wednesday |
-| Device inventory check — count unassigned devices, reorder if needed | Admin staff | 10 minutes | Wednesday |
-| New patient enrollment outreach — call eligible patients not yet enrolled | Clinical or admin staff | 30 minutes | Thursday |
-| Time log audit — verify interactive minutes are documented for each patient | Admin staff or practice manager | 15 minutes | Friday |
+| Compliance review. identify patients below 16-day pace | Clinical staff | 20 minutes | Monday |
+| Provider reading review. batch review of non-urgent trends | Provider | 20 minutes | Tuesday or Wednesday |
+| Device inventory check. count unassigned devices, reorder if needed | Admin staff | 10 minutes | Wednesday |
+| New patient enrollment outreach. call eligible patients not yet enrolled | Clinical or admin staff | 30 minutes | Thursday |
+| Time log audit. verify interactive minutes are documented for each patient | Admin staff or practice manager | 15 minutes | Friday |
 
 ### The Weekly Compliance Check
 
@@ -138,7 +138,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 - Enroll 5-8 patients per week from your highest-likelihood list
 - Use this phase to identify workflow bottlenecks (where does the process slow down?)
 - Establish the daily review, midday outreach, and end-of-day documentation rhythm
-- Track time meticulously — you need to understand your actual per-patient time before scaling
+- Track time meticulously. you need to understand your actual per-patient time before scaling
 
 **Staffing:** Existing staff, no new hires needed
 
@@ -151,7 +151,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 - Reduce per-patient time through batch processing (review all readings in one block rather than individually throughout the day)
 - Implement automated reminders for patients who miss readings
 - Standardize documentation templates so logging interactive time takes under 60 seconds per patient
-- Begin tracking financial performance — are you billing every eligible interaction?
+- Begin tracking financial performance. are you billing every eligible interaction?
 
 **Staffing:** Existing staff, but the RPM lead should have RPM formally added to their job description with allocated hours
 
@@ -163,7 +163,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 
 - Hire part-time RPM support or implement technology that reduces manual monitoring burden
 - Expand enrollment criteria beyond your initial target population (e.g., add hypertension patients if you started with diabetes only)
-- Implement a formal escalation protocol — not every abnormal reading needs to go to the provider; define which ones the RN can handle independently
+- Implement a formal escalation protocol, not every abnormal reading needs to go to the provider; define which ones the RN can handle independently
 - Conduct a quarterly program review with the full care team
 
 **Staffing:** Part-time addition or significant automation needed
@@ -182,6 +182,6 @@ RPM burnout is real, and it usually hits the clinical staff member who owns the 
 
 **Invest in tools that reduce manual work.** Every minute your staff spends manually counting transmission days or scrolling through a dashboard is a minute they could spend on patient interaction. If your current tools require significant manual effort, it is time to evaluate alternatives.
 
-For small practices navigating the operational complexity of RPM — from daily monitoring to monthly billing reconciliation — [Zayd Health](https://www.zaydhealth.com) is built to reduce the per-patient time burden so your team can scale without burning out.
+For small practices navigating the operational complexity of RPM, from daily monitoring to monthly billing reconciliation. [Zayd Health](https://www.zaydhealth.com) is built to reduce the per-patient time burden so your team can scale without burning out.
 
-A well-designed RPM workflow for a small practice is not about doing more — it is about doing the right things in the right order with clear ownership. Start with 10 patients, refine your process, and scale deliberately. The practices that grow their RPM programs to 100 patients are not the ones that moved fastest — they are the ones that built sustainable workflows from day one.
+A well-designed RPM workflow for a small practice is not about doing more; it is about doing the right things in the right order with clear ownership. Start with 10 patients, refine your process, and scale deliberately. The practices that grow their RPM programs to 100 patients are not the ones that moved fastest. they are the ones that built sustainable workflows from day one.

@@ -40,7 +40,7 @@ For practices that need RPM running quickly or whose EHR does not support robust
 
 **What it looks like in practice:** The RPM platform generates PDF summaries or CSV exports. Staff upload these as documents in the patient chart, or copy key data points into encounter notes. Some platforms offer a "clipboard" feature that formats data for easy paste into an EHR note template.
 
-**Requirements:** Minimal technical setup. The cost is staff time — typically 2-3 minutes per patient per month for the data transfer step. At 100 patients, that is 3-5 additional staff hours monthly.
+**Requirements:** Minimal technical setup. The cost is staff time. typically 2-3 minutes per patient per month for the data transfer step. At 100 patients, that is 3-5 additional staff hours monthly.
 
 ### Comparison of Integration Approaches
 
@@ -50,9 +50,9 @@ For practices that need RPM running quickly or whose EHR does not support robust
 | Setup cost | $5,000-$25,000+ | $2,000-$10,000 | Near zero |
 | Ongoing maintenance | Moderate (API versioning, credential management) | Low-moderate (message format updates) | High (staff time per patient) |
 | Data freshness | Real-time or near-real-time | Near-real-time (minutes) | Daily or weekly batches |
-| Provider experience | Seamless — data appears in existing workflow | Good — data appears as results or documents | Acceptable — data available but may require navigation |
+| Provider experience | Seamless. data appears in existing workflow | Good. data appears as results or documents | Acceptable. data available but may require navigation |
 | Scalability | Excellent | Good | Poor above 75-100 patients |
-| EHR vendor dependency | High — requires vendor cooperation | Moderate — uses standards | None |
+| EHR vendor dependency | High. requires vendor cooperation | Moderate. uses standards | None |
 
 > **Tip:** If your practice has fewer than 50 RPM patients, start with manual or semi-manual transfer. Use the first 3-6 months to prove program viability and generate revenue, then invest integration dollars once you have confirmed RPM is a long-term commitment. You can always upgrade the integration approach later without disrupting the clinical program.
 
@@ -66,7 +66,7 @@ Epic offers several integration pathways. The App Orchard (now renamed to the Ep
 
 For practices on Epic Community Connect or hosted Epic, integration options may be limited by your hosting organization's policies. Always confirm with your Epic administrator before assuming a marketplace app can be activated for your instance.
 
-**Key consideration:** Epic's integration review process is thorough but slow. If your RPM vendor is not already on the App Market, expect 6-12 months before a direct integration is available. In the interim, use CDA document injection via standard HL7 interfaces — most Epic installations accept inbound HL7 ORU messages with embedded PDF reports.
+**Key consideration:** Epic's integration review process is thorough but slow. If your RPM vendor is not already on the App Market, expect 6-12 months before a direct integration is available. In the interim, use CDA document injection via standard HL7 interfaces. most Epic installations accept inbound HL7 ORU messages with embedded PDF reports.
 
 ### athenahealth
 
@@ -116,7 +116,7 @@ Before implementing any integration, you need to decide what data moves between 
 
 ### Bidirectional Considerations
 
-True bidirectional integration — where both systems read and write to each other in real time — is the most powerful but also the most fragile configuration. Every bidirectional data element creates a potential conflict: what happens when a nurse updates a phone number in the RPM platform while the front desk updates it in the EHR simultaneously?
+True bidirectional integration, where both systems read and write to each other in real time. is the most powerful but also the most fragile configuration. Every bidirectional data element creates a potential conflict: what happens when a nurse updates a phone number in the RPM platform while the front desk updates it in the EHR simultaneously?
 
 For most primary care practices, the practical recommendation is: **EHR is the system of record for demographics and clinical data; RPM platform is the system of record for device data, monitoring time, and transmission compliance.** Data flows in both directions, but each system "owns" specific data elements with clear conflict resolution rules.
 
@@ -136,13 +136,13 @@ HL7 interfaces and API connections fail silently more often than you would expec
 
 ### Pitfall 4: Over-Engineering the Initial Integration
 
-Practices sometimes delay their RPM program for months while pursuing a perfect API integration. Meanwhile, they are leaving revenue on the table and patients unmonitored. A phased approach — start with manual transfer, move to HL7 document injection, and eventually implement full API integration — is almost always the better strategy.
+Practices sometimes delay their RPM program for months while pursuing a perfect API integration. Meanwhile, they are leaving revenue on the table and patients unmonitored. A phased approach. start with manual transfer, move to HL7 document injection, and eventually implement full API integration. is almost always the better strategy.
 
 ### Pitfall 5: Neglecting Provider Training on Integrated Data
 
 Even a perfectly executed technical integration fails if providers do not know where to find RPM data in their chart or how to interpret the summaries. Dedicate time during the launch to walk each provider through exactly where RPM information appears in their existing EHR workflow.
 
-> **Tip:** Create a one-page quick reference card showing providers exactly where RPM data appears in the EHR — which tab, which section, what it looks like. Laminate it and place one in each workstation. This simple step dramatically reduces the "I never see the RPM data" complaint.
+> **Tip:** Create a one-page quick reference card showing providers exactly where RPM data appears in the EHR, which tab, which section, what it looks like. Laminate it and place one in each workstation. This simple step dramatically reduces the "I never see the RPM data" complaint.
 
 ## Choosing the Right Integration Path for Your Practice
 

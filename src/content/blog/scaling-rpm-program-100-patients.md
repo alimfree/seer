@@ -8,7 +8,7 @@ image: "/blog/scaling-rpm-program.webp"
 status: "published"
 ---
 
-Most primary care practices launch their RPM program with 10 to 20 diabetic patients. The early days feel manageable — a single nurse checks readings, makes phone calls, and logs time. Then enrollment grows. Somewhere between 25 and 50 patients, cracks start to appear: missed transmissions go unnoticed, monthly billing deadlines slip, and the staff member running the program starts spending more time on RPM than their original clinical duties.
+Most primary care practices launch their RPM program with 10 to 20 diabetic patients. The early days feel manageable. a single nurse checks readings, makes phone calls, and logs time. Then enrollment grows. Somewhere between 25 and 50 patients, cracks start to appear: missed transmissions go unnoticed, monthly billing deadlines slip, and the staff member running the program starts spending more time on RPM than their original clinical duties.
 
 Scaling an RPM program to 100 patients is not just a matter of enrolling more people. It requires deliberate decisions about staffing, technology, and workflows at each growth stage. This guide lays out the specific bottlenecks you will hit, when to hire versus optimize, and what a healthy program looks like at scale.
 
@@ -20,7 +20,7 @@ RPM programs do not scale linearly. The work required per patient changes as you
 
 At this stage, one clinical staff member (typically an MA or LPN) can manage the entire program part-time, dedicating roughly 8-12 hours per week. The workflow is straightforward: check the dashboard each morning, call patients with out-of-range readings, document time, and submit billing codes at month-end.
 
-The primary risk at this stage is not operational — it is clinical. Your team is still learning which glucose thresholds trigger outreach, how to handle non-transmitting patients, and when to escalate to a provider. Resist the urge to scale enrollment until these clinical protocols are stable.
+The primary risk at this stage is not operational; it is clinical. Your team is still learning which glucose thresholds trigger outreach, how to handle non-transmitting patients, and when to escalate to a provider. Resist the urge to scale enrollment until these clinical protocols are stable.
 
 ### Stage 2: 26-50 Patients
 
@@ -57,7 +57,7 @@ These ratios assume a clinical staff member (MA, LPN, or RN) dedicated to RPM du
 
 ### Bottleneck 1: Transmission Monitoring
 
-At 25 patients, you can eyeball the dashboard to see who is testing daily. At 75, you cannot. Patients who stop transmitting for 3-5 days early in the month are salvageable — you can call them, troubleshoot the device, and still hit the 16-day threshold. Patients who stop transmitting and are not caught until day 20 are lost revenue for that month.
+At 25 patients, you can eyeball the dashboard to see who is testing daily. At 75, you cannot. Patients who stop transmitting for 3-5 days early in the month are salvageable. you can call them, troubleshoot the device, and still hit the 16-day threshold. Patients who stop transmitting and are not caught until day 20 are lost revenue for that month.
 
 **Solution:** Automated daily alerts for patients with transmission gaps of 3 or more consecutive days. This single automation typically recovers 8-12% of otherwise-lost monthly billings.
 
@@ -71,7 +71,7 @@ CPT 99457 requires 20 minutes of clinical staff time per patient per month, and 
 
 Physicians and NPs need to review RPM data and make clinical decisions, but their time is the scarcest resource in your practice. If your RPM workflow requires the provider to log into a separate portal, review raw data, and document their assessment for each patient monthly, the program will hit a provider-side bottleneck at 40-50 patients.
 
-**Solution:** Structured clinical summaries delivered inside the existing EHR workflow. The provider should see a one-page summary with trends, alerts, and a recommended action — not raw glucose logs.
+**Solution:** Structured clinical summaries delivered inside the existing EHR workflow. The provider should see a one-page summary with trends, alerts, and a recommended action, not raw glucose logs.
 
 ### Bottleneck 4: Patient Engagement and Adherence
 
@@ -81,7 +81,7 @@ Patient attrition accelerates as you scale because your team has less capacity f
 
 ### Bottleneck 5: Billing Accuracy and Compliance
 
-As volume increases, billing errors compound. Missing a single code element across 100 patients — say, failing to document device supply (99454) because a patient used a personal glucometer one month — creates audit exposure and revenue leakage simultaneously.
+As volume increases, billing errors compound. Missing a single code element across 100 patients. say, failing to document device supply (99454) because a patient used a personal glucometer one month. creates audit exposure and revenue leakage simultaneously.
 
 **Solution:** Automated billing eligibility checks that verify all code requirements are met before claims are generated. This includes transmission day counts, time thresholds, active consent status, and device assignment validation.
 
@@ -92,7 +92,7 @@ Practice managers often default to hiring when the workload increases. But addin
 | Signal | Action |
 |---|---|
 | Staff spending more than 30% of RPM time on data entry and spreadsheet management | Optimize: invest in automation before hiring |
-| Alert fatigue — staff ignoring dashboard notifications because too many are non-actionable | Optimize: refine alert thresholds and escalation rules |
+| Alert fatigue. staff ignoring dashboard notifications because too many are non-actionable | Optimize: refine alert thresholds and escalation rules |
 | Staff consistently working overtime to meet month-end billing deadlines | Optimize first (automate billing checks), then hire if hours remain high |
 | Clinical response times exceeding 4 hours for critical readings during business hours | Hire: this is a patient safety issue that cannot be solved with software alone |
 | Monthly enrollment requests exceeding 15 new patients with current onboarding capacity maxed | Hire: onboarding quality directly impacts long-term retention |
@@ -132,6 +132,6 @@ You do not need to build this yourself. Platforms like [Zayd Health](https://www
 
 ## The Path Forward
 
-Scaling an RPM program to 100 patients is achievable for any primary care practice that approaches growth deliberately. The practices that succeed treat RPM as a clinical operation with defined roles, automated compliance checks, and clear performance benchmarks — not as a side project managed in spare time.
+Scaling an RPM program to 100 patients is achievable for any primary care practice that approaches growth deliberately. The practices that succeed treat RPM as a clinical operation with defined roles, automated compliance checks, and clear performance benchmarks, not as a side project managed in spare time.
 
 Start by identifying which growth stage you are in today, address the bottlenecks specific to that stage, and resist the temptation to scale enrollment faster than your workflows can support. The revenue opportunity at 100 patients is real, but only if the program is built to sustain it.

@@ -20,10 +20,10 @@ Chronic kidney disease does not simply add another condition to manage alongside
 
 This is the most clinically consequential issue. A1C measures glycated hemoglobin over a 2-3 month period, but its accuracy depends on normal red blood cell turnover. CKD disrupts this in multiple ways:
 
-- **Anemia and reduced RBC lifespan** — CKD patients have shorter RBC survival, which artificially lowers A1C. A patient with an A1C of 6.8% and stage 4 CKD may have actual average glucose closer to what a 7.5% A1C would represent in someone with normal kidney function.
-- **Erythropoietin (EPO) therapy** — patients on EPO produce more young red blood cells, which further skews A1C downward.
-- **Iron deficiency** — common in CKD, iron deficiency can artificially raise A1C, creating an effect in the opposite direction.
-- **Uremia** — uremic toxins can form carbamylated hemoglobin, which some A1C assays cannot distinguish from glycated hemoglobin, leading to falsely elevated results.
+- **Anemia and reduced RBC lifespan:** CKD patients have shorter RBC survival, which artificially lowers A1C. A patient with an A1C of 6.8% and stage 4 CKD may have actual average glucose closer to what a 7.5% A1C would represent in someone with normal kidney function.
+- **Erythropoietin (EPO) therapy:** Patients on EPO produce more young red blood cells, which further skews A1C downward.
+- **Iron deficiency:** Common in CKD, iron deficiency can artificially raise A1C, creating an effect in the opposite direction.
+- **Uremia:** Uremic toxins can form carbamylated hemoglobin, which some A1C assays cannot distinguish from glycated hemoglobin, leading to falsely elevated results.
 
 **The practical implication:** For CKD stage 3b and beyond (eGFR < 45), A1C should not be the sole metric for glucose management. Daily or weekly glucose readings provide a more accurate picture of actual glycemic control.
 
@@ -31,10 +31,10 @@ This is the most clinically consequential issue. A1C measures glycated hemoglobi
 
 CKD patients are at significantly higher risk for hypoglycemia, and the consequences are more severe:
 
-- **Reduced renal gluconeogenesis** — the kidney normally contributes 20-25% of endogenous glucose production via gluconeogenesis. As renal function declines, this contribution drops, making fasting hypoglycemia more likely.
-- **Impaired insulin clearance** — the kidney clears approximately 30-80% of circulating insulin. In CKD, insulin (both endogenous and exogenous) accumulates, leading to prolonged and unpredictable glucose-lowering effects.
-- **Reduced drug clearance** — sulfonylureas and their active metabolites are renally cleared. Standard doses in CKD patients can cause severe, prolonged hypoglycemia.
-- **Impaired counter-regulatory response** — CKD blunts the hormonal response to low blood sugar (glucagon, epinephrine), making recovery from hypoglycemic episodes slower.
+- **Reduced renal gluconeogenesis**; the kidney normally contributes 20-25% of endogenous glucose production via gluconeogenesis. As renal function declines, this contribution drops, making fasting hypoglycemia more likely.
+- **Impaired insulin clearance**; the kidney clears approximately 30-80% of circulating insulin. In CKD, insulin (both endogenous and exogenous) accumulates, leading to prolonged and unpredictable glucose-lowering effects.
+- **Reduced drug clearance**. sulfonylureas and their active metabolites are renally cleared. Standard doses in CKD patients can cause severe, prolonged hypoglycemia.
+- **Impaired counter-regulatory response**. CKD blunts the hormonal response to low blood sugar (glucagon, epinephrine), making recovery from hypoglycemic episodes slower.
 
 ### Glucose Variability Increases
 
@@ -64,7 +64,7 @@ Several diabetes medications require dose adjustment or discontinuation as renal
 
 **Sulfonylureas:** Glipizide is preferred over glyburide in CKD because glipizide does not have renally-cleared active metabolites. Glyburide should be avoided entirely in CKD stage 3 and beyond due to prolonged hypoglycemia risk.
 
-**Insulin:** Dose requirements typically decrease as CKD progresses because insulin clearance is impaired. Patients stable on insulin for years may suddenly develop recurrent hypoglycemia as their eGFR declines — this is a sign that insulin doses need reduction, not that diabetes is improving.
+**Insulin:** Dose requirements typically decrease as CKD progresses because insulin clearance is impaired. Patients stable on insulin for years may suddenly develop recurrent hypoglycemia as their eGFR declines. this is a sign that insulin doses need reduction, not that diabetes is improving.
 
 **SGLT2 inhibitors:** Efficacy for glucose lowering decreases at eGFR < 45, but renal and cardiovascular protective benefits persist. Current guidelines support continuing SGLT2 inhibitors for cardiorenal protection down to eGFR 20, even though the glucose-lowering effect is minimal at that level.
 
@@ -72,9 +72,9 @@ Several diabetes medications require dose adjustment or discontinuation as renal
 
 ### Medications to Avoid
 
-- **Glyburide** — active metabolites accumulate in CKD, causing severe prolonged hypoglycemia
-- **High-dose metformin below eGFR 30** — lactic acidosis risk, though rare, is increased
-- **Acarbose** — limited data in advanced CKD; metabolites accumulate
+- **Glyburide**. active metabolites accumulate in CKD, causing severe prolonged hypoglycemia
+- **High-dose metformin below eGFR 30**. lactic acidosis risk, though rare, is increased
+- **Acarbose**. limited data in advanced CKD; metabolites accumulate
 
 ## Glucose Targets in CKD
 
@@ -98,11 +98,11 @@ The appropriate glucose target for a diabetic patient with CKD is often less agg
 
 ### What to Monitor and When
 
-- **eGFR and creatinine** — at least every 3-6 months; more frequently if declining rapidly
-- **Urine albumin-to-creatinine ratio (UACR)** — annually to track nephropathy progression
-- **Glucose readings** — frequency depends on CKD stage and medication regimen. Patients on insulin with CKD stage 3b+ benefit from daily monitoring.
-- **A1C** — continue checking quarterly, but interpret in context of CKD stage. Compare trends rather than absolute values.
-- **Potassium** — CKD patients are prone to hyperkalemia, especially on ACE inhibitors/ARBs. Potassium fluctuations can affect cardiac risk and interact with insulin's potassium-shifting effect.
+- **eGFR and creatinine**. at least every 3-6 months; more frequently if declining rapidly
+- **Urine albumin-to-creatinine ratio (UACR)**. annually to track nephropathy progression
+- **Glucose readings**. frequency depends on CKD stage and medication regimen. Patients on insulin with CKD stage 3b+ benefit from daily monitoring.
+- **A1C**. continue checking quarterly, but interpret in context of CKD stage. Compare trends rather than absolute values.
+- **Potassium**. CKD patients are prone to hyperkalemia, especially on ACE inhibitors/ARBs. Potassium fluctuations can affect cardiac risk and interact with insulin's potassium-shifting effect.
 
 ### Documentation Considerations
 
@@ -112,7 +112,7 @@ When monitoring a CKD-diabetes patient, document the renal context alongside glu
 2. Whether A1C is expected to be reliable at this level of renal function
 3. The rationale for glucose targets (why the target is 7.5% rather than 6.5%)
 4. Medication adjustments made due to renal function (metformin dose reduction, insulin dose decrease)
-5. Hypoglycemia screening — ask about episodes at every visit
+5. Hypoglycemia screening. ask about episodes at every visit
 
 ## Coordinating with Nephrology
 

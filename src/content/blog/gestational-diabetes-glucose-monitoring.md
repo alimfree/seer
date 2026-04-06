@@ -1,6 +1,6 @@
 ---
 title: "Gestational Diabetes and Postpartum Glucose Monitoring: What Primary Care Needs to Know"
-description: "How primary care practices should monitor glucose in patients with gestational diabetes history — during pregnancy, postpartum, and long-term."
+description: "How primary care practices should monitor glucose in patients with gestational diabetes history, during pregnancy, postpartum, and long-term."
 date: "2026-03-25"
 author: "Mohammed Ali"
 tags: ["clinical", "rpm", "diabetes"]
@@ -8,7 +8,7 @@ image: "/blog/gestational-diabetes-monitoring.webp"
 status: "published"
 ---
 
-Gestational diabetes mellitus (GDM) affects 6-9% of pregnancies in the United States, and the numbers are climbing. For primary care practices, GDM patients represent a population that often falls through the cracks after delivery. The OB manages glucose during pregnancy, but once the baby arrives, monitoring responsibility shifts back to primary care — and that handoff frequently fails.
+Gestational diabetes mellitus (GDM) affects 6-9% of pregnancies in the United States, and the numbers are climbing. For primary care practices, GDM patients represent a population that often falls through the cracks after delivery. The OB manages glucose during pregnancy, but once the baby arrives, monitoring responsibility shifts back to primary care; that handoff frequently fails.
 
 The clinical stakes are significant. Women with a history of GDM have a 50% lifetime risk of developing Type 2 diabetes, with the highest conversion rates occurring in the first 5 years postpartum. Yet fewer than half of these patients complete the recommended postpartum glucose screening.
 
@@ -39,7 +39,7 @@ Gestational diabetes is not a temporary condition that resolves at delivery. It 
 
 ## The Handoff Problem
 
-The gap between obstetric care and primary care is where most GDM patients fall out of monitoring. The OB tracks glucose closely during pregnancy, but their relationship with the patient typically ends at the 6-week postpartum visit. The primary care physician may not even know the patient had GDM unless it appears in the problem list — and in many EHR systems, GDM is coded as a pregnancy-specific diagnosis that does not carry forward.
+The gap between obstetric care and primary care is where most GDM patients fall out of monitoring. The OB tracks glucose closely during pregnancy, but their relationship with the patient typically ends at the 6-week postpartum visit. The primary care physician may not even know the patient had GDM unless it appears in the problem list; in many EHR systems, GDM is coded as a pregnancy-specific diagnosis that does not carry forward.
 
 **What primary care teams should do:**
 
@@ -90,18 +90,18 @@ The postpartum OGTT is the single most important screening event for a GDM patie
 
 ## Long-Term Monitoring Protocol
 
-For patients who clear the postpartum OGTT (normal glucose tolerance), the monitoring does not end — it simply shifts to annual screening.
+For patients who clear the postpartum OGTT (normal glucose tolerance), the monitoring does not end; it simply shifts to annual screening.
 
 **Recommended long-term protocol:**
 
-1. **Annual A1C or fasting glucose** — indefinitely. This is a lifelong recommendation.
-2. **Pre-conception screening** before any subsequent pregnancy — A1C and fasting glucose to establish baseline before the metabolic stress of pregnancy.
-3. **Lifestyle counseling** at each annual visit — even modest weight loss (5-7% of body weight) reduces diabetes conversion risk by 58% in this population (DPP trial data).
-4. **Medication list review** — some medications prescribed postpartum (certain contraceptives, antidepressants) can affect glucose metabolism. Account for these when interpreting annual labs.
+1. **Annual A1C or fasting glucose**. indefinitely. This is a lifelong recommendation.
+2. **Pre-conception screening** before any subsequent pregnancy. A1C and fasting glucose to establish baseline before the metabolic stress of pregnancy.
+3. **Lifestyle counseling** at each annual visit; even modest weight loss (5-7% of body weight) reduces diabetes conversion risk by 58% in this population (DPP trial data).
+4. **Medication list review**; some medications prescribed postpartum (certain contraceptives, antidepressants) can affect glucose metabolism. Account for these when interpreting annual labs.
 
 ## Coordinating with OB/GYN
 
-Effective GDM management requires communication between primary care and obstetrics. Neither specialty owns the patient exclusively — the OB leads during pregnancy, primary care leads after.
+Effective GDM management requires communication between primary care and obstetrics. Neither specialty owns the patient exclusively; the OB leads during pregnancy, primary care leads after.
 
 **What to share with the OB:**
 
@@ -118,9 +118,9 @@ Effective GDM management requires communication between primary care and obstetr
 
 ## Practical Steps for Your Practice
 
-1. **Run a panel report** — identify all female patients aged 18-45 with a history of GDM (Z86.32) or active GDM (O24.4xx).
-2. **Verify postpartum screening status** — for patients who delivered in the past 12 months, confirm whether the OGTT was completed.
-3. **Set annual screening reminders** — for all patients with GDM history, ensure A1C or fasting glucose is ordered at least annually.
-4. **Document the connection** — when monitoring a patient with GDM history, note the clinical rationale linking their pregnancy history to the current monitoring plan.
+1. **Run a panel report**. identify all female patients aged 18-45 with a history of GDM (Z86.32) or active GDM (O24.4xx).
+2. **Verify postpartum screening status**. for patients who delivered in the past 12 months, confirm whether the OGTT was completed.
+3. **Set annual screening reminders**. for all patients with GDM history, ensure A1C or fasting glucose is ordered at least annually.
+4. **Document the connection**. when monitoring a patient with GDM history, note the clinical rationale linking their pregnancy history to the current monitoring plan.
 
 GDM is one of the strongest predictors of future Type 2 diabetes. Primary care practices that build structured follow-up into their workflows for these patients will catch early conversions and intervene before complications develop.

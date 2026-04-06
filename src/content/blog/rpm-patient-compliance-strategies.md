@@ -8,9 +8,9 @@ image: "/blog/patient-compliance-strategies.webp"
 status: "published"
 ---
 
-You enrolled 80 patients in your RPM program. Three months later, only 35 are still transmitting readings consistently. The rest have gone quiet — devices sitting on nightstands, unused. This is the compliance problem, and it is the most common reason RPM programs underperform financially and clinically.
+You enrolled 80 patients in your RPM program. Three months later, only 35 are still transmitting readings consistently. The rest have gone quiet. devices sitting on nightstands, unused. This is the compliance problem, and it is the most common reason RPM programs underperform financially and clinically.
 
-The math is straightforward: if a patient does not transmit readings on at least 16 days in a calendar month, you cannot bill for the device supply code. If your clinical staff cannot log 20 minutes of interactive communication, you lose the monitoring management revenue as well. Every non-compliant patient is a cost center — you paid for the device, you are paying for the platform, and you are getting nothing back.
+The math is straightforward: if a patient does not transmit readings on at least 16 days in a calendar month, you cannot bill for the device supply code. If your clinical staff cannot log 20 minutes of interactive communication, you lose the monitoring management revenue as well. Every non-compliant patient is a cost center. you paid for the device, you are paying for the platform, and you are getting nothing back.
 
 This guide covers practical strategies for how to improve RPM patient compliance, based on patterns observed across primary care practices managing diabetic populations.
 
@@ -43,9 +43,9 @@ Long-term dropoff is harder to prevent. Causes include hospitalization, change i
 
 | Dropout Period | Primary Causes | Preventability |
 |---------------|---------------|----------------|
-| Days 1-14 | Device issues, confusion, no follow-up | High — most are preventable with a check-in call |
-| Days 15-60 | No habit formed, low perceived value | Moderate — requires ongoing engagement |
-| Days 60+ | Life changes, fatigue, device failure | Lower — some attrition is natural |
+| Days 1-14 | Device issues, confusion, no follow-up | High. most are preventable with a check-in call |
+| Days 15-60 | No habit formed, low perceived value | Moderate. requires ongoing engagement |
+| Days 60+ | Life changes, fatigue, device failure | Lower; some attrition is natural |
 
 > **Tip:** If more than 20% of your patients stop transmitting in the first 14 days, the problem is almost certainly your onboarding process, not your patients. Fix the first-week experience before investing in long-term compliance strategies.
 
@@ -80,15 +80,15 @@ For patients over 70 with complex medication regimens, caregiver involvement is 
 
 **At enrollment:** Ask the patient if they have a family member or caregiver who helps with their health management. If yes, ask if they would like that person included in RPM communications. Document consent for caregiver contact.
 
-**Ongoing:** Send the caregiver a weekly summary of readings — not the raw data, but a simple status: "Mom's readings this week: 18 out of 21 expected readings received. Average blood glucose: 142. No alerts triggered."
+**Ongoing:** Send the caregiver a weekly summary of readings, not the raw data, but a simple status: "Mom's readings this week: 18 out of 21 expected readings received. Average blood glucose: 142. No alerts triggered."
 
-**When compliance drops:** Call the caregiver before calling the patient. Often the caregiver can resolve the issue faster ("Oh, the device fell behind the nightstand — I will set it up again for her").
+**When compliance drops:** Call the caregiver before calling the patient. Often the caregiver can resolve the issue faster ("Oh, the device fell behind the nightstand. I will set it up again for her").
 
 ### Caregiver Compliance Impact
 
-Practices that formally engage caregivers for patients over 70 consistently see 15-25% higher monthly compliance rates compared to patients in the same age group without caregiver involvement. This is not a marginal improvement — it is often the difference between a billable and non-billable month.
+Practices that formally engage caregivers for patients over 70 consistently see 15-25% higher monthly compliance rates compared to patients in the same age group without caregiver involvement. This is not a marginal improvement; it is often the difference between a billable and non-billable month.
 
-> **Tip:** Create a simple caregiver enrollment form — name, phone number, relationship to patient, preferred contact method, and consent from the patient. This takes two minutes during enrollment and pays dividends for the life of the patient's participation.
+> **Tip:** Create a simple caregiver enrollment form. name, phone number, relationship to patient, preferred contact method, and consent from the patient. This takes two minutes during enrollment and pays dividends for the life of the patient's participation.
 
 ## Incentive Structures That Move the Needle
 
@@ -96,9 +96,9 @@ Incentives do not need to be expensive to be effective. The goal is to create a 
 
 ### What Works
 
-**Recognition from the provider.** During office visits, have the provider pull up the patient's RPM data and comment on it: "I can see you have been checking your blood sugar every day — your numbers are looking much more stable." This is the most powerful incentive and costs nothing.
+**Recognition from the provider.** During office visits, have the provider pull up the patient's RPM data and comment on it: "I can see you have been checking your blood sugar every day. your numbers are looking much more stable." This is the most powerful incentive and costs nothing.
 
-**Monthly compliance acknowledgment.** A brief call or text at the end of a month where the patient hit 16+ transmission days: "Great job this month — we received readings on 24 out of 30 days. Keep it up."
+**Monthly compliance acknowledgment.** A brief call or text at the end of a month where the patient hit 16+ transmission days: "Great job this month. we received readings on 24 out of 30 days. Keep it up."
 
 **Clinical feedback.** Patients who see that their behavior leads to medication adjustments or clinical conversations are more likely to continue. If you review data but never act on it visibly, patients conclude that no one is paying attention.
 
@@ -106,7 +106,7 @@ Incentives do not need to be expensive to be effective. The goal is to create a 
 
 - Gift cards or financial incentives (creates an expectation that is hard to sustain and may raise compliance concerns with payers)
 - Gamification features in apps (Medicare-age patients generally do not engage with leaderboards or badges)
-- Penalty-based approaches ("if you do not send readings, we will remove you from the program" — this creates anxiety, not motivation)
+- Penalty-based approaches ("if you do not send readings, we will remove you from the program". this creates anxiety, not motivation)
 
 ## Measuring Compliance: The Metrics That Matter
 
@@ -148,7 +148,7 @@ Consider disenrollment when:
 ### Disenrollment Process
 
 1. Document the reason for disenrollment in the patient's chart
-2. Make a final outreach attempt — phone call, not text or letter
+2. Make a final outreach attempt. phone call, not text or letter
 3. If the patient is reachable, explain that you are pausing the program and they can re-enroll at any time
 4. Retrieve the device if possible
 5. Update your enrollment tracking system
@@ -158,14 +158,14 @@ Do not frame disenrollment as punitive. Frame it as a pause: "We have noticed yo
 
 ### Disenrollment Rate Benchmarks
 
-A healthy RPM program will disenroll 10-15% of patients annually. If your disenrollment rate is above 25%, the problem is likely upstream — you are enrolling patients who were never good candidates, or your onboarding process is not setting patients up for success.
+A healthy RPM program will disenroll 10-15% of patients annually. If your disenrollment rate is above 25%, the problem is likely upstream. you are enrolling patients who were never good candidates, or your onboarding process is not setting patients up for success.
 
 If your disenrollment rate is below 5%, you are probably keeping non-compliant patients on your roster, which inflates your enrolled count but deflates your per-patient revenue and wastes staff time on outreach that is not working.
 
 ## Turning Compliance Into a System
 
-Patient compliance is not a character trait — it is a function of your program design. Practices that treat compliance as the patient's responsibility will always struggle. Practices that treat it as an operational process — with defined triggers, escalation paths, and feedback loops — consistently maintain transmission rates above 80%.
+Patient compliance is not a character trait; it is a function of your program design. Practices that treat compliance as the patient's responsibility will always struggle. Practices that treat it as an operational process. with defined triggers, escalation paths, and feedback loops. consistently maintain transmission rates above 80%.
 
 For practices that need to operationalize compliance tracking across their entire RPM population, [Zayd Health](https://www.zaydhealth.com) automates the monitoring layer so your clinical team can focus on the patients who need intervention rather than manually scanning dashboards for missed readings.
 
-The goal is not 100% compliance — that is unrealistic. The goal is a system that catches non-compliance early, intervenes effectively, and disenrolls gracefully when a patient is not a fit. Build that system, and your RPM program will sustain itself.
+The goal is not 100% compliance. that is unrealistic. The goal is a system that catches non-compliance early, intervenes effectively, and disenrolls gracefully when a patient is not a fit. Build that system, and your RPM program will sustain itself.

@@ -8,7 +8,7 @@ image: "/blog/patient-enrollment.webp"
 status: "published"
 ---
 
-Getting patients enrolled in your remote patient monitoring program is the single biggest bottleneck most primary care practices face. You can have the right devices, the right billing infrastructure, and a motivated clinical team — but if patients do not sign up, none of it matters. Enrollment is where RPM programs succeed or stall.
+Getting patients enrolled in your remote patient monitoring program is the single biggest bottleneck most primary care practices face. You can have the right devices, the right billing infrastructure, and a motivated clinical team, but if patients do not sign up, none of it matters. Enrollment is where RPM programs succeed or stall.
 
 This guide covers a practical, field-tested approach to RPM patient enrollment best practices. It is written for practice managers, medical assistants, and clinical staff who are responsible for getting patients from "never heard of it" to "actively transmitting readings."
 
@@ -93,7 +93,7 @@ This works because the recommendation comes from the provider, who the patient t
 
 ### The MA Enrollment Conversation (5-7 Minutes)
 
-"Dr. Patel mentioned our remote monitoring program. Here is how it works: you will use this glucose monitor at home — it is very similar to what you may already be using. The difference is that it sends your readings to us automatically. We look at them each week, and if we see anything concerning, we will call you. There is no extra charge beyond your normal copay. Can I walk you through how to use it?"
+"Dr. Patel mentioned our remote monitoring program. Here is how it works: you will use this glucose monitor at home; it is very similar to what you may already be using. The difference is that it sends your readings to us automatically. We look at them each week, and if we see anything concerning, we will call you. There is no extra charge beyond your normal copay. Can I walk you through how to use it?"
 
 Key principles:
 
@@ -112,7 +112,7 @@ Every practice encounters the same set of objections. Preparing your staff for t
 
 | Objection | Response |
 |-----------|----------|
-| "I already check my blood sugar." | "That is great — this uses a similar process, but it sends the readings to us automatically so we can spot trends you might not notice on your own." |
+| "I already check my blood sugar." | "That is great. this uses a similar process, but it sends the readings to us automatically so we can spot trends you might not notice on your own." |
 | "I am not good with technology." | "The device is very simple. You just [describe one-step process]. And if you ever have trouble, you can call us and we will walk you through it." |
 | "How much does this cost?" | "There is no charge for the device. Your insurance covers the monitoring service, and your out-of-pocket cost is [specific copay amount or $0]." |
 | "I do not want to be bothered with calls." | "We only call when something in your readings needs attention. Most patients hear from us once or twice a month at most." |
@@ -128,7 +128,7 @@ You cannot improve what you do not measure. Every RPM program should track these
 
 | Metric | Definition | Target |
 |--------|-----------|--------|
-| Eligible patient count | Total patients who meet clinical and insurance criteria | Baseline number — update quarterly |
+| Eligible patient count | Total patients who meet clinical and insurance criteria | Baseline number. update quarterly |
 | Outreach rate | Patients contacted / eligible patients | 80%+ within first 60 days |
 | Enrollment rate | Patients enrolled / patients contacted | 50-65% |
 | Time to first reading | Days from enrollment to first transmitted reading | Under 3 days |
@@ -162,7 +162,7 @@ After working with dozens of primary care practices, these are the patterns that
 
 ## Moving From Enrollment to Sustained Engagement
 
-Getting the consent signed and the device in the patient's hands is only the beginning. The first 14 days after enrollment are critical — that is when patients either build the habit of daily readings or quietly stop using the device.
+Getting the consent signed and the device in the patient's hands is only the beginning. The first 14 days after enrollment are critical. that is when patients either build the habit of daily readings or quietly stop using the device.
 
 Assign a staff member to call every newly enrolled patient three days after enrollment to check in: "How is the monitor working? Have you been able to take your readings?" This single touchpoint dramatically improves 30-day retention.
 

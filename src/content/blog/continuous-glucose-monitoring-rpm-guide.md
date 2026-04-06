@@ -1,6 +1,6 @@
 ---
 title: "Continuous Glucose Monitoring for RPM: A Primary Care Guide"
-description: "How to use continuous glucose monitoring in remote patient monitoring programs — device selection, data interpretation, and billing considerations."
+description: "How to use continuous glucose monitoring in remote patient monitoring programs: device selection, data interpretation, and billing considerations."
 date: "2025-10-20"
 author: "Mohammed Ali"
 tags: ["clinical", "devices", "diabetes"]
@@ -10,7 +10,7 @@ status: "published"
 
 Continuous glucose monitoring has transformed diabetes management in specialty care over the past decade. Now, as remote patient monitoring programs expand into primary care, CGM is becoming a practical option for practices that want richer glycemic data than fingerstick meters can provide.
 
-But integrating CGM into an RPM workflow is not the same as prescribing one in an endocrinology office. Primary care teams need to understand the device landscape, data transmission requirements, clinical interpretation frameworks, and billing nuances before committing to a CGM-based RPM strategy.
+But integrating CGM into an RPM workflow is not the same as prescribing one in an endocrinology office. Primary care teams need to understand the device options, data transmission requirements, clinical interpretation frameworks, and billing nuances before committing to a CGM-based RPM strategy.
 
 This guide walks through each of those areas with the specificity your team needs to make an informed decision.
 
@@ -54,17 +54,17 @@ Not every CGM on the market is suitable for RPM. The key requirement is that the
 
 | Device | Sensor Duration | Data Access Method | RPM Integration | Real-Time Alerts |
 |--------|----------------|-------------------|-----------------|-----------------|
-| Dexcom G7 | 10 days | Cloud API (Clarity) | Strong — API access for platforms | Yes |
-| Dexcom Stelo | 15 days | App-based (OTC) | Limited — no provider portal | No |
-| FreeStyle Libre 3 | 14 days | Cloud (LibreView) | Strong — provider dashboard | Yes |
-| FreeStyle Libre 2 | 14 days | Cloud (LibreView) | Moderate — requires scan or app | Optional |
-| Medtronic Guardian 4 | 7 days | CareLink platform | Limited — primarily for pump users | Yes |
+| Dexcom G7 | 10 days | Cloud API (Clarity) | Strong. API access for platforms | Yes |
+| Dexcom Stelo | 15 days | App-based (OTC) | Limited. no provider portal | No |
+| FreeStyle Libre 3 | 14 days | Cloud (LibreView) | Strong. provider dashboard | Yes |
+| FreeStyle Libre 2 | 14 days | Cloud (LibreView) | Moderate. requires scan or app | Optional |
+| Medtronic Guardian 4 | 7 days | CareLink platform | Limited. primarily for pump users | Yes |
 
 For most primary care RPM programs, the Dexcom G7 and FreeStyle Libre 3 are the strongest options. Both offer cloud-based provider dashboards, API access for RPM platform integration, and continuous real-time data without requiring patient interaction after sensor insertion.
 
 ### Insurance and Coverage Considerations
 
-CGM coverage varies significantly by payer. Medicare covers CGM for patients with diabetes who meet specific criteria — typically requiring insulin use or a documented history of problematic hypoglycemia. Commercial payers have their own criteria, and many still require prior authorization.
+CGM coverage varies significantly by payer. Medicare covers CGM for patients with diabetes who meet specific criteria. typically requiring insulin use or a documented history of problematic hypoglycemia. Commercial payers have their own criteria, and many still require prior authorization.
 
 The cost difference between prescribing a CGM and a standard glucose meter is meaningful. If your RPM program margins depend on device costs staying low, run the numbers for your specific patient population and payer mix before committing to CGM as a default device.
 
@@ -72,7 +72,7 @@ The cost difference between prescribing a CGM and a standard glucose meter is me
 
 CGM data transmission for RPM has a specific wrinkle that catches many practices off guard: the 16-day rule.
 
-To bill CPT 99454 (device supply with daily data transmission), your patient's device must transmit data on at least 16 of 30 days in the billing period. With CGM, this is usually straightforward — as long as the sensor is active and the patient's phone (or receiver) is syncing to the cloud, data flows automatically.
+To bill CPT 99454 (device supply with daily data transmission), your patient's device must transmit data on at least 16 of 30 days in the billing period. With CGM, this is usually straightforward, as long as the sensor is active and the patient's phone (or receiver) is syncing to the cloud, data flows automatically.
 
 But gaps happen. Common causes include:
 
@@ -115,10 +115,10 @@ An AGP report consolidates 14 days of CGM data into a single-page visual summary
 
 When reviewing CGM data for RPM, apply a triage framework:
 
-1. **Address safety first.** Any time below 54 mg/dL requires immediate clinical review. Look at timing — is it nocturnal? Post-exercise? Related to medication timing?
+1. **Address safety first.** Any time below 54 mg/dL requires immediate clinical review. Look at timing. is it nocturnal? Post-exercise? Related to medication timing?
 2. **Assess overall control.** Time in Range is the single most useful metric. A TIR below 50% in a Type 2 patient warrants a medication review.
 3. **Look at patterns, not individual readings.** A single spike to 250 mg/dL after a holiday meal is not clinically significant. A pattern of post-breakfast spikes above 200 every day for two weeks is.
-4. **Use the daily profiles.** The AGP overlay shows where glucose typically rises and falls. This identifies the specific times of day where interventions — medication timing, meal composition, activity — can have the most impact.
+4. **Use the daily profiles.** The AGP overlay shows where glucose typically rises and falls. This identifies the specific times of day where interventions. medication timing, meal composition, activity. can have the most impact.
 
 ### Documenting CGM Reviews for RPM Billing
 
@@ -161,12 +161,12 @@ CGM is a powerful tool for RPM programs, but it is not a universal solution. It 
 
 The practices that succeed with CGM-based RPM are the ones that match the right device to the right patient, build systems to monitor data transmission, and train their clinical teams to interpret CGM reports efficiently.
 
-If you are building or scaling a diabetes-focused RPM program and want to automate the compliance and billing side — including transmission tracking and documentation — [Zayd Health](https://www.zaydhealth.com) was built specifically for this workflow.
+If you are building or scaling a diabetes-focused RPM program and want to automate the compliance and billing side, including transmission tracking and documentation. [Zayd Health](https://www.zaydhealth.com) was built specifically for this workflow.
 
 ## Key Takeaways
 
 - CGM provides dramatically more data than fingerstick meters but is not cost-effective for every patient
 - Dexcom G7 and FreeStyle Libre 3 currently offer the strongest RPM integration capabilities
-- The 16-day transmission rule still applies — passive data collection helps, but sensor gaps can break compliance
+- The 16-day transmission rule still applies. passive data collection helps, but sensor gaps can break compliance
 - Train your team on AGP reports and the five core CGM metrics (TIR, time below range, GMI, CV, time above range)
 - Document CGM reviews with specific metrics and clinical reasoning to support 99457/99458 billing

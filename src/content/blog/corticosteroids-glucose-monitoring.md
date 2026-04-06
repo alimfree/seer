@@ -10,16 +10,16 @@ status: "published"
 
 Corticosteroids are one of the most predictable causes of hyperglycemia in diabetic patients, and one of the most frequently prescribed. Primary care physicians use them for asthma exacerbations, COPD flares, allergic reactions, joint injections, autoimmune conditions, and dermatologic disorders. Specialists prescribe them even more liberally. Every time a diabetic patient starts a steroid course, their glucose control is at risk.
 
-The clinical challenge is not recognizing that steroids affect glucose — every clinician knows this. The challenge is monitoring appropriately during the steroid course, adjusting diabetes medications proactively rather than reactively, and documenting the clinical reasoning behind the intensified monitoring.
+The clinical challenge is not recognizing that steroids affect glucose (every clinician knows this). The challenge is monitoring appropriately during the steroid course, adjusting diabetes medications proactively rather than reactively, and documenting the clinical reasoning behind the intensified monitoring.
 
 ## How Steroids Disrupt Glucose
 
 Corticosteroids affect glucose through multiple mechanisms simultaneously, which is why their impact is so pronounced:
 
-- **Increased hepatic gluconeogenesis** — the liver produces more glucose, particularly in the afternoon and evening
-- **Reduced peripheral insulin sensitivity** — skeletal muscle and adipose tissue become less responsive to insulin
-- **Impaired pancreatic beta-cell compensation** — in patients with existing diabetes, the beta cells cannot increase insulin output enough to overcome the added resistance
-- **Increased appetite and caloric intake** — steroids stimulate hunger, leading to larger meals that compound postprandial glucose spikes
+- **Increased hepatic gluconeogenesis**; the liver produces more glucose, particularly in the afternoon and evening
+- **Reduced peripheral insulin sensitivity:** skeletal muscle and adipose tissue become less responsive to insulin
+- **Impaired pancreatic beta-cell compensation**, in patients with existing diabetes, the beta cells cannot increase insulin output enough to overcome the added resistance
+- **Increased appetite and caloric intake**. steroids stimulate hunger, leading to larger meals that compound postprandial glucose spikes
 
 The glucose effect is dose-dependent, rapid (often within 4-8 hours of the first dose), and follows a characteristic pattern: afternoon and evening hyperglycemia that is significantly worse than morning fasting glucose.
 
@@ -64,19 +64,19 @@ This pattern is important for monitoring because a fasting-only glucose check wi
 
 For diabetic patients starting a short steroid burst:
 
-- **Increase glucose monitoring frequency** — at minimum, add a late-afternoon or pre-dinner check in addition to fasting glucose
+- **Increase glucose monitoring frequency**. at minimum, add a late-afternoon or pre-dinner check in addition to fasting glucose
 - **Check glucose daily for the duration of the course** plus 48 hours after the last dose
-- **Set a threshold for intervention** — if glucose consistently exceeds 250 mg/dL, contact the patient to discuss temporary medication adjustment
-- **Warn the patient in advance** — "Your blood sugar will likely run higher than usual while you are on prednisone. This is expected. Check your glucose more often and call us if readings are consistently above 250."
+- **Set a threshold for intervention**; if glucose consistently exceeds 250 mg/dL, contact the patient to discuss temporary medication adjustment
+- **Warn the patient in advance**. "Your blood sugar will likely run higher than usual while you are on prednisone. This is expected. Check your glucose more often and call us if readings are consistently above 250."
 
 ### Chronic Steroid Use (Weeks to Months)
 
 For patients on maintenance steroids (rheumatologic conditions, transplant immunosuppression, adrenal insufficiency):
 
-- **Establish a new baseline** — the patient's glucose targets and diabetes regimen need to account for the ongoing steroid effect
-- **Monitor A1C more frequently** — quarterly A1C checks rather than the standard semi-annual
-- **Anticipate dose changes** — when the steroid dose is tapered, diabetes medication adjustments are needed in the opposite direction to prevent hypoglycemia
-- **Document the steroid indication and dose** alongside every glucose review — this context is critical for interpreting readings and justifying monitoring intensity
+- **Establish a new baseline**; the patient's glucose targets and diabetes regimen need to account for the ongoing steroid effect
+- **Monitor A1C more frequently**. quarterly A1C checks rather than the standard semi-annual
+- **Anticipate dose changes**. when the steroid dose is tapered, diabetes medication adjustments are needed in the opposite direction to prevent hypoglycemia
+- **Document the steroid indication and dose** alongside every glucose review. this context is critical for interpreting readings and justifying monitoring intensity
 
 ### After Joint Injections
 
@@ -92,7 +92,7 @@ The specific diabetes medication adjustment depends on the patient's current reg
 **Patients on oral agents only:**
 
 - Metformin can be continued but is unlikely to fully compensate for steroid-induced hyperglycemia at higher prednisone doses (> 20 mg/day)
-- Sulfonylureas carry hypoglycemia risk when the steroid is discontinued — use with caution
+- Sulfonylureas carry hypoglycemia risk when the steroid is discontinued. use with caution
 - Temporary basal insulin may be the safest approach for patients with sustained glucose > 250 mg/dL
 
 **Patients on insulin:**
@@ -159,6 +159,6 @@ The physician who prescribes the steroid is often not the physician managing the
 2. **Educate patients proactively.** Before the first dose, set expectations about glucose changes and provide a monitoring plan.
 3. **Document the temporal relationship.** When glucose readings spike, note the steroid name, dose, start date, and expected duration. This creates a clear clinical narrative.
 4. **Adjust and communicate.** Make temporary diabetes medication changes promptly and document them as steroid-related. Communicate with the prescribing specialist when appropriate.
-5. **Monitor the taper.** Steroid discontinuation is as important to manage as initiation — the risk shifts from hyperglycemia to hypoglycemia if diabetes medications are not reduced accordingly.
+5. **Monitor the taper.** Steroid discontinuation is as important to manage as initiation; the risk shifts from hyperglycemia to hypoglycemia if diabetes medications are not reduced accordingly.
 
 Steroid-induced hyperglycemia is predictable, manageable, and well-documented. The practices that handle it well are the ones that monitor proactively and adjust quickly rather than discovering the glucose spike at the next quarterly A1C.

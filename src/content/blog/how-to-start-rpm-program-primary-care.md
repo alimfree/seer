@@ -8,7 +8,7 @@ image: "/blog/starting-rpm-program.webp"
 status: "published"
 ---
 
-Setting up remote patient monitoring in a primary care practice can feel overwhelming. Between device logistics, billing codes, consent requirements, and staff workflows, it is easy to stall before you ever enroll your first patient. But for practices with sizeable diabetic populations, RPM is one of the highest-impact programs you can implement — both clinically and financially.
+Setting up remote patient monitoring in a primary care practice can feel overwhelming. Between device logistics, billing codes, consent requirements, and staff workflows, it is easy to stall before you ever enroll your first patient. But for practices with sizeable diabetic populations, RPM is one of the highest-impact programs you can implement, both clinically and financially.
 
 This guide walks you through exactly how to start an RPM program in primary care, from initial patient selection to ongoing compliance tracking. It is written for physicians and practice managers who want a realistic, actionable plan rather than a theoretical overview.
 
@@ -16,7 +16,7 @@ This guide walks you through exactly how to start an RPM program in primary care
 
 Before jumping into logistics, it is worth understanding why diabetes-focused RPM programs have the highest success rate for new implementations.
 
-Diabetic patients already engage in daily self-monitoring (blood glucose readings), which maps directly to the 16-day-per-month transmission requirement for CPT 99454. They are clinically high-risk, making payers more receptive to RPM claims. And the clinical feedback loop — where providers adjust medications based on trend data — is well-established in endocrinology and primary care alike.
+Diabetic patients already engage in daily self-monitoring (blood glucose readings), which maps directly to the 16-day-per-month transmission requirement for CPT 99454. They are clinically high-risk, making payers more receptive to RPM claims. And the clinical feedback loop, where providers adjust medications based on trend data. is well-established in endocrinology and primary care alike.
 
 Starting with diabetic patients gives your team a cohesive protocol to learn on before expanding to hypertension, CHF, or COPD populations.
 
@@ -42,7 +42,7 @@ Not every diabetic patient is a good RPM candidate. You need clear inclusion and
 
 ## Step 2: Select Your Devices and Connectivity Model
 
-For diabetic RPM, you need a cellular-connected blood glucose meter that transmits readings automatically to your practice. The key word is "automatically" — devices that require the patient to manually sync via an app create friction and lower adherence.
+For diabetic RPM, you need a cellular-connected blood glucose meter that transmits readings automatically to your practice. The key word is "automatically". devices that require the patient to manually sync via an app create friction and lower adherence.
 
 **Device selection criteria:**
 
@@ -91,7 +91,7 @@ RPM programs fail when no one owns the daily workflow. You need clear role assig
 | MA / Front Desk | Consent collection, device distribution, enrollment documentation | 10-15 min per patient (one-time) |
 | Billing Staff | Claims submission for 99453, 99454, 99457, 99458 | 5 min per patient per month |
 
-> **Tip:** The biggest staffing mistake is assigning RPM as a side task to someone who is already fully utilized. Even a panel of 50 patients requires a dedicated block of time — typically 60 to 90 minutes per day for clinical review and outreach.
+> **Tip:** The biggest staffing mistake is assigning RPM as a side task to someone who is already fully utilized. Even a panel of 50 patients requires a dedicated block of time. typically 60 to 90 minutes per day for clinical review and outreach.
 
 ### Staff Training Checklist
 
@@ -109,12 +109,12 @@ RPM billing is where most programs leak revenue. The codes are straightforward, 
 
 **The four codes you will use:**
 
-- **99453** — Initial setup and patient education (billed once)
-- **99454** — Device supply with at least 16 days of readings per 30-day period (billed monthly)
-- **99457** — First 20 minutes of clinical staff time in a calendar month (billed monthly)
-- **99458** — Each additional 20 minutes of clinical staff time (billed monthly, add-on)
+- **99453**. Initial setup and patient education (billed once)
+- **99454**. Device supply with at least 16 days of readings per 30-day period (billed monthly)
+- **99457**. First 20 minutes of clinical staff time in a calendar month (billed monthly)
+- **99458**. Each additional 20 minutes of clinical staff time (billed monthly, add-on)
 
-The most common failure point is 99454: if a patient only transmits readings on 15 days in a month, you cannot bill the code. Your team needs a system to monitor transmission adherence in real time — not at the end of the month when it is too late to intervene.
+The most common failure point is 99454: if a patient only transmits readings on 15 days in a month, you cannot bill the code. Your team needs a system to monitor transmission adherence in real time, not at the end of the month when it is too late to intervene.
 
 For 99457 and 99458, clinical staff must log their time accurately. Phone calls, reading reviews, care plan updates, and coordination all count, but the time must be documented with start and end timestamps.
 
@@ -158,7 +158,7 @@ After month one, hold a team retrospective. Common issues to address:
 
 Once your workflows are stable with 25-50 patients, the manual overhead of tracking transmissions, logging time, and reconciling billing eligibility starts to compound. This is the point where most practices either plateau or invest in automation.
 
-Platforms like [Zayd Health](https://www.zaydhealth.com) are built specifically for this inflection point — automating the compliance tracking, transmission monitoring, and billing reconciliation that consume staff time as panels grow. Rather than hiring additional staff to manage spreadsheets, the right software keeps your per-patient cost flat as you scale from 50 to 500 patients.
+Platforms like [Zayd Health](https://www.zaydhealth.com) are built specifically for this inflection point. automating the compliance tracking, transmission monitoring, and billing reconciliation that consume staff time as panels grow. Rather than hiring additional staff to manage spreadsheets, the right software keeps your per-patient cost flat as you scale from 50 to 500 patients.
 
 ## Common Mistakes to Avoid
 
@@ -174,6 +174,6 @@ Platforms like [Zayd Health](https://www.zaydhealth.com) are built specifically 
 
 You do not need a six-month implementation plan to start an RPM program. You need a patient list, a device vendor, a consent form, and a staff member who owns the workflow. The technical and billing complexity is real, but it is manageable when you start with a focused diabetic population and expand methodically.
 
-The practices that succeed with RPM are not the ones with the most sophisticated technology. They are the ones that build repeatable daily habits — checking readings, logging time, reaching out to non-adherent patients — and hold themselves accountable to doing it consistently.
+The practices that succeed with RPM are not the ones with the most sophisticated technology. They are the ones that build repeatable daily habits. checking readings, logging time, reaching out to non-adherent patients; hold themselves accountable to doing it consistently.
 
 Start with 25 patients. Get your first clean billing cycle under your belt. Then scale from a position of confidence.

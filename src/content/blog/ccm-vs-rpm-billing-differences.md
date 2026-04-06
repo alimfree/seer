@@ -136,7 +136,7 @@ For practices managing a large diabetic population, platforms like [Zayd Health]
 ## Key Takeaways
 
 - **CCM and RPM are complementary, not competing.** CCM bills for care coordination; RPM bills for device-based monitoring. Different activities, different codes, different requirements.
-- **Stacking is allowed and encouraged** — but only when time is tracked separately and each program's thresholds are independently met.
+- **Stacking is allowed and encouraged**, but only when time is tracked separately and each program's thresholds are independently met.
 - **RPM has a higher revenue ceiling per patient** and a lower eligibility bar. Start there if you are choosing one.
 - **Documentation discipline is everything.** Consent, time separation, care plan updates, and the 16-day transmission rule are the four areas where audits focus.
 - **Practices that bill both CCM and RPM for eligible patients** capture significantly more reimbursement per patient than those billing either program alone.

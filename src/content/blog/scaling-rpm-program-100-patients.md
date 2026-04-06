@@ -57,7 +57,7 @@ These ratios assume a clinical staff member (MA, LPN, or RN) dedicated to RPM du
 
 ### Bottleneck 1: Transmission Monitoring
 
-At 25 patients, you can eyeball the dashboard to see who is testing daily. At 75, you cannot. Patients who stop transmitting for 3-5 days early in the month are salvageable — you can call them, troubleshoot the device, and still hit the 16-day threshold. Patients who stop transmitting and are not caught until day 20 are lost revenue for that month.
+At 25 patients, you can eyeball the dashboard to see who is testing daily. At 75, you cannot. Patients who stop transmitting for 3-5 days early in the month are salvageable; you can call them, troubleshoot the device, and still hit the 16-day threshold. Patients who stop transmitting and are not caught until day 20 are lost revenue for that month.
 
 **Solution:** Automated daily alerts for patients with transmission gaps of 3 or more consecutive days. This single automation typically recovers 8-12% of otherwise-lost monthly billings.
 

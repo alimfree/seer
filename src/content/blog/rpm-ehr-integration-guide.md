@@ -50,7 +50,7 @@ For practices that need RPM running quickly or whose EHR has limited integration
 | Setup cost | $5,000-$25,000+ | $2,000-$10,000 | Near zero |
 | Ongoing maintenance | Moderate (API versioning, credential management) | Low-moderate (message format updates) | High (staff time per patient) |
 | Data freshness | Real-time or near-real-time | Near-real-time (minutes) | Daily or weekly batches |
-| Provider experience | Seamless: data appears in existing workflow | Good: data appears as results or documents | Acceptable: data available but may require navigation |
+| Provider experience | Transparent: data appears in existing workflow | Good: data appears as results or documents | Acceptable: data available but may require navigation |
 | Scalability | Excellent | Good | Poor above 75-100 patients |
 | EHR vendor dependency | High: requires vendor cooperation | Moderate: uses standards | None |
 

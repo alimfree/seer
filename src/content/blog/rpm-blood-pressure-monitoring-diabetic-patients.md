@@ -153,7 +153,7 @@ Your clinical notes for the monthly review should include:
 
 **Example documentation:**
 
-"Reviewed 28 days of home BP data (10/1–10/28). Average reading: 138/84. Seven readings above 140/90, primarily in morning measurements. Trend shows gradual increase over past 2 weeks. Called patient to discuss. reports increased sodium intake due to travel. Reinforced dietary guidance. Will reassess in 1 week. If trend continues, recommend provider review for amlodipine dose adjustment. Time: 24 minutes (RPM review 12 min, patient call 12 min)."
+"Reviewed 28 days of home BP data (10/1–10/28). Average reading: 138/84. Seven readings above 140/90, primarily in morning measurements. Trend shows gradual increase over past 2 weeks. Called patient to discuss; patient reports increased sodium intake due to travel. Reinforced dietary guidance. Will reassess in 1 week. If trend continues, recommend provider review for amlodipine dose adjustment. Time: 24 minutes (RPM review 12 min, patient call 12 min)."
 
 This level of specificity supports billing, demonstrates clinical value, and creates a defensible audit trail.
 

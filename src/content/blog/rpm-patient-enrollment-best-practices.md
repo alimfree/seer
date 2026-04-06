@@ -166,6 +166,6 @@ Getting the consent signed and the device in the patient's hands is only the beg
 
 Assign a staff member to call every newly enrolled patient three days after enrollment to check in: "How is the monitor working? Have you been able to take your readings?" This single touchpoint dramatically improves 30-day retention.
 
-For practices looking to automate enrollment tracking, compliance monitoring, and the operational complexity of managing an RPM program at scale, [Zayd Health](https://www.zaydhealth.com) provides purpose-built tools that handle the administrative burden so your clinical staff can focus on patient care.
+For practices looking to automate enrollment tracking, compliance monitoring, and day-to-day RPM operations, [Zayd Health](https://www.zaydhealth.com) provides tools built specifically for RPM programs that take the administrative work off your clinical staff's plate.
 
 Enrollment is not a one-time event. It is an ongoing operational function that requires the same attention you give to scheduling, billing, and clinical workflows. Treat it that way, and your RPM program will grow steadily rather than plateauing at 20 patients.

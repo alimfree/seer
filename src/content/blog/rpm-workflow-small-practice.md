@@ -163,7 +163,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 
 - Hire part-time RPM support or implement technology that reduces manual monitoring burden
 - Expand enrollment criteria beyond your initial target population (e.g., add hypertension patients if you started with diabetes only)
-- Implement a formal escalation protocol, not every abnormal reading needs to go to the provider; define which ones the RN can handle independently
+- Implement a formal escalation protocol that defines which abnormal readings the RN can handle independently and which need to go to the provider
 - Conduct a quarterly program review with the full care team
 
 **Staffing:** Part-time addition or significant automation needed
@@ -178,9 +178,9 @@ RPM burnout is real, and it usually hits the clinical staff member who owns the 
 
 **Rotate outreach calls when possible:** If you have two MAs, alternate weeks for patient outreach. Even a partial break helps.
 
-**Celebrate the numbers.** Share monthly RPM revenue with the team. When staff see that their RPM work generates meaningful revenue for the practice, the tasks feel less like an afterthought.
+**Celebrate the numbers:** Share monthly RPM revenue with the team. When staff see that their RPM work generates meaningful revenue for the practice, the tasks feel less like an afterthought.
 
-**Invest in tools that reduce manual work.** Every minute your staff spends manually counting transmission days or scrolling through a dashboard is a minute they could spend on patient interaction. If your current tools require significant manual effort, it is time to evaluate alternatives.
+**Invest in tools that reduce manual work:** Every minute your staff spends manually counting transmission days or scrolling through a dashboard is a minute they could spend on patient interaction. If your current tools require significant manual effort, it is time to evaluate alternatives.
 
 For small practices navigating the operational complexity of RPM, from daily monitoring to monthly billing reconciliation. [Zayd Health](https://www.zaydhealth.com) is built to reduce the per-patient time burden so your team can scale without burning out.
 

@@ -85,7 +85,7 @@ These actions require clinical judgment but may be performed under standing orde
 - Schedule a telehealth visit with the provider if the issue exceeds standing order scope
 - Document clinical reasoning and actions taken
 
-**Tier 3. Provider (MD, DO, NP, PA)**
+**Tier 3: Provider (MD, DO, NP, PA)**
 
 These actions require direct provider involvement:
 
@@ -106,7 +106,7 @@ These actions require direct provider involvement:
 | High | Within 24 hours | Recurrent hypoglycemia, sudden loss of control, significant BP elevation |
 | Urgent | Within 2 hours | Severe hypoglycemia (<54), hypertensive urgency (>180/110), suspected DKA symptoms |
 
-Document your response times. If an audit or payer review ever questions the clinical value of your RPM program, having documented response time standards; evidence that you met them. is powerful.
+Document your response times. If an audit or payer review ever questions the clinical value of your RPM program, having documented response time standards and evidence that you met them is powerful.
 
 ## Care Team Coordination
 
@@ -139,7 +139,7 @@ When escalating a patient between tiers, the handoff note should include:
 3. Any outreach already performed and the patient's response
 4. The specific question or decision needed from the next tier
 
-Example: "Patient J.S.. fasting glucose has increased from avg 135 to avg 172 over past 2 weeks (see RPM trend 9/5–9/19). Called patient on 9/16, reports no medication changes, denies illness, diet unchanged. Suspects stress from work situation. Requesting Tier 2 review for possible metformin dose increase (currently on 1000mg BID, max not reached)."
+Example: "Patient J.S., fasting glucose has increased from avg 135 to avg 172 over past 2 weeks (see RPM trend 9/5–9/19). Called patient on 9/16, reports no medication changes, denies illness, diet unchanged. Suspects stress from work situation. Requesting Tier 2 review for possible metformin dose increase (currently on 1000mg BID, max not reached)."
 
 ## Patient Engagement Strategies
 
@@ -161,7 +161,7 @@ Patient engagement in RPM follows a predictable pattern:
 
 **Weeks 1–2: Intensive Onboarding**
 - Call every new RPM patient on day 2 to confirm their device is working and their first readings have transmitted
-- Address any technical issues immediately. do not let a pairing problem fester for a week
+- Address any technical issues immediately — do not let a pairing problem fester for a week
 - Set clear expectations: "We will review your readings every week and call you if we see anything concerning"
 
 **Weeks 3–4: Habit Formation**

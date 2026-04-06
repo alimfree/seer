@@ -148,7 +148,7 @@ Consider disenrollment when:
 ### Disenrollment Process
 
 1. Document the reason for disenrollment in the patient's chart
-2. Make a final outreach attempt. phone call, not text or letter
+2. Make a final outreach attempt: phone call, not text or letter
 3. If the patient is reachable, explain that you are pausing the program and they can re-enroll at any time
 4. Retrieve the device if possible
 5. Update your enrollment tracking system
@@ -158,14 +158,14 @@ Do not frame disenrollment as punitive. Frame it as a pause: "We have noticed yo
 
 ### Disenrollment Rate Benchmarks
 
-A healthy RPM program will disenroll 10-15% of patients annually. If your disenrollment rate is above 25%, the problem is likely upstream. you are enrolling patients who were never good candidates, or your onboarding process is not setting patients up for success.
+A healthy RPM program will disenroll 10-15% of patients annually. If your disenrollment rate is above 25%, the problem is likely upstream: you are enrolling patients who were never good candidates, or your onboarding process is not setting patients up for success.
 
 If your disenrollment rate is below 5%, you are probably keeping non-compliant patients on your roster, which inflates your enrolled count but deflates your per-patient revenue and wastes staff time on outreach that is not working.
 
 ## Turning Compliance Into a System
 
-Patient compliance is not a character trait; it is a function of your program design. Practices that treat compliance as the patient's responsibility will always struggle. Practices that treat it as an operational process. with defined triggers, escalation paths, and feedback loops. consistently maintain transmission rates above 80%.
+Patient compliance is not a character trait; it is a function of your program design. Practices that treat compliance as the patient's responsibility will always struggle. Practices that treat it as an operational process — with defined triggers, escalation paths, and feedback loops — consistently maintain transmission rates above 80%.
 
 For practices that need to operationalize compliance tracking across their entire RPM population, [Zayd Health](https://www.zaydhealth.com) automates the monitoring layer so your clinical team can focus on the patients who need intervention rather than manually scanning dashboards for missed readings.
 
-The goal is not 100% compliance. that is unrealistic. The goal is a system that catches non-compliance early, intervenes effectively, and disenrolls gracefully when a patient is not a fit. Build that system, and your RPM program will sustain itself.
+The goal is not 100% compliance — that is unrealistic. The goal is a system that catches non-compliance early, intervenes effectively, and disenrolls gracefully when a patient is not a fit. Build that system, and your RPM program will sustain itself.

@@ -32,9 +32,9 @@ The glucose improvement can be substantial. In clinical trials, semaglutide 1 mg
 
 The speed and magnitude of glucose improvement on GLP-1 agonists can outpace medication adjustments:
 
-- **Patients on sulfonylureas**; the combination of a GLP-1 agonist with a sulfonylurea significantly increases hypoglycemia risk. As the GLP-1 agonist takes effect over 2-4 weeks, the sulfonylurea dose often needs to be reduced or discontinued.
+- **Patients on sulfonylureas:** the combination of a GLP-1 agonist with a sulfonylurea significantly increases hypoglycemia risk. As the GLP-1 agonist takes effect over 2-4 weeks, the sulfonylurea dose often needs to be reduced or discontinued.
 - **Patients on insulin:** basal insulin requirements may decrease by 20-50% over the first 3-6 months on a GLP-1 agonist. Patients who do not reduce insulin proactively will experience hypoglycemia.
-- **Patients with rapid weight loss**. losing 10-15% of body weight dramatically improves insulin sensitivity. A patient who needed 60 units of basal insulin at 250 lbs may only need 30 units at 215 lbs. This transition happens over months and requires ongoing dose titration.
+- **Patients with rapid weight loss:** losing 10-15% of body weight dramatically improves insulin sensitivity. A patient who needed 60 units of basal insulin at 250 lbs may only need 30 units at 215 lbs. This transition happens over months and requires ongoing dose titration.
 - **Dose escalation periods:** GLP-1 agonists are titrated upward over weeks to months (semaglutide starts at 0.25 mg, escalates to 0.5 mg, then 1.0 mg or 2.0 mg). Each dose increase can produce a further glucose drop that may require diabetes medication adjustment.
 
 ### Monitoring Protocol for GLP-1 Initiation

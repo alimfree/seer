@@ -59,7 +59,7 @@ These ratios assume a clinical staff member (MA, LPN, or RN) dedicated to RPM du
 
 At 25 patients, you can eyeball the dashboard to see who is testing daily. At 75, you cannot. Patients who stop transmitting for 3-5 days early in the month are salvageable — you can call them, troubleshoot the device, and still hit the 16-day threshold. Patients who stop transmitting and are not caught until day 20 are lost revenue for that month.
 
-**Solution:** automated daily alerts for patients with transmission gaps of 3 or more consecutive days. This single automation typically recovers 8-12% of otherwise-lost monthly billings.
+**Solution:** Automated daily alerts for patients with transmission gaps of 3 or more consecutive days. This single automation typically recovers 8-12% of otherwise-lost monthly billings.
 
 ### Bottleneck 2: Time Documentation
 
@@ -83,7 +83,7 @@ Patient attrition accelerates as you scale because your team has less capacity f
 
 As volume increases, billing errors compound. Missing a single code element across 100 patients (say, failing to document device supply (99454) because a patient used a personal glucometer one month) creates audit exposure and revenue leakage simultaneously.
 
-**Solution:** automated billing eligibility checks that verify all code requirements are met before claims are generated. This includes transmission day counts, time thresholds, active consent status, and device assignment validation.
+**Solution:** Automated billing eligibility checks that verify all code requirements are met before claims are generated. This includes transmission day counts, time thresholds, active consent status, and device assignment validation.
 
 ## When to Hire vs. When to Optimize
 
@@ -128,7 +128,7 @@ At 100 patients, your technology needs to do more than display glucose readings.
 - **EHR integration** (at minimum, pushing clinical summaries into the patient chart; ideally bidirectional)
 - **Reporting** for compliance audits, revenue analysis, and program health metrics
 
-You do not need to build this yourself. Platforms like [Zayd Health](https://www.zaydhealth.com) are purpose-built to handle RPM billing compliance and operational automation for primary care practices, particularly those serving diabetic populations. The right platform eliminates most of the manual bottlenecks described above and lets your clinical team focus on patient care rather than spreadsheet management.
+You do not need to build this yourself. Platforms like [Zayd Health](https://www.zaydhealth.com) are built to handle RPM billing compliance and operational automation for primary care practices, particularly those serving diabetic populations. The right platform eliminates most of the manual bottlenecks described above, so your clinical team spends time reviewing glucose trends and calling patients instead of tracking transmission days in Excel.
 
 ## The Path Forward
 

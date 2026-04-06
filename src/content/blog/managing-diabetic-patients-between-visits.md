@@ -209,10 +209,10 @@ Between-visit management through RPM is only sustainable if the workload is mana
 
 If you are looking to automate the operational side of between-visit management — transmission tracking, billing compliance, and data gap alerts — so your clinical team can focus on the clinical work that actually improves outcomes, [Zayd Health](https://www.zaydhealth.com) is built specifically for primary care practices running diabetes RPM programs.
 
-## Key Takeaways
+## What Matters Most
 
 - The 90-day gap between office visits is where diabetic complications develop and adherence breaks down. RPM makes this invisible time visible
 - Define specific warning signs in daily data and map each one to an escalation tier with response time standards
 - Assign clear RPM roles across your care team; ambiguity causes both gaps and duplication
-- Patient engagement follows a predictable curve. invest heavily in weeks 1–4 and proactively reach out before patients disengage
+- Patient engagement follows a predictable curve — invest heavily in weeks 1–4 and proactively reach out before patients disengage
 - Use RPM data to transform office visits from reactive lab reviews into targeted, data-driven conversations

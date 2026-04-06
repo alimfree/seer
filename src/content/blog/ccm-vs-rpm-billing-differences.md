@@ -119,7 +119,7 @@ Both programs require documented consent before billing begins. CCM consent must
 
 ### Failing the 16-day RPM threshold
 
-For RPM, 99454 requires data transmission on at least 16 of 30 days. If a patient forgets to use their glucometer for two weeks, you lose the entire month of device-supply billing. Proactive outreach — calling or texting patients who fall behind on transmissions — is essential, but it takes staff time that most practices do not budget for.
+For RPM, 99454 requires data transmission on at least 16 of 30 days. If a patient forgets to use their glucometer for two weeks, you lose the entire month of device-supply billing. Proactive outreach (calling or texting patients who fall behind on transmissions) is essential, but it takes staff time that most practices do not budget for.
 
 ### Not updating the CCM care plan
 

@@ -179,7 +179,7 @@ Patient engagement in RPM follows a predictable pattern:
 - Increase contact for patients with new clinical challenges
 - Periodically share progress: "Since you started RPM 6 months ago, your A1C has gone from 8.9 to 7.8. That is meaningful."
 
-> **Patient Engagement Insight:** The single strongest predictor of long-term RPM engagement is whether the patient believes someone is actually looking at their data. Patients who receive proactive outreach; even a brief call that says "Your readings look good this week". stay engaged at dramatically higher rates than patients who only hear from the practice when something is wrong.
+> **Patient Engagement Insight:** The single strongest predictor of long-term RPM engagement is whether the patient believes someone is actually looking at their data. Patients who receive proactive outreach — even a brief call that says "Your readings look good this week" — stay engaged at dramatically higher rates than patients who only hear from the practice when something is wrong.
 
 ## Connecting Between-Visit Management to Office Visits
 

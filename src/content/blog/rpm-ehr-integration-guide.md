@@ -40,7 +40,7 @@ For practices that need RPM running quickly or whose EHR has limited integration
 
 **What it looks like in practice:** The RPM platform generates PDF summaries or CSV exports. Staff upload these as documents in the patient chart, or copy key data points into encounter notes. Some platforms offer a "clipboard" feature that formats data for easy paste into an EHR note template.
 
-**Requirements:** Minimal technical setup. The cost is staff time. typically 2-3 minutes per patient per month for the data transfer step. At 100 patients, that is 3-5 additional staff hours monthly.
+**Requirements:** Minimal technical setup. The cost is staff time, typically 2-3 minutes per patient per month for the data transfer step. At 100 patients, that is 3-5 additional staff hours monthly.
 
 ### Comparison of Integration Approaches
 

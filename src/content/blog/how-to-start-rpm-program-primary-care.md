@@ -132,7 +132,7 @@ CMS audits of RPM claims are increasing. Your program needs to be audit-ready fr
 - Clinical time logs with timestamps, staff name, and activities performed
 - Monthly billing reconciliation: did we meet the requirements for every code we billed?
 
-If you are managing this in spreadsheets, it will work for 10 patients. It will not work for 50 or 100. Most practices that scale beyond a pilot phase need purpose-built software to track transmission days, aggregate clinical time, and flag billing eligibility automatically.
+If you are managing this in spreadsheets, it will work for 10 patients. It will not work for 50 or 100. Most practices that scale beyond a pilot phase need dedicated software to track transmission days, aggregate clinical time, and flag billing eligibility automatically.
 
 ## Step 7: Launch, Monitor, and Iterate
 
@@ -158,7 +158,7 @@ After month one, hold a team retrospective. Common issues to address:
 
 Once your workflows are stable with 25-50 patients, the manual overhead of tracking transmissions, logging time, and reconciling billing eligibility starts to compound. This is the point where most practices either plateau or invest in automation.
 
-Platforms like [Zayd Health](https://www.zaydhealth.com) are built specifically for this inflection point. automating the compliance tracking, transmission monitoring, and billing reconciliation that consume staff time as panels grow. Rather than hiring additional staff to manage spreadsheets, the right software keeps your per-patient cost flat as you scale from 50 to 500 patients.
+Platforms like [Zayd Health](https://www.zaydhealth.com) are built specifically for this inflection point, automating the compliance tracking, transmission monitoring, and billing reconciliation that consume staff time as panels grow. Rather than hiring additional staff to manage spreadsheets, the right software keeps your per-patient cost flat as you scale from 50 to 500 patients.
 
 ## Common Mistakes to Avoid
 

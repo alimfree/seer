@@ -43,7 +43,7 @@ Not every out-of-range reading is clinically significant. Your team needs to dis
 | Rising fasting glucose trend | Fasting readings increasing by >10 mg/dL per week over 2+ weeks | Medication non-adherence, waning medication efficacy, weight gain, illness | Medium — review within 48 hours |
 | New post-meal spikes | Post-meal readings consistently >200 mg/dL when previously controlled | Dietary change, medication timing, stress | Medium — coaching call within 72 hours |
 | Recurrent hypoglycemia | 3+ readings <70 mg/dL in 7 days | Over-medication, missed meals, increased activity, alcohol use | High — same-day review |
-| Sudden loss of glucose control | 7-day average increases by >50 mg/dL compared to prior 2 weeks | Acute illness, new medication (steroids, etc.), major stressor | High. clinical contact within 24 hours |
+| Sudden loss of glucose control | 7-day average increases by >50 mg/dL compared to prior 2 weeks | Acute illness, new medication (steroids, etc.), major stressor | High — clinical contact within 24 hours |
 | Data gap | No readings transmitted for 3+ consecutive days | Device issue, patient disengagement, hospitalization | Medium. outreach within 48 hours |
 
 ### Blood Pressure Warning Signs (for Dual-Monitoring Programs)

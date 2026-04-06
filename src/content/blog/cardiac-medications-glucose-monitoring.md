@@ -28,9 +28,9 @@ Beyond masking symptoms, some beta-blockers worsen insulin resistance and modest
 
 ### What to Watch For
 
-- **Masked hypoglycemia**; the patient does not feel low blood sugar episodes. Sweating (a cholinergic symptom) is preserved, but the classic adrenergic warnings are blunted.
+- **Masked hypoglycemia:** the patient does not feel low blood sugar episodes. Sweating (a cholinergic symptom) is preserved, but the classic adrenergic warnings are blunted.
 - **Gradual fasting glucose elevation** over weeks to months after initiation.
-- **Worsening lipid profiles**; some beta-blockers increase triglycerides and reduce HDL, compounding metabolic risk.
+- **Worsening lipid profiles:** some beta-blockers increase triglycerides and reduce HDL, compounding metabolic risk.
 - **Impaired glucose recovery:** after a hypoglycemic episode, glycogenolysis is beta-2 mediated. Non-selective beta-blockers can slow the body's ability to self-correct low blood sugar.
 
 ### Clinical Considerations

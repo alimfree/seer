@@ -38,7 +38,7 @@ The MA is typically the first point of contact for RPM-related tasks and handles
 
 ### Registered Nurse (RN) Responsibilities
 
-The RN serves as the clinical monitor. reviewing readings, making clinical judgments about when to escalate, and conducting the patient interactions that require clinical assessment.
+The RN serves as the clinical monitor: reviewing readings, making clinical judgments about when to escalate, and conducting the patient interactions that require clinical assessment.
 
 | Responsibility | Description | Frequency |
 |---------------|-------------|-----------|

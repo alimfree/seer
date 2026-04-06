@@ -92,7 +92,7 @@ The specific diabetes medication adjustment depends on the patient's current reg
 **Patients on oral agents only:**
 
 - Metformin can be continued but is unlikely to fully compensate for steroid-induced hyperglycemia at higher prednisone doses (> 20 mg/day)
-- Sulfonylureas carry hypoglycemia risk when the steroid is discontinued. use with caution
+- Sulfonylureas carry hypoglycemia risk when the steroid is discontinued; use with caution
 - Temporary basal insulin may be the safest approach for patients with sustained glucose > 250 mg/dL
 
 **Patients on insulin:**

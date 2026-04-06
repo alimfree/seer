@@ -42,7 +42,7 @@ The majority of your diabetic RPM patients already need blood pressure managemen
 
 ## Device Selection for Blood Pressure RPM
 
-Choosing the right blood pressure monitor for RPM is less about clinical accuracy. most validated devices are comparable; more about data transmission reliability and patient usability.
+Choosing the right blood pressure monitor for RPM is less about clinical accuracy (most validated devices are comparable) and more about data transmission reliability and patient usability.
 
 ### Key Selection Criteria
 

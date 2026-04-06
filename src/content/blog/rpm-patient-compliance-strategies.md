@@ -8,7 +8,7 @@ image: "/blog/patient-compliance-strategies.webp"
 status: "published"
 ---
 
-You enrolled 80 patients in your RPM program. Three months later, only 35 are still transmitting readings consistently. The rest have gone quiet. devices sitting on nightstands, unused. This is the compliance problem, and it is the most common reason RPM programs underperform financially and clinically.
+You enrolled 80 patients in your RPM program. Three months later, only 35 are still transmitting readings consistently. The rest have gone quiet. devices sitting on nightstands, unused — and this is the compliance problem, and it is the most common reason RPM programs underperform financially and clinically.
 
 The math is straightforward: if a patient does not transmit readings on at least 16 days in a calendar month, you cannot bill for the device supply code. If your clinical staff cannot log 20 minutes of interactive communication, you lose the monitoring management revenue as well. Every non-compliant patient is a cost center. you paid for the device, you are paying for the platform, and you are getting nothing back.
 

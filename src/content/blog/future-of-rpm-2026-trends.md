@@ -50,7 +50,7 @@ On one hand, CMS is expanding the conditions and care settings eligible for RPM 
 
 On the other hand, CMS is increasing audit scrutiny on RPM claims. The Office of Inspector General flagged RPM billing as a focus area for 2025-2026 audits, specifically targeting practices that bill 99457/99458 without adequate documentation of interactive communication, and practices that bill 99454 for patients who do not meet the 16-day transmission threshold.
 
-> **Key takeaway:** The window for loosely documented RPM billing is closing. Practices that invest in rigorous, automated compliance tracking now will be positioned to scale their programs as CMS broadens access. while practices relying on manual tracking face increasing audit risk.
+> **Key takeaway:** The window for loosely documented RPM billing is closing. Practices that invest in rigorous, automated compliance tracking now will be positioned to scale their programs as CMS broadens access, while practices relying on manual tracking face increasing audit risk.
 
 ### What to Watch
 
@@ -60,9 +60,9 @@ The proposed 2026 Physician Fee Schedule is expected to address two open questio
 
 Consumer wearables and clinical-grade RPM devices have historically occupied different worlds. Fitbits and Apple Watches tracked steps and heart rate for wellness; FDA-cleared glucometers and blood pressure cuffs generated the data required for reimbursable RPM.
 
-That boundary is blurring. Continuous glucose monitors like the Dexcom G7 and Abbott FreeStyle Libre 3 now offer both consumer and clinical-grade data streams from the same device. Apple Watch Series 10 received FDA clearance for atrial fibrillation detection that meets the evidentiary bar for clinical decision-making.
+Those two categories are converging. Continuous glucose monitors like the Dexcom G7 and Abbott FreeStyle Libre 3 now offer both consumer and clinical-grade data streams from the same device. Apple Watch Series 10 received FDA clearance for atrial fibrillation detection that meets the evidentiary bar for clinical decision-making.
 
-### The Device Landscape in 2026
+### RPM-Eligible Devices in 2026
 
 | Device Category | Clinical Maturity | RPM Billing Eligibility | Cost Trend |
 |---|---|---|---|

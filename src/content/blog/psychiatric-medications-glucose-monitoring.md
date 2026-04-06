@@ -26,13 +26,13 @@ Olanzapine and clozapine are the most metabolically disruptive. Studies show the
 - Increased insulin resistance at the receptor level
 - Appetite stimulation leading to weight gain and secondary insulin resistance
 
-### Moderate Risk. Some SSRIs and SNRIs
+### Moderate Risk: Some SSRIs and SNRIs
 
 Paroxetine and mirtazapine are associated with weight gain and modest increases in fasting glucose. Conversely, fluoxetine and sertraline tend to be weight-neutral or mildly weight-reducing.
 
 **Clinical takeaway:** The choice of antidepressant matters for your diabetic patients. If a patient's glucose control deteriorates after starting paroxetine, the medication may be a contributing factor.
 
-### Variable Risk. Mood Stabilizers
+### Variable Risk: Mood Stabilizers
 
 Lithium is associated with hypothyroidism, which can secondarily affect glucose metabolism. Valproate carries weight gain risk. Lamotrigine is generally metabolically neutral.
 
@@ -40,9 +40,9 @@ Lithium is associated with hypothyroidism, which can secondarily affect glucose 
 
 Patients on high-risk psychiatric medications benefit from closer glucose monitoring because:
 
-- **Glucose fluctuations are more likely and less predictable**. standard quarterly A1C checks may miss acute changes.
-- **Medication changes require clinical context**. interpreting readings alongside psychiatric medication adjustments requires clinical judgment.
-- **Early intervention prevents complications**. catching a glucose spike after starting olanzapine can prevent a hospitalization.
+- **Glucose fluctuations are more likely and less predictable:** standard quarterly A1C checks may miss acute changes.
+- **Medication changes require clinical context:** interpreting readings alongside psychiatric medication adjustments requires clinical judgment.
+- **Early intervention prevents complications:** catching a glucose spike after starting olanzapine can prevent a hospitalization.
 
 ### The Documentation Angle
 

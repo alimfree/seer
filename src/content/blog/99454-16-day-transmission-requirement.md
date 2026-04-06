@@ -90,7 +90,7 @@ This has downstream effects:
 
 ## Strategies to Improve Patient Transmission Compliance
 
-Reaching 16 days out of 30 is a achievable bar, but it requires the right workflows.
+Reaching 16 days out of 30 is an achievable bar, but it requires the right workflows.
 
 ### Set expectations during onboarding
 
@@ -124,9 +124,9 @@ Whichever approach you choose, make sure your billing team and clinical team agr
 
 Manually tracking transmission days across dozens or hundreds of patients in spreadsheets is unsustainable. It is slow, error-prone, and reactive by nature. Practices that scale RPM successfully rely on systems that track transmission compliance automatically and surface at-risk patients before the billing window closes.
 
-[Zayd Health](https://www.zaydhealth.com) is purpose-built to handle this — continuously monitoring each patient's transmission count against the billing cycle, alerting staff when patients fall behind, and ensuring that every billable month is captured. For practices managing diabetic RPM populations, this kind of automation is the difference between an RPM program that generates consistent revenue and one that bleeds money through avoidable non-compliance.
+[Zayd Health](https://www.zaydhealth.com) is built to handle this — continuously monitoring each patient's transmission count against the billing cycle, alerting staff when patients fall behind, and ensuring that every billable month is captured. For practices managing diabetic RPM populations, this kind of automation is the difference between an RPM program that generates consistent revenue and one that bleeds money through avoidable non-compliance.
 
-## Key Takeaways
+## What Billing Staff Should Remember About 99454
 
 - **99454 requires data transmission on at least 16 calendar days** within a 30-day billing period. Not 16 readings — 16 unique days.
 - Multiple readings on the same day count as a single transmission day.

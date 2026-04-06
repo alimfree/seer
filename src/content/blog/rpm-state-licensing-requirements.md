@@ -14,7 +14,7 @@ Federal Medicare rules get most of the attention in RPM compliance discussions, 
 
 This matters most for practices that serve patients across state lines, contract with out-of-state clinical staff for RPM monitoring, or use third-party RPM vendors that blur the line between technology service and medical practice.
 
-## The State Licensing Landscape for RPM
+## How State Licensing Applies to RPM
 
 RPM does not fit neatly into existing state regulatory frameworks. Most state medical practice acts were written before remote monitoring existed, and states vary widely in how they classify RPM -- as traditional medical practice, telehealth, or something else entirely.
 
@@ -166,7 +166,7 @@ Create a matrix showing every provider and clinical staff member, their current 
 
 Maintain written policies covering your multi-state licensing compliance approach. This documentation demonstrates good faith if a state board ever inquires about your RPM program's licensing posture.
 
-## Staying Ahead of State Regulatory Changes
+## Tracking State Regulatory Changes That Affect Your RPM Program
 
 State RPM regulation is evolving rapidly. At least a dozen states introduced or updated telehealth and RPM-related legislation in 2025, and this pace is expected to continue. Practices need a mechanism for monitoring legislative changes in every state where they operate.
 
@@ -177,6 +177,6 @@ Resources for tracking state regulatory changes:
 - State telehealth resource centers
 - Healthcare compliance legal counsel with multi-state expertise
 
-[Zayd Health](https://www.zaydhealth.com) tracks state-level RPM regulatory changes and integrates compliance requirements into its platform, helping practices maintain licensing alignment as their patient populations cross state boundaries.
+[Zayd Health](https://www.zaydhealth.com) tracks state-level RPM regulatory changes and flags licensing gaps when patients enroll from new states or existing licenses approach expiration.
 
-State licensing compliance for RPM is not a one-time analysis. It is an ongoing operational requirement that must keep pace with your patient population, your staffing model, and the rapidly evolving state regulatory environment. The practices that build durable multi-state compliance frameworks today will be positioned to scale their RPM programs without legal interruption tomorrow.
+State licensing compliance for RPM is not a one-time analysis. It is an ongoing operational requirement that must keep pace with your patient population, your staffing model, and continuing state regulatory changes. Practices that build multi-state compliance frameworks now will be able to scale their RPM programs without licensing gaps catching them off guard later.

@@ -29,15 +29,15 @@ These rates are adjusted by geographic locality through the Geographic Practice 
 
 ### Key Medicare Rules to Remember
 
-- **No geographic restriction.** The patient can be anywhere in the U.S. — at home, at work, or traveling.
-- **No originating site requirement.** Unlike traditional telehealth, there is no requirement for the patient to be at a specific facility type.
-- **Established patients only.** The ordering physician must have an existing relationship with the patient (at least one in-person visit in the prior 12 months for new RPM orders).
-- **16-day transmission minimum.** CPT 99454 requires at least 16 days of physiologic data transmission within the calendar month.
-- **Patient consent required.** Written or verbal consent must be obtained and documented before services begin. The patient must be informed of any cost-sharing obligations.
+- **No geographic restriction:** the patient can be anywhere in the U.S. — at home, at work, or traveling.
+- **No originating site requirement:** unlike traditional telehealth, there is no requirement for the patient to be at a specific facility type.
+- **Established patients only:** the ordering physician must have an existing relationship with the patient (at least one in-person visit in the prior 12 months for new RPM orders).
+- **16-day transmission minimum:** CPT 99454 requires at least 16 days of physiologic data transmission within the calendar month.
+- **Patient consent required:** written or verbal consent must be obtained and documented before services begin. The patient must be informed of any cost-sharing obligations.
 
 > **Billing tip:** Medicare does not require prior authorization for RPM services. If your front desk staff is spending time requesting PA for Medicare RPM, you can eliminate that step entirely and redeploy that labor elsewhere.
 
-## Commercial Payer Landscape: What Changes
+## Commercial Payer Coverage: What Changes
 
 Commercial payers are not bound by CMS rules. Each carrier sets its own coverage policies, and those policies can differ by plan type (HMO, PPO, EPO), by state, and even by employer group. Here are the key areas where commercial payers diverge from Medicare.
 
@@ -129,22 +129,17 @@ This models billing 99454 and 99457 each month, with 99458 billed approximately 
 
 ## Avoiding Common Multi-Payer Mistakes
 
-**Mistake 1: Assuming all commercial payers follow Medicare rules.**
-They do not. Transmission day requirements, eligible diagnoses, and documentation standards can all differ. Build payer-specific protocols, not a one-size-fits-all workflow.
+**Mistake 1: Assuming all commercial payers follow Medicare rules.** They do not. Transmission day requirements, eligible diagnoses, and documentation standards can all differ. Build payer-specific protocols, not a one-size-fits-all workflow.
 
-**Mistake 2: Failing to re-verify coverage annually.**
-Commercial plans change benefits at renewal. A patient who was covered last year may not be covered this year. Re-verify at the start of each plan year.
+**Mistake 2: Failing to re-verify coverage annually.** Commercial plans change benefits at renewal. A patient who was covered last year may not be covered this year. Re-verify at the start of each plan year.
 
-**Mistake 3: Not tracking prior authorization expirations.**
-If a payer granted a 6-month PA, you need a system to flag the renewal date 30 days in advance. A lapsed PA means denied claims for every month you missed it.
+**Mistake 3: Not tracking prior authorization expirations.** If a payer granted a 6-month PA, you need a system to flag the renewal date 30 days in advance. A lapsed PA means denied claims for every month you missed it.
 
-**Mistake 4: Ignoring Medicare Advantage plan variation.**
-Medicare Advantage plans can impose prior authorization, restrict device types, and set different reimbursement rates. Do not treat MA plans the same as Original Medicare.
+**Mistake 4: Ignoring Medicare Advantage plan variation.** Medicare Advantage plans can impose prior authorization, restrict device types, and set different reimbursement rates. Do not treat MA plans the same as Original Medicare.
 
-**Mistake 5: Billing 99458 without verifying coverage.**
-Some commercial payers do not cover the add-on code. Billing it anyway results in a denial and wastes staff time on appeals.
+**Mistake 5: Billing 99458 without verifying coverage.** Some commercial payers do not cover the add-on code. Billing it anyway results in a denial and wastes staff time on appeals.
 
-## Building a Sustainable Multi-Payer RPM Program
+## Making Multi-Payer RPM Billing Work Long-Term
 
 The practices that succeed with RPM across multiple payers share a common trait: they invest in payer-specific billing infrastructure. That means maintaining a coverage matrix, automating PA tracking, and training billing staff on the nuances of each carrier.
 

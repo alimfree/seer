@@ -33,7 +33,7 @@ The choice between these two codes depends on who is spending the time and the c
 **Use 99490 when:**
 - Clinical staff (RNs, MAs, care coordinators) are providing the bulk of the care management time.
 - The care plan is relatively stable and the patient's conditions are being managed, not actively adjusted.
-- You want to leverage lower-cost staff for care coordination activities.
+- You want to use lower-cost staff for care coordination activities.
 
 **Use 99491 when:**
 - The physician or qualified healthcare professional (NP, PA) is personally providing the care management time.
@@ -70,7 +70,7 @@ Not all patient-related work counts toward CCM time. Here is what qualifies:
 |--------|------|------|
 | Manual time logs (spreadsheet) | Low cost, easy to start | Error-prone, difficult to audit, staff forget to log |
 | EHR-integrated timers | Accurate, auditable, links to patient record | Requires EHR configuration, may slow down workflow |
-| Standalone CCM platform | Purpose-built, comprehensive reporting | Additional cost, may not integrate with all EHRs |
+| Standalone CCM platform | Designed for CCM, full reporting built in | Additional cost, may not integrate with all EHRs |
 | Automated activity tracking | Captures time passively, reduces staff burden | May overcapture — requires validation |
 
 Whichever method you choose, the documentation must include the date, the staff member who performed the activity, the specific activity performed, and the duration. Vague entries like "CCM care coordination — 25 min" are insufficient. The note should specify what was coordinated and with whom.
@@ -100,9 +100,9 @@ CCM and RPM are separate service categories with separate CPT codes. CMS allows 
 
 ### Rules for Stacking
 
-1. **Time cannot be double-counted.** If a nurse spends 20 minutes reviewing RPM data and adjusting a care plan, that time counts toward either RPM (99457) or CCM (99490), but not both.
-2. **Activities must be distinct.** RPM time is specifically for reviewing device-transmitted data and communicating with the patient about that data. CCM time is for broader care coordination, care plan management, and non-device-related communication.
-3. **Both require independent documentation.** You need separate time logs and activity notes for RPM and CCM.
+1. **Time cannot be double-counted:** If a nurse spends 20 minutes reviewing RPM data and adjusting a care plan, that time counts toward either RPM (99457) or CCM (99490), but not both.
+2. **Activities must be distinct:** RPM time is specifically for reviewing device-transmitted data and communicating with the patient about that data. CCM time is for broader care coordination, care plan management, and non-device-related communication.
+3. **Both require independent documentation:** You need separate time logs and activity notes for RPM and CCM.
 
 ### Revenue Projection: CCM Alone vs. CCM + RPM
 
@@ -123,27 +123,27 @@ For eligible patients, the difference between billing RPM alone and billing CCM 
 
 Here is how to operationalize CCM + RPM stacking:
 
-1. **Separate your time logs.** Use distinct time-tracking categories for RPM activities and CCM activities. Your staff should select "RPM" or "CCM" at the start of each documented activity.
-2. **Define activity boundaries.** Create a reference sheet for staff that lists which activities count toward RPM time and which count toward CCM time. For example:
+1. **Separate your time logs:** Use distinct time-tracking categories for RPM activities and CCM activities. Your staff should select "RPM" or "CCM" at the start of each documented activity.
+2. **Define activity boundaries:** Create a reference sheet for staff that lists which activities count toward RPM time and which count toward CCM time. For example:
    - Reviewing blood glucose data from the RPM device = RPM time.
    - Calling the patient's endocrinologist to coordinate insulin adjustments = CCM time.
    - Calling the patient to discuss a blood glucose spike seen on the RPM device = RPM time.
    - Updating the patient's medication list after a specialist visit = CCM time.
-3. **Bill RPM and CCM on separate claim lines.** They are separate CPT codes and should appear as separate line items on the same claim.
-4. **Monitor for time overlap.** If your documentation shows a nurse spent 20 minutes on an activity that could be classified as either RPM or CCM, you need to assign it to one category — not split it across both.
+3. **Bill RPM and CCM on separate claim lines:** They are separate CPT codes and should appear as separate line items on the same claim.
+4. **Monitor for time overlap:** If your documentation shows a nurse spent 20 minutes on an activity that could be classified as either RPM or CCM, you need to assign it to one category — not split it across both.
 
 ## Common CCM Billing Mistakes
 
-**Billing without documented consent.** This is the fastest way to trigger a recoupment. Always verify consent is documented before submitting the first CCM claim.
+**Billing without documented consent:** This is the fastest way to trigger a recoupment. Always verify consent is documented before submitting the first CCM claim.
 
-**Double-counting time across CCM and RPM.** If audited, you must be able to prove that each minute of time was allocated to only one service category.
+**Double-counting time across CCM and RPM:** If audited, you must be able to prove that each minute of time was allocated to only one service category.
 
-**Not meeting the time threshold.** If your staff logs 18 minutes of CCM time in a month, you cannot bill 99490 (which requires 20 minutes). Do not round up. Either ensure the threshold is met or do not bill for that month.
+**Not meeting the time threshold:** If your staff logs 18 minutes of CCM time in a month, you cannot bill 99490 (which requires 20 minutes). Do not round up. Either ensure the threshold is met or do not bill for that month.
 
-**Failing to maintain the care plan.** A stale care plan from two years ago does not meet CMS requirements. The care plan must be current, comprehensive, and reflective of the patient's actual conditions and treatment.
+**Failing to maintain the care plan:** A stale care plan from two years ago does not meet CMS requirements. The care plan must be current, comprehensive, and reflective of the patient's actual conditions and treatment.
 
-**Ignoring the single-provider rule.** Only one provider can bill CCM for a patient in a given month. If your patient is receiving CCM from a specialist and your practice simultaneously, only one of you can bill. Coordinate with the patient and other providers to avoid duplicate billing.
+**Ignoring the single-provider rule:** Only one provider can bill CCM for a patient in a given month. If your patient is receiving CCM from a specialist and your practice simultaneously, only one of you can bill. Coordinate with the patient and other providers to avoid duplicate billing.
 
-For practices already running RPM, adding CCM is a natural extension. The infrastructure — time tracking, patient engagement, documentation workflows — overlaps significantly. Tools like [Zayd Health](https://www.zaydhealth.com) can help manage the compliance requirements for both programs simultaneously, ensuring time is properly allocated and documented across CCM and RPM.
+For practices already running RPM, adding CCM is a natural extension. The infrastructure — time tracking, patient engagement, documentation workflows — overlaps significantly. [Zayd Health](https://www.zaydhealth.com) tracks CCM and RPM time separately, flags when patients hit billing thresholds, and generates the activity-level documentation that survives audits.
 
-CCM is not a nice-to-have. For practices managing chronic disease populations, it is a billing-supported, clinically valuable service that too many practices leave on the table. The codes exist, the reimbursement is real, and the operational lift is manageable with the right workflow.
+CCM is not optional for practices managing chronic disease populations — it is a billing-supported, clinically valuable service that too many practices leave on the table. The codes exist, the reimbursement is real, and the operational lift is manageable with the right workflow.

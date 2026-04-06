@@ -10,7 +10,7 @@ status: "draft"
 
 ## What Is Changing for RPM in the 2026 Physician Fee Schedule
 
-Every year, the CMS Physician Fee Schedule (PFS) Final Rule reshapes the economics and compliance landscape for Remote Patient Monitoring. The CY 2026 PFS Final Rule introduces several changes that directly affect how primary care practices bill, document, and operate their RPM programs -- particularly those focused on chronic disease management for diabetic patients.
+Every year, the CMS Physician Fee Schedule (PFS) Final Rule reshapes the economics and compliance rules for Remote Patient Monitoring. The CY 2026 PFS Final Rule introduces several changes that directly affect how primary care practices bill, document, and operate their RPM programs -- particularly those focused on chronic disease management for diabetic patients.
 
 This post covers the key changes, what they mean in practical terms, and what your practice needs to update before January 1, 2026.
 
@@ -111,33 +111,33 @@ Based on the 2026 rule changes, here is a prioritized checklist of operational u
 
 ### Immediate (Complete by December 2025)
 
-1. **Update fee schedules and financial projections.** Load the 2026 rates into your billing system and adjust revenue forecasts.
-2. **Review RPM order templates.** Ensure each order includes patient-specific parameters, device type, monitoring duration, and review frequency.
-3. **Verify staff supervision documentation.** Confirm that your records identify the supervising practitioner for each RPM service.
-4. **Update patient cost-sharing estimates.** Adjust the estimated copay/coinsurance amounts on your consent forms to reflect 2026 rates.
+1. **Update fee schedules and financial projections:** Load the 2026 rates into your billing system and adjust revenue forecasts.
+2. **Review RPM order templates:** Ensure each order includes patient-specific parameters, device type, monitoring duration, and review frequency.
+3. **Verify staff supervision documentation:** Confirm that your records identify the supervising practitioner for each RPM service.
+4. **Update patient cost-sharing estimates:** Adjust the estimated copay/coinsurance amounts on your consent forms to reflect 2026 rates.
 
 ### Near-Term (Complete by Q1 2026)
 
-5. **Audit SNF patient exclusions.** Implement or verify a monthly eligibility check that prevents RPM billing for patients in SNF stays.
-6. **Review RPM/CCM time separation.** If you bill both programs, audit a sample of dual-enrolled patients to verify time documentation is properly separated.
-7. **Train clinical staff on order requirements.** Ensure clinicians understand that generic standing orders are not sufficient and that each RPM order requires individualization.
+5. **Audit SNF patient exclusions:** Implement or verify a monthly eligibility check that prevents RPM billing for patients in SNF stays.
+6. **Review RPM/CCM time separation:** If you bill both programs, audit a sample of dual-enrolled patients to verify time documentation is properly separated.
+7. **Train clinical staff on order requirements:** Ensure clinicians understand that generic standing orders are not sufficient and that each RPM order requires individualization.
 
 ### Ongoing
 
-8. **Monitor MAC-specific guidance.** Your Medicare Administrative Contractor may issue Local Coverage Determinations (LCDs) or articles that further refine RPM billing requirements in your jurisdiction.
-9. **Track proposed rules for CY 2027.** CMS typically publishes the proposed rule in July. Early engagement helps practices prepare for future changes.
+8. **Monitor MAC-specific guidance:** Your Medicare Administrative Contractor may issue Local Coverage Determinations (LCDs) or articles that further refine RPM billing requirements in your jurisdiction.
+9. **Track proposed rules for CY 2027:** CMS typically publishes the proposed rule in July. Early engagement helps practices prepare for future changes.
 
 ## Preparing for Continued Regulatory Evolution
 
-The RPM regulatory landscape has changed meaningfully every year since CMS first created the RPM code family. The 2026 changes are incremental rather than transformational, but they continue a trend toward greater specificity in documentation and ordering requirements.
+The RPM regulatory environment has changed meaningfully every year since CMS first created the RPM code family. The 2026 changes are incremental rather than transformational, but they continue a trend toward greater specificity in documentation and ordering requirements.
 
 Practices that invest in compliance infrastructure -- standardized order templates, automated time tracking, eligibility verification -- absorb these annual changes with minimal disruption. Practices that rely on ad hoc processes face an annual scramble to retrain staff and update workflows.
 
-### Key Trends to Watch
+### Regulatory Trends Shaping RPM Beyond 2026
 
 - **Value-based payment models:** CMS continues to explore integrating RPM into Alternative Payment Models (APMs). Practices participating in MSSP ACOs or other APMs should monitor how RPM utilization is treated in quality and cost benchmarking.
-- **Device interoperability standards:** CMS has signaled interest in requiring certified device standards for RPM in future rulemaking. Practices should prioritize devices that support standardized data formats (e.g., IEEE 11073, FHIR-compatible).
-- **Artificial intelligence in monitoring:** As AI-driven alert systems become more common in RPM platforms, CMS will likely issue guidance on how AI-assisted monitoring affects documentation and supervision requirements. The clinical staff member must still exercise independent clinical judgment -- AI triage does not substitute for human review.
+- **Device interoperability standards:** CMS has signaled interest in requiring certified device standards for RPM in future rulemaking. Practices should prioritize devices that support standardized data formats (IEEE 11073, FHIR-compatible).
+- **AI-driven alert systems in monitoring:** As AI-driven alert systems become more common in RPM platforms, CMS will likely issue guidance on how AI-assisted monitoring affects documentation and supervision requirements. The clinical staff member must still exercise independent clinical judgment -- AI triage does not substitute for human review.
 
 > **Planning tip:** Build your 2026 RPM budget with a 2-3% rate reduction buffer. CMS has reduced the conversion factor in most recent years, and expecting flat or increased reimbursement is not supported by the trend data.
 

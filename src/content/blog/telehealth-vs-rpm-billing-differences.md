@@ -111,7 +111,7 @@ Each of these is a separate, documented service with its own billing code. There
 
 For a practice managing 100 diabetic patients with combined RPM and monthly telehealth check-ins, the additional telehealth revenue layer adds $10,500–$13,000 per month compared to RPM alone.
 
-## Post-PHE Telehealth Landscape
+## Telehealth Rules After the Public Health Emergency
 
 The COVID-19 Public Health Emergency introduced sweeping telehealth flexibilities. Many of those flexibilities have since expired or been modified. Here is the current state as of 2026.
 
@@ -137,16 +137,16 @@ This stability is one of RPM's operational advantages. While telehealth rules co
 
 ## Common Mistakes When Billing Both
 
-**Mistake 1: Using the telehealth visit to satisfy RPM interactive time.**
+**Mistake 1: Using the telehealth visit to satisfy RPM interactive time**
 If a provider conducts a 30-minute telehealth visit and spends 10 minutes of it reviewing RPM data, those 10 minutes cannot also count toward the 20-minute threshold for 99457. The RPM time must be separate from the telehealth visit.
 
-**Mistake 2: Billing RPM setup during a telehealth visit.**
+**Mistake 2: Billing RPM setup during a telehealth visit**
 CPT 99453 (device setup and patient education) is best billed when performed in person. While there is no explicit CMS prohibition against remote setup, the documentation must support that the patient was properly trained on device use. Remote setup creates additional documentation burden and audit risk.
 
-**Mistake 3: Applying telehealth modifiers to RPM codes.**
+**Mistake 3: Applying telehealth modifiers to RPM codes**
 Modifier 95 and modifier GT are telehealth modifiers. They should never appear on RPM claim lines. This is a quick way to get a claim denied.
 
-**Mistake 4: Double-billing patient communication time.**
+**Mistake 4: Double-billing patient communication time**
 If you call a patient to discuss an abnormal RPM reading and then transition the conversation to general care management, you need to split the time. The RPM-related portion counts toward 99457. The general care management portion counts toward CCM (if enrolled) or is simply part of clinical care. It cannot all be billed as RPM time.
 
 Running telehealth and RPM together creates meaningful revenue opportunities, but the billing boundaries must be clear. Platforms like [Zayd Health](https://www.zaydhealth.com) help practices maintain clean separation between RPM and other service categories, ensuring that time tracking, documentation, and claim submissions are properly allocated across programs.

@@ -193,7 +193,7 @@ Device vendors often present pricing in ways that obscure the true total cost. H
 
 Compare this against expected RPM revenue from 50 compliant patients to ensure the program is financially viable before committing to a vendor contract.
 
-### Negotiation Leverage
+### Getting Better Pricing
 
 If you are enrolling 50 or more patients, you have meaningful volume to negotiate. Common concessions vendors will make:
 
@@ -215,6 +215,6 @@ Once you have selected your devices and vendor, you need an internal process for
 
 Practices that skip device management end up with devices unaccounted for, patients using devices assigned to other patients, and inventory shortfalls that delay new enrollments.
 
-For practices managing device logistics alongside billing compliance, transmission tracking, and clinical workflows, [Zayd Health](https://www.zaydhealth.com) integrates these operational layers so nothing falls through the cracks.
+For practices managing device logistics alongside billing compliance, transmission tracking, and clinical workflows, [Zayd Health](https://www.zaydhealth.com) connects device tracking to billing and clinical documentation in a single platform.
 
 Device selection is not a one-time decision — it is an ongoing operational responsibility. The vendor and device you choose in month one may not be the right fit in month twelve. Build your program with the flexibility to switch, and evaluate your device performance quarterly against the compliance and cost metrics that matter to your practice.

@@ -141,4 +141,4 @@ For practices managing a large diabetic population, platforms like [Zayd Health]
 - **Documentation discipline is everything.** Consent, time separation, care plan updates, and the 16-day transmission rule are the four areas where audits focus.
 - **Practices that bill both CCM and RPM for eligible patients** capture significantly more reimbursement per patient than those billing either program alone.
 
-The difference between practices that capture this revenue and those that do not is rarely clinical — it is operational. The clinical work is already happening. The question is whether your documentation and billing workflows are structured to support it.
+The difference between practices that capture this revenue and those that do not is rarely clinical; it is operational. The clinical work is already happening. The question is whether your documentation and billing workflows are structured to support it.

@@ -92,7 +92,7 @@ Practice managers often default to hiring when the workload increases. But addin
 | Signal | Action |
 |---|---|
 | Staff spending more than 30% of RPM time on data entry and spreadsheet management | Optimize: invest in automation before hiring |
-| Alert fatigue — staff ignoring dashboard notifications because too many are non-actionable | Optimize: refine alert thresholds and escalation rules |
+| Alert fatigue: staff ignoring dashboard notifications because too many are non-actionable | Optimize: refine alert thresholds and escalation rules |
 | Staff consistently working overtime to meet month-end billing deadlines | Optimize first (automate billing checks), then hire if hours remain high |
 | Clinical response times exceeding 4 hours for critical readings during business hours | Hire: this is a patient safety issue that cannot be solved with software alone |
 | Monthly enrollment requests exceeding 15 new patients with current onboarding capacity maxed | Hire: onboarding quality directly impacts long-term retention |

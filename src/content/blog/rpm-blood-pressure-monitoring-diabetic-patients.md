@@ -38,7 +38,7 @@ If your practice manages a panel of 200 diabetic patients, the numbers likely lo
 
 The majority of your diabetic RPM patients already need blood pressure management. RPM gives you the data to manage it proactively rather than reactively at quarterly visits.
 
-> **Practice Insight:** When enrolling diabetic patients in RPM, always assess their BP status. Patients with both diabetes and uncontrolled hypertension are your highest-value RPM candidates. they benefit most clinically and generate the strongest outcomes data for your program.
+> **Practice Insight:** When enrolling diabetic patients in RPM, always assess their BP status. Patients with both diabetes and uncontrolled hypertension are your highest-value RPM candidates: they benefit most clinically and generate the strongest outcomes data for your program.
 
 ## Device Selection for Blood Pressure RPM
 

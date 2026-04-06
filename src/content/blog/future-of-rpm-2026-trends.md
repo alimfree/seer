@@ -26,7 +26,7 @@ Practices that adopt AI-assisted RPM platforms will have an edge in both efficie
 
 ## Payer Coverage Is Expanding Beyond Medicare
 
-Medicare has been the dominant payer for RPM since CMS formalized the billing codes in 2019. But commercial payer coverage is shifting rapidly. UnitedHealthcare, Aetna, and Anthem have all introduced RPM reimbursement pathways for specific chronic conditions, and several state Medicaid programs, including Texas, California, and New York. now cover RPM services for qualifying populations.
+Medicare has been the dominant payer for RPM since CMS formalized the billing codes in 2019. But commercial payer coverage is shifting rapidly. UnitedHealthcare, Aetna, and Anthem have all introduced RPM reimbursement pathways for specific chronic conditions, and several state Medicaid programs (including Texas, California, and New York) now cover RPM services for qualifying populations.
 
 | Payer Category | RPM Coverage Status (2025-2026) | Key Conditions Covered |
 |---|---|---|
@@ -40,7 +40,7 @@ Medicare has been the dominant payer for RPM since CMS formalized the billing co
 
 For primary care practices that currently bill RPM only to Medicare, the expansion to commercial payers opens a larger eligible patient pool. A practice with 600 diabetic patients where 40% are commercially insured could see its addressable RPM population nearly double as commercial coverage solidifies.
 
-The challenge is that commercial payer requirements often differ from Medicare's. Transmission day minimums, eligible device types, and prior authorization workflows vary by plan. Practices need billing infrastructure that adapts to payer-specific rules rather than applying a single Medicare-based template to every claim.
+The challenge is that commercial payer requirements often differ from Medicare's. Transmission day minimums, eligible device types, and prior authorization workflows vary by plan. Practices need billing infrastructure that can handle payer-specific rules rather than applying a single Medicare-based template to every claim.
 
 ## CMS Policy Is Tightening Compliance While Broadening Access
 

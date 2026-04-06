@@ -42,7 +42,7 @@ Not every diabetic patient is a good RPM candidate. You need clear inclusion and
 
 ## Step 2: Select Your Devices and Connectivity Model
 
-For diabetic RPM, you need a cellular-connected blood glucose meter that transmits readings automatically to your practice. The key word is "automatically". devices that require the patient to manually sync via an app create friction and lower adherence.
+For diabetic RPM, you need a cellular-connected blood glucose meter that transmits readings automatically to your practice. The key word is "automatically"; devices that require the patient to manually sync via an app create friction and lower adherence.
 
 **Device selection criteria:**
 
@@ -91,7 +91,7 @@ RPM programs fail when no one owns the daily workflow. You need clear role assig
 | MA / Front Desk | Consent collection, device distribution, enrollment documentation | 10-15 min per patient (one-time) |
 | Billing Staff | Claims submission for 99453, 99454, 99457, 99458 | 5 min per patient per month |
 
-> **Tip:** The biggest staffing mistake is assigning RPM as a side task to someone who is already fully utilized. Even a panel of 50 patients requires a dedicated block of time. typically 60 to 90 minutes per day for clinical review and outreach.
+> **Tip:** The biggest staffing mistake is assigning RPM as a side task to someone who is already fully utilized. Even a panel of 50 patients requires a dedicated block of time, typically 60 to 90 minutes per day for clinical review and outreach.
 
 ### Staff Training Checklist
 
@@ -109,10 +109,10 @@ RPM billing is where most programs leak revenue. The codes are straightforward, 
 
 **The four codes you will use:**
 
-- **99453**. Initial setup and patient education (billed once)
-- **99454**. Device supply with at least 16 days of readings per 30-day period (billed monthly)
-- **99457**. First 20 minutes of clinical staff time in a calendar month (billed monthly)
-- **99458**. Each additional 20 minutes of clinical staff time (billed monthly, add-on)
+- **99453:** Initial setup and patient education (billed once)
+- **99454:** Device supply with at least 16 days of readings per 30-day period (billed monthly)
+- **99457:** First 20 minutes of clinical staff time in a calendar month (billed monthly)
+- **99458:** Each additional 20 minutes of clinical staff time (billed monthly, add-on)
 
 The most common failure point is 99454: if a patient only transmits readings on 15 days in a month, you cannot bill the code. Your team needs a system to monitor transmission adherence in real time, not at the end of the month when it is too late to intervene.
 

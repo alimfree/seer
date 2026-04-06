@@ -112,7 +112,7 @@ When monitoring a CKD-diabetes patient, document the renal context alongside glu
 2. Whether A1C is expected to be reliable at this level of renal function
 3. The rationale for glucose targets (why the target is 7.5% rather than 6.5%)
 4. Medication adjustments made due to renal function (metformin dose reduction, insulin dose decrease)
-5. Hypoglycemia screening. ask about episodes at every visit
+5. Hypoglycemia screening: ask about episodes at every visit
 
 ## Coordinating with Nephrology
 
@@ -131,7 +131,7 @@ The primary care physician typically manages both diabetes and early CKD. Nephro
 - Dialysis planning timeline (diabetes management changes significantly once dialysis begins)
 - Whether the patient is a transplant candidate (glucose control requirements for transplant listing)
 
-## Practical Steps for Your Practice
+## Adjusting Your CKD-Diabetes Monitoring Workflow
 
 1. **Cross-reference your diabetic panel with renal function.** Identify patients with eGFR < 60 and flag them for adjusted monitoring protocols.
 2. **Do not rely on A1C alone for patients with eGFR < 45.** Supplement with glucose readings to get an accurate picture of control.

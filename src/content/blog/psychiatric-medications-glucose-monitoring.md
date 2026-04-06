@@ -8,15 +8,15 @@ image: "/blog/psychiatric-medications-glucose.webp"
 status: "published"
 ---
 
-An estimated 30% of diabetic patients in primary care are also prescribed psychiatric medications. SSRIs, atypical antipsychotics, or mood stabilizers. Many of these drugs have well-documented effects on glucose metabolism, yet this intersection is often overlooked in routine monitoring workflows.
+An estimated 30% of diabetic patients in primary care are also prescribed psychiatric medications: SSRIs, atypical antipsychotics, or mood stabilizers. Many of these drugs have well-documented effects on glucose metabolism, yet this intersection is often overlooked in routine monitoring workflows.
 
 For primary care teams managing these patients, understanding the metabolic risks of specific medications is essential.
 
 ## The Metabolic Impact of Psychiatric Medications
 
-Not all psychiatric medications carry the same metabolic risk. Here's a practical breakdown for primary care teams.
+Not all psychiatric medications carry the same metabolic risk. The following is a practical breakdown for primary care teams.
 
-### High Risk. Atypical Antipsychotics
+### High Risk: Atypical Antipsychotics
 
 Olanzapine and clozapine are the most metabolically disruptive. Studies show these medications can increase HbA1c by 0.4–0.8% within the first year of treatment, independent of weight gain.
 

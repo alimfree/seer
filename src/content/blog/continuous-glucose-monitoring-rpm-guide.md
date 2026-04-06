@@ -115,10 +115,10 @@ An AGP report consolidates 14 days of CGM data into a single-page visual summary
 
 When reviewing CGM data for RPM, apply a triage framework:
 
-1. **Address safety first.** Any time below 54 mg/dL requires immediate clinical review. Look at timing. is it nocturnal? Post-exercise? Related to medication timing?
-2. **Assess overall control.** Time in Range is the single most useful metric. A TIR below 50% in a Type 2 patient warrants a medication review.
-3. **Look at patterns, not individual readings.** A single spike to 250 mg/dL after a holiday meal is not clinically significant. A pattern of post-breakfast spikes above 200 every day for two weeks is.
-4. **Use the daily profiles.** The AGP overlay shows where glucose typically rises and falls. This identifies the specific times of day where interventions. medication timing, meal composition, activity. can have the most impact.
+1. **Address safety first:** Any time below 54 mg/dL requires immediate clinical review. Look at timing — is it nocturnal? Post-exercise? Related to medication timing?
+2. **Assess overall control:** Time in Range is the single most useful metric. A TIR below 50% in a Type 2 patient warrants a medication review.
+3. **Look at patterns, not individual readings:** A single spike to 250 mg/dL after a holiday meal is not clinically significant. A pattern of post-breakfast spikes above 200 every day for two weeks is.
+4. **Use the daily profiles:** The AGP overlay shows where glucose typically rises and falls. This identifies the specific times of day where interventions (medication timing, meal composition, activity) can have the most impact.
 
 ### Documenting CGM Reviews for RPM Billing
 
@@ -155,18 +155,18 @@ Establish a regular cadence for CGM data review. Most practices find that a week
 
 Unlike a Bluetooth glucose meter that a patient uses indefinitely, CGM sensors expire. A 14-day sensor needs replacement roughly twice per month. Your team must track sensor schedules and ensure patients have supplies on hand. A missed sensor change can cost you an entire month of 99454 billing.
 
-## The Bottom Line on CGM for RPM
+## When CGM Is Worth the Added Complexity
 
-CGM is a powerful tool for RPM programs, but it is not a universal solution. It adds clinical value for patients with complex glycemic profiles and removes the adherence barrier that undermines fingerstick-based RPM. It also adds cost and workflow complexity.
+CGM adds real clinical value to RPM programs, but it is not a universal solution. It adds clinical value for patients with complex glycemic profiles and removes the adherence barrier that undermines fingerstick-based RPM. It also adds cost and workflow complexity.
 
 The practices that succeed with CGM-based RPM are the ones that match the right device to the right patient, build systems to monitor data transmission, and train their clinical teams to interpret CGM reports efficiently.
 
-If you are building or scaling a diabetes-focused RPM program and want to automate the compliance and billing side, including transmission tracking and documentation. [Zayd Health](https://www.zaydhealth.com) was built specifically for this workflow.
+If you are building or scaling a diabetes-focused RPM program and want to automate the compliance and billing side, including transmission tracking and documentation, [Zayd Health](https://www.zaydhealth.com) was built for this workflow.
 
 ## Key Takeaways
 
 - CGM provides dramatically more data than fingerstick meters but is not cost-effective for every patient
 - Dexcom G7 and FreeStyle Libre 3 currently offer the strongest RPM integration capabilities
-- The 16-day transmission rule still applies. passive data collection helps, but sensor gaps can break compliance
+- The 16-day transmission rule still applies — passive data collection helps, but sensor gaps can break compliance
 - Train your team on AGP reports and the five core CGM metrics (TIR, time below range, GMI, CV, time above range)
 - Document CGM reviews with specific metrics and clinical reasoning to support 99457/99458 billing

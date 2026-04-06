@@ -24,7 +24,7 @@ Direct API integration means the RPM platform communicates with the EHR through 
 
 **What it looks like in practice:** RPM clinical summaries, glucose trends, and alert notifications appear directly in the patient's chart as structured data. Orders and patient demographics flow from the EHR to the RPM platform automatically. When a provider documents a response to an RPM alert, it is recorded in both systems.
 
-**Requirements:** The EHR must expose a robust API (REST or SOAP), the RPM vendor must have built and maintained a connector for your specific EHR, and someone needs to manage the API credentials, rate limits, and error handling on an ongoing basis.
+**Requirements:** The EHR must expose a well-documented API (REST or SOAP), the RPM vendor must have built and maintained a connector for your specific EHR, and someone needs to manage the API credentials, rate limits, and error handling on an ongoing basis.
 
 ### Approach 2: HL7/FHIR Messaging
 
@@ -36,7 +36,7 @@ HL7 v2 messages and FHIR (Fast Healthcare Interoperability Resources) are health
 
 ### Approach 3: Manual or Semi-Manual Transfer
 
-For practices that need RPM running quickly or whose EHR does not support robust integration, manual transfer is a legitimate starting point. It is not ideal long-term, but it is far better than delaying your program for months while waiting for an API connector.
+For practices that need RPM running quickly or whose EHR has limited integration capabilities, manual transfer is a legitimate starting point. It is not ideal long-term, but it is far better than delaying your program for months while waiting for an API connector.
 
 **What it looks like in practice:** The RPM platform generates PDF summaries or CSV exports. Staff upload these as documents in the patient chart, or copy key data points into encounter notes. Some platforms offer a "clipboard" feature that formats data for easy paste into an EHR note template.
 

@@ -20,11 +20,11 @@ GLP-1 receptor agonists (semaglutide, liraglutide, dulaglutide, tirzepatide) are
 
 GLP-1 agonists lower glucose through multiple mechanisms:
 
-- **Glucose-dependent insulin secretion**. they stimulate insulin release only when glucose is elevated, which reduces (but does not eliminate) hypoglycemia risk
-- **Suppressed glucagon secretion**. reduces hepatic glucose output
-- **Slowed gastric emptying**. blunts postprandial glucose spikes
-- **Weight loss**. reduces insulin resistance over weeks to months
-- **Central appetite suppression**. reduces caloric intake, which compounds the glucose-lowering effect
+- **Glucose-dependent insulin secretion:** they stimulate insulin release only when glucose is elevated, which reduces (but does not eliminate) hypoglycemia risk
+- **Suppressed glucagon secretion:** reduces hepatic glucose output
+- **Slowed gastric emptying:** blunts postprandial glucose spikes
+- **Weight loss:** reduces insulin resistance over weeks to months
+- **Central appetite suppression:** reduces caloric intake, which compounds the glucose-lowering effect
 
 The glucose improvement can be substantial. In clinical trials, semaglutide 1 mg reduced A1C by 1.5-1.8% on average, with some patients seeing reductions of 2-3%. Tirzepatide, a dual GIP/GLP-1 agonist, has shown A1C reductions of 2.0-2.5% in some populations.
 
@@ -33,7 +33,7 @@ The glucose improvement can be substantial. In clinical trials, semaglutide 1 mg
 The speed and magnitude of glucose improvement on GLP-1 agonists can outpace medication adjustments:
 
 - **Patients on sulfonylureas**; the combination of a GLP-1 agonist with a sulfonylurea significantly increases hypoglycemia risk. As the GLP-1 agonist takes effect over 2-4 weeks, the sulfonylurea dose often needs to be reduced or discontinued.
-- **Patients on insulin**. basal insulin requirements may decrease by 20-50% over the first 3-6 months on a GLP-1 agonist. Patients who do not reduce insulin proactively will experience hypoglycemia.
+- **Patients on insulin:** basal insulin requirements may decrease by 20-50% over the first 3-6 months on a GLP-1 agonist. Patients who do not reduce insulin proactively will experience hypoglycemia.
 - **Patients with rapid weight loss**. losing 10-15% of body weight dramatically improves insulin sensitivity. A patient who needed 60 units of basal insulin at 250 lbs may only need 30 units at 215 lbs. This transition happens over months and requires ongoing dose titration.
 - **Dose escalation periods**. GLP-1 agonists are titrated upward over weeks to months (semaglutide starts at 0.25 mg, escalates to 0.5 mg, then 1.0 mg or 2.0 mg). Each dose increase can produce a further glucose drop that may require diabetes medication adjustment.
 

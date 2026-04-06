@@ -109,7 +109,7 @@ The practical challenge in primary care is that diabetic patients are rarely on 
 - Atorvastatin 40 mg (statin)
 - Lisinopril 20 mg (ACE inhibitor)
 
-In this combination, three of four medications affect glucose. two negatively (metoprolol, HCTZ) and one favorably (lisinopril). The net glucose effect is not simply additive; it depends on the individual patient's insulin sensitivity, renal function, and diabetes medication regimen.
+In this combination, three of four medications affect glucose: two negatively (metoprolol, HCTZ) and one favorably (lisinopril). The net glucose effect is not simply additive; it depends on the individual patient's insulin sensitivity, renal function, and diabetes medication regimen.
 
 **What to document:**
 
@@ -119,7 +119,7 @@ When a patient's glucose control changes and multiple cardiac medications are in
 - A cardiac medication dose is increased (thiazide dose escalation is a common trigger)
 - The patient is on insulin or sulfonylureas where the stakes of masked hypoglycemia are highest
 
-## Practical Steps for Your Practice
+## Adjusting Your Glucose Monitoring for Cardiac Medication Changes
 
 1. **Review cardiac medication lists during diabetes management visits.** Flag patients on high-risk combinations (non-selective beta-blocker + high-dose thiazide + high-intensity statin).
 2. **Monitor glucose more closely during cardiac medication changes.** New starts, dose adjustments, and switches warrant 2-4 weeks of closer attention.

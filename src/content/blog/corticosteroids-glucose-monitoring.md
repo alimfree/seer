@@ -74,9 +74,9 @@ For diabetic patients starting a short steroid burst:
 For patients on maintenance steroids (rheumatologic conditions, transplant immunosuppression, adrenal insufficiency):
 
 - **Establish a new baseline**; the patient's glucose targets and diabetes regimen need to account for the ongoing steroid effect
-- **Monitor A1C more frequently**. quarterly A1C checks rather than the standard semi-annual
-- **Anticipate dose changes**. when the steroid dose is tapered, diabetes medication adjustments are needed in the opposite direction to prevent hypoglycemia
-- **Document the steroid indication and dose** alongside every glucose review. this context is critical for interpreting readings and justifying monitoring intensity
+- **Monitor A1C more frequently:** quarterly A1C checks rather than the standard semi-annual
+- **Anticipate dose changes:** when the steroid dose is tapered, diabetes medication adjustments are needed in the opposite direction to prevent hypoglycemia
+- **Document the steroid indication and dose** alongside every glucose review; this context is critical for interpreting readings and justifying monitoring intensity
 
 ### After Joint Injections
 

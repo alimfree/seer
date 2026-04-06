@@ -186,4 +186,4 @@ Any new MA, RN, or provider joining the practice should complete the full RPM tr
 
 For practices that want to reduce the documentation burden and operational complexity that comes with training and managing RPM staff, [Zayd Health](https://www.zaydhealth.com) provides workflow automation that enforces compliance standards and reduces the administrative load on your clinical team.
 
-Training is not a one-time event; it is an ongoing investment. The practices that maintain high RPM performance over time are the ones that treat staff education as a core operational function, not a box to check during onboarding. Build training into your monthly rhythm, and your program will be stronger for it.
+The practices that maintain high RPM performance over time are the ones that treat staff education as a core operational function, not a box to check during onboarding. Build training into your monthly rhythm, and your program will be stronger for it.

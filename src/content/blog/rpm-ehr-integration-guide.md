@@ -116,7 +116,7 @@ Before implementing any integration, you need to decide what data moves between 
 
 ### Bidirectional Considerations
 
-True bidirectional integration, where both systems read and write to each other in real time. is the most powerful but also the most fragile configuration. Every bidirectional data element creates a potential conflict: what happens when a nurse updates a phone number in the RPM platform while the front desk updates it in the EHR simultaneously?
+True bidirectional integration (where both systems read and write to each other in real time) is the most powerful but also the most fragile configuration. Every bidirectional data element creates a potential conflict: what happens when a nurse updates a phone number in the RPM platform while the front desk updates it in the EHR simultaneously?
 
 For most primary care practices, the practical recommendation is: **EHR is the system of record for demographics and clinical data; RPM platform is the system of record for device data, monitoring time, and transmission compliance.** Data flows in both directions, but each system "owns" specific data elements with clear conflict resolution rules.
 
@@ -136,7 +136,7 @@ HL7 interfaces and API connections fail silently more often than you would expec
 
 ### Pitfall 4: Over-Engineering the Initial Integration
 
-Practices sometimes delay their RPM program for months while pursuing a perfect API integration. Meanwhile, they are leaving revenue on the table and patients unmonitored. A phased approach. start with manual transfer, move to HL7 document injection, and eventually implement full API integration. is almost always the better strategy.
+Practices sometimes delay their RPM program for months while pursuing a perfect API integration. Meanwhile, they are leaving revenue on the table and patients unmonitored. A phased approach (start with manual transfer, move to HL7 document injection, and eventually implement full API integration) is almost always the better strategy.
 
 ### Pitfall 5: Neglecting Provider Training on Integrated Data
 
@@ -150,7 +150,7 @@ The integration decision ultimately comes down to three factors: your current pa
 
 If you are launching a new RPM program, do not let integration complexity delay enrollment. Start with the simplest viable approach, prove the program's clinical and financial value, and invest in deeper integration as the patient census grows.
 
-For practices already running RPM at scale and struggling with provider adoption, upgrading the EHR integration is often the highest-impact investment you can make. When RPM data appears seamlessly in the clinical workflow, provider engagement follows.
+For practices already running RPM at scale and struggling with provider adoption, upgrading the EHR integration is often the highest-impact investment you can make. When RPM data appears directly in the clinical workflow, provider engagement follows.
 
 Platforms like [Zayd Health](https://www.zaydhealth.com) are designed to support multiple integration approaches simultaneously, allowing practices to start simple and deepen the integration over time without disrupting the clinical program or rebuilding workflows from scratch.
 

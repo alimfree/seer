@@ -96,7 +96,7 @@ Incentives do not need to be expensive to be effective. The goal is to create a 
 
 ### What Works
 
-**Recognition from the provider.** During office visits, have the provider pull up the patient's RPM data and comment on it: "I can see you have been checking your blood sugar every day. your numbers are looking much more stable." This is the most powerful incentive and costs nothing.
+**Recognition from the provider.** During office visits, have the provider pull up the patient's RPM data and comment on it: "I can see you have been checking your blood sugar every day — your numbers are looking much more stable." This is the most powerful incentive and costs nothing.
 
 **Monthly compliance acknowledgment.** A brief call or text at the end of a month where the patient hit 16+ transmission days: "Great job this month. we received readings on 24 out of 30 days. Keep it up."
 

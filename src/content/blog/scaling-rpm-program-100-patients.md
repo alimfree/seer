@@ -59,7 +59,7 @@ These ratios assume a clinical staff member (MA, LPN, or RN) dedicated to RPM du
 
 At 25 patients, you can eyeball the dashboard to see who is testing daily. At 75, you cannot. Patients who stop transmitting for 3-5 days early in the month are salvageable — you can call them, troubleshoot the device, and still hit the 16-day threshold. Patients who stop transmitting and are not caught until day 20 are lost revenue for that month.
 
-**Solution:** Automated daily alerts for patients with transmission gaps of 3 or more consecutive days. This single automation typically recovers 8-12% of otherwise-lost monthly billings.
+**Solution:** automated daily alerts for patients with transmission gaps of 3 or more consecutive days. This single automation typically recovers 8-12% of otherwise-lost monthly billings.
 
 ### Bottleneck 2: Time Documentation
 
@@ -83,7 +83,7 @@ Patient attrition accelerates as you scale because your team has less capacity f
 
 As volume increases, billing errors compound. Missing a single code element across 100 patients (say, failing to document device supply (99454) because a patient used a personal glucometer one month) creates audit exposure and revenue leakage simultaneously.
 
-**Solution:** Automated billing eligibility checks that verify all code requirements are met before claims are generated. This includes transmission day counts, time thresholds, active consent status, and device assignment validation.
+**Solution:** automated billing eligibility checks that verify all code requirements are met before claims are generated. This includes transmission day counts, time thresholds, active consent status, and device assignment validation.
 
 ## When to Hire vs. When to Optimize
 

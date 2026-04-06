@@ -65,7 +65,7 @@ Identifying warning signs is only useful if your team has a clear protocol for w
 
 ### Three-Tier Escalation Model
 
-**Tier 1. Clinical Staff (MA, RN, LPN)**
+**Tier 1: Clinical Staff (MA, RN, LPN)**
 
 These are initial outreach actions that do not require a provider order:
 

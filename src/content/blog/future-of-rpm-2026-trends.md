@@ -91,11 +91,11 @@ Practices evaluating RPM platforms in 2026 should prioritize vendors with certif
 
 The RPM market is projected to reach $175 billion globally by 2028, growing at a compound annual rate above 25%. In the U.S., the addressable market for RPM in primary care alone is estimated at $12-15 billion based on the chronic disease population eligible for reimbursable monitoring.
 
-That growth is attracting capital. Venture funding into RPM-focused companies exceeded $2.8 billion in 2024, and the first wave of acquisitions is underway as larger health IT companies acquire point solutions to build integrated chronic care platforms.
+Venture funding into RPM-focused companies exceeded $2.8 billion in 2024, and the first wave of acquisitions is underway as larger health IT companies acquire point solutions to build integrated chronic care platforms.
 
 ### What Consolidation Means for Practices
 
-When the vendor landscape consolidates, practices face two risks: platform lock-in and feature deprioritization. A small RPM vendor that gets acquired by a large EHR company may shift its roadmap to serve the acquirer's strategic priorities rather than the needs of independent practices.
+When vendors consolidate, practices face two risks: platform lock-in and feature deprioritization. A small RPM vendor that gets acquired by a large EHR company may shift its roadmap to serve the acquirer's strategic priorities rather than the needs of independent practices.
 
 The mitigation is to choose RPM partners whose core value proposition aligns with what your practice actually needs. compliance automation, billing accuracy, clinical workflow integration, rather than chasing the broadest feature set.
 

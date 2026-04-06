@@ -184,7 +184,7 @@ This tiered approach lets a single clinical staff member manage 80–100 RPM pat
 
 If your practice is looking to automate the compliance tracking, transmission monitoring, and billing documentation that makes this tiered model work, [Zayd Health](https://www.zaydhealth.com) handles that infrastructure so your clinical team can focus on patient care.
 
-## Key Takeaways
+## What to Remember
 
 - 75% of your diabetic patients likely have comorbid hypertension. BP monitoring should be standard in diabetes RPM programs
 - Match the device to the patient: Bluetooth for tech-comfortable patients, cellular-enabled for those who are not

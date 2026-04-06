@@ -138,7 +138,7 @@ Scaling too fast is the most common mistake small practices make with RPM. Here 
 - Enroll 5-8 patients per week from your highest-likelihood list
 - Use this phase to identify workflow bottlenecks (where does the process slow down?)
 - Establish the daily review, midday outreach, and end-of-day documentation rhythm
-- Track time meticulously. you need to understand your actual per-patient time before scaling
+- Track time meticulously — you need to understand your actual per-patient time before scaling
 
 **Staffing:** Existing staff, no new hires needed
 
@@ -174,7 +174,7 @@ RPM burnout is real, and it usually hits the clinical staff member who owns the 
 
 ### Prevention Strategies
 
-**Set boundaries on RPM hours.** If your RPM lead is an MA who also rooms patients, block specific hours for RPM tasks. Do not expect them to squeeze RPM into spare moments between patients.
+**Set boundaries on RPM hours:** If your RPM lead is an MA who also rooms patients, block specific hours for RPM tasks. Do not expect them to squeeze RPM into spare moments between patients.
 
 **Rotate outreach calls when possible.** If you have two MAs, alternate weeks for patient outreach. Even a partial break helps.
 

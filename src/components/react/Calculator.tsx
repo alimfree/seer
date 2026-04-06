@@ -49,7 +49,9 @@ export default function Calculator() {
             We've sent your personalized revenue analysis and a sample superbill to <strong>{email}</strong>.
           </p>
           <a
-            href="#contact"
+            href="https://calendly.com/ali-zaydhealth/discovery"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-tertiary font-medium hover:underline underline-offset-4 transition-colors"
             onClick={() => trackEvent('cta_click', { location: 'calculator_success' })}
           >
@@ -60,7 +62,7 @@ export default function Calculator() {
       ) : (
         <form className="space-y-8" onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="calc-patients" className="block text-sm font-body font-bold text-secondary uppercase tracking-wider mb-2">
+            <label htmlFor="calc-patients" className="block text-sm font-body font-medium text-on-surface mb-2">
               Number of Diabetic Patients
             </label>
             <input
@@ -75,21 +77,21 @@ export default function Calculator() {
             />
           </div>
           <div>
-            <label htmlFor="calc-hours" className="block text-sm font-body font-bold text-secondary uppercase tracking-wider mb-2">
-              Clinical Staff Hours (Weekly)
+            <label htmlFor="calc-hours" className="block text-sm font-body font-medium text-on-surface mb-2">
+              Weekly hours on RPM documentation
             </label>
             <input
               id="calc-hours"
               className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
-              placeholder="e.g. 10"
+              placeholder="0 if not started yet"
               type="number"
-              min="1"
+              min="0"
               value={hours}
               onChange={(e) => setHours(e.target.value)}
             />
           </div>
           <div>
-            <label htmlFor="calc-email" className="block text-sm font-body font-bold text-secondary uppercase tracking-wider mb-2">
+            <label htmlFor="calc-email" className="block text-sm font-body font-medium text-on-surface mb-2">
               Work Email Address
             </label>
             <input

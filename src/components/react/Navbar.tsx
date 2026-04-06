@@ -37,15 +37,6 @@ export default function Navbar({ currentPath }: Props) {
           <img src="/logo.svg" alt="Zayd Health" width="120" height="32" className="h-6 sm:h-8 w-auto" />
         </a>
         <div className="hidden md:flex items-center gap-10">
-          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/#how-it-works" onClick={(e) => scrollTo(e, 'how-it-works')}>
-            How It Works
-          </a>
-          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/#revenue-calculator" onClick={(e) => scrollTo(e, 'revenue-calculator')}>
-            Calculator
-          </a>
-          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/#faq" onClick={(e) => scrollTo(e, 'faq')}>
-            FAQ
-          </a>
           <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/specialties">
             Specialties
           </a>
@@ -74,15 +65,6 @@ export default function Navbar({ currentPath }: Props) {
         {...(!mobileOpen ? { inert: true } : {})}
       >
         <div className="px-6 py-6 flex flex-col gap-2 bg-surface-container-lowest">
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#how-it-works" onClick={(e) => { scrollTo(e, 'how-it-works'); setMobileOpen(false) }}>
-            How It Works
-          </a>
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#revenue-calculator" onClick={(e) => { scrollTo(e, 'revenue-calculator'); setMobileOpen(false) }}>
-            Calculator
-          </a>
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#faq" onClick={(e) => { scrollTo(e, 'faq'); setMobileOpen(false) }}>
-            FAQ
-          </a>
           <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/specialties" onClick={() => setMobileOpen(false)}>
             Specialties
           </a>

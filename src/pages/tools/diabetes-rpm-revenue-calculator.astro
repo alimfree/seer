@@ -1,7 +1,7 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro'
-import Calculator from '../components/react/Calculator'
-import EmailCapture from '../components/react/EmailCapture'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import Calculator from '../../components/react/Calculator'
+import EmailCapture from '../../components/react/EmailCapture'
 
 const jsonLd = [
   {
@@ -9,7 +9,7 @@ const jsonLd = [
     '@type': 'WebApplication',
     name: 'Free RPM Revenue Calculator',
     description: 'Calculate how much revenue your practice can generate from Remote Patient Monitoring for diabetic patients using current CMS reimbursement rates.',
-    url: 'https://www.zaydhealth.com/calculator',
+    url: 'https://www.zaydhealth.com/tools/diabetes-rpm-revenue-calculator',
     applicationCategory: 'HealthApplication',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     provider: { '@type': 'Organization', name: 'Zayd Health', url: 'https://www.zaydhealth.com' },
@@ -21,7 +21,7 @@ const jsonLd = [
       {
         '@type': 'Question',
         name: 'How does the RPM revenue calculator work?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Enter the number of diabetic patients in your practice and your email. We calculate your revenue opportunity using current CMS reimbursement rates and send a personalized analysis with a sample superbill to your inbox.' },
+        acceptedAnswer: { '@type': 'Answer', text: 'Enter the number of diabetic patients in your practice and your email. We calculate your revenue opportunity using current CMS reimbursement rates and send a personalized analysis to your inbox, including a sample superbill.' },
       },
       {
         '@type': 'Question',
@@ -46,7 +46,7 @@ const jsonLd = [
 <BaseLayout
   title="Free RPM Revenue Calculator | Zayd Health"
   description="Calculate how much RPM revenue your practice can generate from diabetic patients. Based on current CMS reimbursement rates. Free personalized analysis sent to your inbox."
-  canonical="https://www.zaydhealth.com/calculator"
+  canonical="https://www.zaydhealth.com/tools/diabetes-rpm-revenue-calculator"
   jsonLd={jsonLd}
 >
   <main id="main-content">
@@ -57,6 +57,8 @@ const jsonLd = [
           <div>
             <nav class="flex items-center gap-2 text-sm text-on-surface-variant mb-8" aria-label="Breadcrumb">
               <a href="/" class="hover:text-tertiary transition-colors">Home</a>
+              <span>›</span>
+              <a href="/tools" class="hover:text-tertiary transition-colors">Tools</a>
               <span>›</span>
               <span>RPM Revenue Calculator</span>
             </nav>
@@ -150,7 +152,7 @@ const jsonLd = [
       </div>
     </section>
 
-    <!-- Social Proof / Trust -->
+    <!-- Social Proof -->
     <section class="py-24 sm:py-32 bg-secondary">
       <div class="max-w-7xl mx-auto px-6 sm:px-8 text-center">
         <div class="max-w-4xl mx-auto bg-white/5 backdrop-blur-sm p-8 sm:p-14 rounded-sm ghost-border">

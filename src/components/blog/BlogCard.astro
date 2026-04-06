@@ -12,6 +12,7 @@ interface Props {
 }
 
 const { title, description, date, category, image, url, slug } = Astro.props
+const smImage = image?.replace('/blog/', '/blog/sm/')
 
 function formatDate(dateStr: string): string {
   return new Date(dateStr).toLocaleDateString('en-US', {
@@ -29,6 +30,8 @@ function formatDate(dateStr: string): string {
         <div class="aspect-video overflow-hidden">
           <img
             src={image}
+            srcset={smImage ? `${smImage} 400w, ${image} 600w` : undefined}
+            sizes="(max-width: 768px) 400px, 600px"
             alt={title}
             width="600"
             height="338"

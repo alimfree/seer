@@ -151,6 +151,8 @@ const breadcrumbSchema = {
             {post.data.image && (
               <img
                 src={post.data.image}
+                srcset={`${post.data.image.replace('/blog/', '/blog/sm/')} 400w, ${post.data.image} 1200w`}
+                sizes="(max-width: 768px) 400px, 1200px"
                 alt={post.data.title}
                 width="1200"
                 height="675"

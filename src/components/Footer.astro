@@ -1,10 +1,11 @@
 ---
+import { FOOTER_SPECIALTIES } from '../lib/specialties'
 const year = new Date().getFullYear()
 ---
 
 <footer class="w-full py-16 bg-surface-container-highest" role="contentinfo">
   <div class="max-w-7xl mx-auto px-6 sm:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-12 md:gap-8">
       <div>
         <a href="/" class="block mb-4"><img src="/logo.svg" alt="Zayd Health" width="120" height="28" class="h-7 w-auto" /></a>
         <div class="text-sm tracking-wide text-on-surface-variant leading-relaxed">
@@ -14,46 +15,39 @@ const year = new Date().getFullYear()
       <div>
         <p class="text-sm font-body font-semibold uppercase tracking-widest text-on-background mb-4">Resources</p>
         <div class="flex flex-col gap-2">
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/clinical">
-            Clinical Guides
-          </a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/billing">
-            Billing Guides
-          </a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/compliance">
-            Compliance
-          </a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/operations">
-            Operations
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/clinical">Clinical Guides</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/billing">Billing Guides</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/compliance">Compliance</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/operations">Operations</a>
+        </div>
+      </div>
+      <div>
+        <p class="text-sm font-body font-semibold uppercase tracking-widest text-on-background mb-4">Specialties</p>
+        <div class="flex flex-col gap-2">
+          {FOOTER_SPECIALTIES.map((s) => (
+            <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href={`/specialties/${s.slug}`}>
+              {s.name}
+            </a>
+          ))}
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/specialties">
+            View All →
           </a>
         </div>
       </div>
       <div>
         <p class="text-sm font-body font-semibold uppercase tracking-widest text-on-background mb-4">Product</p>
         <div class="flex flex-col gap-2">
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#how-it-works">
-            How It Works
-          </a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#revenue-calculator">
-            Calculator
-          </a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#faq">
-            FAQ
-          </a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#how-it-works">How It Works</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#revenue-calculator">Calculator</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#faq">FAQ</a>
         </div>
       </div>
       <div>
         <p class="text-sm font-body font-semibold uppercase tracking-widest text-on-background mb-4">Company</p>
         <div class="flex flex-col gap-2">
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/privacy">
-            Privacy Policy
-          </a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/terms">
-            Terms of Service
-          </a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#contact">
-            Contact
-          </a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/privacy">Privacy Policy</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/terms">Terms of Service</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/#contact">Contact</a>
         </div>
       </div>
     </div>

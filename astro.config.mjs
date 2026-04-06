@@ -54,6 +54,10 @@ export default defineConfig({
             priority: 0.7,
           }
         }
+        // Specialty hub pages
+        if (url.includes('/specialties')) {
+          return { ...item, changefreq: 'monthly', priority: 0.8 }
+        }
         // Legal pages
         if (url.includes('/privacy') || url.includes('/terms')) {
           return { ...item, changefreq: 'yearly', priority: 0.2 }

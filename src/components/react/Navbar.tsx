@@ -46,6 +46,9 @@ export default function Navbar({ currentPath }: Props) {
           <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/#faq" onClick={(e) => scrollTo(e, 'faq')}>
             FAQ
           </a>
+          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/specialties">
+            Specialties
+          </a>
           <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/resources">
             Resources
           </a>
@@ -79,6 +82,9 @@ export default function Navbar({ currentPath }: Props) {
           </a>
           <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#faq" onClick={(e) => { scrollTo(e, 'faq'); setMobileOpen(false) }}>
             FAQ
+          </a>
+          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/specialties" onClick={() => setMobileOpen(false)}>
+            Specialties
           </a>
           <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/resources" onClick={() => setMobileOpen(false)}>
             Resources

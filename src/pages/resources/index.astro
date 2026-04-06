@@ -6,7 +6,7 @@ import FeaturedCard from '../../components/blog/FeaturedCard.astro'
 import Pagination from '../../components/blog/Pagination.astro'
 import BlogSearch from '../../components/react/BlogSearch'
 import EmailCapture from '../../components/react/EmailCapture'
-import { resolveCategory, getPostUrl, calculateReadingTime, CATEGORIES, CATEGORY_LABELS } from '../../lib/blog'
+import { resolveCategory, getPostUrl, calculateReadingTime, getVisibleCategories, CATEGORY_LABELS } from '../../lib/blog'
 
 const POSTS_PER_PAGE_FIRST = 4
 
@@ -14,6 +14,7 @@ const allPosts = (await getCollection('blog'))
   .filter((post) => post.data.status === 'published')
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
+const visibleCategories = getVisibleCategories(allPosts)
 const posts = allPosts.slice(0, POSTS_PER_PAGE_FIRST)
 const featuredPost = posts.length > 0 ? posts[0] : null
 const gridPosts = posts.slice(1)
@@ -70,7 +71,7 @@ const totalPages = Math.max(1, 1 + Math.ceil(remaining / 6))
           </div>
           <div class="flex flex-wrap gap-1">
             <a href="/resources" class="px-4 py-2 text-sm font-medium transition-colors border-b-2 border-primary text-primary">All</a>
-            {CATEGORIES.map((cat) => (
+            {visibleCategories.map((cat) => (
               <a href={`/resources/${cat}`} class="px-4 py-2 text-sm font-medium transition-colors text-on-surface-variant hover:text-on-surface">{CATEGORY_LABELS[cat]}</a>
             ))}
           </div>

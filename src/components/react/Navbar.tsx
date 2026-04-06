@@ -32,7 +32,7 @@ export default function Navbar({ currentPath }: Props) {
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[60] focus:bg-primary focus:text-on-primary focus:px-4 focus:py-2 focus:rounded-sm">
         Skip to content
       </a>
-      <nav className="flex justify-between items-center max-w-7xl mx-auto px-6 sm:px-8 h-16 sm:h-20">
+      <nav aria-label="Main navigation" className="flex justify-between items-center max-w-7xl mx-auto px-6 sm:px-8 h-16 sm:h-20">
         <a href="/" className="block">
           <img src="/logo.svg" alt="Zayd Health" width="120" height="32" className="h-6 sm:h-8 w-auto" />
         </a>

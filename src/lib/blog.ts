@@ -11,6 +11,22 @@ export const CATEGORY_MAP: Record<string, string> = {
 }
 
 export const CATEGORIES = ['clinical', 'billing', 'compliance', 'operations'] as const
+
+/** Returns only categories that have at least one published post. Call at build time. */
+export function getVisibleCategories(publishedPosts: Array<{ data: { tags: string[] } }>): Category[] {
+  const populated = new Set<Category>()
+  for (const post of publishedPosts) {
+    populated.add(resolveCategory(post.data.tags))
+  }
+  return CATEGORIES.filter((cat) => populated.has(cat))
+}
+
+export const CATEGORY_DESCRIPTIONS: Record<Category, string> = {
+  clinical: 'Evidence-based monitoring protocols for diabetic patients across medications, comorbidities, and special populations.',
+  billing: 'CPT codes, modifier rules, payer requirements, and revenue strategies for RPM programs.',
+  compliance: 'HIPAA, anti-kickback, consent, licensing, and audit preparation for RPM practices.',
+  operations: 'Workflows, staffing, device selection, EHR integration, and scaling strategies for RPM programs.',
+}
 export type Category = (typeof CATEGORIES)[number]
 
 export const CATEGORY_LABELS: Record<Category, string> = {

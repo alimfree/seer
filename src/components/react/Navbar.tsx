@@ -68,22 +68,22 @@ export default function Navbar({ currentPath }: Props) {
         className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
           mobileOpen ? 'max-h-80 opacity-100' : 'max-h-0 opacity-0'
         }`}
-        aria-hidden={!mobileOpen}
+        {...(!mobileOpen ? { inert: true } : {})}
       >
         <div className="px-6 py-6 flex flex-col gap-2 bg-surface-container-lowest">
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#how-it-works" tabIndex={mobileOpen ? 0 : -1} onClick={(e) => { scrollTo(e, 'how-it-works'); setMobileOpen(false) }}>
+          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#how-it-works" onClick={(e) => { scrollTo(e, 'how-it-works'); setMobileOpen(false) }}>
             How It Works
           </a>
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#revenue-calculator" tabIndex={mobileOpen ? 0 : -1} onClick={(e) => { scrollTo(e, 'revenue-calculator'); setMobileOpen(false) }}>
+          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#revenue-calculator" onClick={(e) => { scrollTo(e, 'revenue-calculator'); setMobileOpen(false) }}>
             Calculator
           </a>
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#faq" tabIndex={mobileOpen ? 0 : -1} onClick={(e) => { scrollTo(e, 'faq'); setMobileOpen(false) }}>
+          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/#faq" onClick={(e) => { scrollTo(e, 'faq'); setMobileOpen(false) }}>
             FAQ
           </a>
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/resources" tabIndex={mobileOpen ? 0 : -1} onClick={() => setMobileOpen(false)}>
+          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/resources" onClick={() => setMobileOpen(false)}>
             Resources
           </a>
-          <a className="btn-primary px-6 py-3 text-on-primary font-medium rounded-sm text-center mt-2" href="https://calendly.com/ali-zaydhealth/discovery" target="_blank" rel="noopener noreferrer" tabIndex={mobileOpen ? 0 : -1} onClick={() => setMobileOpen(false)}>
+          <a className="btn-primary px-6 py-3 text-on-primary font-medium rounded-sm text-center mt-2" href="https://calendly.com/ali-zaydhealth/discovery" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>
             Schedule a Call
           </a>
         </div>

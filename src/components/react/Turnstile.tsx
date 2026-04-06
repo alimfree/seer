@@ -23,6 +23,30 @@ interface TurnstileProps {
 }
 
 const TURNSTILE_SITE_KEY = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY || '1x00000000000000000000AA'
+const TURNSTILE_SRC = 'https://challenges.cloudflare.com/turnstile/v0/api.js'
+
+function loadTurnstileScript(): Promise<void> {
+  if (window.turnstile) return Promise.resolve()
+  if (document.querySelector(`script[src="${TURNSTILE_SRC}"]`)) {
+    // Script tag exists but hasn't loaded yet — poll for it
+    return new Promise((resolve) => {
+      const interval = setInterval(() => {
+        if (window.turnstile) { clearInterval(interval); resolve() }
+      }, 100)
+    })
+  }
+  return new Promise((resolve) => {
+    const script = document.createElement('script')
+    script.src = TURNSTILE_SRC
+    script.async = true
+    script.onload = () => {
+      const interval = setInterval(() => {
+        if (window.turnstile) { clearInterval(interval); resolve() }
+      }, 50)
+    }
+    document.head.appendChild(script)
+  })
+}
 
 export default function Turnstile({ onVerify, onExpire }: TurnstileProps) {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -32,9 +56,10 @@ export default function Turnstile({ onVerify, onExpire }: TurnstileProps) {
     const el = containerRef.current
     if (!el) return
 
-    function renderWidget() {
-      if (!el || widgetIdRef.current) return
+    let cancelled = false
 
+    loadTurnstileScript().then(() => {
+      if (cancelled || !el || widgetIdRef.current) return
       widgetIdRef.current = window.turnstile.render(el, {
         sitekey: TURNSTILE_SITE_KEY,
         callback: onVerify,
@@ -42,27 +67,12 @@ export default function Turnstile({ onVerify, onExpire }: TurnstileProps) {
         theme: 'light',
         size: 'normal',
       })
-    }
-
-    if (window.turnstile) {
-      renderWidget()
-    } else {
-      const interval = setInterval(() => {
-        if (window.turnstile) {
-          clearInterval(interval)
-          renderWidget()
-        }
-      }, 100)
-      return () => clearInterval(interval)
-    }
+    })
 
     return () => {
+      cancelled = true
       if (widgetIdRef.current) {
-        try {
-          window.turnstile.remove(widgetIdRef.current)
-        } catch {
-          // Widget already removed
-        }
+        try { window.turnstile.remove(widgetIdRef.current) } catch { /* already removed */ }
         widgetIdRef.current = null
       }
     }

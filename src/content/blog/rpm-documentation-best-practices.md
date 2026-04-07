@@ -4,7 +4,7 @@ description: "Master RPM documentation requirements with code-specific standards
 date: "2025-11-20"
 author: "Mohammed Ali"
 tags: ["compliance", "documentation", "rpm"]
-image: "/blog/documentation-best-practices.webp"
+image: "/blog/cgm-woman.webp"
 status: "published"
 ---
 

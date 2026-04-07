@@ -1,6 +1,6 @@
 ---
 title: "How Cardiac Medications Affect Glucose Control in Diabetic Patients"
-description: "Beta-blockers, thiazides, and statins can disrupt glucose in diabetic patients. A practical guide for primary care teams managing cardiovascular-metabolic overlap."
+description: "How cardiac medications affect glucose in diabetic patients. Covers beta-blockers, thiazides, statins, SGLT2 inhibitors, GLP-1 agonists, ACE inhibitors, ARBs, and sacubitril-valsartan."
 date: "2026-02-15"
 author: "Mohammed Ali"
 tags: ["clinical", "rpm", "diabetes"]
@@ -60,7 +60,7 @@ Thiazides impair insulin secretion through potassium depletion. Hypokalemia redu
 ### Clinical Considerations
 
 - Low-dose thiazides (12.5 mg HCTZ, 12.5 mg chlorthalidone) have minimal glucose impact and remain appropriate for diabetic patients.
-- If glucose control worsens after starting or increasing a thiazide, check potassium before adjusting diabetes medications. Potassium supplementation or switching to a potassium-sparing combination may resolve the issue.
+- If glucose control worsens after starting or increasing a thiazide, check potassium before adjusting diabetes medications. Addition of an aldosterone antagonist (spironolactone or eplerenone) for potassium sparing may resolve the issue.
 - Indapamide has a more favorable metabolic profile than HCTZ and is worth considering for diabetic patients who need a diuretic.
 
 ## Statins
@@ -98,7 +98,65 @@ Not all cardiac medications worsen glucose. ACE inhibitors and ARBs (the most co
 
 **ARBs** (losartan, valsartan, telmisartan) are metabolically neutral. Telmisartan in particular has PPAR-gamma agonist activity that may provide modest insulin-sensitizing effects.
 
+**Sacubitril-valsartan (Entresto)** is now first-line for heart failure with reduced ejection fraction. It combines an ARB (valsartan) with a neprilysin inhibitor. While its glucose effects are not as extensively studied as standalone ARBs, the valsartan component provides the same metabolic neutrality described above. Some early data suggest neprilysin inhibition may improve insulin sensitivity through increased levels of natriuretic peptides, but this has not been conclusively established. For diabetic heart failure patients, sacubitril-valsartan is a favorable choice from both a cardiovascular and metabolic standpoint.
+
 This is relevant for medication selection: when a diabetic patient needs an antihypertensive, ACE inhibitors and ARBs are preferred not only for renal protection but also for their favorable metabolic profile.
+
+## SGLT2 Inhibitors: Cardiovascular Benefit with Glucose Lowering
+
+SGLT2 inhibitors (empagliflozin, dapagliflozin, canagliflozin) were originally developed as diabetes medications but have proven to have remarkable cardiovascular and renal benefits that extend well beyond glucose control.
+
+### The Glucose Impact
+
+SGLT2 inhibitors work by blocking glucose reabsorption in the kidney, causing excess glucose to be excreted in the urine. This produces:
+
+- **A1C reductions of 0.5-1.0%** depending on baseline glucose and renal function
+- **Weight loss of 2-4 kg** from caloric loss through glycosuria
+- **Blood pressure reduction of 3-5 mmHg** through osmotic diuresis and natriuresis
+- **Low hypoglycemia risk** because the mechanism is insulin-independent
+
+### Why Cardiologists Are Prescribing Them
+
+The cardiovascular data for SGLT2 inhibitors changed their role entirely. Major trials (EMPA-REG, DAPA-HF, EMPEROR-Reduced) demonstrated significant reductions in heart failure hospitalizations and cardiovascular death, independent of diabetes status. Current guidelines recommend SGLT2 inhibitors for all patients with heart failure with reduced ejection fraction, regardless of whether they have diabetes.
+
+For diabetic patients, this means the same medication addresses both conditions simultaneously.
+
+### What to Watch For
+
+- **Genital mycotic infections:** increased urinary glucose creates a favorable environment for yeast. More common in women. Usually manageable with antifungals.
+- **Volume depletion:** the diuretic effect can cause orthostatic hypotension, especially in patients already on thiazides or loop diuretics. Monitor volume status in the first few weeks.
+- **Euglycemic DKA:** rare but serious. Can occur in patients on insulin who significantly reduce carbohydrate intake. Glucose may be normal or only mildly elevated, making diagnosis easy to miss. Educate patients to report nausea, vomiting, or abdominal pain.
+- **Reduced glucose-lowering efficacy below eGFR 45:** the glucose effect diminishes as renal function declines, though the cardiovascular and renal protective benefits persist down to eGFR 20.
+
+### Clinical Considerations
+
+- For diabetic patients with established cardiovascular disease or heart failure, SGLT2 inhibitors should be considered standard therapy. The combined glucose, weight, blood pressure, and cardiovascular benefits make them uniquely valuable.
+- When adding an SGLT2 inhibitor, review the patient's existing diuretic regimen. Dose reduction of thiazides or loop diuretics may be necessary to prevent excessive volume depletion.
+- Monitor renal function at baseline and within 1-2 weeks of initiation. A small initial dip in eGFR is expected and typically stabilizes.
+
+## GLP-1 Receptor Agonists: Cardiovascular Protection Beyond Glucose
+
+GLP-1 receptor agonists (semaglutide, liraglutide, dulaglutide) are another diabetes drug class with proven cardiovascular benefits that are increasingly prescribed by cardiologists.
+
+### The Glucose Impact
+
+GLP-1 agonists lower glucose through glucose-dependent insulin secretion, suppressed glucagon, slowed gastric emptying, and central appetite suppression. A1C reductions of 1.0-2.0% are typical, along with significant weight loss (5-15% of body weight with semaglutide).
+
+### Cardiovascular Benefits
+
+The LEADER trial (liraglutide) and SELECT trial (semaglutide) demonstrated significant reductions in major adverse cardiovascular events. Semaglutide in particular showed cardiovascular benefit even in non-diabetic patients with obesity, broadening its use beyond diabetes.
+
+### What to Watch For
+
+- **Hypoglycemia risk when combined with sulfonylureas or insulin:** GLP-1 agonists alone carry low hypoglycemia risk, but the combination with insulin or sulfonylureas requires proactive dose reduction of those agents as the GLP-1 takes effect.
+- **GI side effects:** nausea, vomiting, and diarrhea are common during dose titration. Usually transient but can affect medication adherence.
+- **Rapid glucose improvement:** patients starting a GLP-1 agonist may see faster glucose improvement than expected, requiring timely adjustment of existing diabetes medications to prevent hypoglycemia.
+
+### Clinical Considerations
+
+- For diabetic patients with atherosclerotic cardiovascular disease, GLP-1 agonists with proven cardiovascular benefit (liraglutide, semaglutide, dulaglutide) are recommended by current ADA/ACC guidelines.
+- The weight loss benefit is additive to the cardiovascular and glucose benefits, making GLP-1 agonists particularly valuable for obese diabetic patients with cardiac disease.
+- Monitor glucose closely during the first 3-6 months of GLP-1 therapy, especially in patients on insulin or sulfonylureas. Medication reductions are frequently needed.
 
 ## The Compounding Effect: Multiple Cardiac Medications
 

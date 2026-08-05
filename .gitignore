@@ -1,6 +1,9 @@
 # build output
 dist/
 
+# local-dev-only pagefind index snapshot (regenerated fresh on every production build)
+public/pagefind/
+
 # generated types
 .astro/
 

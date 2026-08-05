@@ -43,10 +43,10 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     body: JSON.stringify({
       name: `Monthly Synthesis — ${month}`,
       subject: `The Monthly Synthesis — ${month}`,
-      sender: { name: 'Zayd Health', email: 'hello@zaydhealth.com' },
+      sender: { name: 'Seer Mobility', email: 'hello@seermobility.com' },
       recipients: { listIds: [Number(env.BREVO_LIST_NEWSLETTER)] },
       htmlContent: html,
-      previewText: `${posts.length} new RPM resource${posts.length !== 1 ? 's' : ''} this month`,
+      previewText: `${posts.length} new NEMT billing resource${posts.length !== 1 ? 's' : ''} this month`,
     }),
   })
 

@@ -34,17 +34,14 @@ export default function Navbar({ currentPath }: Props) {
       </a>
       <nav aria-label="Main navigation" className="flex justify-between items-center max-w-7xl mx-auto px-6 sm:px-8 h-16 sm:h-20">
         <a href="/" className="block">
-          <img src="/logo.svg" alt="Zayd Health" width="120" height="32" className="h-6 sm:h-8 w-auto" />
+          <img src="/logo.svg" alt="Seer Mobility" width="120" height="32" className="h-6 sm:h-8 w-auto" />
         </a>
         <div className="hidden md:flex items-center gap-10">
-          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/specialties">
-            Specialties
-          </a>
           <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/resources">
             Resources
           </a>
-          <a className="btn-primary px-6 py-2.5 text-on-primary font-medium rounded-sm" href="https://calendly.com/ali-zaydhealth/discovery" target="_blank" rel="noopener noreferrer" onClick={() => trackEvent('cta_click', { location: 'nav' })}>
-            Schedule a Call
+          <a className="btn-primary px-6 py-2.5 text-on-primary font-medium rounded-sm" href="/#contact" onClick={(e) => { scrollTo(e, 'contact'); trackEvent('cta_click', { location: 'nav' }) }}>
+            Book a Free Billing Assessment
           </a>
         </div>
         <button
@@ -65,14 +62,11 @@ export default function Navbar({ currentPath }: Props) {
         {...(!mobileOpen ? { inert: true } : {})}
       >
         <div className="px-6 py-6 flex flex-col gap-2 bg-surface-container-lowest">
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/specialties" onClick={() => setMobileOpen(false)}>
-            Specialties
-          </a>
           <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/resources" onClick={() => setMobileOpen(false)}>
             Resources
           </a>
-          <a className="btn-primary px-6 py-3 text-on-primary font-medium rounded-sm text-center mt-2" href="https://calendly.com/ali-zaydhealth/discovery" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)}>
-            Schedule a Call
+          <a className="btn-primary px-6 py-3 text-on-primary font-medium rounded-sm text-center mt-2" href="/#contact" onClick={(e) => { scrollTo(e, 'contact'); setMobileOpen(false) }}>
+            Book a Free Billing Assessment
           </a>
         </div>
       </div>

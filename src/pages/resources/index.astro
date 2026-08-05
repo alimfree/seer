@@ -22,10 +22,10 @@ const gridPosts = posts.slice(1)
 const blogListSchema = {
   '@context': 'https://schema.org',
   '@type': 'Blog',
-  name: 'Zayd Health Resources',
-  description: 'Practical guides on RPM billing, compliance, and clinical workflows for your practice.',
-  url: 'https://www.zaydhealth.com/resources',
-  publisher: { '@type': 'Organization', name: 'Zayd Health', url: 'https://www.zaydhealth.com' },
+  name: 'Seer Mobility Resources',
+  description: 'Practical guides on NEMT billing, broker portals, and compliance for transportation operators.',
+  url: 'https://www.seermobility.com/resources',
+  publisher: { '@type': 'Organization', name: 'Seer Mobility', url: 'https://www.seermobility.com' },
 }
 
 const remaining = Math.max(0, allPosts.length - POSTS_PER_PAGE_FIRST)
@@ -33,9 +33,9 @@ const totalPages = Math.max(1, 1 + Math.ceil(remaining / 6))
 ---
 
 <BaseLayout
-  title="Resources | Zayd Health"
-  description="Practical guides on RPM billing, compliance, and clinical workflows for your practice."
-  canonical="https://www.zaydhealth.com/resources"
+  title="Resources | Seer Mobility"
+  description="Practical guides on NEMT billing, broker portals, and compliance for transportation operators."
+  canonical="https://www.seermobility.com/resources"
   jsonLd={blogListSchema}
 >
   <main id="main-content">
@@ -43,7 +43,7 @@ const totalPages = Math.max(1, 1 + Math.ceil(remaining / 6))
       <div class="max-w-7xl mx-auto">
         <header class={featuredPost ? 'mb-12' : 'pb-16'}>
           <h1 class="font-headline text-4xl sm:text-5xl font-light tracking-tight text-on-background mb-4">Resources</h1>
-          <p class="text-on-surface-variant text-lg max-w-2xl">Practical guides on RPM billing, compliance, and revenue strategies for your practice.</p>
+          <p class="text-on-surface-variant text-lg max-w-2xl">Practical guides on NEMT billing, broker portals, and revenue strategies for your fleet.</p>
         </header>
         {featuredPost && (
           <FeaturedCard
@@ -65,7 +65,7 @@ const totalPages = Math.max(1, 1 + Math.ceil(remaining / 6))
           <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
             <div>
               <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background">Recent Dispatches</h2>
-              <p class="font-body text-on-surface-variant mt-2">Practical guides on RPM billing, compliance, and practice operations.</p>
+              <p class="font-body text-on-surface-variant mt-2">Practical guides on NEMT billing, broker portals, and fleet operations.</p>
             </div>
             <BlogSearch client:idle />
           </div>
@@ -100,7 +100,7 @@ const totalPages = Math.max(1, 1 + Math.ceil(remaining / 6))
     <section class="py-24 sm:py-32 bg-surface">
       <div class="max-w-4xl mx-auto px-6 sm:px-8 text-center">
         <h2 class="font-headline text-4xl sm:text-5xl font-light text-on-background mb-6">The Monthly Synthesis</h2>
-        <p class="font-body text-on-surface-variant text-lg mb-12">One email per month. RPM billing changes, compliance pitfalls, and the revenue strategies that actually work for your practice.</p>
+        <p class="font-body text-on-surface-variant text-lg mb-12">One email per month. NEMT billing changes, broker portal updates, and the revenue strategies that actually work for your fleet.</p>
         <div class="max-w-lg mx-auto">
           <EmailCapture client:visible minimal />
         </div>

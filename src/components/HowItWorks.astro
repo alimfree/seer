@@ -1,43 +1,40 @@
 ---
 const steps = [
   {
-    icon: 'patient_list',
-    title: '1. Enroll',
-    description: 'Enroll your diabetic patients in under three minutes. We handle device coordination and the technical setup.',
+    title: 'Assessment',
+    description: 'We audit your current AR and trip logs to identify immediate revenue opportunities and denial patterns.',
   },
   {
-    icon: 'clinical_notes',
-    title: '2. Monitor',
-    description: 'Our platform tracks every second of clinician review time and every day of data transmission automatically.',
+    title: 'Onboarding',
+    description: 'Seamless integration with your dispatch software, credentialing, and existing broker relationships.',
   },
   {
-    icon: 'receipt_long',
-    title: '3. Bill',
-    description: "Receive an audit-ready superbill for every eligible patient. Your biller clicks \"Submit\" and keeps the revenue.",
+    title: 'Ongoing submission',
+    description: 'Daily clean claim generation and proactive portal management across every broker you work with.',
+  },
+  {
+    title: 'Monthly optimization',
+    description: 'Strategic reviews to tighten documentation, improve internal processes, and maximize yield.',
   },
 ]
 ---
 
-<section class="py-24 sm:py-32 px-6 sm:px-8 fade-in-section" id="how-it-works">
-  <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-12 sm:mb-16">
+<section class="py-24 sm:py-32 bg-surface-container-low fade-in-section" id="how-it-works">
+  <div class="max-w-7xl mx-auto px-6 sm:px-8">
+    <div class="text-center mb-16 sm:mb-20">
       <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background">
-        Three steps. No workflow change.
+        How we transform your billing.
       </h2>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 sm:gap-12">
+    <div class="flex flex-col md:flex-row justify-between relative gap-12 md:gap-4">
+      <div class="hidden md:block absolute top-6 left-[10%] right-[10%] h-px bg-outline-variant/30 z-0" aria-hidden="true"></div>
       {steps.map((step, i) => (
-        <div class="text-center">
-          <div class="w-16 h-16 btn-primary text-on-primary rounded-full flex items-center justify-center mx-auto mb-6">
-            <span class="material-symbols-outlined text-3xl" aria-hidden="true">{step.icon}</span>
+        <div class="flex flex-col items-center text-center relative z-10 w-full md:w-1/4">
+          <div class="w-12 h-12 rounded-full btn-primary text-on-primary flex items-center justify-center font-medium text-lg mb-6">
+            {i + 1}
           </div>
-          <h3 class="font-headline text-2xl mb-4">{step.title}</h3>
-          <p class="text-on-surface-variant leading-relaxed">{step.description}</p>
-          {i < steps.length - 1 && (
-            <div class="hidden md:block mt-8">
-              <span class="material-symbols-outlined text-outline-variant text-2xl" aria-hidden="true">arrow_forward</span>
-            </div>
-          )}
+          <h3 class="font-headline text-xl text-on-background mb-3">{step.title}</h3>
+          <p class="text-on-surface-variant leading-relaxed px-4">{step.description}</p>
         </div>
       ))}
     </div>

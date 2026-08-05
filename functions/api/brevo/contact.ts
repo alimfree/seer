@@ -7,7 +7,7 @@ function buildContactConfirmationEmail(firstname: string): string {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>We received your message — Zayd Health</title>
+  <title>We received your message — Seer Mobility</title>
   <!--[if mso]>
   <style>table,td{font-family:Arial,sans-serif !important;}</style>
   <![endif]-->
@@ -26,7 +26,7 @@ function buildContactConfirmationEmail(firstname: string): string {
               <table role="presentation" cellpadding="0" cellspacing="0">
                 <tr>
                   <td style="padding-bottom:24px;">
-                    <a href="https://www.zaydhealth.com" style="font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:300;color:#000B13;letter-spacing:-0.5px;text-decoration:none;">Zayd Health</a>
+                    <a href="https://www.seermobility.com" style="font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:300;color:#000B13;letter-spacing:-0.5px;text-decoration:none;">Seer Mobility</a>
                   </td>
                 </tr>
                 <tr>
@@ -55,7 +55,7 @@ function buildContactConfirmationEmail(firstname: string): string {
             <td style="background:linear-gradient(135deg,#000B13,#002434);padding:40px;border-radius:4px;text-align:center;">
               <p style="font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:300;color:#F8F9FF;margin:0 0 8px 0;">Want to talk sooner?</p>
               <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#8A9BB5;margin:0 0 24px 0;">15-minute discovery call. No pressure, no pitch deck.</p>
-              <a href="https://calendly.com/ali-zaydhealth/discovery" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Schedule a Call</a>
+              <a href="https://seermobility.com/#contact" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Schedule a Call</a>
             </td>
           </tr>
 
@@ -68,12 +68,12 @@ function buildContactConfirmationEmail(firstname: string): string {
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                   <td>
-                    <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Zayd Health</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">RPM Billing Compliance Platform</p>
+                    <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Seer Mobility</p>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">NEMT Billing & Revenue Cycle Management</p>
                     <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0;">
-                      <a href="https://www.zaydhealth.com" style="color:#6B4A1F;text-decoration:underline;">zaydhealth.com</a>
+                      <a href="https://www.seermobility.com" style="color:#6B4A1F;text-decoration:underline;">seermobility.com</a>
                       &nbsp;&middot;&nbsp;
-                      <a href="mailto:hello@zaydhealth.com" style="color:#6B4A1F;text-decoration:underline;">hello@zaydhealth.com</a>
+                      <a href="mailto:hello@seermobility.com" style="color:#6B4A1F;text-decoration:underline;">hello@seermobility.com</a>
                     </p>
                   </td>
                 </tr>
@@ -121,8 +121,8 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 
   // Notify team
   await sendBrevoEmail(env, {
-    sender: { name: 'Zayd Health', email: 'hello@zaydhealth.com' },
-    to: [{ email: 'sales@zaydhealth.com' }],
+    sender: { name: 'Seer Mobility', email: 'hello@seermobility.com' },
+    to: [{ email: 'sales@seermobility.com' }],
     subject: `New contact: ${fullName}${practice ? ` — ${practice}` : ''}`,
     htmlContent: `<p>New contact from ${fullName} (<a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a>)${practice ? `, ${practice}` : ''}</p>${message ? `<p>Message: ${message}</p>` : ''}`,
     replyTo: { email, name: fullName },
@@ -130,9 +130,9 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 
   // Confirmation to the user
   await sendBrevoEmail(env, {
-    sender: { name: 'Zayd Health', email: 'hello@zaydhealth.com' },
+    sender: { name: 'Seer Mobility', email: 'hello@seermobility.com' },
     to: [{ email }],
-    subject: 'We received your message — Zayd Health',
+    subject: 'We received your message — Seer Mobility',
     htmlContent: buildContactConfirmationEmail(firstname),
   })
 

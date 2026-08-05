@@ -3,28 +3,28 @@ import { trackEvent } from '../../hooks/useAnalytics'
 
 const faqs = [
   {
-    question: 'How does this differ from traditional RPM software?',
-    answer: "We track clinician review time to the second — automatically, not self-reported. Our billing engine enforces clean claim rules before export, so your biller never submits a superbill that's missing documentation. Every claim links to a timestamped audit trail that wins appeals.",
+    question: 'How is this different from hiring an in-house biller?',
+    answer: "We combine dedicated billing specialists with software that pre-scrubs every claim against broker and state Medicaid rules before it's ever submitted. You get the accountability of a team plus the consistency of automation, without the overhead of building a full in-house department.",
   },
   {
-    question: 'Do I need to hire more staff?',
-    answer: 'No. Our platform is designed to slide into your existing workflow without additional headcount.',
+    question: 'Which brokers and payers do you work with?',
+    answer: 'We bill directly through ModivCare, MTM, and most state Medicaid NEMT programs, along with commercial and managed care payers. If you run trips through a broker portal, we can likely bill through it.',
   },
   {
-    question: 'What happens during a payer audit?',
-    answer: 'Every superbill links to a timestamped audit log with exact session times and staff identity, providing the proof needed to win appeals.',
+    question: 'Do I need to change my dispatch software?',
+    answer: "No. We integrate with the dispatch and trip-logging tools you already use to pull the data we need for clean claim submission.",
+  },
+  {
+    question: 'What happens when a claim is denied?',
+    answer: "Every denial is triaged with a documented resolution path — resubmission, appeal, or write-off with an explanation. You get visibility into why claims are denied, not just that they were.",
   },
   {
     question: 'Is there a long-term contract?',
-    answer: 'No. Cancel anytime. Active patients only.',
+    answer: 'No. Month-to-month, cancel anytime. We earn the relationship by keeping your denial rate down and your AR moving.',
   },
   {
-    question: 'How secure is the patient health data?',
-    answer: 'HIPAA compliant with encrypted data and PHI separation by design.',
-  },
-  {
-    question: 'What types of patients qualify for RPM?',
-    answer: 'Any patient with a chronic condition and a qualifying monitoring device. We focus on diabetic patients because glucose monitoring is well-established and reimbursement rates are strong, but the platform supports any RPM-eligible population.',
+    question: 'How secure is my trip and rider data?',
+    answer: 'HIPAA-compliant handling of rider PHI with encrypted data storage and strict access controls.',
   },
 ]
 

@@ -1,16 +1,16 @@
 export const CATEGORY_MAP: Record<string, string> = {
-  clinical: 'clinical',
   billing: 'billing',
   compliance: 'compliance',
   operations: 'operations',
-  ccm: 'billing',
+  denials: 'billing',
   revenue: 'billing',
-  devices: 'operations',
-  technology: 'operations',
-  rpm: 'operations',
+  brokers: 'operations',
+  dispatch: 'operations',
+  medicaid: 'compliance',
+  credentialing: 'compliance',
 }
 
-export const CATEGORIES = ['clinical', 'billing', 'compliance', 'operations'] as const
+export const CATEGORIES = ['billing', 'compliance', 'operations'] as const
 
 /** Returns only categories that have at least one published post. Call at build time. */
 export function getVisibleCategories(publishedPosts: Array<{ data: { tags: string[] } }>): Category[] {
@@ -22,15 +22,13 @@ export function getVisibleCategories(publishedPosts: Array<{ data: { tags: strin
 }
 
 export const CATEGORY_DESCRIPTIONS: Record<Category, string> = {
-  clinical: 'Evidence-based monitoring protocols for diabetic patients across medications, comorbidities, and special populations.',
-  billing: 'CPT codes, modifier rules, payer requirements, and revenue strategies for RPM programs.',
-  compliance: 'HIPAA, anti-kickback, consent, licensing, and audit preparation for RPM practices.',
-  operations: 'Workflows, staffing, device selection, EHR integration, and scaling strategies for RPM programs.',
+  billing: 'Denial reasons, broker billing rules, payer requirements, and revenue strategies for NEMT operators.',
+  compliance: 'State Medicaid regulations, credentialing, licensing, and audit preparation for NEMT operators.',
+  operations: 'Dispatch, broker portals, driver management, and scaling strategies for NEMT fleets.',
 }
 export type Category = (typeof CATEGORIES)[number]
 
 export const CATEGORY_LABELS: Record<Category, string> = {
-  clinical: 'Clinical Guides',
   billing: 'Billing Guides',
   compliance: 'Compliance',
   operations: 'Operations',

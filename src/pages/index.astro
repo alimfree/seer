@@ -11,19 +11,14 @@ import ContactForm from '../components/react/ContactForm'
 
 const structuredData = {
   '@context': 'https://schema.org',
-  '@type': 'SoftwareApplication',
-  name: 'Zayd Health',
-  applicationCategory: 'HealthApplication',
-  description: 'RPM billing compliance platform for practices with diabetic patients. Automates transmission tracking, clinician time logging, and audit-ready superbill generation.',
-  operatingSystem: 'Web',
-  offers: {
-    '@type': 'Offer',
-    category: 'SaaS',
-  },
+  '@type': 'ProfessionalService',
+  name: 'Seer Mobility',
+  description: 'Full-service billing and revenue cycle management for NEMT operators. Clean claim submission, active denial management, and revenue cycle oversight across major brokers and payers.',
+  areaServed: 'US',
   provider: {
     '@type': 'Organization',
-    name: 'Zayd Health',
-    url: 'https://www.zaydhealth.com',
+    name: 'Seer Mobility',
+    url: 'https://www.seermobility.com',
   },
 }
 
@@ -33,26 +28,34 @@ const faqStructuredData = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How does this differ from traditional RPM software?',
+      name: 'How is this different from hiring an in-house biller?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "We track clinician review time to the second. Automatically, not self-reported. Our billing engine enforces clean claim rules before export, so your biller never submits a superbill that's missing documentation. Every claim links to a timestamped audit trail that wins appeals.",
+        text: "We combine dedicated billing specialists with software that pre-scrubs every claim against broker and state Medicaid rules before it's ever submitted. You get the accountability of a team plus the consistency of automation, without the overhead of building a full in-house department.",
       },
     },
     {
       '@type': 'Question',
-      name: 'Do I need to hire more staff?',
+      name: 'Which brokers and payers do you work with?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Our platform is designed to slide into your existing workflow without additional headcount.',
+        text: 'We bill directly through ModivCare, MTM, and most state Medicaid NEMT programs, along with commercial and managed care payers.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What happens during a payer audit?',
+      name: 'Do I need to change my dispatch software?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Every superbill links to a timestamped audit log with exact session times and staff identity, providing the proof needed to win appeals.',
+        text: 'No. We integrate with the dispatch and trip-logging tools you already use to pull the data we need for clean claim submission.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What happens when a claim is denied?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Every denial is triaged with a documented resolution path — resubmission, appeal, or write-off with an explanation.',
       },
     },
     {
@@ -60,23 +63,15 @@ const faqStructuredData = {
       name: 'Is there a long-term contract?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Cancel anytime. Active patients only.',
+        text: 'No. Month-to-month, cancel anytime.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How secure is the patient health data?',
+      name: 'How secure is my trip and rider data?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'HIPAA compliant with encrypted data and PHI separation by design.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'What types of patients qualify for RPM?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Any patient with a chronic condition and a qualifying monitoring device. We focus on diabetic patients because glucose monitoring is well-established and reimbursement rates are strong, but the platform supports any RPM-eligible population.',
+        text: 'HIPAA-compliant handling of rider PHI with encrypted data storage and strict access controls.',
       },
     },
   ],
@@ -84,19 +79,19 @@ const faqStructuredData = {
 ---
 
 <BaseLayout
-  title="RPM Billing Compliance for Your Practice | Zayd Health"
-  description="Automate RPM compliance for diabetic patients. Transmission tracking, clinician time logging, and audit-ready superbills. Your biller files the claim."
-  canonical="https://www.zaydhealth.com/"
-  ogTitle="RPM Billing Compliance for Your Practice | Zayd Health"
-  ogDescription="Automate RPM compliance for diabetic patients. Transmission tracking, clinician time logging, and audit-ready superbills."
+  title="NEMT Billing & Revenue Cycle Management | Seer Mobility"
+  description="Full-service billing and revenue cycle management built for NEMT operators. Higher clean claim rates, lower denials, and better cash flow."
+  canonical="https://www.seermobility.com/"
+  ogTitle="NEMT Billing & Revenue Cycle Management | Seer Mobility"
+  ogDescription="Full-service billing and revenue cycle management built for NEMT operators. Higher clean claim rates, lower denials, and better cash flow."
   jsonLd={[structuredData, faqStructuredData]}
 >
   <main id="main-content">
     <Hero />
-    <HowItWorks />
+    <Documentation />
 
     <!-- Calculator Section -->
-    <section class="py-24 sm:py-32 bg-surface-container-low fade-in-section" id="revenue-calculator">
+    <section class="py-24 sm:py-32 bg-surface fade-in-section" id="revenue-calculator">
       <div class="max-w-7xl mx-auto px-6 sm:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div class="max-w-2xl">
@@ -104,14 +99,14 @@ const faqStructuredData = {
               Analysis
             </span>
             <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light leading-tight text-on-background mb-6">
-              Discover the untapped revenue in your diabetic patient panel.
+              Discover how much denials are really costing you.
             </h2>
             <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
-              Most practices leave RPM revenue on the table because the documentation burden feels too high. Zayd handles the hard part so you can bill with confidence.
+              Most operators don't know their real denial rate until it's costing them tens of thousands a year. See what clean claims could recover for your fleet.
             </p>
             <div class="flex items-center gap-4 py-4 border-t border-outline-variant/30">
               <span class="material-symbols-outlined text-tertiary" aria-hidden="true">analytics</span>
-              <span class="text-on-surface-variant">Calculate based on current CMS reimbursement rates.</span>
+              <span class="text-on-surface-variant">Calculated from your trip volume and current denial rate.</span>
             </div>
           </div>
           <Calculator client:visible />
@@ -119,8 +114,8 @@ const faqStructuredData = {
       </div>
     </section>
 
-    <Documentation />
     <BuiltFor />
+    <HowItWorks />
     <Positioning />
 
     <!-- FAQ Section -->
@@ -139,19 +134,17 @@ const faqStructuredData = {
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           <div>
             <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-6 leading-tight">
-              See what RPM revenue looks like for your practice.
+              See what clean billing looks like for your fleet.
             </h2>
             <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
-              Schedule a 15-minute call or drop us a message. We'll walk you through the dashboard and calculate your revenue potential.
+              Drop us a message and we'll walk through your numbers, show you where you're losing revenue, and what a free billing assessment covers.
             </p>
             <a
-              href="https://calendly.com/ali-zaydhealth/discovery"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:hello@seermobility.com"
               class="inline-flex items-center gap-3 px-8 py-4 bg-tertiary text-on-tertiary font-medium rounded-sm shadow-ambient hover:brightness-110 transition-all duration-300"
             >
-              <span class="material-symbols-outlined text-xl" aria-hidden="true">calendar_month</span>
-              Book Directly on Calendly
+              <span class="material-symbols-outlined text-xl" aria-hidden="true">mail</span>
+              Email Us Directly
             </a>
           </div>
           <div class="bg-surface-container-lowest p-8 sm:p-10 rounded-sm shadow-ambient ghost-border">

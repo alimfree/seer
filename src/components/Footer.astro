@@ -1,18 +1,14 @@
 ---
-import { SPECIALTIES } from '../lib/specialties'
 const year = new Date().getFullYear()
-const half = Math.ceil(SPECIALTIES.length / 2)
-const col1 = SPECIALTIES.slice(0, half)
-const col2 = SPECIALTIES.slice(half)
 ---
 
 <footer class="w-full py-16 bg-surface-container-highest" role="contentinfo">
   <div class="max-w-7xl mx-auto px-6 sm:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-[1fr_auto_auto] gap-12 md:gap-16">
+    <div class="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16">
       <div>
-        <a href="/" class="block mb-4"><img src="/logo.svg" alt="Zayd Health" width="120" height="28" class="h-7 w-auto" /></a>
+        <a href="/" class="block mb-4"><img src="/logo.svg" alt="Seer Mobility" width="120" height="28" class="h-7 w-auto" /></a>
         <div class="text-sm tracking-wide text-on-surface-variant leading-relaxed mb-6">
-          &copy; {year} Zayd Health. All rights reserved.
+          &copy; {year} Seer Mobility. All rights reserved.
         </div>
         <div class="flex flex-col gap-2">
           <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/privacy">Privacy Policy</a>
@@ -21,32 +17,12 @@ const col2 = SPECIALTIES.slice(half)
         </div>
       </div>
       <div class="md:ml-auto">
-        <p class="text-sm font-body font-medium text-on-background mb-4">Specialties</p>
-        <div class="grid grid-cols-2 gap-x-6 gap-y-2">
-          <div class="flex flex-col gap-2">
-            {col1.map((s) => (
-              <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href={`/specialties/${s.slug}`}>
-                {s.name}
-              </a>
-            ))}
-          </div>
-          <div class="flex flex-col gap-2">
-            {col2.map((s) => (
-              <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href={`/specialties/${s.slug}`}>
-                {s.name}
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
-      <div class="md:ml-auto">
         <p class="text-sm font-body font-medium text-on-background mb-4">Resources</p>
         <div class="flex flex-col gap-2">
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/clinical">Clinical Guides</a>
-
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/billing">Billing Guides</a>
           <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/compliance">Compliance</a>
           <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/resources/operations">Operations</a>
-          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/tools/diabetes-rpm-revenue-calculator">Revenue Calculator</a>
+          <a class="text-on-surface-variant text-sm tracking-wide hover:text-tertiary transition-colors duration-300" href="/tools/nemt-revenue-calculator">Revenue Calculator</a>
         </div>
       </div>
     </div>

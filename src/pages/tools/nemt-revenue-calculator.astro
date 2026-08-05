@@ -7,12 +7,12 @@ const jsonLd = [
   {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: 'Free RPM Revenue Calculator',
-    description: 'Calculate how much revenue your practice can generate from Remote Patient Monitoring for diabetic patients using current CMS reimbursement rates.',
-    url: 'https://www.zaydhealth.com/tools/diabetes-rpm-revenue-calculator',
-    applicationCategory: 'HealthApplication',
+    name: 'Free NEMT Revenue Calculator',
+    description: 'Calculate how much revenue your NEMT operation is losing to claim denials and what clean claim submission could recover.',
+    url: 'https://www.seermobility.com/tools/nemt-revenue-calculator',
+    applicationCategory: 'BusinessApplication',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    provider: { '@type': 'Organization', name: 'Zayd Health', url: 'https://www.zaydhealth.com' },
+    provider: { '@type': 'Organization', name: 'Seer Mobility', url: 'https://www.seermobility.com' },
   },
   {
     '@context': 'https://schema.org',
@@ -20,23 +20,23 @@ const jsonLd = [
     mainEntity: [
       {
         '@type': 'Question',
-        name: 'How does the RPM revenue calculator work?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Enter the number of diabetic patients in your practice and your email. We calculate your revenue opportunity using current CMS reimbursement rates and send a personalized analysis to your inbox, including a sample superbill.' },
+        name: 'How does the NEMT revenue calculator work?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Enter your monthly trip volume, average reimbursement per trip, and current denial rate. We calculate what denials are costing you and what clean claim submission could recover, then send a personalized analysis to your inbox.' },
       },
       {
         '@type': 'Question',
-        name: 'What CPT codes does the calculator use?',
-        acceptedAnswer: { '@type': 'Answer', text: 'The calculator models revenue based on RPM billing codes from the CMS Physician Fee Schedule. Your personalized report includes the specific codes, rates, and billing scenarios relevant to your practice size.' },
+        name: "What if I don't know my exact denial rate?",
+        acceptedAnswer: { '@type': 'Answer', text: "Leave it blank and we'll use the industry-average NEMT denial rate of 15% as a starting benchmark." },
       },
       {
         '@type': 'Question',
         name: 'Is this calculator free?',
-        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Enter your patient count and we send a personalized revenue analysis with a sample superbill to your email. Completely free, no credit card, no commitment.' },
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Enter your trip volume and email and we send a personalized revenue recovery analysis to your inbox. Completely free, no credit card, no commitment.' },
       },
       {
         '@type': 'Question',
         name: 'What do I receive in my inbox?',
-        acceptedAnswer: { '@type': 'Answer', text: 'You receive a detailed revenue projection for your specific practice size, a full CPT rate card with current CMS rates, and a sample audit-ready superbill showing what proper RPM documentation looks like.' },
+        acceptedAnswer: { '@type': 'Answer', text: 'A detailed breakdown of revenue lost to denials, what a clean-claim benchmark denial rate could recover annually, and what Seer Mobility handles for you.' },
       },
     ],
   },
@@ -44,9 +44,9 @@ const jsonLd = [
 ---
 
 <BaseLayout
-  title="Free RPM Revenue Calculator | Zayd Health"
-  description="Calculate how much RPM revenue your practice can generate from diabetic patients. Based on current CMS reimbursement rates. Free personalized analysis sent to your inbox."
-  canonical="https://www.zaydhealth.com/tools/diabetes-rpm-revenue-calculator"
+  title="Free NEMT Revenue Calculator | Seer Mobility"
+  description="Calculate how much revenue your NEMT operation is losing to claim denials. Free personalized recovery analysis sent to your inbox."
+  canonical="https://www.seermobility.com/tools/nemt-revenue-calculator"
   jsonLd={jsonLd}
 >
   <main id="main-content">
@@ -60,22 +60,22 @@ const jsonLd = [
               <span>›</span>
               <a href="/tools" class="hover:text-tertiary transition-colors">Tools</a>
               <span>›</span>
-              <span>RPM Revenue Calculator</span>
+              <span>NEMT Revenue Calculator</span>
             </nav>
             <h1 class="font-headline text-4xl sm:text-5xl font-light leading-tight tracking-tight text-on-background mb-6">
-              How much RPM revenue is your practice leaving on the table?
+              How much revenue are denials costing your fleet?
             </h1>
             <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
-              Most practices with diabetic patients qualify for RPM billing but never capture the revenue. Enter your patient count and we'll show you exactly what you're missing: the CPT codes, CMS rates, and a sample superbill.
+              Most NEMT operators don't know their real denial rate until it's already cost them tens of thousands of dollars. Enter your trip volume and we'll show you exactly what's at stake.
             </p>
             <div class="space-y-4 mb-8">
               <div class="flex items-center gap-4 py-3 border-t border-outline-variant/30">
                 <span class="material-symbols-outlined text-tertiary" aria-hidden="true">analytics</span>
-                <span class="text-on-surface-variant">Revenue projection based on current CMS rates</span>
+                <span class="text-on-surface-variant">Revenue projection based on your trip volume and denial rate</span>
               </div>
               <div class="flex items-center gap-4 py-3 border-t border-outline-variant/30">
-                <span class="material-symbols-outlined text-tertiary" aria-hidden="true">receipt_long</span>
-                <span class="text-on-surface-variant">Sample audit-ready superbill included</span>
+                <span class="material-symbols-outlined text-tertiary" aria-hidden="true">trending_up</span>
+                <span class="text-on-surface-variant">See what a clean-claim benchmark could recover annually</span>
               </div>
               <div class="flex items-center gap-4 py-3 border-t border-outline-variant/30">
                 <span class="material-symbols-outlined text-tertiary" aria-hidden="true">check_circle</span>
@@ -97,55 +97,55 @@ const jsonLd = [
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10 sm:gap-12">
           <div class="text-center">
             <div class="w-16 h-16 btn-primary text-on-primary rounded-full flex items-center justify-center mx-auto mb-6">
-              <span class="material-symbols-outlined text-3xl" aria-hidden="true">patient_list</span>
+              <span class="material-symbols-outlined text-3xl" aria-hidden="true">local_shipping</span>
             </div>
-            <h3 class="font-headline text-2xl mb-4">1. Enter your patients</h3>
-            <p class="text-on-surface-variant leading-relaxed">Tell us how many diabetic patients your practice manages. One number, that's it.</p>
+            <h3 class="font-headline text-2xl mb-4">1. Enter your trip volume</h3>
+            <p class="text-on-surface-variant leading-relaxed">Tell us your monthly trips, average reimbursement, and current denial rate.</p>
           </div>
           <div class="text-center">
             <div class="w-16 h-16 btn-primary text-on-primary rounded-full flex items-center justify-center mx-auto mb-6">
               <span class="material-symbols-outlined text-3xl" aria-hidden="true">calculate</span>
             </div>
             <h3 class="font-headline text-2xl mb-4">2. We run the math</h3>
-            <p class="text-on-surface-variant leading-relaxed">We model multiple billing scenarios using current CMS Physician Fee Schedule rates, including codes most practices overlook.</p>
+            <p class="text-on-surface-variant leading-relaxed">We model what denials are costing you and what a clean-claim benchmark denial rate could recover.</p>
           </div>
           <div class="text-center">
             <div class="w-16 h-16 btn-primary text-on-primary rounded-full flex items-center justify-center mx-auto mb-6">
               <span class="material-symbols-outlined text-3xl" aria-hidden="true">mail</span>
             </div>
             <h3 class="font-headline text-2xl mb-4">3. Get your analysis</h3>
-            <p class="text-on-surface-variant leading-relaxed">Receive a personalized revenue breakdown, a CPT rate card, and a sample superbill. All sent to your inbox.</p>
+            <p class="text-on-surface-variant leading-relaxed">Receive a personalized revenue recovery breakdown, sent straight to your inbox.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Why Practices Miss RPM Revenue -->
+    <!-- Why Operators Miss NEMT Revenue -->
     <section class="py-24 sm:py-32 bg-surface">
       <div class="max-w-4xl mx-auto px-6 sm:px-8">
         <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background mb-12">
-          Why most practices leave RPM revenue uncaptured
+          Why most operators leave revenue uncaptured
         </h2>
         <div class="space-y-8">
           <div class="flex items-start gap-6">
             <span class="material-symbols-outlined text-tertiary text-2xl flex-shrink-0 mt-1" aria-hidden="true">close</span>
             <div>
-              <h3 class="font-headline text-xl text-on-background mb-2">Documentation burden feels too high</h3>
-              <p class="text-on-surface-variant leading-relaxed">CMS requires timestamped clinician review time, transmission day verification, and monthly interactive contact. All documented. Most practices attempt this with spreadsheets and give up.</p>
+              <h3 class="font-headline text-xl text-on-background mb-2">Broker rules are inconsistent and constantly changing</h3>
+              <p class="text-on-surface-variant leading-relaxed">ModivCare, MTM, and state Medicaid programs each enforce their own documentation and submission requirements. Most operators track this manually and fall behind.</p>
             </div>
           </div>
           <div class="flex items-start gap-6">
             <span class="material-symbols-outlined text-tertiary text-2xl flex-shrink-0 mt-1" aria-hidden="true">close</span>
             <div>
               <h3 class="font-headline text-xl text-on-background mb-2">Claims get denied for missing details</h3>
-              <p class="text-on-surface-variant leading-relaxed">The most common RPM denial reason is incomplete documentation: missing transmission days, unlogged clinician time, or no record of the monthly call. Each denied claim costs the practice $47+ in rework.</p>
+              <p class="text-on-surface-variant leading-relaxed">The most common NEMT denial reasons trace back to incomplete trip documentation or a missed broker requirement. Each denied claim means rework or a write-off.</p>
             </div>
           </div>
           <div class="flex items-start gap-6">
             <span class="material-symbols-outlined text-tertiary text-2xl flex-shrink-0 mt-1" aria-hidden="true">close</span>
             <div>
-              <h3 class="font-headline text-xl text-on-background mb-2">Billing codes are underutilized</h3>
-              <p class="text-on-surface-variant leading-relaxed">Many practices bill only the basic RPM code when their patients qualify for additional reimbursement. The calculator shows you the full picture for your specific patient panel.</p>
+              <h3 class="font-headline text-xl text-on-background mb-2">Denials go unmanaged</h3>
+              <p class="text-on-surface-variant leading-relaxed">Many operators write off denied claims instead of resubmitting or appealing them. The calculator shows you what's realistically recoverable for your fleet.</p>
             </div>
           </div>
         </div>
@@ -158,10 +158,10 @@ const jsonLd = [
         <div class="max-w-4xl mx-auto bg-white/5 backdrop-blur-sm p-8 sm:p-14 rounded-sm ghost-border">
           <span class="material-symbols-outlined text-4xl text-on-secondary/40 mb-6 block" aria-hidden="true">verified</span>
           <p class="font-headline text-2xl sm:text-3xl md:text-4xl font-light text-on-secondary leading-snug mb-6">
-            The average RPM claim denial costs a practice $47 in rework. Most denials trace back to one thing: incomplete documentation.
+            The average NEMT claim denial costs an operator $35&ndash;50 in rework. Most denials trace back to incomplete trip documentation.
           </p>
           <p class="text-on-secondary/60 text-lg mb-10">
-            See what your practice could earn with proper RPM billing and documentation that's audit-ready from day one.
+            See what your fleet could recover with clean claim submission and active denial management.
           </p>
           <a
             href="#main-content"
@@ -186,16 +186,16 @@ const jsonLd = [
               <span class="material-symbols-outlined text-outline faq-icon group-open:open flex-shrink-0 ml-4" aria-hidden="true">expand_more</span>
             </summary>
             <div class="px-6 sm:px-8 pb-5 sm:pb-6 text-on-surface-variant">
-              Enter the number of diabetic patients your practice manages and your work email. We calculate your revenue opportunity using current CMS reimbursement rates and send a personalized analysis to your inbox, including a sample superbill.
+              Enter your monthly trip volume, average reimbursement per trip, and current denial rate. We calculate what denials are costing you and what clean claim submission could recover, then send a personalized analysis to your inbox.
             </div>
           </details>
           <details class="bg-surface-container-lowest rounded-sm ghost-border shadow-sm group">
             <summary class="px-6 sm:px-8 py-5 sm:py-6 flex justify-between items-center cursor-pointer hover:bg-surface-bright transition-colors duration-200 list-none [&::-webkit-details-marker]:hidden">
-              <span class="font-medium text-base sm:text-lg text-on-surface">What do I receive in my inbox?</span>
+              <span class="font-medium text-base sm:text-lg text-on-surface">What if I don't know my exact denial rate?</span>
               <span class="material-symbols-outlined text-outline faq-icon group-open:open flex-shrink-0 ml-4" aria-hidden="true">expand_more</span>
             </summary>
             <div class="px-6 sm:px-8 pb-5 sm:pb-6 text-on-surface-variant">
-              A detailed revenue projection for your practice size, a CPT rate card with current CMS rates, and a sample audit-ready superbill showing what proper RPM documentation looks like. Everything you need to evaluate whether RPM is worth pursuing.
+              Leave it blank and we'll use the industry-average NEMT denial rate of 15% as a starting benchmark for your analysis.
             </div>
           </details>
           <details class="bg-surface-container-lowest rounded-sm ghost-border shadow-sm group">
@@ -204,16 +204,16 @@ const jsonLd = [
               <span class="material-symbols-outlined text-outline faq-icon group-open:open flex-shrink-0 ml-4" aria-hidden="true">expand_more</span>
             </summary>
             <div class="px-6 sm:px-8 pb-5 sm:pb-6 text-on-surface-variant">
-              Yes. No credit card, no commitment, no sales call required. We send the analysis to your email and that's it. If you want to talk through the numbers, you can schedule a call. No obligation.
+              Yes. No credit card, no commitment, no sales call required. We send the analysis to your email and that's it. If you want to talk through the numbers, you're welcome to get in touch. No obligation.
             </div>
           </details>
           <details class="bg-surface-container-lowest rounded-sm ghost-border shadow-sm group">
             <summary class="px-6 sm:px-8 py-5 sm:py-6 flex justify-between items-center cursor-pointer hover:bg-surface-bright transition-colors duration-200 list-none [&::-webkit-details-marker]:hidden">
-              <span class="font-medium text-base sm:text-lg text-on-surface">Which payers cover RPM?</span>
+              <span class="font-medium text-base sm:text-lg text-on-surface">Which brokers does this apply to?</span>
               <span class="material-symbols-outlined text-outline faq-icon group-open:open flex-shrink-0 ml-4" aria-hidden="true">expand_more</span>
             </summary>
             <div class="px-6 sm:px-8 pb-5 sm:pb-6 text-on-surface-variant">
-              Most major commercial payers cover RPM including Aetna, BCBS, and Cigna. Medicare also covers RPM under specific conditions. Coverage varies by plan, state, and contract. Always verify benefits before enrollment.
+              The calculator works for any NEMT operator billing through brokers like ModivCare and MTM, or directly through state Medicaid NEMT programs. Denial rates and reimbursement vary by broker, state, and contract.
             </div>
           </details>
           <details class="bg-surface-container-lowest rounded-sm ghost-border shadow-sm group">
@@ -222,7 +222,7 @@ const jsonLd = [
               <span class="material-symbols-outlined text-outline faq-icon group-open:open flex-shrink-0 ml-4" aria-hidden="true">expand_more</span>
             </summary>
             <div class="px-6 sm:px-8 pb-5 sm:pb-6 text-on-surface-variant">
-              The calculator uses current CMS Physician Fee Schedule national averages. Your actual reimbursement depends on payer contracts, locality adjustments, and claim adjudication. The projection gives you a realistic baseline. Your results may be higher or lower depending on your payer mix.
+              The calculator uses the trip volume, reimbursement rate, and denial rate you provide, benchmarked against a realistic clean-claim denial rate. Your actual results depend on your broker mix, state Medicaid rules, and payer contracts.
             </div>
           </details>
         </div>
@@ -236,7 +236,7 @@ const jsonLd = [
           The Monthly Synthesis
         </h2>
         <p class="font-body text-on-surface-variant text-lg mb-12">
-          One email per month. RPM billing changes, compliance pitfalls, and the revenue strategies that actually work for your practice.
+          One email per month. NEMT billing changes, broker portal updates, and the revenue strategies that actually work for your fleet.
         </p>
         <div class="max-w-lg mx-auto">
           <EmailCapture client:visible minimal />

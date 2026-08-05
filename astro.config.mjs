@@ -10,7 +10,7 @@ import { readdirSync, readFileSync } from 'fs'
 // Build a slug → lastmod map and find categories with published posts
 const postDates = {}
 const populatedCategories = new Set()
-const CATEGORY_MAP = { clinical: 'clinical', billing: 'billing', compliance: 'compliance', operations: 'operations', ccm: 'billing', revenue: 'billing', devices: 'operations', technology: 'operations', rpm: 'operations' }
+const CATEGORY_MAP = { billing: 'billing', compliance: 'compliance', operations: 'operations', denials: 'billing', revenue: 'billing', brokers: 'operations', dispatch: 'operations', medicaid: 'compliance', credentialing: 'compliance' }
 const blogDir = './src/content/blog'
 for (const file of readdirSync(blogDir).filter((f) => f.endsWith('.md'))) {
   const raw = readFileSync(`${blogDir}/${file}`, 'utf-8')
@@ -36,7 +36,7 @@ for (const file of readdirSync(blogDir).filter((f) => f.endsWith('.md'))) {
 }
 
 export default defineConfig({
-  site: 'https://www.zaydhealth.com',
+  site: 'https://www.seermobility.com',
   output: 'static',
   integrations: [
     react(),
@@ -45,7 +45,7 @@ export default defineConfig({
         if (page.includes('/api/')) return false
         if (page.includes('/page/')) return false
         // Exclude empty category pages from sitemap
-        const categoryMatch = page.match(/\/resources\/(clinical|billing|compliance|operations)/)
+        const categoryMatch = page.match(/\/resources\/(billing|compliance|operations)/)
         if (categoryMatch && !populatedCategories.has(categoryMatch[1])) return false
         return true
       },
@@ -53,11 +53,11 @@ export default defineConfig({
         const url = item.url
 
         // Homepage
-        if (url === 'https://www.zaydhealth.com/') {
+        if (url === 'https://www.seermobility.com/') {
           return { ...item, lastmod: new Date().toISOString(), changefreq: 'weekly', priority: 1.0 }
         }
         // Blog listing pages
-        if (url.match(/\/resources\/?$/) || url.match(/\/resources\/(clinical|billing|compliance|operations)\/?$/)) {
+        if (url.match(/\/resources\/?$/) || url.match(/\/resources\/(billing|compliance|operations)\/?$/)) {
           return { ...item, lastmod: new Date().toISOString(), changefreq: 'weekly', priority: 0.9 }
         }
         // Individual blog posts — match slug to get lastmod from frontmatter
@@ -74,10 +74,6 @@ export default defineConfig({
         // Tools (calculator)
         if (url.includes('/tools/')) {
           return { ...item, lastmod: '2026-03-15T00:00:00.000Z', changefreq: 'monthly', priority: 0.6 }
-        }
-        // Specialty hub pages
-        if (url.includes('/specialties')) {
-          return { ...item, lastmod: '2026-03-20T00:00:00.000Z', changefreq: 'monthly', priority: 0.8 }
         }
         // Legal pages
         if (url.includes('/privacy') || url.includes('/terms')) {

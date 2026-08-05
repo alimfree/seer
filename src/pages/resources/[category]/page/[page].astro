@@ -41,16 +41,16 @@ const basePath = `/resources/${category}`
 ---
 
 <BaseLayout
-  title={`${CATEGORY_LABELS[category]} — Page ${currentPage} | Zayd Health`}
-  description={`Practical ${CATEGORY_LABELS[category].toLowerCase()} for RPM billing and compliance.`}
-  canonical={`https://www.zaydhealth.com${basePath}/page/${currentPage}`}
+  title={`${CATEGORY_LABELS[category]} — Page ${currentPage} | Seer Mobility`}
+  description={`Practical ${CATEGORY_LABELS[category].toLowerCase()} for NEMT billing operators.`}
+  canonical={`https://www.seermobility.com${basePath}/page/${currentPage}`}
 >
   <main id="main-content">
     <div class="pt-32 sm:pt-44 px-6 sm:px-8 bg-surface">
       <div class="max-w-7xl mx-auto">
         <header class="pb-16">
           <h1 class="font-headline text-4xl sm:text-5xl font-light tracking-tight text-on-background mb-4">{CATEGORY_LABELS[category]}</h1>
-          <p class="text-on-surface-variant text-lg max-w-2xl">Practical guides on RPM billing, compliance, and revenue strategies for your practice.</p>
+          <p class="text-on-surface-variant text-lg max-w-2xl">Practical guides on NEMT billing, broker portals, and revenue strategies for your fleet.</p>
         </header>
       </div>
     </div>
@@ -61,7 +61,7 @@ const basePath = `/resources/${category}`
           <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
             <div>
               <h2 class="font-headline text-3xl sm:text-4xl font-light text-on-background">Recent Dispatches</h2>
-              <p class="font-body text-on-surface-variant mt-2">Practical guides on RPM billing, compliance, and practice operations.</p>
+              <p class="font-body text-on-surface-variant mt-2">Practical guides on NEMT billing, broker portals, and fleet operations.</p>
             </div>
             <BlogSearch client:idle />
           </div>
@@ -91,7 +91,7 @@ const basePath = `/resources/${category}`
     <section class="py-24 sm:py-32 bg-surface">
       <div class="max-w-4xl mx-auto px-6 sm:px-8 text-center">
         <h2 class="font-headline text-4xl sm:text-5xl font-light text-on-background mb-6">The Monthly Synthesis</h2>
-        <p class="font-body text-on-surface-variant text-lg mb-12">One email per month. RPM billing changes, compliance pitfalls, and the revenue strategies that actually work for your practice.</p>
+        <p class="font-body text-on-surface-variant text-lg mb-12">One email per month. NEMT billing changes, broker portal updates, and the revenue strategies that actually work for your fleet.</p>
         <div class="max-w-lg mx-auto"><EmailCapture client:visible minimal /></div>
       </div>
     </section>

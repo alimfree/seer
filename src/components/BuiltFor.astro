@@ -1,41 +1,45 @@
 ---
-const cards = [
+const benefits = [
   {
-    title: '2–5 provider practices',
-    description: 'Sized perfectly for boutique and medium-sized groups who need efficiency most.',
+    icon: 'task_alt',
+    title: 'Clean claim submission',
+    description: 'Automated pre-scrubbing ensures every trip meets specific broker and payer criteria before submission, drastically reducing initial rejections.',
   },
   {
-    title: 'Major commercial payers',
-    description: 'Built for the payers your patients are on. We flag coverage gaps before you enroll.',
+    icon: 'gavel',
+    title: 'Active denial management',
+    description: 'When denials happen, our system instantly flags them with actionable resolution steps, minimizing rework and days in AR.',
   },
   {
-    title: 'Existing billers welcome',
-    description: "We don't replace your biller. We give them the documentation they've been waiting for.",
+    icon: 'monitoring',
+    title: 'Full revenue cycle oversight',
+    description: 'Track every trip from dispatch to deposit. Gain full visibility into unbilled trips and aging accounts receivable.',
   },
   {
-    title: 'Connected CGM devices',
-    description: 'Automatic data ingestion from the continuous glucose monitors your patients already use.',
+    icon: 'bar_chart',
+    title: 'Transparent reporting',
+    description: 'Executive dashboards providing real-time metrics on collection rates, broker performance, and cash flow projections.',
   },
 ]
 ---
 
 <section class="py-24 sm:py-32 px-6 sm:px-8 fade-in-section">
   <div class="max-w-7xl mx-auto">
-    <div class="text-center mb-12 sm:mb-16">
-      <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-4">
-        For practices managing diabetic patients.
+    <div class="max-w-2xl mb-12 sm:mb-16">
+      <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background">
+        A financial engine for NEMT growth.
       </h2>
-      <p class="text-on-surface-variant">
-        Designed to slide into your existing workflow without friction.
-      </p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      {cards.map((card) => (
-        <div class="p-8 sm:p-10 bg-surface-container-low rounded-sm card-interactive">
-          <h3 class="font-headline text-xl sm:text-2xl mb-4 text-tertiary">
-            {card.title}
-          </h3>
-          <p class="text-on-surface-variant leading-relaxed">{card.description}</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+      {benefits.map((benefit) => (
+        <div class="flex gap-6">
+          <div class="mt-1 shrink-0">
+            <span class="material-symbols-outlined text-tertiary text-3xl" aria-hidden="true">{benefit.icon}</span>
+          </div>
+          <div>
+            <h3 class="font-headline text-xl sm:text-2xl text-on-background">{benefit.title}</h3>
+            <p class="text-on-surface-variant mt-3 leading-relaxed">{benefit.description}</p>
+          </div>
         </div>
       ))}
     </div>

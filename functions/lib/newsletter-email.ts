@@ -13,7 +13,6 @@ interface NewsletterInput {
 
 function categoryLabel(category: string): string {
   const labels: Record<string, string> = {
-    clinical: 'Clinical Guide',
     billing: 'Billing Guide',
     compliance: 'Compliance',
     operations: 'Operations',
@@ -28,7 +27,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
     <tr>
       <td style="padding:24px 0;border-bottom:1px solid #EFF4FF;">
         <p style="font-family:Arial,Helvetica,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#4B3111;margin:0 0 8px 0;">${categoryLabel(post.category)}</p>
-        <a href="https://www.zaydhealth.com/resources/${post.category}/${post.slug}" style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:400;color:#000B13;text-decoration:none;line-height:1.4;">${post.title}</a>
+        <a href="https://www.seermobility.com/resources/${post.category}/${post.slug}" style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:400;color:#000B13;text-decoration:none;line-height:1.4;">${post.title}</a>
         <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#42474c;margin:8px 0 0 0;line-height:1.5;">${post.description}</p>
         <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#6B8FA8;margin:8px 0 0 0;">${post.readingTime} min read</p>
       </td>
@@ -55,7 +54,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
               <table role="presentation" cellpadding="0" cellspacing="0">
                 <tr>
                   <td style="padding-bottom:24px;">
-                    <a href="https://www.zaydhealth.com" style="font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:300;color:#000B13;letter-spacing:-0.5px;text-decoration:none;">Zayd Health</a>
+                    <a href="https://www.seermobility.com" style="font-family:Georgia,'Times New Roman',serif;font-size:28px;font-weight:300;color:#000B13;letter-spacing:-0.5px;text-decoration:none;">Seer Mobility</a>
                   </td>
                 </tr>
                 <tr>
@@ -72,7 +71,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
             <td style="padding:0 0 40px 0;">
               <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:3px;color:#6B8FA8;margin:0 0 12px 0;">${month}</p>
               <h1 style="font-family:Georgia,'Times New Roman',serif;font-size:32px;font-weight:300;color:#000B13;margin:0 0 16px 0;line-height:1.3;">The Monthly Synthesis</h1>
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:15px;color:#42474c;margin:0;line-height:1.6;">RPM billing changes, compliance strategies, and clinical insights from the field.</p>
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:15px;color:#42474c;margin:0;line-height:1.6;">NEMT billing changes, broker portal updates, and what's working in the field.</p>
             </td>
           </tr>
 
@@ -87,7 +86,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
               </table>
 
               <div style="margin-top:24px;text-align:center;">
-                <a href="https://www.zaydhealth.com/resources" style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#4B3111;text-decoration:underline;text-underline-offset:3px;">View all resources &rarr;</a>
+                <a href="https://www.seermobility.com/resources" style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#4B3111;text-decoration:underline;text-underline-offset:3px;">View all resources &rarr;</a>
               </div>
             </td>
           </tr>
@@ -98,9 +97,9 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
           <!-- Calculator CTA -->
           <tr>
             <td style="background:linear-gradient(135deg,#000B13,#002434);padding:40px;border-radius:4px;">
-              <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:300;color:#F8F9FF;margin:0 0 12px 0;">How much RPM revenue is your practice leaving on the table?</h2>
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#8A9BB5;margin:0 0 24px 0;line-height:1.5;">Enter your diabetic patient count and get a personalized revenue analysis with a sample superbill.</p>
-              <a href="https://www.zaydhealth.com/#revenue-calculator" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Calculate My Opportunity</a>
+              <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:300;color:#F8F9FF;margin:0 0 12px 0;">How much revenue are denials costing your fleet?</h2>
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#8A9BB5;margin:0 0 24px 0;line-height:1.5;">Enter your trip volume and denial rate to get a personalized revenue recovery analysis.</p>
+              <a href="https://www.seermobility.com/#revenue-calculator" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Calculate My Opportunity</a>
             </td>
           </tr>
 
@@ -112,7 +111,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
             <td style="background-color:#FFFFFF;padding:32px 40px;border-radius:4px;text-align:center;">
               <p style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Ready to talk?</p>
               <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#42474c;margin:0 0 20px 0;">15-minute discovery call. No pressure, no pitch deck.</p>
-              <a href="https://calendly.com/ali-zaydhealth/discovery" style="display:inline-block;background-color:#002434;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Schedule a Call</a>
+              <a href="https://seermobility.com/#contact" style="display:inline-block;background-color:#002434;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Schedule a Call</a>
             </td>
           </tr>
 
@@ -125,12 +124,12 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                 <tr>
                   <td>
-                    <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Zayd Health</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">RPM Billing Compliance Platform</p>
+                    <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Seer Mobility</p>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">NEMT Billing & Revenue Cycle Management</p>
                     <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 12px 0;">
-                      <a href="https://www.zaydhealth.com" style="color:#6B4A1F;text-decoration:underline;">zaydhealth.com</a>
+                      <a href="https://www.seermobility.com" style="color:#6B4A1F;text-decoration:underline;">seermobility.com</a>
                       &nbsp;&middot;&nbsp;
-                      <a href="mailto:hello@zaydhealth.com" style="color:#6B4A1F;text-decoration:underline;">hello@zaydhealth.com</a>
+                      <a href="mailto:hello@seermobility.com" style="color:#6B4A1F;text-decoration:underline;">hello@seermobility.com</a>
                     </p>
                     <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#72787c;margin:0;">
                       <a href="{{ unsubscribe }}" style="color:#72787c;text-decoration:underline;">Unsubscribe</a>

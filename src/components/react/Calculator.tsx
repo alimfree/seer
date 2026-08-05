@@ -4,8 +4,9 @@ import { addContact, RateLimitError } from '../../lib/brevo'
 import Turnstile from './Turnstile'
 
 export default function Calculator() {
-  const [patients, setPatients] = useState('')
-  const [hours, setHours] = useState('')
+  const [trips, setTrips] = useState('')
+  const [reimbursement, setReimbursement] = useState('')
+  const [denialRate, setDenialRate] = useState('')
   const [email, setEmail] = useState('')
   const [captchaToken, setCaptchaToken] = useState<string | null>(null)
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
@@ -16,19 +17,20 @@ export default function Calculator() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!patients || !email || !captchaToken) return
+    if (!trips || !reimbursement || !email || !captchaToken) return
 
     setStatus('loading')
     setErrorMsg('')
 
     try {
       await addContact(email, 'calculator', {
-        Patients: Number(patients),
-        Hours: Number(hours),
+        Trips: Number(trips),
+        Reimbursement: Number(reimbursement),
+        DenialRate: denialRate ? Number(denialRate) : undefined,
         Source: 'calculator',
       }, captchaToken)
       setStatus('success')
-      trackEvent('calculator_submit', { patients: Number(patients) })
+      trackEvent('calculator_submit', { trips: Number(trips) })
     } catch (err) {
       setStatus('error')
       setErrorMsg(
@@ -46,48 +48,64 @@ export default function Calculator() {
           <span className="material-symbols-outlined text-5xl text-tertiary mb-4 block" aria-hidden="true">check_circle</span>
           <h3 className="font-headline text-2xl mb-4">Check your inbox.</h3>
           <p className="text-on-surface-variant mb-8">
-            We've sent your personalized revenue analysis and a sample superbill to <strong>{email}</strong>.
+            We've sent your personalized revenue recovery analysis to <strong>{email}</strong>.
           </p>
           <a
-            href="https://calendly.com/ali-zaydhealth/discovery"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/#contact"
             className="inline-flex items-center gap-2 text-tertiary font-medium hover:underline underline-offset-4 transition-colors"
             onClick={() => trackEvent('cta_click', { location: 'calculator_success' })}
           >
             <span className="material-symbols-outlined text-lg" aria-hidden="true">calendar_month</span>
-            Want to walk through your results? Schedule a call
+            Want to walk through your results? Get in touch
           </a>
         </div>
       ) : (
         <form className="space-y-8" onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="calc-patients" className="block text-sm font-body font-medium text-on-surface mb-2">
-              Number of Diabetic Patients
+            <label htmlFor="calc-trips" className="block text-sm font-body font-medium text-on-surface mb-2">
+              Monthly NEMT Trips
             </label>
             <input
-              id="calc-patients"
+              id="calc-trips"
               className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
-              placeholder="e.g. 50"
+              placeholder="e.g. 2000"
               type="number"
               min="1"
               required
-              value={patients}
-              onChange={(e) => setPatients(e.target.value)}
+              value={trips}
+              onChange={(e) => setTrips(e.target.value)}
             />
           </div>
           <div>
-            <label htmlFor="calc-hours" className="block text-sm font-body font-medium text-on-surface mb-2">
-              Weekly hours on RPM documentation
+            <label htmlFor="calc-reimbursement" className="block text-sm font-body font-medium text-on-surface mb-2">
+              Average Reimbursement per Trip ($)
             </label>
             <input
-              id="calc-hours"
+              id="calc-reimbursement"
               className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
-              placeholder="0 if not started yet"
+              placeholder="e.g. 45"
+              type="number"
+              min="1"
+              step="0.01"
+              required
+              value={reimbursement}
+              onChange={(e) => setReimbursement(e.target.value)}
+            />
+          </div>
+          <div>
+            <label htmlFor="calc-denial-rate" className="block text-sm font-body font-medium text-on-surface mb-2">
+              Current Denial Rate (%)
+            </label>
+            <input
+              id="calc-denial-rate"
+              className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
+              placeholder="e.g. 15 (industry average is 10–20%)"
               type="number"
               min="0"
-              value={hours}
-              onChange={(e) => setHours(e.target.value)}
+              max="100"
+              step="0.1"
+              value={denialRate}
+              onChange={(e) => setDenialRate(e.target.value)}
             />
           </div>
           <div>
@@ -97,14 +115,14 @@ export default function Calculator() {
             <input
               id="calc-email"
               className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
-              placeholder="physician@practice.com"
+              placeholder="you@nemtfleet.com"
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <p className="mt-3 text-xs text-on-surface-variant/70 italic">
-              We'll send your personalized revenue analysis and a sample superbill to this address.
+              We'll send your personalized revenue recovery analysis to this address.
             </p>
           </div>
           <Turnstile onVerify={onVerify} onExpire={onExpire} />

@@ -9,8 +9,8 @@ export async function GET(context: APIContext) {
     .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
   return rss({
-    title: 'Zayd Health Resources',
-    description: 'Practical guides on RPM billing, compliance, and clinical workflows for your practice.',
+    title: 'Seer Mobility Resources',
+    description: 'Practical guides on NEMT billing, broker portals, and compliance for transportation operators.',
     site: context.site!,
     items: posts.map((post) => {
       const category = resolveCategory(post.data.tags)

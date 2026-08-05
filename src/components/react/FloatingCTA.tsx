@@ -46,13 +46,11 @@ export default function FloatingCTA() {
       className="sm:!right-[4rem] sm:!h-[5rem]"
     >
       <a
-        href="https://calendly.com/ali-zaydhealth/discovery"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/#contact"
         className="btn-primary px-6 py-2.5 text-on-primary font-medium rounded-sm"
         onClick={() => trackEvent('cta_click', { location: 'floating' })}
       >
-        Schedule a Call
+        Book a Free Billing Assessment
       </a>
     </nav>
   )

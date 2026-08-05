@@ -61,7 +61,7 @@ export default function ContactForm() {
           <input
             id="contact-name"
             className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-base focus:outline-none focus-visible:ring-2 focus-visible:ring-tertiary focus:border-tertiary transition-colors duration-300"
-            placeholder="Dr. Sarah Ahmed"
+            placeholder="Sarah Ahmed"
             type="text"
             required
             value={name}
@@ -75,7 +75,7 @@ export default function ContactForm() {
           <input
             id="contact-email"
             className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-base focus:outline-none focus-visible:ring-2 focus-visible:ring-tertiary focus:border-tertiary transition-colors duration-300"
-            placeholder="sarah@practice.com"
+            placeholder="sarah@nemtfleet.com"
             type="email"
             required
             value={email}
@@ -85,12 +85,12 @@ export default function ContactForm() {
       </div>
       <div>
         <label htmlFor="contact-practice" className="block text-sm font-body font-medium text-on-surface mb-2">
-          Practice Name
+          Company Name
         </label>
         <input
           id="contact-practice"
           className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-base focus:outline-none focus-visible:ring-2 focus-visible:ring-tertiary focus:border-tertiary transition-colors duration-300"
-          placeholder="North Texas Medical Group"
+          placeholder="North Texas Medical Transport"
           type="text"
           value={practice}
           onChange={(e) => setPractice(e.target.value)}

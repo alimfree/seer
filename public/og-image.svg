@@ -29,8 +29,8 @@
   <rect x="100" y="80" width="64" height="3" fill="url(#accent)" rx="1.5"/>
 
   <!-- Brand name -->
-  <text x="100" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="300" fill="#F8F9FF" letter-spacing="-1">
-    Zayd Health
+  <text x="100" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="300" fill="#F8F9FF" letter-spacing="-1">
+    Seer Mobility
   </text>
 
   <!-- Divider line -->
@@ -38,19 +38,19 @@
 
   <!-- Headline / Value prop -->
   <text font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="300" fill="#DDE2EE" letter-spacing="-0.5">
-    <tspan x="100" y="270">RPM revenue your practice</tspan>
-    <tspan x="100" y="320">is already earning.</tspan>
+    <tspan x="100" y="270">Get paid faster for</tspan>
+    <tspan x="100" y="320">every NEMT trip.</tspan>
   </text>
 
   <!-- Subheadline -->
   <text font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#8A9BB5" letter-spacing="0.3">
-    <tspan x="100" y="390">Audit-ready documentation. Compliant superbills.</tspan>
-    <tspan x="100" y="420">Built for independent practices.</tspan>
+    <tspan x="100" y="390">Clean claim submission. Active denial management.</tspan>
+    <tspan x="100" y="420">Built for NEMT operators.</tspan>
   </text>
 
   <!-- Bottom accent bar -->
   <rect x="100" y="565" width="40" height="3" fill="url(#accent)" rx="1.5"/>
 
   <!-- Domain / URL -->
-  <text x="1100" y="575" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5A7080" text-anchor="end" letter-spacing="2">zaydhealth.com</text>
+  <text x="1100" y="575" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5A7080" text-anchor="end" letter-spacing="2">seermobility.com</text>
 </svg>

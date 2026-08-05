@@ -47,7 +47,7 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
           <input
             type="email"
             required
-            placeholder="you@practice.com"
+            placeholder="you@nemtfleet.com"
             aria-label="Email address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -74,13 +74,13 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
         Don't miss the next one.
       </p>
       <p className="text-sm text-on-surface-variant mb-5">
-        One email when we publish. RPM billing changes, compliance strategies, and what's actually working in the field.
+        One email when we publish. NEMT billing changes, broker portal updates, and what's actually working in the field.
       </p>
       <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
         <input
           type="email"
           required
-          placeholder="you@practice.com"
+          placeholder="you@nemtfleet.com"
           aria-label="Email address"
           value={email}
           onChange={(e) => setEmail(e.target.value)}

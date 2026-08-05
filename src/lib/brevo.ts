@@ -5,8 +5,9 @@ interface ContactAttributes {
   Lastname?: string
   Practice?: string
   Message?: string
-  Patients?: number
-  Hours?: number
+  Trips?: number
+  Reimbursement?: number
+  DenialRate?: number
   Source?: string
 }
 

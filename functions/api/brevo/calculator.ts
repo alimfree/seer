@@ -1,6 +1,5 @@
 import { type Env, EMAIL_REGEX, escapeHtml, verifyTurnstile, addToBrevoList, sendBrevoEmail } from '../../lib/shared'
 import { buildCalculatorEmail, calculateRevenue } from '../../lib/calculator-email'
-import { SAMPLE_SUPERBILL_BASE64 } from '../../lib/sample-superbill'
 
 export const onRequestPost: PagesFunction<Env> = async (context) => {
   const { env } = context
@@ -26,32 +25,29 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const errorRes = await addToBrevoList(env, email, Number(env.BREVO_LIST_CALCULATOR), attributes)
   if (errorRes) return errorRes
 
-  const patients = Number(attributes?.Patients || attributes?.PATIENTS) || 0
-  const hours = Number(attributes?.Hours || attributes?.HOURS) || 0
+  const trips = Number(attributes?.Trips || attributes?.TRIPS) || 0
+  const reimbursement = Number(attributes?.Reimbursement || attributes?.REIMBURSEMENT) || 0
+  const denialRate = Number(attributes?.DenialRate || attributes?.DENIALRATE) || undefined
 
-  if (patients > 0) {
-    const html = buildCalculatorEmail({ patients, hours, email })
+  if (trips > 0 && reimbursement > 0) {
+    const html = buildCalculatorEmail({ trips, reimbursement, denialRate, email })
 
     await sendBrevoEmail(env, {
-      sender: { name: 'Zayd Health', email: 'hello@zaydhealth.com' },
+      sender: { name: 'Seer Mobility', email: 'hello@seermobility.com' },
       to: [{ email }],
-      subject: 'Your RPM Revenue Analysis — Zayd Health',
+      subject: 'Your NEMT Revenue Recovery Analysis — Seer Mobility',
       htmlContent: html,
-      attachment: [{
-        content: SAMPLE_SUPERBILL_BASE64,
-        name: 'Zayd-Health-Sample-Superbill.pdf',
-      }],
     })
 
     // Notify team
-    const r = calculateRevenue({ patients, hours, email })
+    const r = calculateRevenue({ trips, reimbursement, denialRate, email })
     const fmt = (n: number) => n.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 })
 
     await sendBrevoEmail(env, {
-      sender: { name: 'Zayd Health', email: 'hello@zaydhealth.com' },
-      to: [{ email: 'sales@zaydhealth.com' }],
-      subject: `New calculator lead: ${escapeHtml(email)} — ${patients} patients`,
-      htmlContent: `<p>New calculator lead: <a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></p><p>Patients: ${patients}, Hours: ${hours || '—'}</p><p>RPM First Year: ${fmt(r.rpmFirstYear)}, Stacked: ${fmt(r.stackedFirstYear)}</p>`,
+      sender: { name: 'Seer Mobility', email: 'hello@seermobility.com' },
+      to: [{ email: 'sales@seermobility.com' }],
+      subject: `New calculator lead: ${escapeHtml(email)} — ${trips} trips/mo`,
+      htmlContent: `<p>New calculator lead: <a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></p><p>Trips/mo: ${trips}, Reimbursement/trip: ${fmt(reimbursement)}, Denial rate: ${r.denialRate}%</p><p>Annual lost to denials: ${fmt(r.annualLostToDenials)}, Annual recoverable: ${fmt(r.annualRecoverable)}</p>`,
       replyTo: { email },
     })
   }

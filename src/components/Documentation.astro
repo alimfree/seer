@@ -1,50 +1,48 @@
----
-const features = [
-  'CMS-1500 compatible documentation ready for submission',
-  'Exact clinician review minutes logged automatically',
-  'Detailed call logs and patient interaction records',
-  'Transmission day tracking and device supply verification',
-  'Direct audit reference for every single line item',
-]
----
-
-<section class="py-24 sm:py-32 bg-surface-container fade-in-section">
-  <div class="max-w-7xl mx-auto px-6 sm:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-    <div class="relative">
-      <div class="bg-surface-container-lowest p-3 sm:p-4 rounded-sm shadow-ambient">
-        <img
-          src="/superbill-preview.webp"
-          alt="Zayd Health RPM superbill showing patient demographics, ICD-10 diagnoses, transmission data, management time log, and billable codes"
-          width="800"
-          height="1100"
-          class="w-full h-auto rounded-sm"
-          loading="lazy"
-        />
-      </div>
-      <div class="absolute -bottom-8 -right-8 bg-tertiary p-6 sm:p-8 rounded-sm max-w-xs hidden lg:block shadow-ambient">
-        <p class="text-on-tertiary font-medium text-lg mb-2">Timestamped to the second.</p>
-        <p class="text-on-tertiary/80 text-sm leading-relaxed">
-          When a payer asks for documentation, you have it. Detailed, precise, and indisputable.
-        </p>
-      </div>
-    </div>
-    <div>
-      <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-6 leading-tight">
-        Audit-ready documentation, every month.
+<section class="py-24 sm:py-32 bg-surface-container-low fade-in-section">
+  <div class="max-w-7xl mx-auto px-6 sm:px-8">
+    <div class="max-w-2xl mb-12 sm:mb-16">
+      <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-4">
+        The cost of inefficient billing.
       </h2>
-      <ul class="space-y-5">
-        {features.map((feature) => (
-          <li class="flex items-start gap-4">
-            <span class="material-symbols-outlined text-tertiary mt-0.5" aria-hidden="true">check_circle</span>
-            <span class="text-base sm:text-lg text-on-surface-variant">{feature}</span>
-          </li>
-        ))}
-      </ul>
-      <div class="lg:hidden mt-8 bg-tertiary p-6 rounded-sm">
-        <p class="text-on-tertiary font-medium text-lg mb-2">Timestamped to the second.</p>
-        <p class="text-on-tertiary/80 text-sm leading-relaxed">
-          When a payer asks for documentation, you have it. Detailed, precise, and indisputable.
-        </p>
+      <p class="text-lg text-on-surface-variant leading-relaxed">
+        NEMT operators lose thousands every month to complex broker rules, portal inefficiencies, and preventable denials.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-surface-container-lowest rounded-sm p-8 flex flex-col justify-between md:row-span-2 shadow-ambient ghost-border">
+        <div>
+          <div class="w-12 h-12 rounded-sm bg-error-container/20 flex items-center justify-center mb-6">
+            <span class="material-symbols-outlined text-tertiary" aria-hidden="true">trending_down</span>
+          </div>
+          <h3 class="font-headline text-2xl text-on-background">High denial rates</h3>
+          <p class="text-on-surface-variant mt-4 leading-relaxed">Industry average denial rates cripple cash flow and require expensive rework.</p>
+        </div>
+        <div class="mt-12 pt-8 border-t border-outline-variant/20">
+          <span class="font-headline text-4xl sm:text-5xl font-light text-tertiary block mb-2">10&ndash;20%</span>
+          <span class="text-sm uppercase tracking-widest text-on-surface-variant block">Average NEMT denial rate</span>
+        </div>
+      </div>
+      <div class="bg-surface-container-lowest rounded-sm p-8 flex items-start gap-6 shadow-ambient ghost-border">
+        <div class="w-10 h-10 rounded-sm bg-surface-container-low flex items-center justify-center shrink-0">
+          <span class="material-symbols-outlined text-primary" aria-hidden="true">hourglass_empty</span>
+        </div>
+        <div>
+          <h3 class="font-medium text-lg text-on-background">Slow payments</h3>
+          <p class="text-on-surface-variant mt-2 leading-relaxed">Days in AR stretching beyond 45 days drains the working capital you need for fuel, drivers, and fleet maintenance.</p>
+        </div>
+      </div>
+      <div class="bg-surface-container-lowest rounded-sm p-8 flex items-start gap-6 shadow-ambient ghost-border">
+        <div class="w-10 h-10 rounded-sm bg-surface-container-low flex items-center justify-center shrink-0">
+          <span class="material-symbols-outlined text-primary" aria-hidden="true">account_tree</span>
+        </div>
+        <div>
+          <h3 class="font-medium text-lg text-on-background">Broker portal headaches</h3>
+          <p class="text-on-surface-variant mt-2 leading-relaxed">Navigating ModivCare, MTM, and a dozen state Medicaid portals, each with its own rules.</p>
+        </div>
+      </div>
+      <div class="bg-primary text-on-primary rounded-sm p-8 md:col-span-2 flex flex-col justify-center shadow-ambient">
+        <h3 class="font-headline text-2xl sm:text-3xl font-light">Stop leaving money on the table.</h3>
+        <p class="text-surface-container-low/80 mt-4 max-w-xl leading-relaxed">We integrate directly with the portals you already use to ensure automated, error-free submissions.</p>
       </div>
     </div>
   </div>

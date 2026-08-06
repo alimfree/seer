@@ -73,6 +73,31 @@ export function extractHeadings(markdown: string): { id: string; text: string; l
   return headings
 }
 
+export interface FaqItem {
+  question: string
+  answer: string
+}
+
+/** Parses "**Question?**\nAnswer" pairs out of a "## Frequently asked questions" section. */
+export function extractFaq(markdown: string): FaqItem[] {
+  const headingMatch = /^##\s+Frequently asked questions\s*$/im.exec(markdown)
+  if (!headingMatch) return []
+
+  const rest = markdown.slice(headingMatch.index + headingMatch[0].length)
+  const nextHeadingMatch = /^##\s+/m.exec(rest)
+  const sectionText = nextHeadingMatch ? rest.slice(0, nextHeadingMatch.index) : rest
+
+  const items: FaqItem[] = []
+  for (const paragraph of sectionText.trim().split(/\n\s*\n/)) {
+    const qaMatch = /^\*\*(.+?)\*\*\s*\n([\s\S]+)$/.exec(paragraph.trim())
+    if (!qaMatch) continue
+    const question = qaMatch[1].trim()
+    const answer = qaMatch[2].replace(/\s+/g, ' ').trim()
+    if (question && answer) items.push({ question, answer })
+  }
+  return items
+}
+
 export function paginatePosts<T>(
   posts: T[],
   page: number,

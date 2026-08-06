@@ -6,7 +6,7 @@ import BlogProductCTA from '../../../components/blog/BlogProductCTA.astro'
 import BlogCard from '../../../components/blog/BlogCard.astro'
 import TableOfContents from '../../../components/react/TableOfContents'
 import EmailCapture from '../../../components/react/EmailCapture'
-import { resolveCategory, getPostUrl, calculateReadingTime, extractHeadings, CATEGORY_LABELS, type Category } from '../../../lib/blog'
+import { resolveCategory, getPostUrl, calculateReadingTime, extractHeadings, extractFaq, CATEGORY_LABELS, type Category } from '../../../lib/blog'
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = (await getCollection('blog'))
@@ -88,6 +88,22 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 4, name: post.data.title, item: postUrl },
   ],
 }
+
+const faq = extractFaq(post.body || '')
+const faqSchema = faq.length > 0 && {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+}
+
+const jsonLd = [articleSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]
 ---
 
 <BaseLayout
@@ -98,7 +114,7 @@ const breadcrumbSchema = {
   ogImage={imageUrl}
   ogTitle={post.data.title}
   ogDescription={post.data.description}
-  jsonLd={[articleSchema, breadcrumbSchema]}
+  jsonLd={jsonLd}
 >
   <Fragment slot="head">
     <meta property="article:published_time" content={post.data.date} />

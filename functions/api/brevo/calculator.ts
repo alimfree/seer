@@ -25,9 +25,9 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const errorRes = await addToBrevoList(env, email, Number(env.BREVO_LIST_CALCULATOR), attributes)
   if (errorRes) return errorRes
 
-  const trips = Number(attributes?.Trips || attributes?.TRIPS) || 0
-  const reimbursement = Number(attributes?.Reimbursement || attributes?.REIMBURSEMENT) || 0
-  const denialRate = Number(attributes?.DenialRate || attributes?.DENIALRATE) || undefined
+  const trips = Number(attributes?.TRIPS) || 0
+  const reimbursement = Number(attributes?.REIMBURSEMENT) || 0
+  const denialRate = Number(attributes?.DENIAL_RATE) || undefined
 
   if (trips > 0 && reimbursement > 0) {
     const html = buildCalculatorEmail({ trips, reimbursement, denialRate, email })

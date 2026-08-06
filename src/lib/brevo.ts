@@ -1,14 +1,14 @@
 type ListName = 'calculator' | 'newsletter' | 'contact'
 
 interface ContactAttributes {
-  Firstname?: string
-  Lastname?: string
-  Practice?: string
-  Message?: string
-  Trips?: number
-  Reimbursement?: number
-  DenialRate?: number
-  Source?: string
+  FIRSTNAME?: string
+  LASTNAME?: string
+  PRACTICE?: string
+  MESSAGE?: string
+  TRIPS?: number
+  REIMBURSEMENT?: number
+  DENIAL_RATE?: number
+  SOURCE?: string
 }
 
 export class RateLimitError extends Error {

@@ -113,10 +113,10 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const errorRes = await addToBrevoList(env, email, Number(env.BREVO_LIST_CONTACT), attributes)
   if (errorRes) return errorRes
 
-  const firstname = escapeHtml(String(attributes?.Firstname || attributes?.FIRSTNAME || ''))
-  const lastname = escapeHtml(String(attributes?.Lastname || attributes?.LASTNAME || ''))
-  const practice = escapeHtml(String(attributes?.Practice || attributes?.PRACTICE || ''))
-  const message = escapeHtml(String(attributes?.Message || attributes?.MESSAGE || ''))
+  const firstname = escapeHtml(String(attributes?.FIRSTNAME || ''))
+  const lastname = escapeHtml(String(attributes?.LASTNAME || ''))
+  const practice = escapeHtml(String(attributes?.PRACTICE || ''))
+  const message = escapeHtml(String(attributes?.MESSAGE || ''))
   const fullName = [firstname, lastname].filter(Boolean).join(' ') || 'Unknown'
 
   // Notify team

@@ -16,7 +16,7 @@ export default function EmailCapture({ minimal = false }: EmailCaptureProps) {
 
     setStatus('loading')
     try {
-      await addContact(email, 'newsletter', { Source: 'blog' })
+      await addContact(email, 'newsletter', { SOURCE: 'blog' })
       setStatus('success')
       trackEvent('blog_subscribe')
     } catch (err) {

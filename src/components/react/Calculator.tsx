@@ -24,10 +24,10 @@ export default function Calculator() {
 
     try {
       await addContact(email, 'calculator', {
-        Trips: Number(trips),
-        Reimbursement: Number(reimbursement),
-        DenialRate: denialRate ? Number(denialRate) : undefined,
-        Source: 'calculator',
+        TRIPS: Number(trips),
+        REIMBURSEMENT: Number(reimbursement),
+        DENIAL_RATE: denialRate ? Number(denialRate) : undefined,
+        SOURCE: 'calculator',
       }, captchaToken)
       setStatus('success')
       trackEvent('calculator_submit', { trips: Number(trips) })

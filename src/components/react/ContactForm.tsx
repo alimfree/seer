@@ -27,10 +27,10 @@ export default function ContactForm() {
       const titlePrefix = hasTitle ? nameParts[0] + ' ' : ''
       const rest = hasTitle ? nameParts.slice(1) : nameParts
       await addContact(email, 'contact', {
-        Firstname: titlePrefix + (rest[0] || ''),
-        Lastname: rest.slice(1).join(' ') || undefined,
-        Practice: practice || undefined,
-        Message: message || undefined,
+        FIRSTNAME: titlePrefix + (rest[0] || ''),
+        LASTNAME: rest.slice(1).join(' ') || undefined,
+        PRACTICE: practice || undefined,
+        MESSAGE: message || undefined,
       }, captchaToken)
       setStatus('success')
       trackEvent('contact_form_submit')

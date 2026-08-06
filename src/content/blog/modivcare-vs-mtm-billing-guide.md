@@ -25,11 +25,39 @@ Most NEMT operators of any size end up contracted with more than one broker. Mod
 
 **Appeals and dispute processes.** When a claim is denied, the process for disputing it, required documentation, appeal deadlines, and how the decision gets communicated back to you differs by broker. An operator fluent in one broker's appeals process often lets winnable disputes with the other broker quietly expire because the process didn't look familiar.
 
+## A quick side-by-side
+
+The specific numbers behind each of these (lead times, filing windows, accepted formats) come from your state contract with each broker, not from a fixed national standard, so we won't put invented figures in front of you here. What's consistent is which categories require a separate process rather than a shared one:
+
+| Process area | Shared across brokers? | Where the difference usually shows up |
+| --- | --- | --- |
+| Authorization request | No | Lead time, renewal cadence, portal workflow |
+| Trip documentation | No | Required fields, accepted formats |
+| Trip verification | No | App, GPS confirmation, or signature requirements |
+| Reimbursement rates | Set by state/plan | Same rider, different plan, different rate |
+| Credentialing | No | Separate applications and renewal timelines |
+| Filing deadlines | No | Timely filing windows differ by contract |
+| Appeals process | No | Documentation, deadlines, escalation path |
+
+The takeaway from this table isn't which broker is "harder." It's that almost nothing in this list is safe to assume carries over from one broker to the other, which is exactly why a single unified process tends to fail quietly rather than obviously.
+
 ## The mistake operators make most often
 
 The most common failure mode isn't misunderstanding either broker individually. It's running a single, unified billing process across both and assuming the rules are close enough to interchange. They aren't. Trip authorization requested through the wrong workflow, documentation submitted in the wrong format, or a claim filed one day past a shorter deadline are all denials that have nothing to do with whether the trip actually happened and everything to do with process mismatch.
 
 This mistake compounds as you scale. At low volume, a dispatcher or biller who's simply more familiar with one broker can paper over the differences by remembering the exceptions. Past a certain trip volume, that informal knowledge stops scaling, new hires don't have it, and the gap between "how we bill ModivCare" and "how we bill MTM" starts showing up as a steady, hard-to-diagnose drag on your overall denial rate rather than a handful of obvious mistakes.
+
+## Onboarding a second broker without breaking the first
+
+Adding a second broker relationship, or picking up a new state contract that routes through a broker you haven't worked with before, is where a lot of this confusion actually starts. A few things are worth doing deliberately rather than letting the new relationship absorb your existing process by default:
+
+**Read the provider manual before your first trip, not after your first denial.** Every broker publishes a provider or operations manual covering documentation, authorization, and billing requirements. It's long and not exciting reading, but it's the fastest way to find the specific fields and formats that differ from what you already know, before they show up as denials.
+
+**Build the new broker's checklist from scratch.** Don't start by copying your existing broker's documentation checklist and editing it. Requirements that look similar on the surface (a signature field, a timestamp format) are exactly where small differences hide, and starting from a blank checklist forces you to confirm each requirement rather than assume it.
+
+**Run a small batch before scaling volume.** If you can control it, route a small number of trips through the new broker first and watch how the claims perform before shifting significant volume over. Denials on a small batch are a cheap way to find a process gap. Denials on a full month of volume are not.
+
+**Confirm your credentialing status directly, not just your contract status.** Being under contract with a broker and being fully credentialed to bill them are not always the same date. Confirm with your provider relations contact that credentialing is complete and active before you start billing at volume.
 
 ## How to run both without doubling your denial rate
 
@@ -46,6 +74,23 @@ This mistake compounds as you scale. At low volume, a dispatcher or biller who's
 **Cross-train deliberately, not by accident.** Don't let broker expertise concentrate in one person by default. If the one team member who "knows MTM" goes on leave or leaves the company, you need someone else who can step in without relearning the differences from scratch through a wave of new denials.
 
 **Calendar credentialing renewals for both brokers separately.** Credentialing lapses are easy to miss because they don't show up as a denial pattern until every claim with that broker starts failing at once. Track renewal dates for both brokers with the same discipline you'd apply to a licensing deadline.
+
+## Frequently asked questions
+
+**Can an NEMT operator bill both ModivCare and MTM?**
+Yes, and it's common for operators of any real size to end up contracted with both, especially if they run trips in more than one state or serve more than one managed care plan. The two aren't mutually exclusive; the work is in keeping the two processes properly separated rather than in choosing one.
+
+**Which broker pays faster, ModivCare or MTM?**
+This depends on the specific state contract and plan, not on the broker company as a whole, so there isn't a single accurate answer that applies everywhere. Ask your provider relations contact at each broker for the payment timeline that applies to your specific contract rather than relying on a general reputation.
+
+**Do I need separate credentialing for ModivCare and MTM?**
+Yes. Credentialing is broker-specific, with its own application and its own renewal timeline for each. Being credentialed with one doesn't carry over to the other, even within the same state.
+
+**What's the biggest billing mistake operators make working with both?**
+Running a single unified process and assuming the two brokers' rules are close enough to interchange. Most of the avoidable denials that come from working multiple brokers trace back to a step that was handled the way one broker expects, but not the other.
+
+**Should I use different staff for each broker, or the same team for both?**
+Either can work, but the process has to be broker-specific regardless of who executes it. A dedicated team per broker makes the separation easier to enforce; a shared team can work just as well if the checklists, calendars, and claim scrubbing rules are actually broker-tagged rather than generic.
 
 ## Working with both brokers doesn't have to mean double the overhead
 

@@ -13,6 +13,14 @@ A Medicaid or broker audit isn't usually triggered by a single bad claim. It's t
 
 Audits generally fall into two buckets. **Routine audits** are scheduled as part of a broker's or state's standard oversight cycle, and every contracted operator eventually gets one regardless of performance. **Targeted audits** are triggered by something in your data or your history: a denial rate meaningfully above your peers, a spike in a specific complaint type, a prior finding that wasn't fully resolved, or billing volume that grew faster than your documentation practices did. You can't control when a routine audit lands, but you have real influence over whether you ever end up in the targeted bucket, and that influence comes almost entirely from the same documentation discipline that keeps your day-to-day denial rate low.
 
+## Desk audits vs. on-site audits
+
+Not every audit looks the same, and knowing which type you're facing changes how you prepare. A **desk audit** is a document review conducted remotely: you receive a request letter listing the trips or time period in scope, and you submit the corresponding documentation by mail, portal upload, or secure file transfer within a set deadline. Most routine oversight audits happen this way, and the entire process can run for weeks without anyone from the broker or state setting foot in your office.
+
+An **on-site audit** is more involved. An auditor visits your facility, may interview dispatch or billing staff directly, and often wants to see your systems in action rather than just the records they produce, how a trip gets logged from dispatch through completion, how authorizations get checked before a trip runs, where physical or digital files are stored. On-site audits are more common after a serious complaint, a prior finding that wasn't resolved, or when a desk audit surfaced enough concerns to warrant a closer look. They're also harder to prepare for retroactively, because an auditor watching your actual workflow will notice if it doesn't match what your written policy says.
+
+Either format draws from the same underlying documentation, so the preparation described in this guide covers both. The difference is mostly about how much of your operational reality is visible on top of your paperwork.
+
 ## What auditors typically review
 
 **Trip-level documentation.** For a sample of trips, auditors will ask for proof the trip happened as billed: pickup and drop-off timestamps, addresses, mileage, and driver identification. Gaps here are the single most common finding in NEMT audits, and they're almost always a documentation problem, not evidence the trip didn't occur.
@@ -35,6 +43,8 @@ Most Medicaid and broker audits don't review every trip you billed in the audit 
 
 An audit with findings usually doesn't end with a bill. Most programs require a **corrective action plan (CAP)**: a written response describing what caused the gap and what you're changing so it doesn't recur, submitted within a set window after the findings letter. Alongside the CAP, you may face a repayment demand for the specific claims in question, or an extrapolated repayment if the sampling method applies. Repeated findings, or a CAP that isn't followed through on, is what typically escalates a routine compliance issue into contract review or termination. Treating the CAP as a real operational change, not a paperwork exercise, is usually what determines whether a finding stays a one-time event or becomes the reason you lose a contract.
 
+**The cost usually extends past the repayment itself.** A repayment demand is the most visible line item, but it's rarely the only cost. There's the staff time spent pulling records, writing the CAP, and managing the back-and-forth, which is time your billing team isn't spending on current claims. There's the cash flow impact of an unplanned repayment landing in the middle of normal operations. And there's the standing impact on your relationship with the broker or state: a contract that's already flagged for one finding gets scrutinized more closely on the next one, which is how a single audit turns into an ongoing pattern of closer oversight.
+
 ## Building an audit-ready file before you're asked for one
 
 **Keep trip documentation centralized, not scattered across drivers' paper logs.** If pulling documentation for a single trip requires tracking down a specific driver's paper trip sheet, you are not audit-ready. Centralize trip records as they're generated, not after an audit request arrives.
@@ -48,6 +58,23 @@ An audit with findings usually doesn't end with a bill. Most programs require a 
 **Assign a single owner for audit readiness.** Documentation gaps tend to multiply when the responsibility for "make sure this trip is fully documented" is implicitly everyone's job. Naming one person or role accountable for closing gaps, even if the underlying work is distributed across dispatch and billing, is what keeps the standing process from quietly lapsing once the person who set it up gets busy.
 
 **Treat a mock audit like a fire drill.** Once or twice a year, pull a real sample the way an auditor would, request the full file for each trip within a tight internal deadline, and see how long it actually takes and what's missing. The gaps a mock audit surfaces are almost always the same gaps a real auditor would find, but on your timeline instead of theirs.
+
+## Frequently asked questions
+
+**How often are NEMT operators audited?**
+There's no universal schedule. Routine oversight audits typically recur on a cycle set by the broker's or state's contract terms, often annually or every few years, while targeted audits can happen any time something in your data draws attention. Operators with a clean history and a stable denial rate tend to see fewer targeted audits, even where the routine cycle is fixed.
+
+**What's the difference between a broker audit and a state Medicaid audit?**
+A broker audit is conducted by the managed care organization or NEMT broker you're contracted with, as part of their oversight of their provider network. A state Medicaid audit is conducted by the state agency itself, sometimes directly and sometimes through a contracted program integrity vendor. You can be contracted with multiple brokers and the state simultaneously, which means the same underlying documentation may need to satisfy more than one auditor with different specific requirements.
+
+**Can I appeal an audit finding?**
+Most programs have a formal appeal or reconsideration process, with its own deadline and documentation requirements, separate from a standard claim appeal. If you believe a finding is wrong, for example the documentation existed but wasn't provided in time, or the sample was applied incorrectly, that process is worth using. It's a distinct process from a claim-level denial appeal, so don't assume the same steps apply.
+
+**How long should I keep trip records?**
+Retention requirements vary by state and by contract, and are commonly several years past the date of payment. Check your specific state Medicaid program and each broker contract for their stated minimum, and set your retention policy to the longest of the requirements that apply to you, not the shortest.
+
+**What happens if I fail an audit?**
+"Failing" usually means the audit produced findings serious or frequent enough to trigger a corrective action plan and a repayment demand. A single audit with findings, promptly corrected, is a normal part of operating in this space and not usually contract-ending on its own. What tends to escalate things is a pattern: repeated findings on the same issue, or a CAP that wasn't actually implemented, which signals to the broker or state that the underlying problem hasn't been fixed.
 
 ## The pattern behind most audit findings
 

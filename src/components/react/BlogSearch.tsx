@@ -35,9 +35,11 @@ export default function BlogSearch() {
   const getPagefind = useCallback(async (): Promise<Pagefind | null> => {
     if (pagefindRef.current) return pagefindRef.current
     try {
-      // Use new Function to create a dynamic import that Vite won't analyze
-      const importPagefind = new Function('return import("/pagefind/pagefind.js")') as () => Promise<Pagefind>
-      const pf = await importPagefind()
+      // Path built at runtime (not a string literal) so Rollup can't statically
+      // resolve/bundle it. Avoid `new Function(...)` here — it requires
+      // 'unsafe-eval' in CSP, which production's script-src doesn't grant.
+      const pagefindPath = ['', 'pagefind', 'pagefind.js'].join('/')
+      const pf = (await import(/* @vite-ignore */ pagefindPath)) as Pagefind
       await pf.init()
       pagefindRef.current = pf
       return pf

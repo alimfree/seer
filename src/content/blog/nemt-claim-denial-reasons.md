@@ -43,8 +43,26 @@ Every broker portal enforces its own timely filing window, and most also reject 
 
 **Fix:** Submit claims on a consistent daily or near-daily cadence rather than batching them weekly or monthly. The longer claims sit unsubmitted, the more likely you are to miss a filing deadline or lose track of which trips have already gone out.
 
+## 6. Mileage or trip-time discrepancies
+
+Where brokers cross-check billed mileage or trip duration against GPS or telematics data, a mismatch is an easy, low-effort denial for them to generate. This often isn't fraud, it's rounding habits, a driver logging an estimated mileage instead of the actual route, or odometer entry errors that compound over a recurring series.
+
+**Fix:** Pull mileage and timestamps directly from GPS or dispatch software where possible instead of relying on manually entered figures. If manual entry is unavoidable, spot-check a sample of trips each month against a mapping tool to catch a pattern before a broker does.
+
+## 7. Incorrect procedure or modifier codes
+
+Each broker and state Medicaid program maintains its own accepted set of procedure codes and modifiers for trip type, service level, and mileage. A code that's correct for one broker's claim format is frequently wrong, or simply unrecognized, on another's. This is one of the more mechanical denial causes, and also one of the easiest to eliminate once you see it as a distinct failure mode rather than a documentation problem.
+
+**Fix:** Maintain a broker-specific (and, where relevant, state-specific) coding reference rather than a single shared cheat sheet, and update it whenever a broker changes its billing guidelines. Claims coded from institutional memory instead of a current reference are a recurring source of this kind of denial.
+
+## Diagnosing your own denial pattern
+
+Fixing individual causes only gets you so far if you're not tracking which ones are actually driving your denial rate. Categorize every denial by root cause, not just by broker or dollar amount, and review the breakdown monthly. Most operators who do this find that two or three causes account for the majority of their denials, which means two or three process fixes can meaningfully move the number, rather than needing to overhaul billing end to end.
+
+It's also worth tracking the downstream cost of a denial beyond the lost reimbursement itself: the staff time spent researching and appealing it, the delay to cash flow while it's in dispute, and the risk that a denial pattern significant enough to notice internally is also significant enough to draw broker or state audit attention. A denial that gets caught and appealed successfully still cost you more than a claim that was never denied in the first place.
+
 ## What this adds up to
 
-None of these five causes require new technology or a bigger team to fix. They require consistency: the same verification steps, run the same way, on every trip, every time. That consistency is exactly what breaks down as fleets scale past a handful of vehicles and a spreadsheet.
+None of these causes require new technology or a bigger team to fix. They require consistency: the same verification steps, run the same way, on every trip, every time. That consistency is exactly what breaks down as fleets scale past a handful of vehicles and a spreadsheet.
 
 If you want a clearer picture of what your own denial rate is costing you, our [NEMT revenue calculator](/tools/nemt-revenue-calculator) will estimate it from your trip volume and reimbursement rate in under a minute.

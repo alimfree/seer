@@ -1,0 +1,236 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: 'Seer Mobility AI Voice Dispatch',
+    description: '24/7 AI voice dispatching for NEMT fleets. Answers calls, books rides, and writes directly into your CAD dispatch system.',
+    brand: { '@type': 'Brand', name: 'Seer Mobility' },
+    offers: [
+      {
+        '@type': 'Offer',
+        name: 'Starter — After-Hours',
+        price: '299',
+        priceCurrency: 'USD',
+        url: 'https://www.seermobility.com/pricing',
+        priceValidUntil: '2027-12-31',
+        availability: 'https://schema.org/InStock',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Pro — 24/7 Full Dispatch',
+        price: '499',
+        priceCurrency: 'USD',
+        url: 'https://www.seermobility.com/pricing',
+        priceValidUntil: '2027-12-31',
+        availability: 'https://schema.org/InStock',
+      },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'What counts toward my monthly minutes?',
+        acceptedAnswer: { '@type': 'Answer', text: "Every minute the AI agent is live on a call, inbound or outbound, counts toward your plan. Hold time and post-call wrap-up don't." },
+      },
+      {
+        '@type': 'Question',
+        name: 'What happens if I go over my monthly minutes?',
+        acceptedAnswer: { '@type': 'Answer', text: "You're billed the overage rate for anything above your plan's included minutes. No surprise plan changes or service interruptions." },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I switch plans or cancel?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Month-to-month, upgrade or downgrade anytime, cancel anytime. No long-term contract.' },
+      },
+      {
+        '@type': 'Question',
+        name: 'What does the 14-day free pilot include?',
+        acceptedAnswer: { '@type': 'Answer', text: "Full access to your plan's features running on your real call volume, so you can hear results before committing. No credit card required to start." },
+      },
+      {
+        '@type': 'Question',
+        name: 'Do you offer pricing for multiple fleets or locations?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes, talk to us about an Enterprise plan for multi-fleet dispatch, dedicated SIP trunking, or a custom CAD connector.' },
+      },
+    ],
+  },
+]
+
+const starterFeatures = [
+  '400 minutes/mo included ($0.75/min overage)',
+  'After-hours & overflow call routing',
+  'CAD integration via webhook / email',
+  'Basic dispatcher transfer',
+]
+
+const proFeatures = [
+  '1,000 minutes/mo included ($0.65/min overage)',
+  '24/7 full call routing',
+  'Native CAD integration / custom webhook',
+  'Warm transfer: context screen-pop + audio whisper',
+]
+
+const faqs = [
+  {
+    question: 'What counts toward my monthly minutes?',
+    answer: "Every minute the AI agent is live on a call, inbound or outbound, counts toward your plan. Hold time and post-call wrap-up don't.",
+  },
+  {
+    question: 'What happens if I go over my monthly minutes?',
+    answer: "You're billed the overage rate for anything above your plan's included minutes. No surprise plan changes or service interruptions.",
+  },
+  {
+    question: 'Can I switch plans or cancel?',
+    answer: 'Yes. Month-to-month, upgrade or downgrade anytime, cancel anytime. No long-term contract.',
+  },
+  {
+    question: 'What does the 14-day free pilot include?',
+    answer: "Full access to your plan's features running on your real call volume, so you can hear results before committing. No credit card required to start.",
+  },
+  {
+    question: 'Do you offer pricing for multiple fleets or locations?',
+    answer: 'Yes, talk to us about an Enterprise plan for multi-fleet dispatch, dedicated SIP trunking, or a custom CAD connector.',
+  },
+]
+---
+
+<BaseLayout
+  title="Pricing | Seer Mobility"
+  description="Simple, transparent pricing for AI voice dispatch. Starter at $299/mo for after-hours coverage, or Pro at $499/mo for full 24/7 dispatch."
+  canonical="https://www.seermobility.com/pricing"
+  ogTitle="Pricing | Seer Mobility"
+  ogDescription="Simple, transparent pricing for AI voice dispatch. Starter at $299/mo for after-hours coverage, or Pro at $499/mo for full 24/7 dispatch."
+  jsonLd={jsonLd}
+>
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="pt-32 sm:pt-44 pb-16 sm:pb-20 px-6 sm:px-8">
+      <div class="max-w-4xl mx-auto text-center">
+        <nav class="flex items-center justify-center gap-2 text-sm text-on-surface-variant mb-8" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-tertiary transition-colors">Home</a>
+          <span>›</span>
+          <span>Pricing</span>
+        </nav>
+        <h1 class="font-headline text-4xl sm:text-5xl md:text-6xl font-light leading-tight tracking-tight text-on-background mb-6">
+          Simple pricing. No surprises.
+        </h1>
+        <p class="font-body text-lg sm:text-xl text-on-surface-variant leading-relaxed max-w-2xl mx-auto">
+          Choose after-hours coverage or full 24/7 dispatch. Every plan includes CAD integration, warm dispatcher handoffs, and a 14-day free pilot.
+        </p>
+      </div>
+    </section>
+
+    <!-- Pricing Grid -->
+    <section class="pb-24 sm:pb-32 px-6 sm:px-8 fade-in-section">
+      <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Starter -->
+        <div class="bg-surface-container-lowest rounded-sm p-8 sm:p-10 shadow-ambient ghost-border flex flex-col">
+          <div class="mb-8">
+            <h2 class="font-headline text-2xl text-on-background mb-1">Starter</h2>
+            <p class="text-sm uppercase tracking-widest text-tertiary font-semibold">After-Hours</p>
+          </div>
+          <div class="mb-8">
+            <span class="font-headline text-5xl font-light text-on-background">$299</span>
+            <span class="text-on-surface-variant">/mo</span>
+          </div>
+          <ul class="space-y-4 mb-10 flex-1">
+            {starterFeatures.map((feature) => (
+              <li class="flex items-start gap-3">
+                <span class="material-symbols-outlined text-tertiary text-xl shrink-0 mt-0.5" aria-hidden="true">check</span>
+                <span class="text-on-surface-variant leading-relaxed">{feature}</span>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="/#contact"
+            class="text-center px-6 py-4 border border-on-background/20 text-on-background font-medium rounded-sm hover:bg-surface-container-low transition-colors duration-300"
+          >
+            Start Your 14-Day Free Pilot
+          </a>
+        </div>
+
+        <!-- Pro -->
+        <div class="bg-primary text-on-primary rounded-sm p-8 sm:p-10 shadow-ambient flex flex-col relative">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-tertiary text-on-tertiary text-xs uppercase tracking-widest font-semibold px-4 py-1.5 rounded-full">
+            Most Popular
+          </span>
+          <div class="mb-8">
+            <h2 class="font-headline text-2xl mb-1">Pro</h2>
+            <p class="text-sm uppercase tracking-widest text-on-primary/70 font-semibold">24/7 Full Dispatch</p>
+          </div>
+          <div class="mb-8">
+            <span class="font-headline text-5xl font-light">$499</span>
+            <span class="text-surface-container-low/70">/mo</span>
+          </div>
+          <ul class="space-y-4 mb-10 flex-1">
+            {proFeatures.map((feature) => (
+              <li class="flex items-start gap-3">
+                <span class="material-symbols-outlined text-on-primary text-xl shrink-0 mt-0.5" aria-hidden="true">check</span>
+                <span class="text-surface-container-low/90 leading-relaxed">{feature}</span>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="/#contact"
+            class="text-center px-6 py-4 bg-white text-primary font-medium rounded-sm hover:opacity-90 transition-opacity duration-300"
+          >
+            Start Your 14-Day Free Pilot
+          </a>
+        </div>
+      </div>
+
+      <p class="text-center text-on-surface-variant mt-10">
+        Need multi-fleet, dedicated SIP trunking, or a custom CAD connector?
+        <a href="mailto:hello@seermobility.com" class="text-tertiary font-medium hover:underline underline-offset-4">Talk to us about Enterprise.</a>
+      </p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-24 sm:py-32 bg-surface-container-low px-6 sm:px-8 fade-in-section" id="faq">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-12 sm:mb-16 text-center">
+          Questions
+        </h2>
+        <div class="space-y-3">
+          {faqs.map((faq) => (
+            <details class="bg-surface-container-lowest rounded-sm ghost-border shadow-sm group">
+              <summary class="px-6 sm:px-8 py-5 sm:py-6 flex justify-between items-center cursor-pointer hover:bg-surface-bright transition-colors duration-200 list-none [&::-webkit-details-marker]:hidden">
+                <span class="font-medium text-base sm:text-lg text-on-surface">{faq.question}</span>
+                <span class="material-symbols-outlined text-outline faq-icon group-open:open flex-shrink-0 ml-4" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="px-6 sm:px-8 pb-5 sm:pb-6 text-on-surface-variant">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="py-24 sm:py-32 px-6 sm:px-8 fade-in-section">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-6 leading-tight">
+          Never miss another ride.
+        </h2>
+        <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
+          Start your 14-day free pilot, or hear the AI dispatcher on a live call first.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="/#contact" class="btn-primary px-8 py-4 text-on-primary font-medium rounded-sm shadow-ambient">
+            Start Your 14-Day Free Pilot
+          </a>
+          <a href="/#live-demo" class="text-on-surface-variant hover:text-tertiary transition-colors duration-300 underline underline-offset-4 decoration-outline-variant/50">
+            Or request a live call
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

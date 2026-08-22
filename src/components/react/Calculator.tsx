@@ -4,9 +4,9 @@ import { addContact, RateLimitError } from '../../lib/brevo'
 import Turnstile from './Turnstile'
 
 export default function Calculator() {
-  const [trips, setTrips] = useState('')
-  const [reimbursement, setReimbursement] = useState('')
-  const [denialRate, setDenialRate] = useState('')
+  const [missedCalls, setMissedCalls] = useState('')
+  const [tripValue, setTripValue] = useState('')
+  const [fleetSize, setFleetSize] = useState('')
   const [email, setEmail] = useState('')
   const [captchaToken, setCaptchaToken] = useState<string | null>(null)
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
@@ -17,20 +17,20 @@ export default function Calculator() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!trips || !reimbursement || !email || !captchaToken) return
+    if (!missedCalls || !tripValue || !email || !captchaToken) return
 
     setStatus('loading')
     setErrorMsg('')
 
     try {
       await addContact(email, 'calculator', {
-        TRIPS: Number(trips),
-        REIMBURSEMENT: Number(reimbursement),
-        DENIAL_RATE: denialRate ? Number(denialRate) : undefined,
+        MISSED_CALLS_WEEK: Number(missedCalls),
+        AVG_TRIP_VALUE: Number(tripValue),
+        FLEET_SIZE: fleetSize ? Number(fleetSize) : undefined,
         SOURCE: 'calculator',
       }, captchaToken)
       setStatus('success')
-      trackEvent('calculator_submit', { trips: Number(trips) })
+      trackEvent('calculator_submit', { missedCalls: Number(missedCalls) })
     } catch (err) {
       setStatus('error')
       setErrorMsg(
@@ -48,7 +48,7 @@ export default function Calculator() {
           <span className="material-symbols-outlined text-5xl text-tertiary mb-4 block" aria-hidden="true">check_circle</span>
           <h3 className="font-headline text-2xl mb-4">Check your inbox.</h3>
           <p className="text-on-surface-variant mb-8">
-            We've sent your personalized revenue recovery analysis to <strong>{email}</strong>.
+            We've sent your personalized missed-call revenue analysis to <strong>{email}</strong>.
           </p>
           <a
             href="/#contact"
@@ -62,50 +62,48 @@ export default function Calculator() {
       ) : (
         <form className="space-y-8" onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="calc-trips" className="block text-sm font-body font-medium text-on-surface mb-2">
-              Monthly NEMT Trips
+            <label htmlFor="calc-missed-calls" className="block text-sm font-body font-medium text-on-surface mb-2">
+              Estimated After-Hours Missed Calls / Week
             </label>
             <input
-              id="calc-trips"
+              id="calc-missed-calls"
               className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
-              placeholder="e.g. 2000"
+              placeholder="e.g. 20"
               type="number"
-              min="1"
+              min="0"
               required
-              value={trips}
-              onChange={(e) => setTrips(e.target.value)}
+              value={missedCalls}
+              onChange={(e) => setMissedCalls(e.target.value)}
             />
           </div>
           <div>
-            <label htmlFor="calc-reimbursement" className="block text-sm font-body font-medium text-on-surface mb-2">
-              Average Reimbursement per Trip ($)
+            <label htmlFor="calc-trip-value" className="block text-sm font-body font-medium text-on-surface mb-2">
+              Average Private-Pay Trip Value ($)
             </label>
             <input
-              id="calc-reimbursement"
+              id="calc-trip-value"
               className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
-              placeholder="e.g. 45"
+              placeholder="e.g. 70"
               type="number"
               min="1"
               step="0.01"
               required
-              value={reimbursement}
-              onChange={(e) => setReimbursement(e.target.value)}
+              value={tripValue}
+              onChange={(e) => setTripValue(e.target.value)}
             />
           </div>
           <div>
-            <label htmlFor="calc-denial-rate" className="block text-sm font-body font-medium text-on-surface mb-2">
-              Current Denial Rate (%)
+            <label htmlFor="calc-fleet-size" className="block text-sm font-body font-medium text-on-surface mb-2">
+              Fleet Size (vans)
             </label>
             <input
-              id="calc-denial-rate"
+              id="calc-fleet-size"
               className="border-0 border-b border-outline-variant bg-transparent py-3 w-full text-lg focus:outline-none focus:border-tertiary transition-colors duration-300"
-              placeholder="e.g. 15 (industry average is 10–20%)"
+              placeholder="e.g. 12"
               type="number"
-              min="0"
-              max="100"
-              step="0.1"
-              value={denialRate}
-              onChange={(e) => setDenialRate(e.target.value)}
+              min="1"
+              value={fleetSize}
+              onChange={(e) => setFleetSize(e.target.value)}
             />
           </div>
           <div>
@@ -122,7 +120,7 @@ export default function Calculator() {
               onChange={(e) => setEmail(e.target.value)}
             />
             <p className="mt-3 text-xs text-on-surface-variant/70 italic">
-              We'll send your personalized revenue recovery analysis to this address.
+              We'll send your personalized missed-call revenue analysis to this address.
             </p>
           </div>
           <Turnstile onVerify={onVerify} onExpire={onExpire} />

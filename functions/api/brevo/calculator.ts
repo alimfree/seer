@@ -25,29 +25,29 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const errorRes = await addToBrevoList(env, email, Number(env.BREVO_LIST_CALCULATOR), attributes)
   if (errorRes) return errorRes
 
-  const trips = Number(attributes?.TRIPS) || 0
-  const reimbursement = Number(attributes?.REIMBURSEMENT) || 0
-  const denialRate = Number(attributes?.DENIAL_RATE) || undefined
+  const missedCallsPerWeek = Number(attributes?.MISSED_CALLS_WEEK) || 0
+  const avgTripValue = Number(attributes?.AVG_TRIP_VALUE) || 0
+  const fleetSize = Number(attributes?.FLEET_SIZE) || undefined
 
-  if (trips > 0 && reimbursement > 0) {
-    const html = buildCalculatorEmail({ trips, reimbursement, denialRate, email })
+  if (missedCallsPerWeek > 0 && avgTripValue > 0) {
+    const html = buildCalculatorEmail({ missedCallsPerWeek, avgTripValue, fleetSize, email })
 
     await sendBrevoEmail(env, {
       sender: { name: 'Seer Mobility', email: 'hello@seermobility.com' },
       to: [{ email }],
-      subject: 'Your NEMT Revenue Recovery Analysis — Seer Mobility',
+      subject: 'Your Missed-Call Revenue Analysis — Seer Mobility',
       htmlContent: html,
     })
 
     // Notify team
-    const r = calculateRevenue({ trips, reimbursement, denialRate, email })
+    const r = calculateRevenue({ missedCallsPerWeek, avgTripValue, fleetSize, email })
     const fmt = (n: number) => n.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 })
 
     await sendBrevoEmail(env, {
       sender: { name: 'Seer Mobility', email: 'hello@seermobility.com' },
       to: [{ email: 'sales@seermobility.com' }],
-      subject: `New calculator lead: ${escapeHtml(email)} — ${trips} trips/mo`,
-      htmlContent: `<p>New calculator lead: <a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></p><p>Trips/mo: ${trips}, Reimbursement/trip: ${fmt(reimbursement)}, Denial rate: ${r.denialRate}%</p><p>Annual lost to denials: ${fmt(r.annualLostToDenials)}, Annual recoverable: ${fmt(r.annualRecoverable)}</p>`,
+      subject: `New calculator lead: ${escapeHtml(email)} — ${missedCallsPerWeek} missed calls/wk`,
+      htmlContent: `<p>New calculator lead: <a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></p><p>Missed calls/wk: ${missedCallsPerWeek}, Avg trip value: ${fmt(avgTripValue)}, Fleet size: ${fleetSize ?? 'n/a'}</p><p>Monthly recoverable: ${fmt(r.monthlyRecoverable)}, Annual recoverable: ${fmt(r.annualRecoverable)}</p>`,
       replyTo: { email },
     })
   }

@@ -5,9 +5,9 @@ interface ContactAttributes {
   LASTNAME?: string
   PRACTICE?: string
   MESSAGE?: string
-  TRIPS?: number
-  REIMBURSEMENT?: number
-  DENIAL_RATE?: number
+  MISSED_CALLS_WEEK?: number
+  AVG_TRIP_VALUE?: number
+  FLEET_SIZE?: number
   SOURCE?: string
 }
 

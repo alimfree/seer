@@ -3,27 +3,27 @@ import { trackEvent } from '../../hooks/useAnalytics'
 
 const faqs = [
   {
-    question: 'How is this different from hiring an in-house biller?',
-    answer: "We combine dedicated billing specialists with software that pre-scrubs every claim against broker and state Medicaid rules before it's ever submitted. You get the accountability of a team plus the consistency of automation, without the overhead of building a full in-house department.",
-  },
-  {
-    question: 'Which brokers and payers do you work with?',
-    answer: 'We bill directly through ModivCare, MTM, and most state Medicaid NEMT programs, along with commercial and managed care payers. If you run trips through a broker portal, we can likely bill through it.',
+    question: 'How is this different from a regular answering service or IVR?',
+    answer: "A generic answering service takes a message. Seer holds a real conversation: it verifies pickup and drop-off addresses, confirms mobility needs, quotes rates, and books the ride directly into your dispatch system, no callback required.",
   },
   {
     question: 'Do I need to change my dispatch software?',
-    answer: "No. We integrate with the dispatch and trip-logging tools you already use to pull the data we need for clean claim submission.",
+    answer: 'No. Seer integrates with MediRoutes, RouteGenie, TripSpark, RoutingBox, and VectorCare, or connects to any system via a custom webhook. Setup typically takes under 15 minutes.',
   },
   {
-    question: 'What happens when a claim is denied?',
-    answer: "Every denial is triaged with a documented resolution path — resubmission, appeal, or write-off with an explanation. You get visibility into why claims are denied, not just that they were.",
+    question: 'What happens when a call needs a human?',
+    answer: "For complex edge cases, Seer executes a live warm transfer to your dispatcher with a voice summary and screen-pop context card, so your team never starts a call cold.",
+  },
+  {
+    question: 'Can it handle rides for after-hours only, or my full call line?',
+    answer: "Both. Start with after-hours and overflow coverage on the Starter plan, or route your full call line to Seer for 24/7 dispatch on the Pro plan.",
   },
   {
     question: 'Is there a long-term contract?',
-    answer: 'No. Month-to-month, cancel anytime. We earn the relationship by keeping your denial rate down and your AR moving.',
+    answer: 'No. Month-to-month, cancel anytime. Every plan starts with a 14-day free pilot so you can see real call volume before committing.',
   },
   {
-    question: 'How secure is my trip and rider data?',
+    question: 'How secure is my caller and rider data?',
     answer: 'HIPAA-compliant handling of rider PHI with encrypted data storage and strict access controls.',
   },
 ]

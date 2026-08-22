@@ -69,7 +69,7 @@ function buildContactConfirmationEmail(firstname: string): string {
                 <tr>
                   <td>
                     <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Seer Mobility</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">NEMT Billing & Revenue Cycle Management</p>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
                     <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0;">
                       <a href="https://www.seermobility.com" style="color:#6B4A1F;text-decoration:underline;">seermobility.com</a>
                       &nbsp;&middot;&nbsp;

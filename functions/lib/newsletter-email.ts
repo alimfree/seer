@@ -94,12 +94,12 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
           <!-- Spacer -->
           <tr><td style="height:24px;"></td></tr>
 
-          <!-- Calculator CTA -->
+          <!-- Live Demo CTA -->
           <tr>
             <td style="background:linear-gradient(135deg,#000B13,#002434);padding:40px;border-radius:4px;">
-              <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:300;color:#F8F9FF;margin:0 0 12px 0;">How much revenue are denials costing your fleet?</h2>
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#8A9BB5;margin:0 0 24px 0;line-height:1.5;">Enter your trip volume and denial rate to get a personalized revenue recovery analysis.</p>
-              <a href="https://www.seermobility.com/#revenue-calculator" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Calculate My Opportunity</a>
+              <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:300;color:#F8F9FF;margin:0 0 12px 0;">Curious what a missed call sounds like recovered?</h2>
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#8A9BB5;margin:0 0 24px 0;line-height:1.5;">Leave your number and we'll set up a live call so you can hear the AI dispatcher for yourself.</p>
+              <a href="https://www.seermobility.com/#live-demo" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Request My Live Call</a>
             </td>
           </tr>
 
@@ -125,7 +125,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
                 <tr>
                   <td>
                     <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Seer Mobility</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">NEMT Billing & Revenue Cycle Management</p>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
                     <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 12px 0;">
                       <a href="https://www.seermobility.com" style="color:#6B4A1F;text-decoration:underline;">seermobility.com</a>
                       &nbsp;&middot;&nbsp;

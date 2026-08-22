@@ -5,7 +5,7 @@ import HowItWorks from '../components/HowItWorks.astro'
 import Documentation from '../components/Documentation.astro'
 import BuiltFor from '../components/BuiltFor.astro'
 import Positioning from '../components/Positioning.astro'
-import Calculator from '../components/react/Calculator'
+import RequestCall from '../components/react/RequestCall'
 import FAQ from '../components/react/FAQ'
 import ContactForm from '../components/react/ContactForm'
 
@@ -13,7 +13,7 @@ const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'Seer Mobility',
-  description: 'Full-service billing and revenue cycle management for NEMT operators. Clean claim submission, active denial management, and revenue cycle oversight across major brokers and payers.',
+  description: '24/7 AI voice dispatch for NEMT fleets. Seer answers every call instantly, books rides, and writes directly into your CAD dispatch system.',
   areaServed: 'US',
   provider: {
     '@type': 'Organization',
@@ -28,18 +28,10 @@ const faqStructuredData = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How is this different from hiring an in-house biller?',
+      name: 'How is this different from a regular answering service or IVR?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "We combine dedicated billing specialists with software that pre-scrubs every claim against broker and state Medicaid rules before it's ever submitted. You get the accountability of a team plus the consistency of automation, without the overhead of building a full in-house department.",
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Which brokers and payers do you work with?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We bill directly through ModivCare, MTM, and most state Medicaid NEMT programs, along with commercial and managed care payers.',
+        text: "A generic answering service takes a message. Seer holds a real conversation: it verifies pickup and drop-off addresses, confirms mobility needs, quotes rates, and books the ride directly into your dispatch system, no callback required.",
       },
     },
     {
@@ -47,15 +39,23 @@ const faqStructuredData = {
       name: 'Do I need to change my dispatch software?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. We integrate with the dispatch and trip-logging tools you already use to pull the data we need for clean claim submission.',
+        text: 'No. Seer integrates with MediRoutes, RouteGenie, TripSpark, RoutingBox, and VectorCare, or connects to any system via a custom webhook.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What happens when a claim is denied?',
+      name: 'What happens when a call needs a human?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Every denial is triaged with a documented resolution path — resubmission, appeal, or write-off with an explanation.',
+        text: 'For complex edge cases, Seer executes a live warm transfer to your dispatcher with a voice summary and screen-pop context card.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can it handle after-hours only, or my full call line?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Both. Start with after-hours and overflow coverage, or route your full call line to Seer for 24/7 dispatch.',
       },
     },
     {
@@ -63,12 +63,12 @@ const faqStructuredData = {
       name: 'Is there a long-term contract?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Month-to-month, cancel anytime.',
+        text: 'No. Month-to-month, cancel anytime. Every plan starts with a 14-day free pilot.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How secure is my trip and rider data?',
+      name: 'How secure is my caller and rider data?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'HIPAA-compliant handling of rider PHI with encrypted data storage and strict access controls.',
@@ -79,37 +79,37 @@ const faqStructuredData = {
 ---
 
 <BaseLayout
-  title="NEMT Billing & Revenue Cycle Management | Seer Mobility"
-  description="Full-service billing and revenue cycle management built for NEMT operators. Higher clean claim rates, lower denials, and better cash flow."
+  title="AI Voice Dispatch for NEMT Fleets | Seer Mobility"
+  description="24/7 AI voice dispatching for NEMT fleets. Seer answers every call instantly, books rides, and writes directly into your CAD dispatch system."
   canonical="https://www.seermobility.com/"
-  ogTitle="NEMT Billing & Revenue Cycle Management | Seer Mobility"
-  ogDescription="Full-service billing and revenue cycle management built for NEMT operators. Higher clean claim rates, lower denials, and better cash flow."
+  ogTitle="AI Voice Dispatch for NEMT Fleets | Seer Mobility"
+  ogDescription="24/7 AI voice dispatching for NEMT fleets. Seer answers every call instantly, books rides, and writes directly into your CAD dispatch system."
   jsonLd={[structuredData, faqStructuredData]}
 >
   <main id="main-content">
     <Hero />
     <Documentation />
 
-    <!-- Calculator Section -->
-    <section class="py-24 sm:py-32 bg-surface fade-in-section" id="revenue-calculator">
+    <!-- Live Call Request Section -->
+    <section class="py-24 sm:py-32 bg-surface fade-in-section" id="live-demo">
       <div class="max-w-7xl mx-auto px-6 sm:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div class="max-w-2xl">
             <span class="font-body text-sm uppercase tracking-widest text-secondary/60 font-semibold mb-4 block">
-              Analysis
+              Live Demo
             </span>
             <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light leading-tight text-on-background mb-6">
-              Discover how much denials are really costing you.
+              Hear the AI dispatcher for yourself.
             </h2>
             <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
-              Most operators don't know their real denial rate until it's costing them tens of thousands a year. See what clean claims could recover for your fleet.
+              Leave your number and we'll set up a live call so you can hear exactly how Seer sounds on a real dispatch conversation, interruptions, address verification, and all.
             </p>
             <div class="flex items-center gap-4 py-4 border-t border-outline-variant/30">
-              <span class="material-symbols-outlined text-tertiary" aria-hidden="true">analytics</span>
-              <span class="text-on-surface-variant">Calculated from your trip volume and current denial rate.</span>
+              <span class="material-symbols-outlined text-tertiary" aria-hidden="true">phone_in_talk</span>
+              <span class="text-on-surface-variant">No pressure, no pitch deck. Just the agent, live.</span>
             </div>
           </div>
-          <Calculator client:visible />
+          <RequestCall client:visible />
         </div>
       </div>
     </section>
@@ -134,18 +134,11 @@ const faqStructuredData = {
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           <div>
             <h2 class="font-headline text-3xl sm:text-4xl md:text-5xl font-light text-on-background mb-6 leading-tight">
-              See what clean billing looks like for your fleet.
+              See what 24/7 dispatch looks like for your fleet.
             </h2>
             <p class="text-lg sm:text-xl text-on-surface-variant leading-relaxed mb-8">
-              Drop us a message and we'll walk through your numbers, show you where you're losing revenue, and what a free billing assessment covers.
+              Drop us a message and we'll walk through your call volume, show you where you're losing rides, and set up your 14-day free pilot.
             </p>
-            <a
-              href="mailto:hello@seermobility.com"
-              class="inline-flex items-center gap-3 px-8 py-4 bg-tertiary text-on-tertiary font-medium rounded-sm shadow-ambient hover:brightness-110 transition-all duration-300"
-            >
-              <span class="material-symbols-outlined text-xl" aria-hidden="true">mail</span>
-              Email Us Directly
-            </a>
           </div>
           <div class="bg-surface-container-lowest p-8 sm:p-10 rounded-sm shadow-ambient ghost-border">
             <ContactForm client:visible />

@@ -50,7 +50,7 @@ export default function FloatingCTA() {
         className="btn-primary px-6 py-2.5 text-on-primary font-medium rounded-sm"
         onClick={() => trackEvent('cta_click', { location: 'floating' })}
       >
-        Book a Free Billing Assessment
+        Start Your 14-Day Free Pilot
       </a>
     </nav>
   )

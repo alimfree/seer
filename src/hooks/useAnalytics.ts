@@ -7,6 +7,7 @@ declare global {
 type EventName =
   | 'cta_click'
   | 'calculator_submit'
+  | 'call_request_submit'
   | 'contact_form_submit'
   | 'calendly_click'
   | 'faq_open'

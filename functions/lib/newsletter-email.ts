@@ -27,7 +27,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
     <tr>
       <td style="padding:24px 0;border-bottom:1px solid #EFF4FF;">
         <p style="font-family:Arial,Helvetica,sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#4B3111;margin:0 0 8px 0;">${categoryLabel(post.category)}</p>
-        <a href="https://www.seermobility.com/resources/${post.category}/${post.slug}" style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:400;color:#000B13;text-decoration:none;line-height:1.4;">${post.title}</a>
+        <a href="https://www.seermobility.com/resources/${post.category}/${post.slug}" style="font-family:Georgia,'Times New Roman',serif;font-size:18px;font-weight:400;color:#000B13;text-decoration:underline;text-underline-offset:3px;line-height:1.4;">${post.title}</a>
         <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#42474c;margin:8px 0 0 0;line-height:1.5;">${post.description}</p>
         <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#6B8FA8;margin:8px 0 0 0;">${post.readingTime} min read</p>
       </td>
@@ -131,7 +131,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
                       &nbsp;&middot;&nbsp;
                       <a href="mailto:hello@seermobility.com" style="color:#6B4A1F;text-decoration:underline;">hello@seermobility.com</a>
                     </p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#5a5f63;margin:0;">
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0;">
                       <a href="{{ unsubscribe }}" style="color:#5a5f63;text-decoration:underline;">Unsubscribe</a>
                     </p>
                   </td>

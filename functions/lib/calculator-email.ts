@@ -205,7 +205,7 @@ export function buildCalculatorEmail(input: CalculatorInput): string {
           <!-- Disclaimer -->
           <tr>
             <td style="padding:0 0 24px 0;">
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#5a5f63;margin:0;line-height:1.6;">
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0;line-height:1.6;">
                 This revenue analysis is an estimate based on the figures you provided and a typical after-hours booking conversion rate. It does not constitute financial advice. Actual results vary by service area and call mix, and do not include Seer Mobility service fees.
               </p>
             </td>

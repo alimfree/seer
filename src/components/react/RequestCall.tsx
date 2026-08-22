@@ -12,6 +12,7 @@ export class RateLimitError extends Error {
 export default function RequestCall() {
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
+  const [lineType, setLineType] = useState<'mobile' | 'landline'>('mobile')
   const [company, setCompany] = useState('')
   const [captchaToken, setCaptchaToken] = useState<string | null>(null)
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
@@ -31,7 +32,7 @@ export default function RequestCall() {
       const res = await fetch('/api/call-request', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, phone, company, captchaToken }),
+        body: JSON.stringify({ name, phone, company, lineType, captchaToken }),
       })
 
       if (res.status === 429) throw new RateLimitError()
@@ -91,6 +92,26 @@ export default function RequestCall() {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
             />
+            <div className="flex gap-4 mt-2 text-sm text-on-surface-variant">
+              <label className="flex items-center gap-1.5 cursor-pointer">
+                <input
+                  type="radio"
+                  name="line-type"
+                  checked={lineType === 'mobile'}
+                  onChange={() => setLineType('mobile')}
+                />
+                Mobile
+              </label>
+              <label className="flex items-center gap-1.5 cursor-pointer">
+                <input
+                  type="radio"
+                  name="line-type"
+                  checked={lineType === 'landline'}
+                  onChange={() => setLineType('landline')}
+                />
+                Office/landline
+              </label>
+            </div>
           </div>
           <div>
             <label htmlFor="call-company" className="block text-sm font-body font-medium text-on-surface mb-2">

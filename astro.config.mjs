@@ -6,11 +6,11 @@ import rehypeSlug from 'rehype-slug'
 import rehypeRaw from 'rehype-raw'
 import remarkGfm from 'remark-gfm'
 import { readdirSync, readFileSync } from 'fs'
+import { CATEGORY_MAP } from './src/lib/blog.ts'
 
 // Build a slug → lastmod map and find categories with published posts
 const postDates = {}
 const populatedCategories = new Set()
-const CATEGORY_MAP = { billing: 'billing', compliance: 'compliance', operations: 'operations', denials: 'billing', revenue: 'billing', brokers: 'operations', dispatch: 'operations', medicaid: 'compliance', credentialing: 'compliance' }
 const blogDir = './src/content/blog'
 for (const file of readdirSync(blogDir).filter((f) => f.endsWith('.md'))) {
   const raw = readFileSync(`${blogDir}/${file}`, 'utf-8')

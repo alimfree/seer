@@ -9,6 +9,17 @@ export class RateLimitError extends Error {
   }
 }
 
+function formatPhoneInput(value: string): string {
+  let digits = value.replace(/\D/g, '')
+  if (digits.length === 11 && digits.startsWith('1')) digits = digits.slice(1)
+  digits = digits.slice(0, 10)
+
+  if (digits.length === 0) return ''
+  if (digits.length < 4) return `(${digits}`
+  if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`
+  return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
+}
+
 export default function RequestCall() {
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
@@ -90,7 +101,9 @@ export default function RequestCall() {
               type="tel"
               required
               value={phone}
-              onChange={(e) => setPhone(e.target.value)}
+              onChange={(e) => setPhone(formatPhoneInput(e.target.value))}
+              inputMode="tel"
+              maxLength={14}
             />
             <div className="flex gap-4 mt-2 text-sm text-on-surface-variant">
               <label className="flex items-center gap-1.5 cursor-pointer">

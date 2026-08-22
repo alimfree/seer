@@ -8,6 +8,9 @@ export const CATEGORY_MAP: Record<string, string> = {
   dispatch: 'operations',
   medicaid: 'compliance',
   credentialing: 'compliance',
+  hipaa: 'compliance',
+  'ai-voice-agents': 'operations',
+  'after-hours': 'operations',
 }
 
 export const CATEGORIES = ['billing', 'compliance', 'operations'] as const
@@ -22,9 +25,9 @@ export function getVisibleCategories(publishedPosts: Array<{ data: { tags: strin
 }
 
 export const CATEGORY_DESCRIPTIONS: Record<Category, string> = {
-  billing: 'Denial reasons, broker billing rules, payer requirements, and revenue strategies for NEMT operators.',
-  compliance: 'State Medicaid regulations, credentialing, licensing, and audit preparation for NEMT operators.',
-  operations: 'Dispatch, broker portals, driver management, and scaling strategies for NEMT fleets.',
+  billing: 'Missed-call revenue loss, denial reasons, broker billing rules, and payer requirements for NEMT operators.',
+  compliance: 'HIPAA compliance for AI phone agents, state Medicaid regulations, credentialing, and audit preparation for NEMT operators.',
+  operations: 'AI voice dispatch, after-hours call coverage, CAD integrations, and scaling strategies for NEMT fleets.',
 }
 export type Category = (typeof CATEGORIES)[number]
 

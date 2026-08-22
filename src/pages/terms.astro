@@ -4,10 +4,10 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 const sections = [
   { id: 'agreement', title: 'Agreement to Terms' },
   { id: 'description', title: 'Description of Service' },
-  { id: 'not-medical-advice', title: 'Not Medical Advice' },
+  { id: 'not-medical-advice', title: 'Not Medical Advice or a Transportation Guarantee' },
   { id: 'eligibility', title: 'Eligibility' },
   { id: 'accounts', title: 'Accounts and Access' },
-  { id: 'responsibilities', title: 'Clinic Responsibilities' },
+  { id: 'responsibilities', title: 'Operator Responsibilities' },
   { id: 'fees', title: 'Fees and Payment' },
   { id: 'data-ownership', title: 'Data Ownership' },
   { id: 'hipaa', title: 'HIPAA' },
@@ -51,7 +51,7 @@ const sections = [
               <p>
                 These Terms of Service ("Terms") constitute a legally binding agreement between
                 you and Seer Mobility LLC ("Seer Mobility," "we," "us," or "our"), governing your use of the Seer Mobility
-                Health platform and related services (the "Service"). By accessing or using the
+                platform and related services (the "Service"). By accessing or using the
                 Service, you agree to be bound by these Terms. If you are accepting on behalf of
                 an organization, you represent that you have authority to bind that entity.
               </p>
@@ -60,77 +60,85 @@ const sections = [
             <section id="description">
               <h2>2. Description of Service</h2>
               <p>
-                Seer Mobility is a healthcare billing compliance platform. The Service provides tools
-                for clinical documentation, compliance tracking, and billing report generation.
-                Specific features and capabilities are described within the platform and may change
-                over time.
+                Seer Mobility provides an AI-powered voice dispatch agent for non-emergency medical
+                transportation (NEMT) operators. The Service answers inbound phone calls on behalf
+                of transportation operators, communicates with callers to schedule, confirm, or
+                modify rides, and writes completed bookings directly into the operator's dispatch
+                (CAD) system. Specific features and capabilities are described within the platform
+                and may change over time.
               </p>
             </section>
 
             <section id="not-medical-advice">
-              <h2>3. Not Medical Advice</h2>
+              <h2>3. Not Medical Advice or a Transportation Guarantee</h2>
               <p>
                 <strong>
-                  The Service is a billing compliance and documentation tool. It is not a medical
+                  The Service is a call-answering and dispatch-booking tool. It is not a medical
                   device, does not provide medical advice, and is not intended to diagnose, treat,
                   cure, or prevent any disease or condition.
                 </strong>{' '}
-                All clinical decisions must be made by licensed healthcare providers exercising
-                independent professional judgment. Seer Mobility LLC assumes no responsibility for clinical
-                decisions made using data displayed within the platform.
+                The Service does not operate vehicles, employ or supervise drivers, or guarantee
+                ride availability, timeliness, or vehicle safety. Seer Mobility LLC assumes no
+                responsibility for the actual provision of transportation, which remains the sole
+                responsibility of the transportation operator using the Service.
               </p>
             </section>
 
             <section id="eligibility">
               <h2>4. Eligibility</h2>
               <p>
-                The Service is intended for use by licensed healthcare practices operating in the
-                United States. By subscribing, you represent that you are a licensed healthcare
-                provider or authorized representative of a licensed practice.
+                The Service is intended for use by licensed non-emergency medical transportation
+                (NEMT) operators and other transportation businesses operating in the United
+                States. By subscribing, you represent that you are an authorized representative of
+                such a business.
               </p>
             </section>
 
             <section id="accounts">
               <h2>5. Accounts and Access</h2>
               <p>
-                Clinic administrators are responsible for creating and managing user accounts,
+                Operator administrators are responsible for creating and managing user accounts,
                 assigning appropriate roles, and ensuring only authorized personnel access the
                 Service. You are responsible for maintaining the confidentiality of all account
-                credentials. Patient accounts are created by authorized clinic staff only.
+                credentials.
               </p>
             </section>
 
             <section id="responsibilities">
-              <h2>6. Clinic Responsibilities</h2>
+              <h2>6. Operator Responsibilities</h2>
               <p class="mb-4">By using the Service, you acknowledge and agree that:</p>
               <ul>
                 <li>
-                  <strong>Insurance verification:</strong> You are responsible for verifying that
-                  applicable billing codes are covered under each patient's insurance plan before
-                  enrollment.
+                  <strong>Rider and trip information accuracy:</strong> You are responsible for
+                  verifying that rider information, trip authorizations, and any insurance or
+                  Medicaid details relayed through the Service are accurate before a trip is
+                  dispatched.
                 </li>
                 <li>
-                  <strong>Accurate data entry:</strong> You are responsible for the accuracy of all
-                  data entered into the platform. Billing documentation is generated from data you
-                  provide.
+                  <strong>Dispatch data accuracy:</strong> You are responsible for reviewing
+                  bookings written into your dispatch system through the Service and for
+                  confirming trip details before service is provided.
                 </li>
                 <li>
-                  <strong>Clinical oversight:</strong> All services documented through the platform
-                  must be provided under the supervision of a qualified healthcare practitioner as
-                  required by applicable regulations.
+                  <strong>Driver and vehicle compliance:</strong> You remain solely responsible for
+                  driver licensing, background checks, vehicle safety and insurance, and all other
+                  requirements applicable to operating a transportation business.
                 </li>
                 <li>
-                  <strong>Patient consent:</strong> You are responsible for obtaining all required
-                  patient authorizations for monitoring services and third-party data sharing.
+                  <strong>Rider consent:</strong> You are responsible for obtaining any consent
+                  required from riders or their representatives for the collection and use of their
+                  information through the Service, including disclosure of call recording where
+                  applicable.
                 </li>
                 <li>
-                  <strong>Claim submission:</strong> You or your billing staff are responsible for
-                  submitting claims to payers. The Service generates billing documentation but does
-                  not submit claims on your behalf.
+                  <strong>Trip fulfillment:</strong> The Service facilitates call answering and trip
+                  scheduling; you remain responsible for actually providing the transportation
+                  booked through the Service.
                 </li>
                 <li>
-                  <strong>Regulatory compliance:</strong> You remain responsible for your practice's
-                  compliance with HIPAA, CMS guidelines, and all applicable federal, state, and
+                  <strong>Regulatory compliance:</strong> You remain responsible for your business's
+                  compliance with HIPAA (where applicable), Medicaid broker requirements, DOT and
+                  state transportation regulations, and all other applicable federal, state, and
                   local regulations.
                 </li>
               </ul>
@@ -149,9 +157,10 @@ const sections = [
             <section id="data-ownership">
               <h2>8. Data Ownership and Licensing</h2>
               <p class="mb-4">
-                <strong>Your data:</strong> Patient health information entered into the platform is
-                owned by the clinic and their patients. Upon termination, clinics may request export
-                of their data.
+                <strong>Your data:</strong> Rider and trip information captured through the platform
+                (including call recordings, transcripts, and booking records) is owned by the
+                transportation operator and their riders. Upon termination, operators may request
+                export of their data.
               </p>
               <p class="mb-4">
                 <strong>De-identified data:</strong> Seer Mobility LLC retains the right to aggregate and
@@ -171,7 +180,7 @@ const sections = [
               <h2>9. HIPAA</h2>
               <p>
                 Seer Mobility LLC operates as a Business Associate under HIPAA. We will execute a Business
-                Associate Agreement (BAA) with each clinic client prior to processing PHI. In the
+                Associate Agreement (BAA) with each operator client prior to processing PHI. In the
                 event of a conflict between these Terms and the BAA regarding PHI, the BAA controls.
               </p>
             </section>
@@ -179,11 +188,12 @@ const sections = [
             <section id="third-party">
               <h2>10. Third-Party Services</h2>
               <p>
-                The Service integrates with third-party services for data processing, payments,
-                hosting, and communications. Your use of these integrations is subject to the
-                respective third party's terms and policies. Seer Mobility LLC is not responsible for the
+                The Service integrates with third-party services for telephony, speech recognition
+                and AI voice processing, your dispatch (CAD) system, payments, hosting, and
+                communications. Your use of these integrations is subject to the respective third
+                party's terms and policies. Seer Mobility LLC is not responsible for the
                 availability or practices of third-party services. Certain integrations may
-                require patient-level authorization, which clinics are responsible for facilitating.
+                require rider-level authorization, which operators are responsible for facilitating.
               </p>
             </section>
 
@@ -195,7 +205,7 @@ const sections = [
                 <li>Submit false, misleading, or fabricated data</li>
                 <li>Attempt to gain unauthorized access to any part of the Service or connected systems</li>
                 <li>Reverse engineer, decompile, or disassemble any portion of the Service</li>
-                <li>Use the Service to commit healthcare fraud of any kind</li>
+                <li>Use the Service to commit insurance, Medicaid, or other fraud of any kind</li>
                 <li>Share account credentials with unauthorized individuals</li>
                 <li>Interfere with the integrity or performance of the Service</li>
               </ul>
@@ -210,7 +220,7 @@ const sections = [
                   FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
                 </strong>{' '}
                 We do not warrant that the Service will be uninterrupted, error-free, or that
-                billing documentation generated will result in successful claims.
+                every call will be handled without need for human follow-up.
               </p>
             </section>
 
@@ -220,7 +230,7 @@ const sections = [
                 <strong>
                   TO THE MAXIMUM EXTENT PERMITTED BY LAW, SEER MOBILITY LLC SHALL NOT BE LIABLE FOR ANY
                   INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING
-                  LOSS OF REVENUE, LOST PROFITS, CLAIM DENIALS, OR BUSINESS INTERRUPTION.
+                  LOSS OF REVENUE, LOST PROFITS, MISSED CALLS OR BOOKINGS, OR BUSINESS INTERRUPTION.
                 </strong>
               </p>
               <p>
@@ -236,8 +246,9 @@ const sections = [
               <p>
                 You agree to indemnify and hold harmless Seer Mobility LLC from any claims, damages, or
                 expenses arising from: (a) your use of the Service, (b) your violation of these
-                Terms, (c) inaccurate data you enter, (d) claims submitted using documentation
-                generated by the Service, or (e) your violation of any applicable law or regulation.
+                Terms, (c) inaccurate rider or trip data you provide, (d) transportation services
+                you provide or fail to provide in connection with bookings made through the
+                Service, or (e) your violation of any applicable law or regulation.
               </p>
             </section>
 
@@ -247,7 +258,7 @@ const sections = [
               <ul>
                 <li>Access will be revoked at the end of the current billing period</li>
                 <li>You may request data export within thirty (30) days</li>
-                <li>Audit logs and billing records will be retained as required by applicable regulations</li>
+                <li>Audit logs and call records will be retained as required by applicable regulations</li>
                 <li>De-identified data rights survive termination</li>
                 <li>Limitation of liability, indemnification, and intellectual property provisions survive termination</li>
               </ul>

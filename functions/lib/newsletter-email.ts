@@ -79,7 +79,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
           <tr>
             <td style="background-color:#FFFFFF;padding:32px 40px;border-radius:4px;">
               <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:400;color:#000B13;margin:0 0 8px 0;">This Month's Resources</h2>
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#72787c;margin:0 0 16px 0;">${posts.length} new guide${posts.length !== 1 ? 's' : ''} published</p>
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#5a5f63;margin:0 0 16px 0;">${posts.length} new guide${posts.length !== 1 ? 's' : ''} published</p>
 
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                 ${postRows}
@@ -96,7 +96,7 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
 
           <!-- Live Demo CTA -->
           <tr>
-            <td style="background:linear-gradient(135deg,#000B13,#002434);padding:40px;border-radius:4px;">
+            <td style="background-color:#000B13;background:linear-gradient(135deg,#000B13,#002434);padding:40px;border-radius:4px;">
               <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:300;color:#F8F9FF;margin:0 0 12px 0;">Curious what a missed call sounds like recovered?</h2>
               <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#8A9BB5;margin:0 0 24px 0;line-height:1.5;">Leave your number and we'll set up a live call so you can hear the AI dispatcher for yourself.</p>
               <a href="https://www.seermobility.com/#live-demo" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Request My Live Call</a>
@@ -125,14 +125,14 @@ export function buildNewsletterEmail(input: NewsletterInput): string {
                 <tr>
                   <td>
                     <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Seer Mobility</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 12px 0;">
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0 0 12px 0;">
                       <a href="https://www.seermobility.com" style="color:#6B4A1F;text-decoration:underline;">seermobility.com</a>
                       &nbsp;&middot;&nbsp;
                       <a href="mailto:hello@seermobility.com" style="color:#6B4A1F;text-decoration:underline;">hello@seermobility.com</a>
                     </p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#72787c;margin:0;">
-                      <a href="{{ unsubscribe }}" style="color:#72787c;text-decoration:underline;">Unsubscribe</a>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#5a5f63;margin:0;">
+                      <a href="{{ unsubscribe }}" style="color:#5a5f63;text-decoration:underline;">Unsubscribe</a>
                     </p>
                   </td>
                 </tr>

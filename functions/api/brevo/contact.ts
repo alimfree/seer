@@ -52,7 +52,7 @@ function buildContactConfirmationEmail(firstname: string): string {
 
           <!-- CTA -->
           <tr>
-            <td style="background:linear-gradient(135deg,#000B13,#002434);padding:40px;border-radius:4px;text-align:center;">
+            <td style="background-color:#000B13;background:linear-gradient(135deg,#000B13,#002434);padding:40px;border-radius:4px;text-align:center;">
               <p style="font-family:Georgia,'Times New Roman',serif;font-size:20px;font-weight:300;color:#F8F9FF;margin:0 0 8px 0;">Want to talk sooner?</p>
               <p style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#8A9BB5;margin:0 0 24px 0;">15-minute discovery call. No pressure, no pitch deck.</p>
               <a href="https://seermobility.com/#contact" style="display:inline-block;background-color:#4B3111;color:#F8F9FF;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:600;text-decoration:none;padding:14px 28px;border-radius:2px;">Schedule a Call</a>
@@ -69,8 +69,8 @@ function buildContactConfirmationEmail(firstname: string): string {
                 <tr>
                   <td>
                     <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Seer Mobility</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0;">
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0;">
                       <a href="https://www.seermobility.com" style="color:#6B4A1F;text-decoration:underline;">seermobility.com</a>
                       &nbsp;&middot;&nbsp;
                       <a href="mailto:hello@seermobility.com" style="color:#6B4A1F;text-decoration:underline;">hello@seermobility.com</a>

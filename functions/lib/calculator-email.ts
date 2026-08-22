@@ -84,7 +84,7 @@ export function buildCalculatorEmail(input: CalculatorInput): string {
 
           <!-- Hero -->
           <tr>
-            <td style="background:linear-gradient(135deg,#000B13,#002434);padding:48px 40px;border-radius:4px;">
+            <td style="background-color:#000B13;background:linear-gradient(135deg,#000B13,#002434);padding:48px 40px;border-radius:4px;">
               <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:3px;color:#6B8FA8;margin:0 0 16px 0;">Your Missed-Call Revenue Analysis</p>
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                 <tr>
@@ -140,7 +140,7 @@ export function buildCalculatorEmail(input: CalculatorInput): string {
           <tr>
             <td style="background-color:#FFFFFF;padding:40px;border-radius:4px;">
               <h2 style="font-family:Georgia,'Times New Roman',serif;font-size:22px;font-weight:400;color:#000B13;margin:0 0 8px 0;">How this estimate works</h2>
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#72787c;margin:0 0 24px 0;">Fleets with an AI voice dispatcher typically answer and convert around ${BOOKING_CONVERSION_RATE}% of the after-hours calls that would otherwise go to voicemail.</p>
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#5a5f63;margin:0 0 24px 0;">Fleets with an AI voice dispatcher typically answer and convert around ${BOOKING_CONVERSION_RATE}% of the after-hours calls that would otherwise go to voicemail.</p>
 
               <div style="padding:16px 20px;background-color:#EFF4FF;border-radius:4px;">
                 <p style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#42474c;margin:0;line-height:1.6;">
@@ -205,7 +205,7 @@ export function buildCalculatorEmail(input: CalculatorInput): string {
           <!-- Disclaimer -->
           <tr>
             <td style="padding:0 0 24px 0;">
-              <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#72787c;margin:0;line-height:1.6;">
+              <p style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#5a5f63;margin:0;line-height:1.6;">
                 This revenue analysis is an estimate based on the figures you provided and a typical after-hours booking conversion rate. It does not constitute financial advice. Actual results vary by service area and call mix, and do not include Seer Mobility service fees.
               </p>
             </td>
@@ -218,8 +218,8 @@ export function buildCalculatorEmail(input: CalculatorInput): string {
                 <tr>
                   <td>
                     <p style="font-family:Georgia,'Times New Roman',serif;font-size:16px;font-weight:300;color:#000B13;margin:0 0 8px 0;">Seer Mobility</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
-                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#72787c;margin:0;">
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0 0 4px 0;">AI Voice Dispatch for NEMT Fleets</p>
+                    <p style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5a5f63;margin:0;">
                       <a href="https://www.seermobility.com" style="color:#6B4A1F;text-decoration:underline;">seermobility.com</a>
                       &nbsp;&middot;&nbsp;
                       <a href="mailto:hello@seermobility.com" style="color:#6B4A1F;text-decoration:underline;">hello@seermobility.com</a>

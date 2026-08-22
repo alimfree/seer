@@ -9,14 +9,11 @@ export class RateLimitError extends Error {
   }
 }
 
-function formatPhoneInput(value: string): string {
-  let digits = value.replace(/\D/g, '')
-  if (digits.length === 11 && digits.startsWith('1')) digits = digits.slice(1)
-  digits = digits.slice(0, 10)
-
-  if (digits.length === 0) return ''
-  if (digits.length < 4) return `(${digits}`
-  if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`
+function formatPhoneInput(digits: string): string {
+  const len = digits.length
+  if (len === 0) return ''
+  if (len <= 3) return len === 3 ? `(${digits}) ` : `(${digits}`
+  if (len <= 6) return len === 6 ? `(${digits.slice(0, 3)}) ${digits.slice(3)}-` : `(${digits.slice(0, 3)}) ${digits.slice(3)}`
   return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`
 }
 
@@ -31,6 +28,22 @@ export default function RequestCall() {
 
   const onVerify = useCallback((token: string) => setCaptchaToken(token), [])
   const onExpire = useCallback(() => setCaptchaToken(null), [])
+
+  function handlePhoneChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const raw = e.target.value
+    let digits = raw.replace(/\D/g, '')
+    if (digits.length === 11 && digits.startsWith('1')) digits = digits.slice(1)
+    digits = digits.slice(0, 10)
+
+    // Backspacing over a formatting character (")" or "-") removes no digit on
+    // its own — drop the preceding digit too so backspace always feels like it
+    // deletes the last number typed.
+    if (raw.length < phone.length && digits.length === phone.replace(/\D/g, '').length) {
+      digits = digits.slice(0, -1)
+    }
+
+    setPhone(formatPhoneInput(digits))
+  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -101,7 +114,7 @@ export default function RequestCall() {
               type="tel"
               required
               value={phone}
-              onChange={(e) => setPhone(formatPhoneInput(e.target.value))}
+              onChange={handlePhoneChange}
               inputMode="tel"
               maxLength={14}
             />

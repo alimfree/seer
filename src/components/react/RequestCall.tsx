@@ -83,9 +83,19 @@ export default function RequestCall() {
         <div className="text-center py-12" role="status">
           <span className="material-symbols-outlined text-5xl text-tertiary mb-4 block" aria-hidden="true">phone_in_talk</span>
           <h3 className="font-headline text-2xl mb-4">We've got your number.</h3>
-          <p className="text-on-surface-variant">
+          <p className="text-on-surface-variant mb-6">
             Thanks, {name}. We'll be in touch shortly to set up your live call with Seer.
           </p>
+          <a
+            href="https://cal.com/seer-mobility/live-demo-follow-up"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-tertiary font-medium hover:underline underline-offset-4 transition-colors"
+            onClick={() => trackEvent('cta_click', { location: 'call_request_success' })}
+          >
+            <span className="material-symbols-outlined text-lg" aria-hidden="true">calendar_month</span>
+            Or pick a time that works for you
+          </a>
         </div>
       ) : (
         <form className="space-y-6" onSubmit={handleSubmit}>

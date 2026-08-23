@@ -40,10 +40,10 @@ export default function Navbar({ currentPath }: Props) {
           <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/">
             Product
           </a>
-          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/pricing">
+          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/pricing/">
             Pricing
           </a>
-          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/resources">
+          <a className="text-on-surface-variant font-normal hover:text-tertiary transition-colors duration-300" href="/resources/">
             Resources
           </a>
           <a className="btn-primary px-6 py-2.5 text-on-primary font-medium rounded-sm" href="/#contact" onClick={(e) => { scrollTo(e, 'contact'); trackEvent('cta_click', { location: 'nav' }) }}>
@@ -71,10 +71,10 @@ export default function Navbar({ currentPath }: Props) {
           <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/" onClick={() => setMobileOpen(false)}>
             Product
           </a>
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/pricing" onClick={() => setMobileOpen(false)}>
+          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/pricing/" onClick={() => setMobileOpen(false)}>
             Pricing
           </a>
-          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/resources" onClick={() => setMobileOpen(false)}>
+          <a className="text-on-surface-variant py-3 px-4 rounded-sm hover:bg-surface-container-low hover:text-tertiary transition-colors" href="/resources/" onClick={() => setMobileOpen(false)}>
             Resources
           </a>
           <a className="btn-primary px-6 py-3 text-on-primary font-medium rounded-sm text-center mt-2" href="/#contact" onClick={(e) => { scrollTo(e, 'contact'); setMobileOpen(false) }}>

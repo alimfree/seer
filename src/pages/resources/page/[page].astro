@@ -62,7 +62,7 @@ const posts = allPosts.slice(start, start + POSTS_PER_PAGE)
             <BlogSearch client:idle />
           </div>
           <div class="flex flex-wrap gap-1">
-            <a href="/resources" class="px-4 py-2 text-sm font-medium transition-colors border-b-2 border-primary text-primary">All</a>
+            <a href="/resources/" class="px-4 py-2 text-sm font-medium transition-colors border-b-2 border-primary text-primary">All</a>
             {CATEGORIES.map((cat) => (
               <a href={`/resources/${cat}`} class="px-4 py-2 text-sm font-medium transition-colors text-on-surface-variant hover:text-on-surface">{CATEGORY_LABELS[cat]}</a>
             ))}
